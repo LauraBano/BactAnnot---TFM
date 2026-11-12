@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00376</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00376</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase [EC:3.7.1.14]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K05714</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K05714</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:3.7.1.14</td></tr><tr><th>mf_proposal_ids</th><td>GO:0018771</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K05714</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K10222</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.7.1.14</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.7.1.8</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K05714</td>
+      <td>EC:3.7.1.14</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K05714</td>
+      <td>EC:3.7.1.8</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K10222</td>
+      <td>EC:3.7.1.14</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K10222</td>
+      <td>EC:3.7.1.8</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:3.7.1.14</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.14</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.14</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.14</td>
+      <td>GO:0016822</td>
+      <td>GO:0016822</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.14</td>
+      <td>GO:0016823</td>
+      <td>GO:0016823</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.14</td>
+      <td>GO:0018771</td>
+      <td>GO:0018771</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.14</td>
+      <td>GO:0042803</td>
+      <td>GO:0042803</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.14</td>
+      <td>GO:0052823</td>
+      <td>GO:0052823</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.8</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.8</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.8</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.8</td>
+      <td>GO:0016822</td>
+      <td>GO:0016822</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.8</td>
+      <td>GO:0016823</td>
+      <td>GO:0016823</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.8</td>
+      <td>GO:0018771</td>
+      <td>GO:0018771</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.8</td>
+      <td>GO:0042803</td>
+      <td>GO:0042803</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.7.1.8</td>
+      <td>GO:0052823</td>
+      <td>GO:0052823</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|371239|372105|+</td></tr><tr><th>protein_id</th><td>KOIAIB_00376</td></tr><tr><th>gene</th><td>mhpC</td></tr><tr><th>product</th><td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>371239</td></tr><tr><th>stop</th><td>372105</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_741</td></tr><tr><th>locus_tag</th><td>KOIAIB_00376</td></tr><tr><th>aa_md5</th><td>5f8f757095f99040f2af355c661c350a</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>S</td></tr><tr><th>GO</th><td><details class="value-details"><summary>41 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0006066</li><li>GO:0006082</li><li>GO:0006725</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009056</li><li>GO:0009987</li><li>GO:0016054</li><li>GO:0016787</li><li>GO:0016822</li><li>GO:0016823</li><li>GO:0018771</li><li>GO:0019439</li><li>GO:0019622</li><li>GO:0019752</li><li>GO:0032787</li><li>GO:0042803</li><li>GO:0043436</li><li>GO:0044237</li><li>GO:0044248</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0044424</li><li>GO:0044464</li><li>GO:0046164</li><li>GO:0046395</li><li>GO:0046435</li><li>GO:0052823</li><li>GO:0071704</li><li>GO:0072329</li><li>GO:1901360</li><li>GO:1901361</li><li>GO:1901575</li><li>GO:1901615</li><li>GO:1901616</li></ul></details></td></tr><tr><th>EC</th><td>EC:3.7.1.14; EC:3.7.1.8</td></tr><tr><th>KEGG_KO</th><td>KEGG:K05714; KEGG:K10222</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>10 values</summary><ul class="value-list"><li>KEGG:ko00360</li><li>KEGG:ko00621</li><li>KEGG:ko01100</li><li>KEGG:ko01120</li><li>KEGG:ko01220</li><li>KEGG:map00360</li><li>KEGG:map00621</li><li>KEGG:map01100</li><li>KEGG:map01120</li><li>KEGG:map01220</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00543; KEGG:M00545</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R02603; KEGG:R02606; KEGG:R05359; KEGG:R05360; KEGG:R05361; KEGG:R06789</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR000073; INTERPRO:IPR000639; INTERPRO:IPR023791; INTERPRO:IPR029058</td></tr><tr><th>PFAM</th><td>PFAM:PF00561; PFAM:PF12146; PFAM:PF12697</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>1</td></tr><tr><th>concordance_partial</th><td>6</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0596</td>
+      <td>COG:COG0596;COG:COG1073;COG:COG1506;COG:COG1647;COG:COG2267</td>
+      <td>COG:COG0596</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:3.7.1.14</td>
+      <td>EC:3.7.1.14</td>
+      <td>EC:3.7.1.14</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:3.7.1.14</td>
+      <td>EC:3.7.1.14;EC:3.7.1.8</td>
+      <td>EC:3.7.1.14</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:3.7.1.14;EC:3.7.1.8</td>
+      <td>EC:3.7.1.14</td>
+      <td>EC:3.7.1.14</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0006066;GO:0006082;GO:0006725;GO:0008150;GO:0008152;GO:0009056;GO:0009987;GO:0016054;GO:0016787;GO:0016822;GO:0016823;GO:0018771;GO:0019439;GO:0019622;GO:0019752;GO:0032787;GO:0043436;GO:0044237;GO:0044248;GO:0044281;GO:0044282;GO:0044424;GO:0044464;GO:0046164;GO:0046395;GO:0046435;GO:0052823;GO:0071704;GO:0072329;GO:1901360;GO:1901361;GO:1901575;GO:1901615;GO:1901616</td>
+      <td>GO:0003824;GO:0005737;GO:0016787;GO:0018771;GO:0042803</td>
+      <td>GO:0003824;GO:0005737;GO:0016787;GO:0018771</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K05714;KEGG:K10222</td>
+      <td>KEGG:K05714</td>
+      <td>KEGG:K05714</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01249;NCBIFAM:TIGR01250;NCBIFAM:TIGR01738;NCBIFAM:TIGR02240;NCBIFAM:TIGR02427;NCBIFAM:TIGR03343;NCBIFAM:TIGR03611;NCBIFAM:TIGR03695</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01249;NCBIFAM:TIGR01250;NCBIFAM:TIGR01738;NCBIFAM:TIGR02240;NCBIFAM:TIGR02427;NCBIFAM:TIGR03343;NCBIFAM:TIGR03611;NCBIFAM:TIGR03695</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00561</td>
+      <td>PFAM:PF00561;PFAM:PF12146;PFAM:PF12697</td>
+      <td>PFAM:PF00561</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00561</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00561;PFAM:PF12146;PFAM:PF12697</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 1 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:3.7.1.14</td>
+      <td>WP_000121907</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 82 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECDH10B_1368.ECDH10B_1361</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0596</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.7.1.14</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.7.1.8</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MVTG@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1T1TK@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XQ5Y@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0596@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0596@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006066</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016054</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016822</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016823</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018771</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019439</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046164</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046435</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0052823</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072329</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901361</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901615</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901616</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:br01602</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K05714</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K10222</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00543</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00545</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00621</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01220</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00621</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01220</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00475</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00476</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00753</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00757</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC01337</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02603</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02606</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05359</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05361</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R06789</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Abhydrolase_1</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674491</td>
+      <td>mhpC</td>
+      <td>Catalyzes the cleavage of the C5-C6 bond of 2-hydroxy-6- oxononadienedioate and 2-hydroxy-6-oxononatrienedioate, a dienol ring fission product of the bacterial meta-cleavage pathway for degradation of phenylpropionic acid</td>
+      <td>593.0</td>
+      <td>3.08e-215</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>98.3</td>
+      <td>1</td>
+      <td>288</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:3.7.1.14</td>
+      <td>KEGG:K05714</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K05714</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase [EC:3.7.1.14]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K05714</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase [EC:3.7.1.14]</td>
+      <td>above_threshold</td>
+      <td>317.6</td>
+      <td>287.70</td>
+      <td>2.9e-95</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 18 annotation rows, 14 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>COILS</td>
+      <td>COILS:Coil</td>
+      <td></td>
+      <td>Coil</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.1820:FF:000085</td>
+      <td></td>
+      <td>2-hydroxy-6-oxononadienedioate/2-hydroxy-6-oxononatrienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.1820</td>
+      <td></td>
+      <td>alpha/beta hydrolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+      <td>[{"analysis":"PRINTS","signature_accession":"PR00412","interpro_accession":"IPR000639","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01654","interpro_accession":"IPR023791","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016787</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01654","interpro_accession":"IPR023791","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0018771</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01654","interpro_accession":"IPR023791","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0042803</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01654","interpro_accession":"IPR023791","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_01654</td>
+      <td></td>
+      <td>2-hydroxy-6-oxononadienedioate/2-hydroxy-6-oxononatrienedioate hydrolase [mhpC].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000073</td>
+      <td></td>
+      <td>Alpha/beta hydrolase fold-1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000639</td>
+      <td></td>
+      <td>Epoxide hydrolase-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023791</td>
+      <td></td>
+      <td>2-hydroxy-6-oxononadienedioate/2-hydroxy-6-oxononatrienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029058</td>
+      <td></td>
+      <td>Alpha/Beta hydrolase fold</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43689</td>
+      <td></td>
+      <td>HYDROLASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00561</td>
+      <td></td>
+      <td>alpha/beta hydrolase fold</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00111</td>
+      <td></td>
+      <td>Alpha/beta hydrolase fold signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00412</td>
+      <td></td>
+      <td>Epoxide hydrolase signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53474</td>
+      <td></td>
+      <td>alpha/beta-Hydrolases</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:Coils</td>
+      <td>signature_match</td>
+      <td>Coil</td>
+      <td>Coil</td>
+      <td></td>
+      <td>193</td>
+      <td>213</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.1820:FF:000085</td>
+      <td>2-hydroxy-6-oxononadienedioate/2-hydroxy-6-oxononatrienedioate hydrolase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>287</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.1820</td>
+      <td>alpha/beta hydrolase</td>
+      <td>2.9E-97</td>
+      <td>1</td>
+      <td>287</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_01654</td>
+      <td>2-hydroxy-6-oxononadienedioate/2-hydroxy-6-oxononatrienedioate hydrolase [mhpC].</td>
+      <td>71.047722</td>
+      <td>2</td>
+      <td>287</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43689</td>
+      <td>HYDROLASE</td>
+      <td>1.3E-37</td>
+      <td>9</td>
+      <td>286</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00111</td>
+      <td>Alpha/beta hydrolase fold signature</td>
+      <td>1.4E-24</td>
+      <td>110</td>
+      <td>123</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00111</td>
+      <td>Alpha/beta hydrolase fold signature</td>
+      <td>1.4E-24</td>
+      <td>124</td>
+      <td>137</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00111</td>
+      <td>Alpha/beta hydrolase fold signature</td>
+      <td>1.4E-24</td>
+      <td>231</td>
+      <td>245</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00111</td>
+      <td>Alpha/beta hydrolase fold signature</td>
+      <td>1.4E-24</td>
+      <td>65</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00412</td>
+      <td>Epoxide hydrolase signature</td>
+      <td>3.1E-6</td>
+      <td>124</td>
+      <td>137</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00412</td>
+      <td>Epoxide hydrolase signature</td>
+      <td>3.1E-6</td>
+      <td>262</td>
+      <td>284</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00412</td>
+      <td>Epoxide hydrolase signature</td>
+      <td>3.1E-6</td>
+      <td>65</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00561</td>
+      <td>alpha/beta hydrolase fold</td>
+      <td>8.8E-22</td>
+      <td>37</td>
+      <td>274</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53474</td>
+      <td>alpha/beta-Hydrolases</td>
+      <td>1.88E-60</td>
+      <td>9</td>
+      <td>286</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 25 annotation rows, 44 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00870</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK14875</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0596</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1073</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1506</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1647</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2267</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1454</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2382</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2984</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG4178</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG4409</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01249</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01250</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01738</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02240</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02427</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03343</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03611</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03695</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00561</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF12146</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF12697</td>
+      <td></td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0596</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>187.3</td>
+      <td>1.2e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1073</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>47.1</td>
+      <td>4.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1506</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>69.2</td>
+      <td>8.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1647</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>50.0</td>
+      <td>6.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2267</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>91.2</td>
+      <td>1.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1454</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>82.4</td>
+      <td>8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2382</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>43.8</td>
+      <td>4.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2984</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>56.7</td>
+      <td>4.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG4178</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>78.0</td>
+      <td>1.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG4409</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>62.9</td>
+      <td>5.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00870</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>58.1</td>
+      <td>2.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14875</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>120.6</td>
+      <td>1.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01249</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>52.1</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01250</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>67.1</td>
+      <td>4.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01738</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>54.2</td>
+      <td>3.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02240</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>40.3</td>
+      <td>5.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02427</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>80.2</td>
+      <td>3.3e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03343</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>361.9</td>
+      <td>4.5e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03611</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>56.7</td>
+      <td>5.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03695</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>71.8</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00561</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>92.2</td>
+      <td>8.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam12146</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>50.1</td>
+      <td>5.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam12697</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>77.1</td>
+      <td>6.6e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0596</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>187.3</td>
+      <td>1.2e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1073</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>47.1</td>
+      <td>4.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1506</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>69.2</td>
+      <td>8.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1647</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>50.0</td>
+      <td>6.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2267</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>91.2</td>
+      <td>1.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1454</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>82.4</td>
+      <td>8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2382</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>43.8</td>
+      <td>4.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2984</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>56.7</td>
+      <td>4.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG4178</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>78.0</td>
+      <td>1.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG4409</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>62.9</td>
+      <td>5.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14875</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>120.6</td>
+      <td>1.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01249</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>52.1</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01250</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>67.1</td>
+      <td>4.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01738</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>54.2</td>
+      <td>3.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02427</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>80.2</td>
+      <td>3.3e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03343</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>361.9</td>
+      <td>4.5e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03611</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>56.7</td>
+      <td>5.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03695</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>71.8</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00561</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>92.2</td>
+      <td>8.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam12146</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>50.1</td>
+      <td>5.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam12697</td>
+      <td>2-hydroxy-6-oxonona-2,4-dienedioate hydrolase</td>
+      <td>77.1</td>
+      <td>6.6e-22</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

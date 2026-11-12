@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00004</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00004</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>homoserine kinase [EC:2.7.1.39]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K00872</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K00872</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.7.1.39</td></tr><tr><th>mf_proposal_ids</th><td>GO:0004413</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00872</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.7.1.39</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00872</td>
+      <td>EC:2.7.1.39</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.7.1.39</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.39</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.39</td>
+      <td>GO:0004413</td>
+      <td>GO:0004413</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.39</td>
+      <td>GO:0005524</td>
+      <td>GO:0005524</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.39</td>
+      <td>GO:0016301</td>
+      <td>GO:0016301</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.39</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.39</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.39</td>
+      <td>GO:0016773</td>
+      <td>GO:0016773</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.39</td>
+      <td>GO:0019202</td>
+      <td>GO:0019202</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|2801|3733|+</td></tr><tr><th>protein_id</th><td>KOIAIB_00004</td></tr><tr><th>product</th><td>Homoserine kinase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>2801</td></tr><tr><th>stop</th><td>3733</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_404</td></tr><tr><th>locus_tag</th><td>KOIAIB_00004</td></tr><tr><th>aa_md5</th><td>09fc035645f9509d17d76d9dba33c265</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>F</td></tr><tr><th>GO</th><td><details class="value-details"><summary>55 values</summary><ul class="value-list"><li>GO:0000096</li><li>GO:0000097</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004413</li><li>GO:0005524</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006082</li><li>GO:0006520</li><li>GO:0006555</li><li>GO:0006566</li><li>GO:0006790</li><li>GO:0006793</li><li>GO:0006796</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008652</li><li>GO:0009058</li><li>GO:0009066</li><li>GO:0009067</li><li>GO:0009069</li><li>GO:0009086</li><li>GO:0009088</li><li>GO:0009092</li><li>GO:0009987</li><li>GO:0016053</li><li>GO:0016301</li><li>GO:0016310</li><li>GO:0016740</li><li>GO:0016772</li><li>GO:0016773</li><li>GO:0019202</li><li>GO:0019752</li><li>GO:0043436</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044249</li><li>GO:0044272</li><li>GO:0044281</li><li>GO:0044283</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046394</li><li>GO:0071704</li><li>GO:1901564</li><li>GO:1901566</li><li>GO:1901576</li><li>GO:1901605</li><li>GO:1901607</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.7.1.39</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00872</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>10 values</summary><ul class="value-list"><li>KEGG:ko00260</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01120</li><li>KEGG:ko01230</li><li>KEGG:map00260</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01120</li><li>KEGG:map01230</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00018</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R01771</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>7 values</summary><ul class="value-list"><li>INTERPRO:IPR000870</li><li>INTERPRO:IPR006203</li><li>INTERPRO:IPR006204</li><li>INTERPRO:IPR013750</li><li>INTERPRO:IPR014721</li><li>INTERPRO:IPR020568</li><li>INTERPRO:IPR036554</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00288; PFAM:PF08544</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>3</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0083</td>
+      <td>COG:COG0083;COG:COG1577;COG:COG1685;COG:COG4542</td>
+      <td>COG:COG0083</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:2.7.1.39</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:2.7.1.39</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.7.1.39</td>
+      <td>EC:2.7.1.39</td>
+      <td>EC:2.7.1.39</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000096;GO:0000097;GO:0003674;GO:0003824;GO:0004413;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006082;GO:0006520;GO:0006555;GO:0006566;GO:0006790;GO:0006793;GO:0006796;GO:0006807;GO:0008150;GO:0008152;GO:0008652;GO:0009058;GO:0009066;GO:0009067;GO:0009069;GO:0009086;GO:0009088;GO:0009092;GO:0009987;GO:0016053;GO:0016301;GO:0016310;GO:0016740;GO:0016772;GO:0016773;GO:0019202;GO:0019752;GO:0043436;GO:0044237;GO:0044238;GO:0044249;GO:0044272;GO:0044281;GO:0044283;GO:0044424;GO:0044444;GO:0044464;GO:0046394;GO:0071704;GO:1901564;GO:1901566;GO:1901576;GO:1901605;GO:1901607</td>
+      <td>GO:0004413;GO:0005524;GO:0006566</td>
+      <td>GO:0004413;GO:0006566</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00872</td>
+      <td>KEGG:K00872</td>
+      <td>KEGG:K00872</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF002288;NCBIFAM:TIGR00191</td>
+      <td>NCBIFAM:TIGR00191;NCBIFAM:TIGR01920</td>
+      <td>NCBIFAM:TIGR00191</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF002288;NCBIFAM:TIGR00191</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR00191;NCBIFAM:TIGR01920</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00288;PFAM:PF08544</td>
+      <td>PFAM:PF00288;PFAM:PF08544</td>
+      <td>PFAM:PF00288;PFAM:PF08544</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00288;PFAM:PF08544</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00288;PFAM:PF08544</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 84 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECSE_1348.ECSE_0003</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0083</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.7.1.39</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MW8I@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMYR@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XN01@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0083@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0083@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000096</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000097</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004413</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006555</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006790</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008652</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009066</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009067</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009069</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009086</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009088</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009092</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016053</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016301</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016310</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016772</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016773</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019202</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044272</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044283</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046394</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901605</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901607</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00872</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00018</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00017</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01771</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>GHMP_kinases_C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>GHMP_kinases_N</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674277</td>
+      <td>thrB</td>
+      <td>Catalyzes the ATP-dependent phosphorylation of L- homoserine to L-homoserine phosphate</td>
+      <td>624.0</td>
+      <td>1.28e-226</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>310</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.7.1.39</td>
+      <td>KEGG:K00872</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00872</td>
+      <td></td>
+      <td>homoserine kinase [EC:2.7.1.39]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K00872</td>
+      <td>homoserine kinase [EC:2.7.1.39]</td>
+      <td>above_threshold</td>
+      <td>296.5</td>
+      <td>216.50</td>
+      <td>9.6e-89</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 25 annotation rows, 19 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.230.10:FF:000020</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.70.890:FF:000002</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.230.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.70.890</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004413</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00384","interpro_accession":"IPR000870","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00191","interpro_accession":"IPR000870","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000676","interpro_accession":"IPR000870","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005524</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00384","interpro_accession":"IPR000870","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00191","interpro_accession":"IPR000870","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00288","interpro_accession":"IPR006204","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000676","interpro_accession":"IPR000870","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00627","interpro_accession":"IPR006203","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006566</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00384","interpro_accession":"IPR000870","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00191","interpro_accession":"IPR000870","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000676","interpro_accession":"IPR000870","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00384</td>
+      <td></td>
+      <td>Homoserine kinase [thrB].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000870</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006203</td>
+      <td></td>
+      <td>GHMP kinase, ATP-binding, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006204</td>
+      <td></td>
+      <td>GHMP kinase N-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013750</td>
+      <td></td>
+      <td>GHMP kinase, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR014721</td>
+      <td></td>
+      <td>Small ribosomal subunit protein uS5 domain 2-type fold, subgroup</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020568</td>
+      <td></td>
+      <td>Ribosomal protein uS5 domain 2-type superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036554</td>
+      <td></td>
+      <td>GHMP kinase, C-terminal domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF002288</td>
+      <td></td>
+      <td>homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00191</td>
+      <td></td>
+      <td>homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR20861</td>
+      <td></td>
+      <td>HOMOSERINE/4-DIPHOSPHOCYTIDYL-2-C-METHYL-D-ERYTHRITOL KINASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00288</td>
+      <td></td>
+      <td>GHMP kinases N terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF08544</td>
+      <td></td>
+      <td>GHMP kinases C terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF000676</td>
+      <td></td>
+      <td>Homoser_kin</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00958</td>
+      <td></td>
+      <td>Homoserine kinase signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00627</td>
+      <td></td>
+      <td>GHMP kinases putative ATP-binding domain.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF54211</td>
+      <td></td>
+      <td>Ribosomal protein S5 domain 2-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF55060</td>
+      <td></td>
+      <td>GHMP Kinase, C-terminal domain</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.230.10:FF:000020</td>
+      <td>Homoserine kinase</td>
+      <td>1.1E-109</td>
+      <td>1</td>
+      <td>166</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.70.890:FF:000002</td>
+      <td>Homoserine kinase</td>
+      <td>3.6E-87</td>
+      <td>167</td>
+      <td>298</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.230.10</td>
+      <td></td>
+      <td>5.3E-53</td>
+      <td>1</td>
+      <td>166</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.70.890</td>
+      <td></td>
+      <td>1.4E-41</td>
+      <td>167</td>
+      <td>298</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00384</td>
+      <td>Homoserine kinase [thrB].</td>
+      <td>28.883011</td>
+      <td>2</td>
+      <td>308</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF002288</td>
+      <td>homoserine kinase</td>
+      <td>1.0E-68</td>
+      <td>3</td>
+      <td>289</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR00191</td>
+      <td>homoserine kinase</td>
+      <td>1.5E-118</td>
+      <td>2</td>
+      <td>309</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR20861</td>
+      <td>HOMOSERINE/4-DIPHOSPHOCYTIDYL-2-C-METHYL-D-ERYTHRITOL KINASE</td>
+      <td>3.3E-86</td>
+      <td>2</td>
+      <td>309</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF000676</td>
+      <td>Homoser_kin</td>
+      <td>4.7E-87</td>
+      <td>1</td>
+      <td>307</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00958</td>
+      <td>Homoserine kinase signature</td>
+      <td>3.7E-34</td>
+      <td>137</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00958</td>
+      <td>Homoserine kinase signature</td>
+      <td>3.7E-34</td>
+      <td>175</td>
+      <td>192</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00958</td>
+      <td>Homoserine kinase signature</td>
+      <td>3.7E-34</td>
+      <td>254</td>
+      <td>269</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00958</td>
+      <td>Homoserine kinase signature</td>
+      <td>3.7E-34</td>
+      <td>9</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00958</td>
+      <td>Homoserine kinase signature</td>
+      <td>3.7E-34</td>
+      <td>97</td>
+      <td>112</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00288</td>
+      <td>GHMP kinases N terminal domain</td>
+      <td>1.0E-17</td>
+      <td>63</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF08544</td>
+      <td>GHMP kinases C terminal</td>
+      <td>3.5E-8</td>
+      <td>211</td>
+      <td>285</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00627</td>
+      <td>GHMP kinases putative ATP-binding domain.</td>
+      <td></td>
+      <td>90</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF54211</td>
+      <td>Ribosomal protein S5 domain 2-like</td>
+      <td>2.2E-32</td>
+      <td>1</td>
+      <td>162</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF55060</td>
+      <td>GHMP Kinase, C-terminal domain</td>
+      <td>2.3E-33</td>
+      <td>172</td>
+      <td>289</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 10 annotation rows, 9 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK01212</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0083</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1577</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1685</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4542</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00191</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01920</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00288</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF08544</td>
+      <td></td>
+      <td>Homoserine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0083</td>
+      <td>Homoserine kinase</td>
+      <td>325.4</td>
+      <td>6.6e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1577</td>
+      <td>Homoserine kinase</td>
+      <td>49.7</td>
+      <td>9.3e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1685</td>
+      <td>Homoserine kinase</td>
+      <td>40.8</td>
+      <td>3.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4542</td>
+      <td>Homoserine kinase</td>
+      <td>47.4</td>
+      <td>3.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK01212</td>
+      <td>Homoserine kinase</td>
+      <td>385.2</td>
+      <td>3.7e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00191</td>
+      <td>Homoserine kinase</td>
+      <td>423.2</td>
+      <td>9.8e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01920</td>
+      <td>Homoserine kinase</td>
+      <td>48.8</td>
+      <td>1.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00288</td>
+      <td>Homoserine kinase</td>
+      <td>60.4</td>
+      <td>4.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam08544</td>
+      <td>Homoserine kinase</td>
+      <td>43.5</td>
+      <td>7.5e-12</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00310</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00310</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>xanthine dehydrogenase YagS FAD-binding subunit [EC:1.17.1.4]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K11178</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K11178</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.17.1.4</td></tr><tr><th>mf_proposal_ids</th><td>GO:0016491;GO:0050660</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K11178</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.17.1.4</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.2.99.6</td>
+      <td>Other observed claim</td>
+      <td>bakta</td>
+      <td>BlastRules</td>
+      <td>sequence_homology@BlastRules</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K11178</td>
+      <td>EC:1.17.1.4</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K11178</td>
+      <td>EC:1.2.99.6</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0016903</td>
+      <td>GO:0016903</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0050660</td>
+      <td>GO:0050660</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0071949</td>
+      <td>GO:0071949</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:1901265</td>
+      <td>GO:1901265</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.17.1.4</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0016903</td>
+      <td>GO:0016903</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0050660</td>
+      <td>GO:0050660</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0071949</td>
+      <td>GO:0071949</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:1901265</td>
+      <td>GO:1901265</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.99.6</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|300931|301887|-</td></tr><tr><th>protein_id</th><td>KOIAIB_00310</td></tr><tr><th>gene</th><td>paoB</td></tr><tr><th>product</th><td>aldehyde oxidoreductase FAD-binding subunit PaoB</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>300931</td></tr><tr><th>stop</th><td>301887</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_682</td></tr><tr><th>locus_tag</th><td>KOIAIB_00310</td></tr><tr><th>aa_md5</th><td>2ae497564efa052e9c9610acd5f4aee8</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>F</td></tr><tr><th>GO</th><td><details class="value-details"><summary>23 values</summary><ul class="value-list"><li>GO:0000166</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005488</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0016491</li><li>GO:0016903</li><li>GO:0036094</li><li>GO:0042597</li><li>GO:0043167</li><li>GO:0043168</li><li>GO:0044464</li><li>GO:0048037</li><li>GO:0050660</li><li>GO:0050662</li><li>GO:0055114</li><li>GO:0071949</li><li>GO:0097159</li><li>GO:1901265</li><li>GO:1901363</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.17.1.4; EC:1.2.99.6</td></tr><tr><th>KEGG_KO</th><td>KEGG:K11178</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00230; KEGG:ko01100; KEGG:ko01120; KEGG:map00230; KEGG:map01100; KEGG:map01120</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00546</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R01768; KEGG:R02103</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>7 values</summary><ul class="value-list"><li>INTERPRO:IPR002346</li><li>INTERPRO:IPR005107</li><li>INTERPRO:IPR016166</li><li>INTERPRO:IPR016167</li><li>INTERPRO:IPR016169</li><li>INTERPRO:IPR036318</li><li>INTERPRO:IPR036683</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00941</td></tr><tr><th>SMART</th><td>SMART:SM01092</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>4</td></tr><tr><th>concordance_partial</th><td>2</td></tr><tr><th>concordance_disjoint</th><td>2</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1319</td>
+      <td>COG:COG1319;COG:COG4630</td>
+      <td>COG:COG1319</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:1.2.99.6</td>
+      <td>EC:1.17.1.4</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:1.2.99.6</td>
+      <td>EC:1.17.1.4</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.17.1.4</td>
+      <td>EC:1.17.1.4</td>
+      <td>EC:1.17.1.4</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000166;GO:0003674;GO:0003824;GO:0005488;GO:0005575;GO:0005623;GO:0008150;GO:0008152;GO:0016491;GO:0016903;GO:0036094;GO:0042597;GO:0043167;GO:0043168;GO:0044464;GO:0048037;GO:0050660;GO:0050662;GO:0055114;GO:0097159;GO:1901265;GO:1901363</td>
+      <td>GO:0016491;GO:0050660;GO:0071949</td>
+      <td>GO:0016491;GO:0050660</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K11178</td>
+      <td>KEGG:K11178</td>
+      <td>KEGG:K11178</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041019;NCBIFAM:TIGR03195</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041019;NCBIFAM:TIGR03195</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00941</td>
+      <td>PFAM:PF00941</td>
+      <td>PFAM:PF00941</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00941</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00941</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM01092</td>
+      <td>SMART:SM01092</td>
+      <td>SMART:SM01092</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 1 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:1.2.99.6</td>
+      <td>WP_000643333</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 47 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1319</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.17.1.4</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MVJS@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RY6A@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XP71@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1319@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1319@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000166</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016903</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036094</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042597</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043167</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048037</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050660</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901265</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K11178</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00546</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00143</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01768</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02103</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>CO_deh_flav_C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>FAD_binding_5</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674429</td>
+      <td>yagS</td>
+      <td>xanthine dehydrogenase activity</td>
+      <td>613.0</td>
+      <td>4.42e-222</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>318</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.17.1.4</td>
+      <td>KEGG:K11178</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K11178</td>
+      <td></td>
+      <td>xanthine dehydrogenase YagS FAD-binding subunit [EC:1.17.1.4]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K11178</td>
+      <td>xanthine dehydrogenase YagS FAD-binding subunit [EC:1.17.1.4]</td>
+      <td>above_threshold</td>
+      <td>497.1</td>
+      <td>247.23</td>
+      <td>1e-149</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 21 annotation rows, 12 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.43.10:FF:000013</td>
+      <td></td>
+      <td>FAD binding domain in molybdopterin dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.465.10:FF:000029</td>
+      <td></td>
+      <td>FAD binding domain in molybdopterin dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.390.50</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.43.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.465.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00941","interpro_accession":"IPR002346","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0050660</td>
+      <td>[{"analysis":"SUPERFAMILY","signature_accession":"SSF56176","interpro_accession":"IPR036318","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0071949</td>
+      <td>[{"analysis":"ProSiteProfiles","signature_accession":"PS51387","interpro_accession":"IPR016166","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR002346</td>
+      <td></td>
+      <td>Molybdopterin dehydrogenase, FAD-binding</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005107</td>
+      <td></td>
+      <td>CO dehydrogenase flavoprotein, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016166</td>
+      <td></td>
+      <td>FAD-binding domain, PCMH-type</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016167</td>
+      <td></td>
+      <td>FAD-binding, type PCMH, subdomain 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016169</td>
+      <td></td>
+      <td>FAD-binding, type PCMH, subdomain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036318</td>
+      <td></td>
+      <td>FAD-binding, type PCMH-like superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036683</td>
+      <td></td>
+      <td>CO dehydrogenase flavoprotein, C-terminal domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR42659</td>
+      <td></td>
+      <td>XANTHINE DEHYDROGENASE SUBUNIT C-RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00941</td>
+      <td></td>
+      <td>FAD binding domain in molybdopterin dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS51387</td>
+      <td></td>
+      <td>PCMH-type FAD-binding domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM01092</td>
+      <td></td>
+      <td>CO_deh_flav_C_2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF55447</td>
+      <td></td>
+      <td>CO dehydrogenase flavoprotein C-terminal domain-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56176</td>
+      <td></td>
+      <td>FAD-binding/transporter-associated domain-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.43.10:FF:000013</td>
+      <td>FAD binding domain in molybdopterin dehydrogenase</td>
+      <td>7.7E-39</td>
+      <td>1</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.465.10:FF:000029</td>
+      <td>FAD binding domain in molybdopterin dehydrogenase</td>
+      <td>3.8E-51</td>
+      <td>55</td>
+      <td>129</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.390.50</td>
+      <td></td>
+      <td>3.1E-27</td>
+      <td>223</td>
+      <td>318</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.43.10</td>
+      <td></td>
+      <td>1.9E-13</td>
+      <td>1</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.465.10</td>
+      <td></td>
+      <td>1.5E-11</td>
+      <td>140</td>
+      <td>221</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.465.10</td>
+      <td></td>
+      <td>4.8E-11</td>
+      <td>55</td>
+      <td>129</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR42659</td>
+      <td>XANTHINE DEHYDROGENASE SUBUNIT C-RELATED</td>
+      <td>9.2E-80</td>
+      <td>1</td>
+      <td>317</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00941</td>
+      <td>FAD binding domain in molybdopterin dehydrogenase</td>
+      <td>5.4E-38</td>
+      <td>3</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS51387</td>
+      <td>PCMH-type FAD-binding domain profile.</td>
+      <td>14.49179</td>
+      <td>1</td>
+      <td>223</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM01092</td>
+      <td>CO_deh_flav_C_2</td>
+      <td>4.5E-18</td>
+      <td>226</td>
+      <td>314</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF55447</td>
+      <td>CO dehydrogenase flavoprotein C-terminal domain-like</td>
+      <td>9.81E-19</td>
+      <td>224</td>
+      <td>315</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56176</td>
+      <td>FAD-binding/transporter-associated domain-like</td>
+      <td>2.62E-57</td>
+      <td>1</td>
+      <td>220</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 8 annotation rows, 7 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09971</td>
+      <td></td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1319</td>
+      <td></td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4630</td>
+      <td></td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041019</td>
+      <td></td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03195</td>
+      <td></td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00941</td>
+      <td></td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM01092</td>
+      <td></td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1319</td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+      <td>270.8</td>
+      <td>2.9e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4630</td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+      <td>63.3</td>
+      <td>3.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041019</td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+      <td>84.7</td>
+      <td>1.3e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09971</td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+      <td>70.3</td>
+      <td>3.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03195</td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+      <td>135.6</td>
+      <td>4.5e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00941</td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+      <td>139.7</td>
+      <td>1.9e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart01092</td>
+      <td>aldehyde oxidoreductase FAD-binding subunit PaoB</td>
+      <td>55.9</td>
+      <td>1e-15</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

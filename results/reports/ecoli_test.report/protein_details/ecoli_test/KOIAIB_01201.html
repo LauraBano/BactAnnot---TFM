@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01201</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01201</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>isocitrate dehydrogenase [EC:1.1.1.42]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K00031</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K00031</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.1.1.42</td></tr><tr><th>mf_proposal_ids</th><td>GO:0004450</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00031</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.1.1.42</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00031</td>
+      <td>EC:1.1.1.42</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.1.1.42</td>
+      <td>GO:0000287</td>
+      <td>GO:0000287</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.42</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.42</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.42</td>
+      <td>GO:0004448</td>
+      <td>GO:0004448</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.42</td>
+      <td>GO:0004450</td>
+      <td>GO:0004450</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.42</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.42</td>
+      <td>GO:0016614</td>
+      <td>GO:0016614</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.42</td>
+      <td>GO:0016616</td>
+      <td>GO:0016616</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.42</td>
+      <td>GO:0051287</td>
+      <td>GO:0051287</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1195123|1196373|+</td></tr><tr><th>protein_id</th><td>KOIAIB_01201</td></tr><tr><th>product</th><td>Isocitrate dehydrogenase [NADP] 1</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1195123</td></tr><tr><th>stop</th><td>1196373</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_1506</td></tr><tr><th>locus_tag</th><td>KOIAIB_01201</td></tr><tr><th>aa_md5</th><td>e42af84f3d926cbb0b6da7334acd580a</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>C</td></tr><tr><th>GO</th><td><details class="value-details"><summary>28 values</summary><ul class="value-list"><li>GO:0000287</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004448</li><li>GO:0004450</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006091</li><li>GO:0006099</li><li>GO:0006950</li><li>GO:0006979</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009987</li><li>GO:0016491</li><li>GO:0016614</li><li>GO:0016616</li><li>GO:0022900</li><li>GO:0044237</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0050896</li><li>GO:0051287</li><li>GO:0055114</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.1.1.42</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00031</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>22 values</summary><ul class="value-list"><li>KEGG:ko00020</li><li>KEGG:ko00480</li><li>KEGG:ko00720</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01120</li><li>KEGG:ko01130</li><li>KEGG:ko01200</li><li>KEGG:ko01210</li><li>KEGG:ko01230</li><li>KEGG:ko04146</li><li>KEGG:map00020</li><li>KEGG:map00480</li><li>KEGG:map00720</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01120</li><li>KEGG:map01130</li><li>KEGG:map01200</li><li>KEGG:map01210</li><li>KEGG:map01230</li><li>KEGG:map04146</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00009; KEGG:M00010; KEGG:M00173; KEGG:M00740</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R00267; KEGG:R00268; KEGG:R01899</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR004439; INTERPRO:IPR019818; INTERPRO:IPR024084</td></tr><tr><th>PFAM</th><td>PFAM:PF00180</td></tr><tr><th>SMART</th><td>SMART:SM01329</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>3</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0538</td>
+      <td>COG:COG0473;COG:COG0538</td>
+      <td>COG:COG0538</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.1.1.42</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.1.1.42</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.1.1.42</td>
+      <td>EC:1.1.1.42</td>
+      <td>EC:1.1.1.42</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0004448;GO:0004450;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006091;GO:0006950;GO:0006979;GO:0008150;GO:0008152;GO:0009987;GO:0016491;GO:0016614;GO:0016616;GO:0022900;GO:0044237;GO:0044424;GO:0044444;GO:0044464;GO:0050896;GO:0055114</td>
+      <td>GO:0000287;GO:0004450;GO:0006099;GO:0016616;GO:0051287</td>
+      <td>GO:0004450;GO:0016616</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00031</td>
+      <td>KEGG:K00031</td>
+      <td>KEGG:K00031</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF005425;NCBIFAM:TIGR00183</td>
+      <td>NCBIFAM:NF040619;NCBIFAM:NF040626;NCBIFAM:NF040855;NCBIFAM:TIGR00169;NCBIFAM:TIGR00175;NCBIFAM:TIGR00183;NCBIFAM:TIGR02088;NCBIFAM:TIGR02089;NCBIFAM:TIGR02924</td>
+      <td>NCBIFAM:TIGR00183</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF005425;NCBIFAM:TIGR00183</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF040619;NCBIFAM:NF040626;NCBIFAM:NF040855;NCBIFAM:TIGR00169;NCBIFAM:TIGR00175;NCBIFAM:TIGR00183;NCBIFAM:TIGR02088;NCBIFAM:TIGR02089;NCBIFAM:TIGR02924</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00180</td>
+      <td>PFAM:PF00180</td>
+      <td>PFAM:PF00180</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00180</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00180</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM01329</td>
+      <td></td>
+      <td></td>
+      <td>only_source_1</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 83 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>e_coli_core.b1136</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iAF1260.b1136</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECDH1ME8569_1439.ECDH1ME8569_1071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcDH1_1363.EcDH1_2511</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJN746.PP_4011</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJO1366.b1136</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJR904.b1136</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iY75_1357.Y75_RS05930</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iYL1228.KPN_01144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0538</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.1.1.42</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MW3J@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RNMD@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMJ1@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0538@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0538@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004448</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004450</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006091</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006950</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006979</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016614</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016616</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022900</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050896</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:br01601</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00031</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00009</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00010</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00173</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00480</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00720</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01200</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01210</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko04146</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00480</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00720</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01200</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01210</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map04146</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00084</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00626</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC02801</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00267</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00268</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01899</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Iso_dh</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.1651560</td>
+      <td>icd</td>
+      <td>Isocitrate dehydrogenase</td>
+      <td>838.0</td>
+      <td>8.87e-308</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>416</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.1.1.42</td>
+      <td>KEGG:K00031</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00031</td>
+      <td></td>
+      <td>isocitrate dehydrogenase [EC:1.1.1.42]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K00031</td>
+      <td>isocitrate dehydrogenase [EC:1.1.1.42]</td>
+      <td>above_threshold</td>
+      <td>181.3</td>
+      <td>97.37</td>
+      <td>8.4e-54</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 17 annotation rows, 9 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.718.10:FF:000005</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP]</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.718.10</td>
+      <td></td>
+      <td>Isopropylmalate Dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0000287</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00470","interpro_accession":"IPR019818","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004450</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR00183","interpro_accession":"IPR004439","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43504","interpro_accession":"IPR004439","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006099</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR00183","interpro_accession":"IPR004439","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43504","interpro_accession":"IPR004439","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016616</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00470","interpro_accession":"IPR019818","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0051287</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00470","interpro_accession":"IPR019818","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR004439</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase NADP-dependent, dimeric, prokaryotic</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR019818</td>
+      <td></td>
+      <td>Isocitrate/isopropylmalate dehydrogenase, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR024084</td>
+      <td></td>
+      <td>Isopropylmalate dehydrogenase-like domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF005425</td>
+      <td></td>
+      <td>NADP-dependent isocitrate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00183</td>
+      <td></td>
+      <td>isocitrate dehydrogenase (NADP(+))</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43504</td>
+      <td></td>
+      <td>ISOCITRATE DEHYDROGENASE [NADP]</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00180</td>
+      <td></td>
+      <td>Isocitrate/isopropylmalate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00470</td>
+      <td></td>
+      <td>Isocitrate and isopropylmalate dehydrogenases signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM01329</td>
+      <td></td>
+      <td>Iso_dh_2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53659</td>
+      <td></td>
+      <td>Isocitrate/Isopropylmalate dehydrogenase-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.718.10:FF:000005</td>
+      <td>Isocitrate dehydrogenase [NADP]</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>416</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.718.10</td>
+      <td>Isopropylmalate Dehydrogenase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>416</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF005425</td>
+      <td>NADP-dependent isocitrate dehydrogenase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>416</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR00183</td>
+      <td>isocitrate dehydrogenase (NADP(+))</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>416</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43504</td>
+      <td>ISOCITRATE DEHYDROGENASE [NADP]</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>416</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00180</td>
+      <td>Isocitrate/isopropylmalate dehydrogenase</td>
+      <td>4.2E-89</td>
+      <td>29</td>
+      <td>412</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00470</td>
+      <td>Isocitrate and isopropylmalate dehydrogenases signature.</td>
+      <td></td>
+      <td>303</td>
+      <td>322</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM01329</td>
+      <td>Iso_dh_2</td>
+      <td>0.0</td>
+      <td>28</td>
+      <td>412</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53659</td>
+      <td>Isocitrate/Isopropylmalate dehydrogenase-like</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>416</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 29 annotation rows, 54 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN00118</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN00123</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02329</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00772</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03437</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06451</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07006</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07362</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08194</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08997</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09222</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK14025</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0473</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0538</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0784</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0785</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0786</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040619</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040626</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040855</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00169</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00175</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00183</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02088</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02089</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02924</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00180</td>
+      <td></td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0473</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>278.9</td>
+      <td>1.2e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0538</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>651.8</td>
+      <td>7.4e-197</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0784</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>152.1</td>
+      <td>3.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0785</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>227.7</td>
+      <td>4.8e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0786</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>74.5</td>
+      <td>2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040619</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>179.0</td>
+      <td>2.8e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040626</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>193.4</td>
+      <td>1.3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040855</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>123.0</td>
+      <td>3.6e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00118</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>180.8</td>
+      <td>7.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00123</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>167.6</td>
+      <td>7.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02329</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>69.1</td>
+      <td>9.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00772</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>153.4</td>
+      <td>2.1e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03437</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>157.6</td>
+      <td>1.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06451</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>474.1</td>
+      <td>7.2e-143</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07006</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>849.9</td>
+      <td>5.9e-257</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07362</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>555.5</td>
+      <td>2e-167</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08194</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>120.9</td>
+      <td>1.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08997</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>225.8</td>
+      <td>1.5e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09222</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>256.5</td>
+      <td>1.2e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14025</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>194.2</td>
+      <td>9.2e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00169</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>101.4</td>
+      <td>1.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00175</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>186.2</td>
+      <td>1.9e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00183</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>823.4</td>
+      <td>7.2e-249</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02088</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>221.5</td>
+      <td>3.7e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02089</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>133.3</td>
+      <td>2.1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02924</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>201.2</td>
+      <td>7.8e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00180</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>303.4</td>
+      <td>5.3e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0473</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>278.9</td>
+      <td>1.2e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0538</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>651.8</td>
+      <td>7.4e-197</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0784</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>152.1</td>
+      <td>3.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0785</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>227.7</td>
+      <td>4.8e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0786</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>74.5</td>
+      <td>2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040619</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>179.0</td>
+      <td>2.8e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040626</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>193.4</td>
+      <td>1.3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040855</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>123.0</td>
+      <td>3.6e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00118</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>180.8</td>
+      <td>7.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00123</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>167.6</td>
+      <td>7.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02329</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>69.1</td>
+      <td>9.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00772</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>153.4</td>
+      <td>2.1e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03437</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>157.6</td>
+      <td>1.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06451</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>474.1</td>
+      <td>7.2e-143</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07006</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>849.9</td>
+      <td>5.9e-257</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07362</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>555.5</td>
+      <td>2e-167</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08194</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>120.9</td>
+      <td>1.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08997</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>225.8</td>
+      <td>1.5e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09222</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>256.5</td>
+      <td>1.2e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14025</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>194.2</td>
+      <td>9.2e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00169</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>101.4</td>
+      <td>1.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00175</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>186.2</td>
+      <td>1.9e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00183</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>823.4</td>
+      <td>7.2e-249</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02088</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>221.5</td>
+      <td>3.7e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02089</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>133.3</td>
+      <td>2.1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02924</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>201.2</td>
+      <td>7.8e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00180</td>
+      <td>Isocitrate dehydrogenase [NADP] 1</td>
+      <td>303.4</td>
+      <td>5.3e-91</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

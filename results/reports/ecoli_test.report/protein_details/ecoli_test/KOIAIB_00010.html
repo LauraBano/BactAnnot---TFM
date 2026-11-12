@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00010</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00010</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>molybdopterin adenylyltransferase [EC:2.7.7.75]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K03831</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K03831</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.7.7.75</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03831</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K06999</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.7.7.75</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K03831</td>
+      <td>EC:2.7.7.75</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K06999</td>
+      <td>EC:2.7.7.75</td>
+      <td>unmapped_ko</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0016779</td>
+      <td>GO:0016779</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0061598</td>
+      <td>GO:0061598</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.75</td>
+      <td>GO:0070566</td>
+      <td>GO:0070566</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|9306|9893|+</td></tr><tr><th>protein_id</th><td>KOIAIB_00010</td></tr><tr><th>gene</th><td>mogA</td></tr><tr><th>product</th><td>Molybdenum cofactor biosynthesis protein MogA</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>9306</td></tr><tr><th>stop</th><td>9893</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_410</td></tr><tr><th>locus_tag</th><td>KOIAIB_00010</td></tr><tr><th>aa_md5</th><td>3d21682c3229e2736a6f4ff872d59326</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>F</td></tr><tr><th>GO</th><td><details class="value-details"><summary>73 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006139</li><li>GO:0006163</li><li>GO:0006725</li><li>GO:0006732</li><li>GO:0006753</li><li>GO:0006777</li><li>GO:0006793</li><li>GO:0006796</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009058</li><li>GO:0009116</li><li>GO:0009117</li><li>GO:0009119</li><li>GO:0009141</li><li>GO:0009144</li><li>GO:0009150</li><li>GO:0009199</li><li>GO:0009205</li><li>GO:0009259</li><li>GO:0009987</li><li>GO:0016740</li><li>GO:0016772</li><li>GO:0016779</li><li>GO:0018130</li><li>GO:0019538</li><li>GO:0019637</li><li>GO:0019693</li><li>GO:0032324</li><li>GO:0034641</li><li>GO:0042278</li><li>GO:0042802</li><li>GO:0043170</li><li>GO:0043545</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044249</li><li>GO:0044260</li><li>GO:0044267</li><li>GO:0044281</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046039</li><li>GO:0046128</li><li>GO:0046483</li><li>GO:0051186</li><li>GO:0051188</li><li>GO:0051189</li><li>GO:0055086</li><li>GO:0061598</li><li>GO:0070566</li><li>GO:0071704</li><li>GO:0072521</li><li>GO:0090407</li><li>GO:1901068</li><li>GO:1901135</li><li>GO:1901360</li><li>GO:1901362</li><li>GO:1901564</li><li>GO:1901566</li><li>GO:1901576</li><li>GO:1901657</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.7.7.75</td></tr><tr><th>KEGG_KO</th><td>KEGG:K03831; KEGG:K06999</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00790; KEGG:ko01100; KEGG:ko04122; KEGG:map00790; KEGG:map01100; KEGG:map04122</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R09726</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR001453; INTERPRO:IPR008284; INTERPRO:IPR036425; INTERPRO:IPR051920</td></tr><tr><th>PFAM</th><td>PFAM:PF00994</td></tr><tr><th>SMART</th><td>SMART:SM00852</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>4</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd00886</td>
+      <td>CDD:cd00758;CDD:cd00886</td>
+      <td>CDD:cd00886</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0521</td>
+      <td>COG:COG0521</td>
+      <td>COG:COG0521</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:2.7.7.75</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:2.7.7.75</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.7.7.75</td>
+      <td>EC:2.7.7.75</td>
+      <td>EC:2.7.7.75</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005488;GO:0005515;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006139;GO:0006163;GO:0006725;GO:0006732;GO:0006753;GO:0006793;GO:0006796;GO:0006807;GO:0008150;GO:0008152;GO:0009058;GO:0009116;GO:0009117;GO:0009119;GO:0009141;GO:0009144;GO:0009150;GO:0009199;GO:0009205;GO:0009259;GO:0009987;GO:0016740;GO:0016772;GO:0016779;GO:0018130;GO:0019538;GO:0019637;GO:0019693;GO:0032324;GO:0034641;GO:0042278;GO:0042802;GO:0043170;GO:0043545;GO:0044237;GO:0044238;GO:0044249;GO:0044260;GO:0044267;GO:0044281;GO:0044424;GO:0044444;GO:0044464;GO:0046039;GO:0046128;GO:0046483;GO:0051186;GO:0051188;GO:0051189;GO:0055086;GO:0061598;GO:0070566;GO:0071704;GO:0072521;GO:0090407;GO:1901068;GO:1901135;GO:1901360;GO:1901362;GO:1901564;GO:1901566;GO:1901576;GO:1901657</td>
+      <td>GO:0006777</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K03831</td>
+      <td>KEGG:K03831;KEGG:K06999</td>
+      <td>KEGG:K03831</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF006932;NCBIFAM:TIGR00177</td>
+      <td>NCBIFAM:TIGR00177;NCBIFAM:TIGR02667</td>
+      <td>NCBIFAM:TIGR00177</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF006932;NCBIFAM:TIGR00177</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR00177;NCBIFAM:TIGR02667</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00994</td>
+      <td>PFAM:PF00994</td>
+      <td>PFAM:PF00994</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00994</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00994</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00852</td>
+      <td>SMART:SM00852</td>
+      <td>SMART:SM00852</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 105 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iAPECO1_1312.APECO1_1969</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECABU_c1320.ECABU_c00100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECED1_1282.ECED1_0009</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECNA114_1301.ECNA114_4653</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECP_1309.ECP_0010</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECS88_1305.ECS88_0010</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECSF_1327.ECSF_0009</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECUMN_1333.ECUMN_0010</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcSMS35_1347.EcSMS35_0008</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iLF82_1304.LF82_1379</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iNRG857_1313.NRG857_00050</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iUMN146_1321.UM146_22820</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0521</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.7.7.75</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1R9W2@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMZM@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMRI@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0521@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0521@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006139</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006163</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006732</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006753</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009116</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009117</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009119</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009141</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009199</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009205</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009259</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016772</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016779</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019538</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019637</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019693</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032324</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042278</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043170</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043545</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044267</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046039</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046128</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051186</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051188</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051189</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055086</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0061598</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072521</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0090407</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901068</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901135</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901657</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03831</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00790</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko04122</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00790</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map04122</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R09726</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>MoCF_biosynth</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>155864.EDL933_0009</td>
+      <td>mog</td>
+      <td>Catalyzes the adenylation of molybdopterin as part of the biosynthesis of the molybdenum-cofactor</td>
+      <td>384.0</td>
+      <td>1.72e-135</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>195</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 2 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.7.7.75</td>
+      <td>KEGG:K03831</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03831</td>
+      <td></td>
+      <td>molybdopterin adenylyltransferase [EC:2.7.7.75]</td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K06999</td>
+      <td></td>
+      <td>phospholipase/carboxylesterase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K03831</td>
+      <td>molybdopterin adenylyltransferase [EC:2.7.7.75]</td>
+      <td>above_threshold</td>
+      <td>352.4</td>
+      <td>219.73</td>
+      <td>7.2e-106</td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K06999</td>
+      <td>phospholipase/carboxylesterase</td>
+      <td>above_threshold</td>
+      <td>214.7</td>
+      <td>142.80</td>
+      <td>5.6e-64</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 15 annotation rows, 10 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd00886</td>
+      <td></td>
+      <td>MogA_MoaB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.980.10:FF:000005</td>
+      <td></td>
+      <td>Molybdopterin biosynthesis mog protein</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.980.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006777</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS01078","interpro_accession":"IPR008284","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001453</td>
+      <td></td>
+      <td>MoaB/Mog domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR008284</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036425</td>
+      <td></td>
+      <td>MoaB/Mog-like domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR051920</td>
+      <td></td>
+      <td>Molybdopterin Adenylyltransferase/MoaC-Related</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF006932</td>
+      <td></td>
+      <td>molybdopterin adenylyltransferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00177</td>
+      <td></td>
+      <td>molybdenum cofactor biosynthesis domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43764</td>
+      <td></td>
+      <td>MOLYBDENUM COFACTOR BIOSYNTHESIS</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00994</td>
+      <td></td>
+      <td>Probable molybdopterin binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS01078</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis proteins signature 1.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00852</td>
+      <td></td>
+      <td>MoCF_biosynth_3a</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53218</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis proteins</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd00886</td>
+      <td>MogA_MoaB</td>
+      <td>1.18004E-60</td>
+      <td>4</td>
+      <td>169</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.980.10:FF:000005</td>
+      <td>Molybdopterin biosynthesis mog protein</td>
+      <td>1.0E-117</td>
+      <td>1</td>
+      <td>194</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.980.10</td>
+      <td></td>
+      <td>1.9E-70</td>
+      <td>1</td>
+      <td>195</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF006932</td>
+      <td>molybdopterin adenylyltransferase</td>
+      <td>9.8E-105</td>
+      <td>1</td>
+      <td>192</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR00177</td>
+      <td>molybdenum cofactor biosynthesis domain</td>
+      <td>3.0E-36</td>
+      <td>4</td>
+      <td>146</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43764</td>
+      <td>MOLYBDENUM COFACTOR BIOSYNTHESIS</td>
+      <td>3.2E-70</td>
+      <td>1</td>
+      <td>181</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00994</td>
+      <td>Probable molybdopterin binding domain</td>
+      <td>1.6E-21</td>
+      <td>8</td>
+      <td>146</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS01078</td>
+      <td>Molybdenum cofactor biosynthesis proteins signature 1.</td>
+      <td></td>
+      <td>69</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00852</td>
+      <td>MoCF_biosynth_3a</td>
+      <td>1.0E-22</td>
+      <td>7</td>
+      <td>153</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53218</td>
+      <td>Molybdenum cofactor biosynthesis proteins</td>
+      <td>3.66E-49</td>
+      <td>3</td>
+      <td>188</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 12 annotation rows, 11 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00758</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00886</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02699</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03604</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09417</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0521</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2371</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00177</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02667</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00994</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00852</td>
+      <td></td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0521</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>180.2</td>
+      <td>5.1e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2371</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>56.2</td>
+      <td>6.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02699</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>86.7</td>
+      <td>2.2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03604</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>99.3</td>
+      <td>5.1e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09417</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>359.5</td>
+      <td>7.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00177</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>149.0</td>
+      <td>2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02667</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>68.4</td>
+      <td>1.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00758</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>124.0</td>
+      <td>9.3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00886</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>156.3</td>
+      <td>1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00994</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>86.4</td>
+      <td>3.2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00852</td>
+      <td>Molybdenum cofactor biosynthesis protein MogA</td>
+      <td>101.1</td>
+      <td>1e-29</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

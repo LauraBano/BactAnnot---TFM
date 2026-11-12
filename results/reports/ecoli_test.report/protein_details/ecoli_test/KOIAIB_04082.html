@@ -1,0 +1,2084 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_04082</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_04082</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>sulfofructose kinase [EC:2.7.1.184]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K18478</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K18478</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.7.1.184</td></tr><tr><th>mf_proposal_ids</th><td>GO:0016301;GO:0061594</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00846</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K18478</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.7.1.184</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.7.1.3</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00846</td>
+      <td>EC:2.7.1.184</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00846</td>
+      <td>EC:2.7.1.3</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K18478</td>
+      <td>EC:2.7.1.184</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K18478</td>
+      <td>EC:2.7.1.3</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.7.1.184</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.184</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.184</td>
+      <td>GO:0016301</td>
+      <td>GO:0016301</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.184</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.184</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.184</td>
+      <td>GO:0016773</td>
+      <td>GO:0016773</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.184</td>
+      <td>GO:0019200</td>
+      <td>GO:0019200</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.184</td>
+      <td>GO:0061594</td>
+      <td>GO:0061594</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.3</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.3</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.3</td>
+      <td>GO:0016301</td>
+      <td>GO:0016301</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.3</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.3</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.3</td>
+      <td>GO:0016773</td>
+      <td>GO:0016773</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.3</td>
+      <td>GO:0019200</td>
+      <td>GO:0019200</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.1.3</td>
+      <td>GO:0061594</td>
+      <td>GO:0061594</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|4073739|4074635|+</td></tr><tr><th>protein_id</th><td>KOIAIB_04082</td></tr><tr><th>gene</th><td>yihV</td></tr><tr><th>product</th><td>sulfofructose kinase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>4073739</td></tr><tr><th>stop</th><td>4074635</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_4185</td></tr><tr><th>locus_tag</th><td>KOIAIB_04082</td></tr><tr><th>aa_md5</th><td>8bc5c80998ef9c7a679dd1e8477c4268</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGA</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>F</td></tr><tr><th>GO</th><td><details class="value-details"><summary>47 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0005975</li><li>GO:0006066</li><li>GO:0006082</li><li>GO:0006790</li><li>GO:0006793</li><li>GO:0006796</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009056</li><li>GO:0009987</li><li>GO:0016054</li><li>GO:0016301</li><li>GO:0016310</li><li>GO:0016740</li><li>GO:0016772</li><li>GO:0016773</li><li>GO:0019200</li><li>GO:0019637</li><li>GO:0034308</li><li>GO:0042180</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044248</li><li>GO:0044262</li><li>GO:0044273</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046835</li><li>GO:0061594</li><li>GO:0061720</li><li>GO:0071704</li><li>GO:1901135</li><li>GO:1901136</li><li>GO:1901575</li><li>GO:1901615</li><li>GO:1902776</li><li>GO:1902777</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.7.1.184; EC:2.7.1.3</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00846; KEGG:K18478</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00051; KEGG:ko01100; KEGG:ko01120; KEGG:map00051; KEGG:map01100; KEGG:map01120</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R00866; KEGG:R03819; KEGG:R10970</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR002139; INTERPRO:IPR002173; INTERPRO:IPR011611; INTERPRO:IPR029056; INTERPRO:IPR030877</td></tr><tr><th>PFAM</th><td>PFAM:PF00294</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>6</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd01945</td>
+      <td>CDD:cd00287;CDD:cd01164;CDD:cd01166;CDD:cd01167;CDD:cd01168;CDD:cd01172;CDD:cd01174;CDD:cd01937;CDD:cd01939;CDD:cd01940;CDD:cd01941;CDD:cd01942;CDD:cd01944;CDD:cd01945;CDD:cd01947</td>
+      <td>CDD:cd01945</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0524</td>
+      <td>COG:COG0524;COG:COG1105;COG:COG2870</td>
+      <td>COG:COG0524</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:2.7.1.184</td>
+      <td>EC:2.7.1.184</td>
+      <td>EC:2.7.1.184</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:2.7.1.184</td>
+      <td>EC:2.7.1.184;EC:2.7.1.3</td>
+      <td>EC:2.7.1.184</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.7.1.184;EC:2.7.1.3</td>
+      <td>EC:2.7.1.184</td>
+      <td>EC:2.7.1.184</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0005975;GO:0006066;GO:0006082;GO:0006790;GO:0006793;GO:0006796;GO:0008150;GO:0008152;GO:0009056;GO:0009987;GO:0016054;GO:0016301;GO:0016310;GO:0016740;GO:0016772;GO:0016773;GO:0019200;GO:0019637;GO:0034308;GO:0042180;GO:0044237;GO:0044238;GO:0044248;GO:0044262;GO:0044273;GO:0044281;GO:0044282;GO:0044424;GO:0044444;GO:0044464;GO:0046835;GO:0061594;GO:0061720;GO:0071704;GO:1901135;GO:1901136;GO:1901575;GO:1901615;GO:1902776;GO:1902777</td>
+      <td>GO:0005829;GO:0016301;GO:0061594</td>
+      <td>GO:0005829;GO:0016301;GO:0061594</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00846;KEGG:K18478</td>
+      <td>KEGG:K18478</td>
+      <td>KEGG:K18478</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF040938;NCBIFAM:NF041134;NCBIFAM:NF041164;NCBIFAM:NF041332;NCBIFAM:TIGR02152;NCBIFAM:TIGR02198;NCBIFAM:TIGR03168;NCBIFAM:TIGR03828;NCBIFAM:TIGR04382</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF040938;NCBIFAM:NF041134;NCBIFAM:NF041164;NCBIFAM:NF041332;NCBIFAM:TIGR02152;NCBIFAM:TIGR02198;NCBIFAM:TIGR03168;NCBIFAM:TIGR03828;NCBIFAM:TIGR04382</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00294</td>
+      <td>PFAM:PF00294</td>
+      <td>PFAM:PF00294</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00294</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00294</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 1 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:2.7.1.184</td>
+      <td>WP_000621656</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 76 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0524</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.7.1.184</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.7.1.3</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MWX4@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RQW6@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XPC4@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0524@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0524@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005975</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006066</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006790</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016054</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016301</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016310</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016772</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016773</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019200</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019637</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034308</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042180</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044262</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044273</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046835</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0061594</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0061720</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901135</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901136</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901615</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1902776</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1902777</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko04147</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00846</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K18478</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00051</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00051</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00017</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00608</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00866</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R03819</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R10970</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>PfkB</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Rieske</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85676176</td>
+      <td>yihV</td>
+      <td>Phosphorylates 6-deoxy-6-sulfo-D-fructose (SF) to 6- deoxy-6-sulfo-D-fructose 1-phosphate (SFP)</td>
+      <td>589.0</td>
+      <td>1.86e-213</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>298</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.7.1.184</td>
+      <td>KEGG:K18478</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K18478</td>
+      <td></td>
+      <td>sulfofructose kinase [EC:2.7.1.184]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K18478</td>
+      <td>sulfofructose kinase [EC:2.7.1.184]</td>
+      <td>above_threshold</td>
+      <td>384.7</td>
+      <td>250.37</td>
+      <td>8.1e-116</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 17 annotation rows, 11 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd01945</td>
+      <td></td>
+      <td>ribokinase_group_B</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.1190.20:FF:000016</td>
+      <td></td>
+      <td>Sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.1190.20</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR10584","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016301</td>
+      <td>[{"analysis":"PRINTS","signature_accession":"PR00990","interpro_accession":"IPR002139","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00584","interpro_accession":"IPR002173","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0061594</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00999","interpro_accession":"IPR030877","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00999</td>
+      <td></td>
+      <td>Sulfofructose kinase.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR002139</td>
+      <td></td>
+      <td>Ribokinase/fructokinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR002173</td>
+      <td></td>
+      <td>Carbohydrate/purine kinase, PfkB, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR011611</td>
+      <td></td>
+      <td>Carbohydrate kinase PfkB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029056</td>
+      <td></td>
+      <td>Ribokinase-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR030877</td>
+      <td></td>
+      <td>Sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR10584</td>
+      <td></td>
+      <td>SUGAR KINASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00294</td>
+      <td></td>
+      <td>pfkB family carbohydrate kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00990</td>
+      <td></td>
+      <td>Ribokinase signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00584</td>
+      <td></td>
+      <td>pfkB family of carbohydrate kinases signature 2.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53613</td>
+      <td></td>
+      <td>Ribokinase-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd01945</td>
+      <td>ribokinase_group_B</td>
+      <td>1.50538E-107</td>
+      <td>3</td>
+      <td>286</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.1190.20:FF:000016</td>
+      <td>Sulfofructose kinase</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>297</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.1190.20</td>
+      <td></td>
+      <td>4.8E-88</td>
+      <td>2</td>
+      <td>297</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00999</td>
+      <td>Sulfofructose kinase.</td>
+      <td>64.793213</td>
+      <td>1</td>
+      <td>298</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR10584</td>
+      <td>SUGAR KINASE</td>
+      <td>2.2E-57</td>
+      <td>4</td>
+      <td>294</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00990</td>
+      <td>Ribokinase signature</td>
+      <td>7.3E-5</td>
+      <td>209</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00990</td>
+      <td>Ribokinase signature</td>
+      <td>7.3E-5</td>
+      <td>33</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00990</td>
+      <td>Ribokinase signature</td>
+      <td>7.3E-5</td>
+      <td>6</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00294</td>
+      <td>pfkB family carbohydrate kinase</td>
+      <td>3.9E-66</td>
+      <td>1</td>
+      <td>286</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00584</td>
+      <td>pfkB family of carbohydrate kinases signature 2.</td>
+      <td></td>
+      <td>238</td>
+      <td>251</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53613</td>
+      <td>Ribokinase-like</td>
+      <td>2.34E-67</td>
+      <td>1</td>
+      <td>293</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 40 annotation rows, 74 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00287</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01164</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01166</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01167</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01168</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01172</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01174</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01937</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01939</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01940</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01941</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01942</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01944</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01945</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01947</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02323</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02341</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09434</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09813</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11142</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11316</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00292</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0524</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1105</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2870</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2854</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2855</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2947</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040938</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041134</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041164</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041332</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02152</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02198</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03168</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03828</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR04382</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00294</td>
+      <td></td>
+      <td>sulfofructose kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0524</td>
+      <td>sulfofructose kinase</td>
+      <td>237.5</td>
+      <td>5e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1105</td>
+      <td>sulfofructose kinase</td>
+      <td>65.1</td>
+      <td>1.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2870</td>
+      <td>sulfofructose kinase</td>
+      <td>80.4</td>
+      <td>2.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2854</td>
+      <td>sulfofructose kinase</td>
+      <td>54.5</td>
+      <td>2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2855</td>
+      <td>sulfofructose kinase</td>
+      <td>141.7</td>
+      <td>6.5e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2947</td>
+      <td>sulfofructose kinase</td>
+      <td>75.6</td>
+      <td>7.8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040938</td>
+      <td>sulfofructose kinase</td>
+      <td>53.7</td>
+      <td>3.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041134</td>
+      <td>sulfofructose kinase</td>
+      <td>52.7</td>
+      <td>9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041164</td>
+      <td>sulfofructose kinase</td>
+      <td>49.5</td>
+      <td>7.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041332</td>
+      <td>sulfofructose kinase</td>
+      <td>54.2</td>
+      <td>3.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02323</td>
+      <td>sulfofructose kinase</td>
+      <td>76.6</td>
+      <td>3.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09434</td>
+      <td>sulfofructose kinase</td>
+      <td>100.1</td>
+      <td>3.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09813</td>
+      <td>sulfofructose kinase</td>
+      <td>54.3</td>
+      <td>3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11142</td>
+      <td>sulfofructose kinase</td>
+      <td>131.3</td>
+      <td>1.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11316</td>
+      <td>sulfofructose kinase</td>
+      <td>48.4</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00292</td>
+      <td>sulfofructose kinase</td>
+      <td>132.7</td>
+      <td>3.3e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02152</td>
+      <td>sulfofructose kinase</td>
+      <td>170.2</td>
+      <td>1.4e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02198</td>
+      <td>sulfofructose kinase</td>
+      <td>57.5</td>
+      <td>2.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03168</td>
+      <td>sulfofructose kinase</td>
+      <td>51.8</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03828</td>
+      <td>sulfofructose kinase</td>
+      <td>45.2</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04382</td>
+      <td>sulfofructose kinase</td>
+      <td>85.8</td>
+      <td>7.2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00287</td>
+      <td>sulfofructose kinase</td>
+      <td>144.6</td>
+      <td>1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01164</td>
+      <td>sulfofructose kinase</td>
+      <td>51.7</td>
+      <td>1.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01166</td>
+      <td>sulfofructose kinase</td>
+      <td>120.3</td>
+      <td>2.3e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01167</td>
+      <td>sulfofructose kinase</td>
+      <td>143.4</td>
+      <td>2.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01168</td>
+      <td>sulfofructose kinase</td>
+      <td>91.4</td>
+      <td>1.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01172</td>
+      <td>sulfofructose kinase</td>
+      <td>76.6</td>
+      <td>4.7e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01174</td>
+      <td>sulfofructose kinase</td>
+      <td>183.6</td>
+      <td>1.2e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01937</td>
+      <td>sulfofructose kinase</td>
+      <td>56.0</td>
+      <td>1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01939</td>
+      <td>sulfofructose kinase</td>
+      <td>72.3</td>
+      <td>9.3e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01940</td>
+      <td>sulfofructose kinase</td>
+      <td>84.7</td>
+      <td>1.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01941</td>
+      <td>sulfofructose kinase</td>
+      <td>68.2</td>
+      <td>1.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01942</td>
+      <td>sulfofructose kinase</td>
+      <td>136.8</td>
+      <td>1.9e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01944</td>
+      <td>sulfofructose kinase</td>
+      <td>88.9</td>
+      <td>6.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01945</td>
+      <td>sulfofructose kinase</td>
+      <td>333.4</td>
+      <td>2.9e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01947</td>
+      <td>sulfofructose kinase</td>
+      <td>95.3</td>
+      <td>7.2e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00294</td>
+      <td>sulfofructose kinase</td>
+      <td>230.8</td>
+      <td>5e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0524</td>
+      <td>sulfofructose kinase</td>
+      <td>237.5</td>
+      <td>5e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1105</td>
+      <td>sulfofructose kinase</td>
+      <td>65.1</td>
+      <td>1.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2870</td>
+      <td>sulfofructose kinase</td>
+      <td>80.4</td>
+      <td>2.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2854</td>
+      <td>sulfofructose kinase</td>
+      <td>54.5</td>
+      <td>2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2855</td>
+      <td>sulfofructose kinase</td>
+      <td>141.7</td>
+      <td>6.5e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2947</td>
+      <td>sulfofructose kinase</td>
+      <td>75.6</td>
+      <td>7.8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040938</td>
+      <td>sulfofructose kinase</td>
+      <td>53.7</td>
+      <td>3.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041134</td>
+      <td>sulfofructose kinase</td>
+      <td>52.7</td>
+      <td>9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041164</td>
+      <td>sulfofructose kinase</td>
+      <td>49.5</td>
+      <td>7.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02323</td>
+      <td>sulfofructose kinase</td>
+      <td>76.6</td>
+      <td>3.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02341</td>
+      <td>sulfofructose kinase</td>
+      <td>54.0</td>
+      <td>2.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09434</td>
+      <td>sulfofructose kinase</td>
+      <td>100.1</td>
+      <td>3.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09813</td>
+      <td>sulfofructose kinase</td>
+      <td>54.3</td>
+      <td>3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11142</td>
+      <td>sulfofructose kinase</td>
+      <td>131.3</td>
+      <td>1.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11316</td>
+      <td>sulfofructose kinase</td>
+      <td>48.4</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00292</td>
+      <td>sulfofructose kinase</td>
+      <td>132.7</td>
+      <td>3.3e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02152</td>
+      <td>sulfofructose kinase</td>
+      <td>170.2</td>
+      <td>1.4e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02198</td>
+      <td>sulfofructose kinase</td>
+      <td>57.5</td>
+      <td>2.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03168</td>
+      <td>sulfofructose kinase</td>
+      <td>51.8</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03828</td>
+      <td>sulfofructose kinase</td>
+      <td>45.2</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04382</td>
+      <td>sulfofructose kinase</td>
+      <td>85.8</td>
+      <td>7.2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00287</td>
+      <td>sulfofructose kinase</td>
+      <td>144.6</td>
+      <td>1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01164</td>
+      <td>sulfofructose kinase</td>
+      <td>51.7</td>
+      <td>1.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01166</td>
+      <td>sulfofructose kinase</td>
+      <td>120.3</td>
+      <td>2.3e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01167</td>
+      <td>sulfofructose kinase</td>
+      <td>143.4</td>
+      <td>2.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01168</td>
+      <td>sulfofructose kinase</td>
+      <td>91.4</td>
+      <td>1.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01172</td>
+      <td>sulfofructose kinase</td>
+      <td>76.6</td>
+      <td>4.7e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01174</td>
+      <td>sulfofructose kinase</td>
+      <td>183.6</td>
+      <td>1.2e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01937</td>
+      <td>sulfofructose kinase</td>
+      <td>56.0</td>
+      <td>1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01939</td>
+      <td>sulfofructose kinase</td>
+      <td>72.3</td>
+      <td>9.3e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01940</td>
+      <td>sulfofructose kinase</td>
+      <td>84.7</td>
+      <td>1.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01941</td>
+      <td>sulfofructose kinase</td>
+      <td>68.2</td>
+      <td>1.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01942</td>
+      <td>sulfofructose kinase</td>
+      <td>136.8</td>
+      <td>1.9e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01944</td>
+      <td>sulfofructose kinase</td>
+      <td>88.9</td>
+      <td>6.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01945</td>
+      <td>sulfofructose kinase</td>
+      <td>333.4</td>
+      <td>2.9e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01947</td>
+      <td>sulfofructose kinase</td>
+      <td>95.3</td>
+      <td>7.2e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00294</td>
+      <td>sulfofructose kinase</td>
+      <td>230.8</td>
+      <td>5e-69</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bactannot"
+version = "0.1.0"
+description = "Integration and functional analysis of bacterial gene annotations"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Laura Bañó Benito"}
+]
+dependencies = [
+    "pandas>=2.2",
+    "biopython>=1.83",
+    "pyyaml>=6.0"
+]
+
+report = [
+    "matplotlib>=3.8",
+    "jupyter>=1.0",
+    "papermill",
+]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5"
+]
+
+[project.scripts]
+bactannot = "bactannot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bactannot = [
+    "resources/go/go-basic.obo",
+    "resources/go/README.md",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

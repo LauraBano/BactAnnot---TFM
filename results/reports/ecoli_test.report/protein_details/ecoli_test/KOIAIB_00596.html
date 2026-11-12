@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00596</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00596</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>lysozyme [EC:3.2.1.17]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K01185</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K01185</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:3.2.1.17</td></tr><tr><th>mf_proposal_ids</th><td>GO:0003796</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01185</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.2.1.17</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K01185</td>
+      <td>EC:3.2.1.17</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0003796</td>
+      <td>GO:0003796</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0004553</td>
+      <td>GO:0004553</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0016798</td>
+      <td>GO:0016798</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0061783</td>
+      <td>GO:0061783</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|577613|578110|+</td></tr><tr><th>protein_id</th><td>KOIAIB_00596</td></tr><tr><th>gene</th><td>rrrD</td></tr><tr><th>product</th><td>lysozyme RrrD</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>577613</td></tr><tr><th>stop</th><td>578110</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_943</td></tr><tr><th>locus_tag</th><td>KOIAIB_00596</td></tr><tr><th>aa_md5</th><td>2cac693b45316b5b73725312c20a0ddb</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>G</td></tr><tr><th>GO</th><td><details class="value-details"><summary>36 values</summary><ul class="value-list"><li>GO:0001906</li><li>GO:0001907</li><li>GO:0003674</li><li>GO:0003796</li><li>GO:0003824</li><li>GO:0004553</li><li>GO:0008150</li><li>GO:0009253</li><li>GO:0016032</li><li>GO:0016787</li><li>GO:0016798</li><li>GO:0016998</li><li>GO:0019048</li><li>GO:0019058</li><li>GO:0019076</li><li>GO:0031640</li><li>GO:0035821</li><li>GO:0035890</li><li>GO:0035891</li><li>GO:0039633</li><li>GO:0040011</li><li>GO:0044003</li><li>GO:0044004</li><li>GO:0044364</li><li>GO:0044403</li><li>GO:0044419</li><li>GO:0044659</li><li>GO:0044661</li><li>GO:0051701</li><li>GO:0051704</li><li>GO:0051817</li><li>GO:0051818</li><li>GO:0051883</li><li>GO:0052126</li><li>GO:0052192</li><li>GO:0061783</li></ul></details></td></tr><tr><th>EC</th><td>EC:3.2.1.17</td></tr><tr><th>KEGG_KO</th><td>KEGG:K01185</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR002196; INTERPRO:IPR023346; INTERPRO:IPR023347; INTERPRO:IPR034690; INTERPRO:IPR043688; INTERPRO:IPR051018</td></tr><tr><th>PFAM</th><td>PFAM:PF00959</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>toxin</th><td>high_confidence</td></tr><tr><th>concordance_exact</th><td>6</td></tr><tr><th>concordance_partial</th><td>2</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd16900</td>
+      <td>CDD:cd00735;CDD:cd00737;CDD:cd16900;CDD:cd16901</td>
+      <td>CDD:cd16900</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG3772</td>
+      <td>COG:COG3772</td>
+      <td>COG:COG3772</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:3.2.1.17</td>
+      <td>EC:3.2.1.17</td>
+      <td>EC:3.2.1.17</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:3.2.1.17</td>
+      <td>EC:3.2.1.17</td>
+      <td>EC:3.2.1.17</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:3.2.1.17</td>
+      <td>EC:3.2.1.17</td>
+      <td>EC:3.2.1.17</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0001906;GO:0001907;GO:0003674;GO:0003796;GO:0003824;GO:0004553;GO:0008150;GO:0016032;GO:0016787;GO:0016798;GO:0019048;GO:0019058;GO:0019076;GO:0031640;GO:0035821;GO:0035890;GO:0035891;GO:0039633;GO:0040011;GO:0044003;GO:0044004;GO:0044364;GO:0044403;GO:0044419;GO:0044659;GO:0044661;GO:0051701;GO:0051704;GO:0051817;GO:0051818;GO:0051883;GO:0052126;GO:0052192;GO:0061783</td>
+      <td>GO:0003796;GO:0009253;GO:0016998</td>
+      <td>GO:0003796</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K01185</td>
+      <td>KEGG:K01185</td>
+      <td>KEGG:K01185</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00959</td>
+      <td>PFAM:PF00959</td>
+      <td>PFAM:PF00959</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00959</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00959</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 1 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:3.2.1.17</td>
+      <td>WP_001135281</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 46 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG3772</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>G</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.2.1.17</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MZJD@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1S6BA@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XPV0@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG3772@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG3772@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001906</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001907</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004553</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016032</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016798</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019048</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019076</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031640</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0035821</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0035890</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0035891</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0039633</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0040011</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044003</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044364</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044403</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044419</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044659</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044661</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051701</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051817</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051818</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051883</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0052126</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0052192</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0061783</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01185</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Phage_lysozyme</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674690</td>
+      <td>ybcS</td>
+      <td>Essential for lysis of bacterial cell wall, by showing cell wall hydrolyzing activity. Exhibits lytic activity against E.coli and S.typhi cell wall substrate</td>
+      <td>335.0</td>
+      <td>2.02e-117</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>165</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:3.2.1.17</td>
+      <td>KEGG:K01185</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01185</td>
+      <td></td>
+      <td>lysozyme [EC:3.2.1.17]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K01185</td>
+      <td>lysozyme [EC:3.2.1.17]</td>
+      <td>above_threshold</td>
+      <td>175.6</td>
+      <td>74.10</td>
+      <td>3.7e-52</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 17 annotation rows, 8 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd16900</td>
+      <td></td>
+      <td>endolysin_R21-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.530.40:FF:000001</td>
+      <td></td>
+      <td>Lysozyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.530.40</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003796</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.10.530.40","interpro_accession":"IPR023347","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_04110","interpro_accession":"IPR034690","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_04136","interpro_accession":"IPR043688","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR38107","interpro_accession":"IPR051018","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF00959","interpro_accession":"IPR002196","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0009253</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_04110","interpro_accession":"IPR034690","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00959","interpro_accession":"IPR002196","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016998</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_04136","interpro_accession":"IPR043688","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00959","interpro_accession":"IPR002196","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_04110</td>
+      <td></td>
+      <td>Endolysin.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_04136</td>
+      <td></td>
+      <td>SAR-endolysin.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR002196</td>
+      <td></td>
+      <td>Glycoside hydrolase, family 24</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023346</td>
+      <td></td>
+      <td>Lysozyme-like domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023347</td>
+      <td></td>
+      <td>Lysozyme domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR034690</td>
+      <td></td>
+      <td>Endolysin T4 type</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR043688</td>
+      <td></td>
+      <td>SAR-endolysin-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR051018</td>
+      <td></td>
+      <td>Bacteriophage Glycosyl Hydrolase 24</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR38107</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00959</td>
+      <td></td>
+      <td>Phage lysozyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53955</td>
+      <td></td>
+      <td>Lysozyme-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd16900</td>
+      <td>endolysin_R21-like</td>
+      <td>1.80104E-81</td>
+      <td>23</td>
+      <td>161</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.530.40:FF:000001</td>
+      <td>Lysozyme</td>
+      <td>1.6E-115</td>
+      <td>1</td>
+      <td>165</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.530.40</td>
+      <td></td>
+      <td>7.6E-61</td>
+      <td>1</td>
+      <td>165</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_04110</td>
+      <td>Endolysin.</td>
+      <td>30.812057</td>
+      <td>11</td>
+      <td>163</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_04136</td>
+      <td>SAR-endolysin.</td>
+      <td>34.064461</td>
+      <td>6</td>
+      <td>163</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR38107</td>
+      <td></td>
+      <td>6.8E-58</td>
+      <td>1</td>
+      <td>164</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00959</td>
+      <td>Phage lysozyme</td>
+      <td>4.1E-42</td>
+      <td>34</td>
+      <td>156</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53955</td>
+      <td>Lysozyme-like</td>
+      <td>1.69E-54</td>
+      <td>17</td>
+      <td>163</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 7 annotation rows, 7 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00735</td>
+      <td></td>
+      <td>lysozyme RrrD</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00737</td>
+      <td></td>
+      <td>lysozyme RrrD</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16900</td>
+      <td></td>
+      <td>lysozyme RrrD</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16901</td>
+      <td></td>
+      <td>lysozyme RrrD</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3772</td>
+      <td></td>
+      <td>lysozyme RrrD</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00959</td>
+      <td></td>
+      <td>lysozyme RrrD</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3772</td>
+      <td>lysozyme RrrD</td>
+      <td>180.1</td>
+      <td>5.1e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00735</td>
+      <td>lysozyme RrrD</td>
+      <td>45.8</td>
+      <td>1.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00737</td>
+      <td>lysozyme RrrD</td>
+      <td>142.1</td>
+      <td>2.5e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16900</td>
+      <td>lysozyme RrrD</td>
+      <td>193.4</td>
+      <td>4.3e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16901</td>
+      <td>lysozyme RrrD</td>
+      <td>114.4</td>
+      <td>9.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00959</td>
+      <td>lysozyme RrrD</td>
+      <td>123.7</td>
+      <td>9.9e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>toxin-associated protein</td>
+      <td>0.92</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

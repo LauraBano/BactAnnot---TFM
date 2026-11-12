@@ -1,0 +1,5936 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_02345</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_02345</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>two-component system, NarL family, capsular synthesis sensor histidine kinase RcsC [EC:2.7.13.3]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K07677</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K07677</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.7.13.3</td></tr><tr><th>mf_proposal_ids</th><td>GO:0000155</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07677</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.7.13.3</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K07677</td>
+      <td>EC:2.7.13.3</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0000155</td>
+      <td>GO:0000155</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0004672</td>
+      <td>GO:0004672</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0004673</td>
+      <td>GO:0004673</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0005524</td>
+      <td>GO:0005524</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0016301</td>
+      <td>GO:0016301</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0016773</td>
+      <td>GO:0016773</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0016775</td>
+      <td>GO:0016775</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0140096</td>
+      <td>GO:0140096</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|2317027|2319876|-</td></tr><tr><th>protein_id</th><td>KOIAIB_02345</td></tr><tr><th>product</th><td>hypothetical protein</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>2317027</td></tr><tr><th>stop</th><td>2319876</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>True</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_2579</td></tr><tr><th>locus_tag</th><td>KOIAIB_02345</td></tr><tr><th>aa_md5</th><td>7584f03cbc119d36152683daee2b6b16</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>TTG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>T</td></tr><tr><th>GO</th><td><details class="value-details"><summary>64 values</summary><ul class="value-list"><li>GO:0000155</li><li>GO:0000160</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004672</li><li>GO:0004673</li><li>GO:0005524</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0006355</li><li>GO:0006464</li><li>GO:0006468</li><li>GO:0006793</li><li>GO:0006796</li><li>GO:0006807</li><li>GO:0006950</li><li>GO:0006970</li><li>GO:0007154</li><li>GO:0007165</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009628</li><li>GO:0009987</li><li>GO:0016020</li><li>GO:0016301</li><li>GO:0016310</li><li>GO:0016740</li><li>GO:0016772</li><li>GO:0016773</li><li>GO:0016775</li><li>GO:0018106</li><li>GO:0018193</li><li>GO:0018202</li><li>GO:0019538</li><li>GO:0023014</li><li>GO:0023052</li><li>GO:0033554</li><li>GO:0035556</li><li>GO:0036211</li><li>GO:0042710</li><li>GO:0043170</li><li>GO:0043412</li><li>GO:0044010</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044260</li><li>GO:0044267</li><li>GO:0044464</li><li>GO:0044764</li><li>GO:0046777</li><li>GO:0050789</li><li>GO:0050794</li><li>GO:0050896</li><li>GO:0051704</li><li>GO:0051716</li><li>GO:0065007</li><li>GO:0071214</li><li>GO:0071470</li><li>GO:0071704</li><li>GO:0071944</li><li>GO:0104004</li><li>GO:0140096</li><li>GO:1901564</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.7.13.3</td></tr><tr><th>KEGG_KO</th><td>KEGG:K07677</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko02020; KEGG:ko02026; KEGG:map02020; KEGG:map02026</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00474</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>11 values</summary><ul class="value-list"><li>INTERPRO:IPR001789</li><li>INTERPRO:IPR003594</li><li>INTERPRO:IPR003661</li><li>INTERPRO:IPR004358</li><li>INTERPRO:IPR005467</li><li>INTERPRO:IPR011006</li><li>INTERPRO:IPR019017</li><li>INTERPRO:IPR030856</li><li>INTERPRO:IPR036097</li><li>INTERPRO:IPR036890</li><li>INTERPRO:IPR038388</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00072; PFAM:PF00512; PFAM:PF02518; PFAM:PF09456</td></tr><tr><th>SMART</th><td>SMART:SM00387; SMART:SM00388; SMART:SM00448</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>high_confidence</td></tr><tr><th>concordance_exact</th><td>6</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd00082;CDD:cd16922;CDD:cd17546</td>
+      <td>CDD:cd00075;CDD:cd00082;CDD:cd00156;CDD:cd16915;CDD:cd16918;CDD:cd16919;CDD:cd16920;CDD:cd16921;CDD:cd16922;CDD:cd16923;CDD:cd16925;CDD:cd16938;CDD:cd16939;CDD:cd16940;CDD:cd16943;CDD:cd16945;CDD:cd16946;CDD:cd16947;CDD:cd16948;CDD:cd16949;CDD:cd16950;CDD:cd16952;CDD:cd16953;CDD:cd16954;CDD:cd16975;CDD:cd16976;CDD:cd17530;CDD:cd17534;CDD:cd17535;CDD:cd17536;CDD:cd17537;CDD:cd17538;CDD:cd17541;CDD:cd17542;CDD:cd17544;CDD:cd17546;CDD:cd17548;CDD:cd17549;CDD:cd17550;CDD:cd17551;CDD:cd17552;CDD:cd17553;CDD:cd17554;CDD:cd17555;CDD:cd17557;CDD:cd17562;CDD:cd17569;CDD:cd17572;CDD:cd17574;CDD:cd17580;CDD:cd17581;CDD:cd17584;CDD:cd17593;CDD:cd17594;CDD:cd17598;CDD:cd17614;CDD:cd17615;CDD:cd17616;CDD:cd17618;CDD:cd17619;CDD:cd17620;CDD:cd17622;CDD:cd17623;CDD:cd17624;CDD:cd17625;CDD:cd17626;CDD:cd17627;CDD:cd18159;CDD:cd18160;CDD:cd18161;CDD:cd19919;CDD:cd19920;CDD:cd19923;CDD:cd19924;CDD:cd19925;CDD:cd19926;CDD:cd19927;CDD:cd19932;CDD:cd19933;CDD:cd19934;CDD:cd19935;CDD:cd19936;CDD:cd19937;CDD:cd19938;CDD:cd19939</td>
+      <td>CDD:cd00082;CDD:cd16922;CDD:cd17546</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0642;COG:COG0784;COG:COG2205</td>
+      <td>COG:COG0642;COG:COG0745;COG:COG0784;COG:COG2197;COG:COG2204;COG:COG2205;COG:COG2972;COG:COG3279;COG:COG3290;COG:COG3437;COG:COG3706;COG:COG3707;COG:COG3852;COG:COG4191;COG:COG4251;COG:COG4565;COG:COG4566;COG:COG4567;COG:COG4585;COG:COG4753;COG:COG4999;COG:COG5000;COG:COG5002;COG:COG5803;COG:COG5805;COG:COG5806;COG:COG5807;COG:COG5808;COG:COG5809</td>
+      <td>COG:COG0642;COG:COG0784;COG:COG2205</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:2.7.13.3</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:2.7.13.3</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.7.13.3</td>
+      <td>EC:2.7.13.3</td>
+      <td>EC:2.7.13.3</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000155;GO:0000160;GO:0003674;GO:0003824;GO:0004672;GO:0004673;GO:0005575;GO:0005623;GO:0005886;GO:0006464;GO:0006468;GO:0006793;GO:0006796;GO:0006807;GO:0006950;GO:0006970;GO:0007154;GO:0007165;GO:0008150;GO:0008152;GO:0009628;GO:0009987;GO:0016020;GO:0016301;GO:0016310;GO:0016740;GO:0016772;GO:0016773;GO:0016775;GO:0018106;GO:0018193;GO:0018202;GO:0019538;GO:0023014;GO:0023052;GO:0033554;GO:0035556;GO:0036211;GO:0042710;GO:0043170;GO:0043412;GO:0044010;GO:0044237;GO:0044238;GO:0044260;GO:0044267;GO:0044464;GO:0044764;GO:0046777;GO:0050789;GO:0050794;GO:0050896;GO:0051704;GO:0051716;GO:0065007;GO:0071214;GO:0071470;GO:0071704;GO:0071944;GO:0104004;GO:0140096;GO:1901564</td>
+      <td>GO:0000155;GO:0000160;GO:0004673;GO:0005524;GO:0005886;GO:0006355;GO:0007165;GO:0016020;GO:0016310;GO:0016772;GO:0018106</td>
+      <td>GO:0000155;GO:0000160;GO:0004673;GO:0005886;GO:0007165;GO:0016020;GO:0016310;GO:0016772;GO:0018106</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K07677</td>
+      <td>KEGG:K07677</td>
+      <td>KEGG:K07677</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF008099</td>
+      <td>NCBIFAM:NF012163;NCBIFAM:NF012226;NCBIFAM:NF033092;NCBIFAM:NF033093;NCBIFAM:NF038297;NCBIFAM:NF038348;NCBIFAM:NF038389;NCBIFAM:NF040534;NCBIFAM:NF040689;NCBIFAM:NF040691;NCBIFAM:NF040750;NCBIFAM:NF041210;NCBIFAM:NF041367;NCBIFAM:NF041593;NCBIFAM:TIGR01386;NCBIFAM:TIGR01387;NCBIFAM:TIGR01818;NCBIFAM:TIGR02154;NCBIFAM:TIGR02916;NCBIFAM:TIGR02956;NCBIFAM:TIGR02966;NCBIFAM:TIGR03785</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF008099</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF012163;NCBIFAM:NF012226;NCBIFAM:NF033092;NCBIFAM:NF033093;NCBIFAM:NF038297;NCBIFAM:NF038348;NCBIFAM:NF038389;NCBIFAM:NF040534;NCBIFAM:NF040689;NCBIFAM:NF040691;NCBIFAM:NF040750;NCBIFAM:NF041210;NCBIFAM:NF041367;NCBIFAM:NF041593;NCBIFAM:TIGR01386;NCBIFAM:TIGR01387;NCBIFAM:TIGR01818;NCBIFAM:TIGR02154;NCBIFAM:TIGR02916;NCBIFAM:TIGR02956;NCBIFAM:TIGR02966;NCBIFAM:TIGR03785</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00072;PFAM:PF00512;PFAM:PF02518;PFAM:PF09456</td>
+      <td>PFAM:PF00072;PFAM:PF00512;PFAM:PF02518;PFAM:PF09456</td>
+      <td>PFAM:PF00072;PFAM:PF00512;PFAM:PF02518;PFAM:PF09456</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td>PFAM:PF00072;PFAM:PF00512;PFAM:PF02518;PFAM:PF09456</td>
+      <td>PFAM:PF00072;PFAM:PF00512;PFAM:PF02518;PFAM:PF09456</td>
+      <td>PFAM:PF00072;PFAM:PF00512;PFAM:PF02518;PFAM:PF09456</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00072;PFAM:PF00512;PFAM:PF02518;PFAM:PF09456</td>
+      <td>PFAM:PF00072;PFAM:PF00512;PFAM:PF02518;PFAM:PF09456</td>
+      <td>PFAM:PF00072;PFAM:PF00512;PFAM:PF02518;PFAM:PF09456</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00387;SMART:SM00388;SMART:SM00448</td>
+      <td>SMART:SM00387;SMART:SM00388;SMART:SM00448</td>
+      <td>SMART:SM00387;SMART:SM00388;SMART:SM00448</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 4 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00072</td>
+      <td>Response_reg</td>
+    </tr>
+    <tr>
+      <td>bakta</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00512</td>
+      <td>HisKA</td>
+    </tr>
+    <tr>
+      <td>bakta</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02518</td>
+      <td>HATPase_c</td>
+    </tr>
+    <tr>
+      <td>bakta</td>
+      <td>PFAM</td>
+      <td>PFAM:PF09456</td>
+      <td>RcsC</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 90 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0642</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0784</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG2205</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.7.13.3</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1NRP8@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RQCU@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMTU@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0642@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0784@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0784@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG2205@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000155</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000160</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004672</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004673</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006468</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006950</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006970</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0007154</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0007165</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009628</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016301</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016310</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016772</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016773</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016775</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018106</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018193</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018202</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019538</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0023014</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0023052</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033554</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0035556</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036211</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042710</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043170</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043412</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044010</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044267</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044764</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046777</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050789</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050794</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050896</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051716</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0065007</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071214</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071470</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0104004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0140096</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko02022</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07677</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00474</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02026</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02026</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>HATPase_c</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>HisKA</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>RcsC</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Response_reg</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>511145.b2218</td>
+      <td>rcsC</td>
+      <td>Component of the Rcs signaling system, which controls transcription of numerous genes. RcsC functions as a membrane- associated protein kinase that phosphorylates RcsD in response to environmental signals. The phosphoryl group is then transferred to the response regulator RcsB</td>
+      <td>1856.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>949</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.7.13.3</td>
+      <td>KEGG:K07677</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07677</td>
+      <td></td>
+      <td>two-component system, NarL family, capsular synthesis sensor histidine kinase RcsC [EC:2.7.13.3]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K07677</td>
+      <td>two-component system, NarL family, capsular synthesis sensor histidine kinase RcsC [EC:2.7.13.3]</td>
+      <td>above_threshold</td>
+      <td>1071.8</td>
+      <td>677.73</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 51 annotation rows, 33 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd00082</td>
+      <td></td>
+      <td>HisKA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd16922</td>
+      <td></td>
+      <td>HATPase_EvgS-ArcB-TorS-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd17546</td>
+      <td></td>
+      <td>REC_hyHK_CKI1_RcsC-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>COILS</td>
+      <td>COILS:Coil</td>
+      <td></td>
+      <td>Coil</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.287.130:FF:000019</td>
+      <td></td>
+      <td>Sensor histidine kinase RcsC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.565.10:FF:000010</td>
+      <td></td>
+      <td>Sensor histidine kinase RcsC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.10970:FF:000001</td>
+      <td></td>
+      <td>Sensor histidine kinase RcsC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.2300:FF:000121</td>
+      <td></td>
+      <td>Sensor histidine kinase RcsC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.287.130</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.565.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.10970</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.2300</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0000155</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00082","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00979","interpro_accession":"IPR030856","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"NF008099","interpro_accession":"IPR030856","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00512","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00388","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF47384","interpro_accession":"IPR036097","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0000160</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00979","interpro_accession":"IPR030856","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"NF008099","interpro_accession":"IPR030856","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00072","interpro_accession":"IPR001789","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF09456","interpro_accession":"IPR019017","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS50110","interpro_accession":"IPR001789","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51426","interpro_accession":"IPR019017","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00448","interpro_accession":"IPR001789","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004673</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF09456","interpro_accession":"IPR019017","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51426","interpro_accession":"IPR019017","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005524</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF09456","interpro_accession":"IPR019017","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51426","interpro_accession":"IPR019017","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF09456","interpro_accession":"IPR019017","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51426","interpro_accession":"IPR019017","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006355</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF09456","interpro_accession":"IPR019017","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51426","interpro_accession":"IPR019017","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0007165</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00082","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00512","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00388","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF47384","interpro_accession":"IPR036097","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00979","interpro_accession":"IPR030856","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"NF008099","interpro_accession":"IPR030856","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF09456","interpro_accession":"IPR019017","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51426","interpro_accession":"IPR019017","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016310</td>
+      <td>[{"analysis":"PRINTS","signature_accession":"PR00344","interpro_accession":"IPR004358","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016772</td>
+      <td>[{"analysis":"PRINTS","signature_accession":"PR00344","interpro_accession":"IPR004358","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0018106</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF09456","interpro_accession":"IPR019017","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51426","interpro_accession":"IPR019017","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00979</td>
+      <td></td>
+      <td>Sensor histidine kinase RcsC [rcsC].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001789</td>
+      <td></td>
+      <td>Signal transduction response regulator, receiver domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003594</td>
+      <td></td>
+      <td>Histidine kinase/HSP90-like ATPase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003661</td>
+      <td></td>
+      <td>Signal transduction histidine kinase, dimerisation/phosphoacceptor domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR004358</td>
+      <td></td>
+      <td>Signal transduction histidine kinase-related protein, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005467</td>
+      <td></td>
+      <td>Histidine kinase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR011006</td>
+      <td></td>
+      <td>CheY-like superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR019017</td>
+      <td></td>
+      <td>Signal transduction histidine kinase RcsC, alpha-beta loop, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR030856</td>
+      <td></td>
+      <td>Sensor histidine kinase RcsC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036097</td>
+      <td></td>
+      <td>Signal transduction histidine kinase, dimerisation/phosphoacceptor domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036890</td>
+      <td></td>
+      <td>Histidine kinase/HSP90-like ATPase superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR038388</td>
+      <td></td>
+      <td>RcsC, C-terminal domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF008099</td>
+      <td></td>
+      <td>two-component system sensor histidine kinase RcsC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR45339</td>
+      <td></td>
+      <td>HYBRID SIGNAL TRANSDUCTION HISTIDINE KINASE J</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00072</td>
+      <td></td>
+      <td>Response regulator receiver domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00512</td>
+      <td></td>
+      <td>His Kinase A (phospho-acceptor) domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02518</td>
+      <td></td>
+      <td>Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF09456</td>
+      <td></td>
+      <td>RcsC Alpha-Beta-Loop (ABL)</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00344</td>
+      <td></td>
+      <td>Bacterial sensor protein C-terminal signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS50109</td>
+      <td></td>
+      <td>Histidine kinase domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS50110</td>
+      <td></td>
+      <td>Response regulatory domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS51426</td>
+      <td></td>
+      <td>ABL domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00387</td>
+      <td></td>
+      <td>HKATPase_4</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00388</td>
+      <td></td>
+      <td>HisKA_10</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00448</td>
+      <td></td>
+      <td>REC_2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF47384</td>
+      <td></td>
+      <td>Homodimeric domain of signal transducing histidine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52172</td>
+      <td></td>
+      <td>CheY-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF55874</td>
+      <td></td>
+      <td>ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd00082</td>
+      <td>HisKA</td>
+      <td>4.20217E-14</td>
+      <td>467</td>
+      <td>530</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd16922</td>
+      <td>HATPase_EvgS-ArcB-TorS-like</td>
+      <td>1.40863E-50</td>
+      <td>586</td>
+      <td>690</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd17546</td>
+      <td>REC_hyHK_CKI1_RcsC-like</td>
+      <td>5.13515E-47</td>
+      <td>827</td>
+      <td>936</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Coils</td>
+      <td>signature_match</td>
+      <td>Coil</td>
+      <td>Coil</td>
+      <td></td>
+      <td>449</td>
+      <td>469</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.287.130:FF:000019</td>
+      <td>Sensor histidine kinase RcsC</td>
+      <td>4.5E-56</td>
+      <td>446</td>
+      <td>532</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.565.10:FF:000010</td>
+      <td>Sensor histidine kinase RcsC</td>
+      <td>5.7E-57</td>
+      <td>533</td>
+      <td>694</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.10970:FF:000001</td>
+      <td>Sensor histidine kinase RcsC</td>
+      <td>1.6E-77</td>
+      <td>707</td>
+      <td>820</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.2300:FF:000121</td>
+      <td>Sensor histidine kinase RcsC</td>
+      <td>6.8E-52</td>
+      <td>820</td>
+      <td>949</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.287.130</td>
+      <td></td>
+      <td>9.3E-24</td>
+      <td>446</td>
+      <td>532</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.565.10</td>
+      <td></td>
+      <td>3.1E-46</td>
+      <td>534</td>
+      <td>693</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.10970</td>
+      <td></td>
+      <td>1.7E-46</td>
+      <td>707</td>
+      <td>820</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.2300</td>
+      <td></td>
+      <td>4.2E-41</td>
+      <td>826</td>
+      <td>949</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00979</td>
+      <td>Sensor histidine kinase RcsC [rcsC].</td>
+      <td>26.422422</td>
+      <td>24</td>
+      <td>941</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF008099</td>
+      <td>two-component system sensor histidine kinase RcsC</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>948</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR45339</td>
+      <td>HYBRID SIGNAL TRANSDUCTION HISTIDINE KINASE J</td>
+      <td>0.0</td>
+      <td>412</td>
+      <td>942</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00344</td>
+      <td>Bacterial sensor protein C-terminal signature</td>
+      <td>4.8E-18</td>
+      <td>617</td>
+      <td>631</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00344</td>
+      <td>Bacterial sensor protein C-terminal signature</td>
+      <td>4.8E-18</td>
+      <td>635</td>
+      <td>645</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00344</td>
+      <td>Bacterial sensor protein C-terminal signature</td>
+      <td>4.8E-18</td>
+      <td>652</td>
+      <td>670</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00344</td>
+      <td>Bacterial sensor protein C-terminal signature</td>
+      <td>4.8E-18</td>
+      <td>676</td>
+      <td>689</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00072</td>
+      <td>Response regulator receiver domain</td>
+      <td>5.3E-26</td>
+      <td>827</td>
+      <td>936</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00512</td>
+      <td>His Kinase A (phospho-acceptor) domain</td>
+      <td>2.9E-14</td>
+      <td>470</td>
+      <td>534</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF02518</td>
+      <td>Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase</td>
+      <td>1.9E-28</td>
+      <td>581</td>
+      <td>690</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF09456</td>
+      <td>RcsC Alpha-Beta-Loop (ABL)</td>
+      <td>6.7E-35</td>
+      <td>709</td>
+      <td>799</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS50109</td>
+      <td>Histidine kinase domain profile.</td>
+      <td>50.478859</td>
+      <td>476</td>
+      <td>692</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS50110</td>
+      <td>Response regulatory domain profile.</td>
+      <td>44.632271</td>
+      <td>826</td>
+      <td>940</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS51426</td>
+      <td>ABL domain profile.</td>
+      <td>32.549778</td>
+      <td>705</td>
+      <td>805</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00387</td>
+      <td>HKATPase_4</td>
+      <td>2.8E-38</td>
+      <td>581</td>
+      <td>692</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00388</td>
+      <td>HisKA_10</td>
+      <td>1.7E-19</td>
+      <td>469</td>
+      <td>534</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00448</td>
+      <td>REC_2</td>
+      <td>1.3E-37</td>
+      <td>825</td>
+      <td>936</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF47384</td>
+      <td>Homodimeric domain of signal transducing histidine kinase</td>
+      <td>2.16E-19</td>
+      <td>453</td>
+      <td>535</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52172</td>
+      <td>CheY-like</td>
+      <td>2.2E-42</td>
+      <td>701</td>
+      <td>815</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52172</td>
+      <td>CheY-like</td>
+      <td>3.27E-38</td>
+      <td>824</td>
+      <td>947</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF55874</td>
+      <td>ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase</td>
+      <td>3.8E-48</td>
+      <td>523</td>
+      <td>694</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 186 annotation rows, 369 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00075</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00082</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00156</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16915</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16918</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16919</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16920</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16921</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16922</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16923</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16925</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16938</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16939</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16940</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16943</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16945</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16946</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16947</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16948</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16949</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16950</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16952</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16953</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16954</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16975</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16976</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17530</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17534</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17535</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17536</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17537</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17538</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17541</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17542</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17544</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17546</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17548</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17549</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17550</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17551</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17552</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17553</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17554</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17555</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17557</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17562</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17569</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17572</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17574</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17580</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17581</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17584</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17593</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17594</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17598</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17614</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17615</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17616</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17618</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17619</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17620</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17622</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17623</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17624</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17625</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17626</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17627</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd18159</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd18160</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd18161</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19919</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19920</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19923</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19924</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19925</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19926</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19927</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19932</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19933</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19934</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19935</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19936</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19937</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19938</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19939</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00148</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09303</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09390</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09467</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09468</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09470</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09581</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09835</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09959</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10337</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10364</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10365</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10490</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10549</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10604</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10610</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10618</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10643</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10693</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10710</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10755</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10766</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10816</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10841</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10923</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11006</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11073</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11086</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11091</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11100</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11107</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11360</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11361</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11466</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11517</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13557</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13837</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15115</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15347</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15479</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0642</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0745</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0784</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2197</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2204</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2205</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2972</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3279</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3290</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3437</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3706</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3707</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3852</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4191</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4251</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4565</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4566</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4567</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4585</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4753</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4999</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5000</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5002</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5803</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5805</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5806</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5807</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5808</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5809</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0519</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF012163</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF012226</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF033092</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF033093</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038297</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038348</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038389</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040534</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040689</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040691</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040750</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041210</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041367</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041593</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01386</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01387</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01818</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02154</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02916</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02956</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02966</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03785</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00072</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00512</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02518</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF09456</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00387</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00388</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00448</td>
+      <td></td>
+      <td>hypothetical protein</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00148</td>
+      <td>hypothetical protein</td>
+      <td>65.4</td>
+      <td>1.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0642</td>
+      <td>hypothetical protein</td>
+      <td>308.8</td>
+      <td>2.4e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0745</td>
+      <td>hypothetical protein</td>
+      <td>115.7</td>
+      <td>5.4e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0784</td>
+      <td>hypothetical protein</td>
+      <td>132.0</td>
+      <td>2.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2197</td>
+      <td>hypothetical protein</td>
+      <td>49.1</td>
+      <td>1.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2204</td>
+      <td>hypothetical protein</td>
+      <td>109.8</td>
+      <td>3.6e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2205</td>
+      <td>hypothetical protein</td>
+      <td>221.0</td>
+      <td>3.6e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2972</td>
+      <td>hypothetical protein</td>
+      <td>49.0</td>
+      <td>1.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3279</td>
+      <td>hypothetical protein</td>
+      <td>57.1</td>
+      <td>4.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3290</td>
+      <td>hypothetical protein</td>
+      <td>86.2</td>
+      <td>4.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3437</td>
+      <td>hypothetical protein</td>
+      <td>121.0</td>
+      <td>1.3e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3706</td>
+      <td>hypothetical protein</td>
+      <td>129.1</td>
+      <td>5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3707</td>
+      <td>hypothetical protein</td>
+      <td>55.8</td>
+      <td>1.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3852</td>
+      <td>hypothetical protein</td>
+      <td>151.4</td>
+      <td>7.7e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4191</td>
+      <td>hypothetical protein</td>
+      <td>150.2</td>
+      <td>2.3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4251</td>
+      <td>hypothetical protein</td>
+      <td>182.3</td>
+      <td>6.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4565</td>
+      <td>hypothetical protein</td>
+      <td>92.7</td>
+      <td>5.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4566</td>
+      <td>hypothetical protein</td>
+      <td>57.6</td>
+      <td>2.7e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4567</td>
+      <td>hypothetical protein</td>
+      <td>63.8</td>
+      <td>3.8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4585</td>
+      <td>hypothetical protein</td>
+      <td>41.9</td>
+      <td>1.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4753</td>
+      <td>hypothetical protein</td>
+      <td>80.4</td>
+      <td>2.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4999</td>
+      <td>hypothetical protein</td>
+      <td>141.5</td>
+      <td>5.5e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5000</td>
+      <td>hypothetical protein</td>
+      <td>159.6</td>
+      <td>2.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5002</td>
+      <td>hypothetical protein</td>
+      <td>260.4</td>
+      <td>1.1e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5803</td>
+      <td>hypothetical protein</td>
+      <td>75.7</td>
+      <td>7e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5805</td>
+      <td>hypothetical protein</td>
+      <td>104.5</td>
+      <td>1.5e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5806</td>
+      <td>hypothetical protein</td>
+      <td>112.2</td>
+      <td>6.4e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5807</td>
+      <td>hypothetical protein</td>
+      <td>122.6</td>
+      <td>4.8e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5808</td>
+      <td>hypothetical protein</td>
+      <td>155.8</td>
+      <td>3.4e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5809</td>
+      <td>hypothetical protein</td>
+      <td>172.5</td>
+      <td>3.1e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0519</td>
+      <td>hypothetical protein</td>
+      <td>216.1</td>
+      <td>2e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF012163</td>
+      <td>hypothetical protein</td>
+      <td>120.3</td>
+      <td>2.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF012226</td>
+      <td>hypothetical protein</td>
+      <td>95.2</td>
+      <td>9.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033092</td>
+      <td>hypothetical protein</td>
+      <td>147.4</td>
+      <td>1.3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033093</td>
+      <td>hypothetical protein</td>
+      <td>106.2</td>
+      <td>3.4e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038297</td>
+      <td>hypothetical protein</td>
+      <td>243.8</td>
+      <td>8.5e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038348</td>
+      <td>hypothetical protein</td>
+      <td>74.1</td>
+      <td>1.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038389</td>
+      <td>hypothetical protein</td>
+      <td>40.5</td>
+      <td>5.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040534</td>
+      <td>hypothetical protein</td>
+      <td>45.4</td>
+      <td>1.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040689</td>
+      <td>hypothetical protein</td>
+      <td>47.1</td>
+      <td>3.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040691</td>
+      <td>hypothetical protein</td>
+      <td>133.4</td>
+      <td>2.8e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040750</td>
+      <td>hypothetical protein</td>
+      <td>49.0</td>
+      <td>7.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041210</td>
+      <td>hypothetical protein</td>
+      <td>127.8</td>
+      <td>1.3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041367</td>
+      <td>hypothetical protein</td>
+      <td>41.9</td>
+      <td>2.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041593</td>
+      <td>hypothetical protein</td>
+      <td>108.6</td>
+      <td>5.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09303</td>
+      <td>hypothetical protein</td>
+      <td>121.9</td>
+      <td>6.7e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09390</td>
+      <td>hypothetical protein</td>
+      <td>42.3</td>
+      <td>1.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09467</td>
+      <td>hypothetical protein</td>
+      <td>84.3</td>
+      <td>1.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09468</td>
+      <td>hypothetical protein</td>
+      <td>47.9</td>
+      <td>2.4e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09470</td>
+      <td>hypothetical protein</td>
+      <td>97.7</td>
+      <td>1.6e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09581</td>
+      <td>hypothetical protein</td>
+      <td>77.6</td>
+      <td>1.9e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09835</td>
+      <td>hypothetical protein</td>
+      <td>93.8</td>
+      <td>1.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09959</td>
+      <td>hypothetical protein</td>
+      <td>244.7</td>
+      <td>3.3e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10337</td>
+      <td>hypothetical protein</td>
+      <td>45.2</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10364</td>
+      <td>hypothetical protein</td>
+      <td>96.0</td>
+      <td>4.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10365</td>
+      <td>hypothetical protein</td>
+      <td>49.8</td>
+      <td>5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10490</td>
+      <td>hypothetical protein</td>
+      <td>81.2</td>
+      <td>1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10549</td>
+      <td>hypothetical protein</td>
+      <td>101.6</td>
+      <td>9.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10604</td>
+      <td>hypothetical protein</td>
+      <td>98.2</td>
+      <td>1.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10610</td>
+      <td>hypothetical protein</td>
+      <td>65.2</td>
+      <td>1.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10618</td>
+      <td>hypothetical protein</td>
+      <td>159.8</td>
+      <td>1.8e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10643</td>
+      <td>hypothetical protein</td>
+      <td>50.4</td>
+      <td>4.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10693</td>
+      <td>hypothetical protein</td>
+      <td>43.2</td>
+      <td>5.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10710</td>
+      <td>hypothetical protein</td>
+      <td>48.3</td>
+      <td>2.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10755</td>
+      <td>hypothetical protein</td>
+      <td>69.2</td>
+      <td>5.9e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10766</td>
+      <td>hypothetical protein</td>
+      <td>49.7</td>
+      <td>6.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10816</td>
+      <td>hypothetical protein</td>
+      <td>51.0</td>
+      <td>2.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10841</td>
+      <td>hypothetical protein</td>
+      <td>1794.5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10923</td>
+      <td>hypothetical protein</td>
+      <td>48.5</td>
+      <td>1.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11006</td>
+      <td>hypothetical protein</td>
+      <td>94.3</td>
+      <td>1.6e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11073</td>
+      <td>hypothetical protein</td>
+      <td>44.9</td>
+      <td>2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11086</td>
+      <td>hypothetical protein</td>
+      <td>46.5</td>
+      <td>3.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11091</td>
+      <td>hypothetical protein</td>
+      <td>245.5</td>
+      <td>2.4e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11100</td>
+      <td>hypothetical protein</td>
+      <td>110.0</td>
+      <td>2.9e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11107</td>
+      <td>hypothetical protein</td>
+      <td>314.3</td>
+      <td>3.9e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11360</td>
+      <td>hypothetical protein</td>
+      <td>116.5</td>
+      <td>2.5e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11361</td>
+      <td>hypothetical protein</td>
+      <td>57.8</td>
+      <td>1.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11466</td>
+      <td>hypothetical protein</td>
+      <td>244.2</td>
+      <td>5.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11517</td>
+      <td>hypothetical protein</td>
+      <td>40.5</td>
+      <td>4.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13557</td>
+      <td>hypothetical protein</td>
+      <td>69.4</td>
+      <td>4.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13837</td>
+      <td>hypothetical protein</td>
+      <td>91.2</td>
+      <td>9.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15115</td>
+      <td>hypothetical protein</td>
+      <td>63.4</td>
+      <td>3.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15347</td>
+      <td>hypothetical protein</td>
+      <td>326.3</td>
+      <td>8.9e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15479</td>
+      <td>hypothetical protein</td>
+      <td>58.6</td>
+      <td>1.5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01386</td>
+      <td>hypothetical protein</td>
+      <td>116.4</td>
+      <td>3.5e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01387</td>
+      <td>hypothetical protein</td>
+      <td>58.3</td>
+      <td>1.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01818</td>
+      <td>hypothetical protein</td>
+      <td>52.2</td>
+      <td>9.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02154</td>
+      <td>hypothetical protein</td>
+      <td>48.8</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02916</td>
+      <td>hypothetical protein</td>
+      <td>57.3</td>
+      <td>2.5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02956</td>
+      <td>hypothetical protein</td>
+      <td>326.7</td>
+      <td>7.2e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02966</td>
+      <td>hypothetical protein</td>
+      <td>179.6</td>
+      <td>1.7e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03785</td>
+      <td>hypothetical protein</td>
+      <td>59.7</td>
+      <td>3.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00075</td>
+      <td>hypothetical protein</td>
+      <td>96.8</td>
+      <td>1.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00082</td>
+      <td>hypothetical protein</td>
+      <td>61.1</td>
+      <td>2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00156</td>
+      <td>hypothetical protein</td>
+      <td>96.1</td>
+      <td>2.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16915</td>
+      <td>hypothetical protein</td>
+      <td>47.5</td>
+      <td>3.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16918</td>
+      <td>hypothetical protein</td>
+      <td>41.1</td>
+      <td>3.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16919</td>
+      <td>hypothetical protein</td>
+      <td>47.8</td>
+      <td>2.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16920</td>
+      <td>hypothetical protein</td>
+      <td>56.9</td>
+      <td>3.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16921</td>
+      <td>hypothetical protein</td>
+      <td>68.9</td>
+      <td>8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16922</td>
+      <td>hypothetical protein</td>
+      <td>121.5</td>
+      <td>3.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16923</td>
+      <td>hypothetical protein</td>
+      <td>43.7</td>
+      <td>6.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16925</td>
+      <td>hypothetical protein</td>
+      <td>74.8</td>
+      <td>1.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16938</td>
+      <td>hypothetical protein</td>
+      <td>40.0</td>
+      <td>8.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16939</td>
+      <td>hypothetical protein</td>
+      <td>61.6</td>
+      <td>1.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16940</td>
+      <td>hypothetical protein</td>
+      <td>55.2</td>
+      <td>1.4e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16943</td>
+      <td>hypothetical protein</td>
+      <td>78.1</td>
+      <td>1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16945</td>
+      <td>hypothetical protein</td>
+      <td>60.1</td>
+      <td>3.8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16946</td>
+      <td>hypothetical protein</td>
+      <td>74.4</td>
+      <td>2.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16947</td>
+      <td>hypothetical protein</td>
+      <td>73.1</td>
+      <td>5e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16948</td>
+      <td>hypothetical protein</td>
+      <td>65.1</td>
+      <td>1.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16949</td>
+      <td>hypothetical protein</td>
+      <td>68.3</td>
+      <td>1.3e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16950</td>
+      <td>hypothetical protein</td>
+      <td>66.1</td>
+      <td>7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16952</td>
+      <td>hypothetical protein</td>
+      <td>66.5</td>
+      <td>5.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16953</td>
+      <td>hypothetical protein</td>
+      <td>50.9</td>
+      <td>3.3e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16954</td>
+      <td>hypothetical protein</td>
+      <td>50.3</td>
+      <td>4.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16975</td>
+      <td>hypothetical protein</td>
+      <td>40.8</td>
+      <td>5.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16976</td>
+      <td>hypothetical protein</td>
+      <td>59.1</td>
+      <td>9.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17530</td>
+      <td>hypothetical protein</td>
+      <td>44.0</td>
+      <td>4.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17534</td>
+      <td>hypothetical protein</td>
+      <td>53.1</td>
+      <td>5.5e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17535</td>
+      <td>hypothetical protein</td>
+      <td>63.5</td>
+      <td>4.5e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17536</td>
+      <td>hypothetical protein</td>
+      <td>62.2</td>
+      <td>7.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17537</td>
+      <td>hypothetical protein</td>
+      <td>47.8</td>
+      <td>3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17538</td>
+      <td>hypothetical protein</td>
+      <td>83.6</td>
+      <td>1.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17541</td>
+      <td>hypothetical protein</td>
+      <td>56.5</td>
+      <td>5.7e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17542</td>
+      <td>hypothetical protein</td>
+      <td>48.5</td>
+      <td>1.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17544</td>
+      <td>hypothetical protein</td>
+      <td>63.4</td>
+      <td>4.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17546</td>
+      <td>hypothetical protein</td>
+      <td>125.7</td>
+      <td>2.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17548</td>
+      <td>hypothetical protein</td>
+      <td>88.9</td>
+      <td>4.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17549</td>
+      <td>hypothetical protein</td>
+      <td>54.4</td>
+      <td>2.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17550</td>
+      <td>hypothetical protein</td>
+      <td>51.5</td>
+      <td>2.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17551</td>
+      <td>hypothetical protein</td>
+      <td>71.6</td>
+      <td>1.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17552</td>
+      <td>hypothetical protein</td>
+      <td>57.3</td>
+      <td>3e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17553</td>
+      <td>hypothetical protein</td>
+      <td>50.2</td>
+      <td>5.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17554</td>
+      <td>hypothetical protein</td>
+      <td>67.2</td>
+      <td>2.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17555</td>
+      <td>hypothetical protein</td>
+      <td>63.4</td>
+      <td>4.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17557</td>
+      <td>hypothetical protein</td>
+      <td>49.6</td>
+      <td>7.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17562</td>
+      <td>hypothetical protein</td>
+      <td>69.1</td>
+      <td>6.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17569</td>
+      <td>hypothetical protein</td>
+      <td>54.3</td>
+      <td>2.5e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17572</td>
+      <td>hypothetical protein</td>
+      <td>50.6</td>
+      <td>4.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17574</td>
+      <td>hypothetical protein</td>
+      <td>75.2</td>
+      <td>8.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17580</td>
+      <td>hypothetical protein</td>
+      <td>85.0</td>
+      <td>8.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17581</td>
+      <td>hypothetical protein</td>
+      <td>49.4</td>
+      <td>1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17584</td>
+      <td>hypothetical protein</td>
+      <td>77.7</td>
+      <td>1.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17593</td>
+      <td>hypothetical protein</td>
+      <td>66.8</td>
+      <td>3.4e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17594</td>
+      <td>hypothetical protein</td>
+      <td>44.4</td>
+      <td>3.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17598</td>
+      <td>hypothetical protein</td>
+      <td>66.2</td>
+      <td>5.3e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17614</td>
+      <td>hypothetical protein</td>
+      <td>43.6</td>
+      <td>5.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17615</td>
+      <td>hypothetical protein</td>
+      <td>63.2</td>
+      <td>4.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17616</td>
+      <td>hypothetical protein</td>
+      <td>44.5</td>
+      <td>3.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17618</td>
+      <td>hypothetical protein</td>
+      <td>56.8</td>
+      <td>4.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17619</td>
+      <td>hypothetical protein</td>
+      <td>55.7</td>
+      <td>9.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17620</td>
+      <td>hypothetical protein</td>
+      <td>60.5</td>
+      <td>3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17622</td>
+      <td>hypothetical protein</td>
+      <td>44.8</td>
+      <td>2.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17623</td>
+      <td>hypothetical protein</td>
+      <td>50.0</td>
+      <td>7.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17624</td>
+      <td>hypothetical protein</td>
+      <td>64.5</td>
+      <td>2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17625</td>
+      <td>hypothetical protein</td>
+      <td>57.1</td>
+      <td>4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17626</td>
+      <td>hypothetical protein</td>
+      <td>43.1</td>
+      <td>7.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17627</td>
+      <td>hypothetical protein</td>
+      <td>71.7</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd18159</td>
+      <td>hypothetical protein</td>
+      <td>51.9</td>
+      <td>1.7e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd18160</td>
+      <td>hypothetical protein</td>
+      <td>53.3</td>
+      <td>5.9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd18161</td>
+      <td>hypothetical protein</td>
+      <td>60.5</td>
+      <td>3.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19919</td>
+      <td>hypothetical protein</td>
+      <td>47.9</td>
+      <td>3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19920</td>
+      <td>hypothetical protein</td>
+      <td>69.8</td>
+      <td>3.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19923</td>
+      <td>hypothetical protein</td>
+      <td>75.9</td>
+      <td>6.2e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19924</td>
+      <td>hypothetical protein</td>
+      <td>70.4</td>
+      <td>2.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19925</td>
+      <td>hypothetical protein</td>
+      <td>48.4</td>
+      <td>2.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19926</td>
+      <td>hypothetical protein</td>
+      <td>41.6</td>
+      <td>2.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19927</td>
+      <td>hypothetical protein</td>
+      <td>65.1</td>
+      <td>1.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19932</td>
+      <td>hypothetical protein</td>
+      <td>45.9</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19933</td>
+      <td>hypothetical protein</td>
+      <td>66.6</td>
+      <td>4.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19934</td>
+      <td>hypothetical protein</td>
+      <td>64.8</td>
+      <td>1.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19935</td>
+      <td>hypothetical protein</td>
+      <td>62.4</td>
+      <td>1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19936</td>
+      <td>hypothetical protein</td>
+      <td>47.7</td>
+      <td>3.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19937</td>
+      <td>hypothetical protein</td>
+      <td>50.6</td>
+      <td>3.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19938</td>
+      <td>hypothetical protein</td>
+      <td>48.2</td>
+      <td>2.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19939</td>
+      <td>hypothetical protein</td>
+      <td>41.9</td>
+      <td>2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00072</td>
+      <td>hypothetical protein</td>
+      <td>103.5</td>
+      <td>1.6e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00512</td>
+      <td>hypothetical protein</td>
+      <td>68.7</td>
+      <td>7.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02518</td>
+      <td>hypothetical protein</td>
+      <td>109.4</td>
+      <td>2.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam09456</td>
+      <td>hypothetical protein</td>
+      <td>133.6</td>
+      <td>3.7e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00387</td>
+      <td>hypothetical protein</td>
+      <td>120.7</td>
+      <td>6.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00388</td>
+      <td>hypothetical protein</td>
+      <td>64.6</td>
+      <td>1.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00448</td>
+      <td>hypothetical protein</td>
+      <td>66.6</td>
+      <td>4.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00148</td>
+      <td>hypothetical protein</td>
+      <td>65.4</td>
+      <td>1.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0642</td>
+      <td>hypothetical protein</td>
+      <td>308.8</td>
+      <td>2.4e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0745</td>
+      <td>hypothetical protein</td>
+      <td>115.7</td>
+      <td>5.4e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0784</td>
+      <td>hypothetical protein</td>
+      <td>132.0</td>
+      <td>2.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2197</td>
+      <td>hypothetical protein</td>
+      <td>49.1</td>
+      <td>1.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2204</td>
+      <td>hypothetical protein</td>
+      <td>109.8</td>
+      <td>3.6e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2205</td>
+      <td>hypothetical protein</td>
+      <td>221.0</td>
+      <td>3.6e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2972</td>
+      <td>hypothetical protein</td>
+      <td>49.0</td>
+      <td>1.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3279</td>
+      <td>hypothetical protein</td>
+      <td>57.1</td>
+      <td>4.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3290</td>
+      <td>hypothetical protein</td>
+      <td>86.2</td>
+      <td>4.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3437</td>
+      <td>hypothetical protein</td>
+      <td>121.0</td>
+      <td>1.3e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3706</td>
+      <td>hypothetical protein</td>
+      <td>129.1</td>
+      <td>5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3707</td>
+      <td>hypothetical protein</td>
+      <td>55.8</td>
+      <td>1.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3852</td>
+      <td>hypothetical protein</td>
+      <td>151.4</td>
+      <td>7.7e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4191</td>
+      <td>hypothetical protein</td>
+      <td>150.2</td>
+      <td>2.3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4251</td>
+      <td>hypothetical protein</td>
+      <td>182.3</td>
+      <td>6.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4565</td>
+      <td>hypothetical protein</td>
+      <td>92.7</td>
+      <td>5.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4566</td>
+      <td>hypothetical protein</td>
+      <td>57.6</td>
+      <td>2.7e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4567</td>
+      <td>hypothetical protein</td>
+      <td>63.8</td>
+      <td>3.8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4585</td>
+      <td>hypothetical protein</td>
+      <td>41.9</td>
+      <td>1.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4753</td>
+      <td>hypothetical protein</td>
+      <td>80.4</td>
+      <td>2.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4999</td>
+      <td>hypothetical protein</td>
+      <td>141.5</td>
+      <td>5.5e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5000</td>
+      <td>hypothetical protein</td>
+      <td>159.6</td>
+      <td>2.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5002</td>
+      <td>hypothetical protein</td>
+      <td>260.4</td>
+      <td>1.1e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5803</td>
+      <td>hypothetical protein</td>
+      <td>75.7</td>
+      <td>7e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5805</td>
+      <td>hypothetical protein</td>
+      <td>104.5</td>
+      <td>1.5e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5806</td>
+      <td>hypothetical protein</td>
+      <td>112.2</td>
+      <td>6.4e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5807</td>
+      <td>hypothetical protein</td>
+      <td>122.6</td>
+      <td>4.8e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5808</td>
+      <td>hypothetical protein</td>
+      <td>155.8</td>
+      <td>3.4e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5809</td>
+      <td>hypothetical protein</td>
+      <td>172.5</td>
+      <td>3.1e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0519</td>
+      <td>hypothetical protein</td>
+      <td>216.1</td>
+      <td>2e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF012163</td>
+      <td>hypothetical protein</td>
+      <td>120.3</td>
+      <td>2.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF012226</td>
+      <td>hypothetical protein</td>
+      <td>95.2</td>
+      <td>9.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033092</td>
+      <td>hypothetical protein</td>
+      <td>147.4</td>
+      <td>1.3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033093</td>
+      <td>hypothetical protein</td>
+      <td>106.2</td>
+      <td>3.4e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038297</td>
+      <td>hypothetical protein</td>
+      <td>243.8</td>
+      <td>8.5e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038348</td>
+      <td>hypothetical protein</td>
+      <td>74.1</td>
+      <td>1.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038389</td>
+      <td>hypothetical protein</td>
+      <td>40.5</td>
+      <td>5.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040534</td>
+      <td>hypothetical protein</td>
+      <td>45.4</td>
+      <td>1.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040689</td>
+      <td>hypothetical protein</td>
+      <td>47.1</td>
+      <td>3.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040691</td>
+      <td>hypothetical protein</td>
+      <td>133.4</td>
+      <td>2.8e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040750</td>
+      <td>hypothetical protein</td>
+      <td>49.0</td>
+      <td>7.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041210</td>
+      <td>hypothetical protein</td>
+      <td>127.8</td>
+      <td>1.3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041367</td>
+      <td>hypothetical protein</td>
+      <td>41.9</td>
+      <td>2.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041593</td>
+      <td>hypothetical protein</td>
+      <td>108.6</td>
+      <td>5.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09303</td>
+      <td>hypothetical protein</td>
+      <td>121.9</td>
+      <td>6.7e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09390</td>
+      <td>hypothetical protein</td>
+      <td>42.3</td>
+      <td>1.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09467</td>
+      <td>hypothetical protein</td>
+      <td>84.3</td>
+      <td>1.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09468</td>
+      <td>hypothetical protein</td>
+      <td>47.9</td>
+      <td>2.4e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09470</td>
+      <td>hypothetical protein</td>
+      <td>97.7</td>
+      <td>1.6e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09581</td>
+      <td>hypothetical protein</td>
+      <td>77.6</td>
+      <td>1.9e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09835</td>
+      <td>hypothetical protein</td>
+      <td>93.8</td>
+      <td>1.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09959</td>
+      <td>hypothetical protein</td>
+      <td>244.7</td>
+      <td>3.3e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10337</td>
+      <td>hypothetical protein</td>
+      <td>45.2</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10364</td>
+      <td>hypothetical protein</td>
+      <td>96.0</td>
+      <td>4.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10365</td>
+      <td>hypothetical protein</td>
+      <td>49.8</td>
+      <td>5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10490</td>
+      <td>hypothetical protein</td>
+      <td>81.2</td>
+      <td>1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10549</td>
+      <td>hypothetical protein</td>
+      <td>101.6</td>
+      <td>9.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10604</td>
+      <td>hypothetical protein</td>
+      <td>98.2</td>
+      <td>1.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10610</td>
+      <td>hypothetical protein</td>
+      <td>65.2</td>
+      <td>1.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10618</td>
+      <td>hypothetical protein</td>
+      <td>159.8</td>
+      <td>1.8e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10643</td>
+      <td>hypothetical protein</td>
+      <td>50.4</td>
+      <td>4.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10693</td>
+      <td>hypothetical protein</td>
+      <td>43.2</td>
+      <td>5.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10710</td>
+      <td>hypothetical protein</td>
+      <td>48.3</td>
+      <td>2.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10755</td>
+      <td>hypothetical protein</td>
+      <td>69.2</td>
+      <td>5.9e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10766</td>
+      <td>hypothetical protein</td>
+      <td>49.7</td>
+      <td>6.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10816</td>
+      <td>hypothetical protein</td>
+      <td>51.0</td>
+      <td>2.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10841</td>
+      <td>hypothetical protein</td>
+      <td>1794.5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10923</td>
+      <td>hypothetical protein</td>
+      <td>48.5</td>
+      <td>1.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11006</td>
+      <td>hypothetical protein</td>
+      <td>94.3</td>
+      <td>1.6e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11073</td>
+      <td>hypothetical protein</td>
+      <td>44.9</td>
+      <td>2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11086</td>
+      <td>hypothetical protein</td>
+      <td>46.5</td>
+      <td>3.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11091</td>
+      <td>hypothetical protein</td>
+      <td>245.5</td>
+      <td>2.4e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11100</td>
+      <td>hypothetical protein</td>
+      <td>110.0</td>
+      <td>2.9e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11107</td>
+      <td>hypothetical protein</td>
+      <td>314.3</td>
+      <td>3.9e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11360</td>
+      <td>hypothetical protein</td>
+      <td>116.5</td>
+      <td>2.5e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11361</td>
+      <td>hypothetical protein</td>
+      <td>57.8</td>
+      <td>1.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11466</td>
+      <td>hypothetical protein</td>
+      <td>244.2</td>
+      <td>5.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11517</td>
+      <td>hypothetical protein</td>
+      <td>40.5</td>
+      <td>4.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13557</td>
+      <td>hypothetical protein</td>
+      <td>69.4</td>
+      <td>4.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13837</td>
+      <td>hypothetical protein</td>
+      <td>91.2</td>
+      <td>9.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15115</td>
+      <td>hypothetical protein</td>
+      <td>63.4</td>
+      <td>3.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15347</td>
+      <td>hypothetical protein</td>
+      <td>326.3</td>
+      <td>8.9e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15479</td>
+      <td>hypothetical protein</td>
+      <td>58.6</td>
+      <td>1.5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01386</td>
+      <td>hypothetical protein</td>
+      <td>116.4</td>
+      <td>3.5e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01387</td>
+      <td>hypothetical protein</td>
+      <td>58.3</td>
+      <td>1.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01818</td>
+      <td>hypothetical protein</td>
+      <td>52.2</td>
+      <td>9.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02154</td>
+      <td>hypothetical protein</td>
+      <td>48.8</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02916</td>
+      <td>hypothetical protein</td>
+      <td>57.3</td>
+      <td>2.5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02956</td>
+      <td>hypothetical protein</td>
+      <td>326.7</td>
+      <td>7.2e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02966</td>
+      <td>hypothetical protein</td>
+      <td>179.6</td>
+      <td>1.7e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03785</td>
+      <td>hypothetical protein</td>
+      <td>59.7</td>
+      <td>3.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00075</td>
+      <td>hypothetical protein</td>
+      <td>96.8</td>
+      <td>1.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00082</td>
+      <td>hypothetical protein</td>
+      <td>61.1</td>
+      <td>2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00156</td>
+      <td>hypothetical protein</td>
+      <td>96.1</td>
+      <td>2.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16915</td>
+      <td>hypothetical protein</td>
+      <td>47.5</td>
+      <td>3.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16918</td>
+      <td>hypothetical protein</td>
+      <td>41.1</td>
+      <td>3.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16919</td>
+      <td>hypothetical protein</td>
+      <td>47.8</td>
+      <td>2.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16920</td>
+      <td>hypothetical protein</td>
+      <td>56.9</td>
+      <td>3.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16921</td>
+      <td>hypothetical protein</td>
+      <td>68.9</td>
+      <td>8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16922</td>
+      <td>hypothetical protein</td>
+      <td>121.5</td>
+      <td>3.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16923</td>
+      <td>hypothetical protein</td>
+      <td>43.7</td>
+      <td>6.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16925</td>
+      <td>hypothetical protein</td>
+      <td>74.8</td>
+      <td>1.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16938</td>
+      <td>hypothetical protein</td>
+      <td>40.0</td>
+      <td>8.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16939</td>
+      <td>hypothetical protein</td>
+      <td>61.6</td>
+      <td>1.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16940</td>
+      <td>hypothetical protein</td>
+      <td>55.2</td>
+      <td>1.4e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16943</td>
+      <td>hypothetical protein</td>
+      <td>78.1</td>
+      <td>1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16945</td>
+      <td>hypothetical protein</td>
+      <td>60.1</td>
+      <td>3.8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16946</td>
+      <td>hypothetical protein</td>
+      <td>74.4</td>
+      <td>2.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16947</td>
+      <td>hypothetical protein</td>
+      <td>73.1</td>
+      <td>5e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16948</td>
+      <td>hypothetical protein</td>
+      <td>65.1</td>
+      <td>1.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16949</td>
+      <td>hypothetical protein</td>
+      <td>68.3</td>
+      <td>1.3e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16950</td>
+      <td>hypothetical protein</td>
+      <td>66.1</td>
+      <td>7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16952</td>
+      <td>hypothetical protein</td>
+      <td>66.5</td>
+      <td>5.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16953</td>
+      <td>hypothetical protein</td>
+      <td>50.9</td>
+      <td>3.3e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16954</td>
+      <td>hypothetical protein</td>
+      <td>50.3</td>
+      <td>4.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16975</td>
+      <td>hypothetical protein</td>
+      <td>40.8</td>
+      <td>5.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16976</td>
+      <td>hypothetical protein</td>
+      <td>59.1</td>
+      <td>9.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17530</td>
+      <td>hypothetical protein</td>
+      <td>44.0</td>
+      <td>4.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17534</td>
+      <td>hypothetical protein</td>
+      <td>53.1</td>
+      <td>5.5e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17535</td>
+      <td>hypothetical protein</td>
+      <td>63.5</td>
+      <td>4.5e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17536</td>
+      <td>hypothetical protein</td>
+      <td>62.2</td>
+      <td>7.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17537</td>
+      <td>hypothetical protein</td>
+      <td>47.8</td>
+      <td>3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17538</td>
+      <td>hypothetical protein</td>
+      <td>83.6</td>
+      <td>1.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17541</td>
+      <td>hypothetical protein</td>
+      <td>56.5</td>
+      <td>5.7e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17542</td>
+      <td>hypothetical protein</td>
+      <td>48.5</td>
+      <td>1.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17544</td>
+      <td>hypothetical protein</td>
+      <td>63.4</td>
+      <td>4.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17546</td>
+      <td>hypothetical protein</td>
+      <td>125.7</td>
+      <td>2.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17548</td>
+      <td>hypothetical protein</td>
+      <td>88.9</td>
+      <td>4.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17549</td>
+      <td>hypothetical protein</td>
+      <td>54.4</td>
+      <td>2.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17550</td>
+      <td>hypothetical protein</td>
+      <td>51.5</td>
+      <td>2.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17551</td>
+      <td>hypothetical protein</td>
+      <td>71.6</td>
+      <td>1.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17552</td>
+      <td>hypothetical protein</td>
+      <td>57.3</td>
+      <td>3e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17553</td>
+      <td>hypothetical protein</td>
+      <td>50.2</td>
+      <td>5.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17554</td>
+      <td>hypothetical protein</td>
+      <td>67.2</td>
+      <td>2.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17555</td>
+      <td>hypothetical protein</td>
+      <td>63.4</td>
+      <td>4.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17557</td>
+      <td>hypothetical protein</td>
+      <td>49.6</td>
+      <td>7.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17562</td>
+      <td>hypothetical protein</td>
+      <td>69.1</td>
+      <td>6.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17569</td>
+      <td>hypothetical protein</td>
+      <td>54.3</td>
+      <td>2.5e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17572</td>
+      <td>hypothetical protein</td>
+      <td>50.6</td>
+      <td>4.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17574</td>
+      <td>hypothetical protein</td>
+      <td>75.2</td>
+      <td>8.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17580</td>
+      <td>hypothetical protein</td>
+      <td>85.0</td>
+      <td>8.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17581</td>
+      <td>hypothetical protein</td>
+      <td>49.4</td>
+      <td>1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17584</td>
+      <td>hypothetical protein</td>
+      <td>77.7</td>
+      <td>1.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17593</td>
+      <td>hypothetical protein</td>
+      <td>66.8</td>
+      <td>3.4e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17594</td>
+      <td>hypothetical protein</td>
+      <td>44.4</td>
+      <td>3.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17598</td>
+      <td>hypothetical protein</td>
+      <td>66.2</td>
+      <td>5.3e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17614</td>
+      <td>hypothetical protein</td>
+      <td>43.6</td>
+      <td>5.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17615</td>
+      <td>hypothetical protein</td>
+      <td>63.2</td>
+      <td>4.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17616</td>
+      <td>hypothetical protein</td>
+      <td>44.5</td>
+      <td>3.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17618</td>
+      <td>hypothetical protein</td>
+      <td>56.8</td>
+      <td>4.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17619</td>
+      <td>hypothetical protein</td>
+      <td>55.7</td>
+      <td>9.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17620</td>
+      <td>hypothetical protein</td>
+      <td>60.5</td>
+      <td>3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17622</td>
+      <td>hypothetical protein</td>
+      <td>44.8</td>
+      <td>2.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17623</td>
+      <td>hypothetical protein</td>
+      <td>50.0</td>
+      <td>7.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17624</td>
+      <td>hypothetical protein</td>
+      <td>64.5</td>
+      <td>2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17625</td>
+      <td>hypothetical protein</td>
+      <td>57.1</td>
+      <td>4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17626</td>
+      <td>hypothetical protein</td>
+      <td>43.1</td>
+      <td>7.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17627</td>
+      <td>hypothetical protein</td>
+      <td>71.7</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd18159</td>
+      <td>hypothetical protein</td>
+      <td>51.9</td>
+      <td>1.7e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd18160</td>
+      <td>hypothetical protein</td>
+      <td>53.3</td>
+      <td>5.9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd18161</td>
+      <td>hypothetical protein</td>
+      <td>60.5</td>
+      <td>3.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19919</td>
+      <td>hypothetical protein</td>
+      <td>47.9</td>
+      <td>3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19920</td>
+      <td>hypothetical protein</td>
+      <td>69.8</td>
+      <td>3.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19923</td>
+      <td>hypothetical protein</td>
+      <td>75.9</td>
+      <td>6.2e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19924</td>
+      <td>hypothetical protein</td>
+      <td>70.4</td>
+      <td>2.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19925</td>
+      <td>hypothetical protein</td>
+      <td>48.4</td>
+      <td>2.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19926</td>
+      <td>hypothetical protein</td>
+      <td>41.6</td>
+      <td>2.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19927</td>
+      <td>hypothetical protein</td>
+      <td>65.1</td>
+      <td>1.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19932</td>
+      <td>hypothetical protein</td>
+      <td>45.9</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19933</td>
+      <td>hypothetical protein</td>
+      <td>66.6</td>
+      <td>4.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19934</td>
+      <td>hypothetical protein</td>
+      <td>64.8</td>
+      <td>1.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19935</td>
+      <td>hypothetical protein</td>
+      <td>62.4</td>
+      <td>1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19936</td>
+      <td>hypothetical protein</td>
+      <td>47.7</td>
+      <td>3.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19937</td>
+      <td>hypothetical protein</td>
+      <td>50.6</td>
+      <td>3.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19938</td>
+      <td>hypothetical protein</td>
+      <td>48.2</td>
+      <td>2.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19939</td>
+      <td>hypothetical protein</td>
+      <td>41.9</td>
+      <td>2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00072</td>
+      <td>hypothetical protein</td>
+      <td>103.5</td>
+      <td>1.6e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00512</td>
+      <td>hypothetical protein</td>
+      <td>68.7</td>
+      <td>7.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02518</td>
+      <td>hypothetical protein</td>
+      <td>109.4</td>
+      <td>2.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00387</td>
+      <td>hypothetical protein</td>
+      <td>120.7</td>
+      <td>6.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00388</td>
+      <td>hypothetical protein</td>
+      <td>64.6</td>
+      <td>1.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00448</td>
+      <td>hypothetical protein</td>
+      <td>66.6</td>
+      <td>4.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>toxin-associated protein</td>
+      <td>1.00</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.9999999</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

@@ -1,0 +1,2236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01296</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01296</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K00370</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K00370</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.7.5.1</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008940;GO:0043546;GO:0051539</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00370</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.7.5.1</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.7.99.-</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td>derived_from_ko</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00370</td>
+      <td>EC:1.7.5.1</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00370</td>
+      <td>EC:1.7.99.-</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0008940</td>
+      <td>GO:0008940</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0009055</td>
+      <td>GO:0009055</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0016661</td>
+      <td>GO:0016661</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0043546</td>
+      <td>GO:0043546</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0051536</td>
+      <td>GO:0051536</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0051539</td>
+      <td>GO:0051539</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0051540</td>
+      <td>GO:0051540</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.5.1</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0008940</td>
+      <td>GO:0008940</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0009055</td>
+      <td>GO:0009055</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0016661</td>
+      <td>GO:0016661</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0043546</td>
+      <td>GO:0043546</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0051536</td>
+      <td>GO:0051536</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0051539</td>
+      <td>GO:0051539</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0051540</td>
+      <td>GO:0051540</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.7.99.-</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1279864|1283607|+</td></tr><tr><th>protein_id</th><td>KOIAIB_01296</td></tr><tr><th>product</th><td>Respiratory nitrate reductase 2 alpha chain</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1279864</td></tr><tr><th>stop</th><td>1283607</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_1597</td></tr><tr><th>locus_tag</th><td>KOIAIB_01296</td></tr><tr><th>aa_md5</th><td>2393e1b7614eb7f7b893bb8f9ea39198</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>C</td></tr><tr><th>GO</th><td><details class="value-details"><summary>60 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005488</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0005887</li><li>GO:0006082</li><li>GO:0006091</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008940</li><li>GO:0009055</li><li>GO:0009061</li><li>GO:0009325</li><li>GO:0009898</li><li>GO:0009987</li><li>GO:0015980</li><li>GO:0016020</li><li>GO:0016021</li><li>GO:0016491</li><li>GO:0016661</li><li>GO:0019645</li><li>GO:0022900</li><li>GO:0022904</li><li>GO:0031224</li><li>GO:0031226</li><li>GO:0031235</li><li>GO:0032991</li><li>GO:0042126</li><li>GO:0043436</li><li>GO:0043546</li><li>GO:0044237</li><li>GO:0044281</li><li>GO:0044425</li><li>GO:0044459</li><li>GO:0044464</li><li>GO:0044799</li><li>GO:0045333</li><li>GO:0048037</li><li>GO:0050662</li><li>GO:0051536</li><li>GO:0051539</li><li>GO:0051540</li><li>GO:0055114</li><li>GO:0070469</li><li>GO:0070470</li><li>GO:0071704</li><li>GO:0071944</li><li>GO:0097159</li><li>GO:0098552</li><li>GO:0098562</li><li>GO:0098796</li><li>GO:0098797</li><li>GO:0098803</li><li>GO:1901363</li><li>GO:1902494</li><li>GO:1990204</li><li>GO:2001057</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.7.5.1; EC:1.7.99.-</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00370</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00910; KEGG:ko01120; KEGG:ko02020; KEGG:map00910; KEGG:map01120; KEGG:map02020</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00529; KEGG:M00530; KEGG:M00804</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R00798; KEGG:R01106; KEGG:R09497</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>10 values</summary><ul class="value-list"><li>INTERPRO:IPR006468</li><li>INTERPRO:IPR006655</li><li>INTERPRO:IPR006656</li><li>INTERPRO:IPR006657</li><li>INTERPRO:IPR006963</li><li>INTERPRO:IPR009010</li><li>INTERPRO:IPR027467</li><li>INTERPRO:IPR028189</li><li>INTERPRO:IPR037943</li><li>INTERPRO:IPR044906</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00384; PFAM:PF01568; PFAM:PF14710; PFAM:PF28599</td></tr><tr><th>SMART</th><td>SMART:SM00926</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>1</td></tr><tr><th>concordance_partial</th><td>6</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd02750;CDD:cd02776</td>
+      <td>CDD:cd00368;CDD:cd02750;CDD:cd02751;CDD:cd02752;CDD:cd02753;CDD:cd02754;CDD:cd02755;CDD:cd02757;CDD:cd02759;CDD:cd02760;CDD:cd02762;CDD:cd02763;CDD:cd02765;CDD:cd02766;CDD:cd02769;CDD:cd02770;CDD:cd02775;CDD:cd02776;CDD:cd02777;CDD:cd02785</td>
+      <td>CDD:cd02750;CDD:cd02776</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG5013</td>
+      <td>COG:COG0243;COG:COG3383;COG:COG5013</td>
+      <td>COG:COG5013</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.7.5.1;EC:1.7.99.-</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.7.5.1</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.7.5.1</td>
+      <td>EC:1.7.5.1;EC:1.7.99.-</td>
+      <td>EC:1.7.5.1</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005488;GO:0005575;GO:0005623;GO:0005886;GO:0005887;GO:0006082;GO:0006091;GO:0006807;GO:0008150;GO:0008152;GO:0008940;GO:0009055;GO:0009061;GO:0009325;GO:0009898;GO:0009987;GO:0015980;GO:0016020;GO:0016021;GO:0016491;GO:0016661;GO:0019645;GO:0022900;GO:0022904;GO:0031224;GO:0031226;GO:0031235;GO:0032991;GO:0042126;GO:0043436;GO:0043546;GO:0044237;GO:0044281;GO:0044425;GO:0044459;GO:0044464;GO:0044799;GO:0045333;GO:0048037;GO:0050662;GO:0051536;GO:0051539;GO:0051540;GO:0055114;GO:0070469;GO:0070470;GO:0071704;GO:0071944;GO:0097159;GO:0098552;GO:0098562;GO:0098796;GO:0098797;GO:0098803;GO:1901363;GO:1902494;GO:1990204;GO:2001057</td>
+      <td>GO:0008940;GO:0009325;GO:0016020;GO:0016491;GO:0042126;GO:0043546;GO:0051539</td>
+      <td>GO:0008940;GO:0009325;GO:0016020;GO:0016491;GO:0042126;GO:0043546;GO:0051539</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00370</td>
+      <td>KEGG:K00370</td>
+      <td>KEGG:K00370</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:TIGR01580</td>
+      <td>NCBIFAM:NF041513;NCBIFAM:TIGR00509;NCBIFAM:TIGR01553;NCBIFAM:TIGR01580;NCBIFAM:TIGR01591;NCBIFAM:TIGR02164;NCBIFAM:TIGR02166;NCBIFAM:TIGR03479</td>
+      <td>NCBIFAM:TIGR01580</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01580</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041513;NCBIFAM:TIGR00509;NCBIFAM:TIGR01553;NCBIFAM:TIGR01580;NCBIFAM:TIGR01591;NCBIFAM:TIGR02164;NCBIFAM:TIGR02166;NCBIFAM:TIGR03479</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00384;PFAM:PF01568;PFAM:PF14710;PFAM:PF28599</td>
+      <td>PFAM:PF00384;PFAM:PF01568</td>
+      <td>PFAM:PF00384;PFAM:PF01568</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00384;PFAM:PF01568;PFAM:PF14710;PFAM:PF28599</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00384;PFAM:PF01568</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00926</td>
+      <td></td>
+      <td></td>
+      <td>only_source_1</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 92 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSBO_1134.SBO_1842</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iUMN146_1321.UM146_09685</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG5013</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.7.5.1</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MW9S@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RQ27@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XPE4@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG5013@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG5013@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005887</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006091</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008940</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009055</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009061</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009325</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009898</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015980</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016021</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016661</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019645</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022900</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022904</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031224</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031226</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031235</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032991</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042126</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043546</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044425</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044459</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044799</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0045333</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048037</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051536</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051539</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051540</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070469</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070470</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098552</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098562</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098797</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098803</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1902494</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1990204</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:2001057</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00370</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00529</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00530</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00804</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00910</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00910</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC02812</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00798</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01106</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R09497</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_TC</td>
+      <td>5.A.3.1</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Molybdopterin</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Molydop_binding</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Nitr_red_alph_N</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.4062800</td>
+      <td>narG</td>
+      <td>Belongs to the prokaryotic molybdopterin-containing oxidoreductase family</td>
+      <td>2603.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>1247</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.7.5.1</td>
+      <td>KEGG:K00370</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.7.99.-</td>
+      <td>KEGG:K00370</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00370</td>
+      <td></td>
+      <td>nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K00370</td>
+      <td>nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]</td>
+      <td>above_threshold</td>
+      <td>2303.7</td>
+      <td>835.47</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 36 annotation rows, 19 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd02750</td>
+      <td></td>
+      <td>MopB_Nitrate-R-NarG-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd02776</td>
+      <td></td>
+      <td>MopB_CT_Nitrate-R-NarG-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.12440:FF:000001</td>
+      <td></td>
+      <td>Nitrate reductase subunit alpha</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:4.10.1200.10:FF:000001</td>
+      <td></td>
+      <td>Respiratory nitrate reductase subunit alpha</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.12440</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:4.10.1200.10</td>
+      <td></td>
+      <td>nitrate reductase tail</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008940</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR01580","interpro_accession":"IPR006468","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0009325</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR01580","interpro_accession":"IPR006468","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43105","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00384","interpro_accession":"IPR006656","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01568","interpro_accession":"IPR006657","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00490","interpro_accession":"IPR006655","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00932","interpro_accession":"IPR006655","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51669","interpro_accession":"IPR006963","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00926","interpro_accession":"IPR006963","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0042126</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR01580","interpro_accession":"IPR006468","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0043546</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF01568","interpro_accession":"IPR006657","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0051539</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00551","interpro_accession":"IPR027467","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006468</td>
+      <td></td>
+      <td>Nitrate reductase alpha subunit</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006655</td>
+      <td></td>
+      <td>Molybdopterin oxidoreductase, prokaryotic, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006656</td>
+      <td></td>
+      <td>Molybdopterin oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006657</td>
+      <td></td>
+      <td>Molybdopterin dinucleotide-binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006963</td>
+      <td></td>
+      <td>Molybdopterin oxidoreductase, 4Fe-4S domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR009010</td>
+      <td></td>
+      <td>Aspartate decarboxylase-like domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR027467</td>
+      <td></td>
+      <td>Molybdopterin oxidoreductase, molybdopterin cofactor binding site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR028189</td>
+      <td></td>
+      <td>Nitrate reductase, alpha subunit, N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR037943</td>
+      <td></td>
+      <td>Nitrate reductase alpha subunit-like, MopB domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR044906</td>
+      <td></td>
+      <td>Nitrate reductase, alpha subunit, N-terminal domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01580</td>
+      <td></td>
+      <td>nitrate reductase subunit alpha</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43105</td>
+      <td></td>
+      <td>RESPIRATORY NITRATE REDUCTASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00384</td>
+      <td></td>
+      <td>Molybdopterin oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01568</td>
+      <td></td>
+      <td>Molydopterin dinucleotide binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF14710</td>
+      <td></td>
+      <td>Respiratory nitrate reductase alpha N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF28599</td>
+      <td></td>
+      <td>Nitrate reductase alpha chain, domain V</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00490</td>
+      <td></td>
+      <td>Prokaryotic molybdopterin oxidoreductases signature 2.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00551</td>
+      <td></td>
+      <td>Prokaryotic molybdopterin oxidoreductases signature 1.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00932</td>
+      <td></td>
+      <td>Prokaryotic molybdopterin oxidoreductases signature 3.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS51669</td>
+      <td></td>
+      <td>Prokaryotic molybdopterin oxidoreductases 4Fe-4S domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00926</td>
+      <td></td>
+      <td>Molybdop_Fe4S4_2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF50692</td>
+      <td></td>
+      <td>ADC-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53706</td>
+      <td></td>
+      <td>Formate dehydrogenase/DMSO reductase, domains 1-3</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd02750</td>
+      <td>MopB_Nitrate-R-NarG-like</td>
+      <td>0.0</td>
+      <td>43</td>
+      <td>834</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd02776</td>
+      <td>MopB_CT_Nitrate-R-NarG-like</td>
+      <td>1.00466E-83</td>
+      <td>1087</td>
+      <td>1226</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12440:FF:000001</td>
+      <td>Nitrate reductase subunit alpha</td>
+      <td>0.0</td>
+      <td>44</td>
+      <td>1236</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:4.10.1200.10:FF:000001</td>
+      <td>Respiratory nitrate reductase subunit alpha</td>
+      <td>1.4E-26</td>
+      <td>2</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12440</td>
+      <td></td>
+      <td>0.0</td>
+      <td>44</td>
+      <td>1245</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:4.10.1200.10</td>
+      <td>nitrate reductase tail</td>
+      <td>1.4E-22</td>
+      <td>2</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01580</td>
+      <td>nitrate reductase subunit alpha</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>1235</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43105</td>
+      <td>RESPIRATORY NITRATE REDUCTASE</td>
+      <td>0.0</td>
+      <td>6</td>
+      <td>1226</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00384</td>
+      <td>Molybdopterin oxidoreductase</td>
+      <td>1.2E-72</td>
+      <td>108</td>
+      <td>833</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF01568</td>
+      <td>Molydopterin dinucleotide binding domain</td>
+      <td>2.7E-17</td>
+      <td>1087</td>
+      <td>1203</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF14710</td>
+      <td>Respiratory nitrate reductase alpha N-terminal</td>
+      <td>4.7E-14</td>
+      <td>3</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF28599</td>
+      <td>Nitrate reductase alpha chain, domain V</td>
+      <td>1.1E-43</td>
+      <td>911</td>
+      <td>1031</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00490</td>
+      <td>Prokaryotic molybdopterin oxidoreductases signature 2.</td>
+      <td></td>
+      <td>777</td>
+      <td>794</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00551</td>
+      <td>Prokaryotic molybdopterin oxidoreductases signature 1.</td>
+      <td></td>
+      <td>48</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00932</td>
+      <td>Prokaryotic molybdopterin oxidoreductases signature 3.</td>
+      <td></td>
+      <td>1125</td>
+      <td>1152</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS51669</td>
+      <td>Prokaryotic molybdopterin oxidoreductases 4Fe-4S domain profile.</td>
+      <td>23.57501</td>
+      <td>43</td>
+      <td>107</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00926</td>
+      <td>Molybdop_Fe4S4_2</td>
+      <td>6.6E-8</td>
+      <td>43</td>
+      <td>105</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF50692</td>
+      <td>ADC-like</td>
+      <td>3.62E-47</td>
+      <td>1081</td>
+      <td>1235</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53706</td>
+      <td>Formate dehydrogenase/DMSO reductase, domains 1-3</td>
+      <td>0.0</td>
+      <td>4</td>
+      <td>1074</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 38 annotation rows, 47 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00368</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02750</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02751</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02752</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02753</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02754</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02755</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02757</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02759</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02760</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02762</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02763</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02765</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02766</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02769</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02770</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02775</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02776</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02777</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02785</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK14990</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15102</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15488</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0243</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3383</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5013</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041513</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00509</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01553</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01580</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01591</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02164</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02166</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03479</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00384</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01568</td>
+      <td></td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0243</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>341.8</td>
+      <td>2.2e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3383</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>175.3</td>
+      <td>4.3e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01591</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>138.4</td>
+      <td>5.1e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00368</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>374.2</td>
+      <td>2.4e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02753</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>114.3</td>
+      <td>1.2e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02754</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>91.4</td>
+      <td>1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02762</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>47.8</td>
+      <td>1.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02766</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>153.9</td>
+      <td>1.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00384</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>255.3</td>
+      <td>1.9e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0243</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>341.8</td>
+      <td>2.2e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3383</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>175.3</td>
+      <td>4.3e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5013</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>2153.4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041513</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>42.3</td>
+      <td>5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14990</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>100.1</td>
+      <td>2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15102</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>84.5</td>
+      <td>1.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15488</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>97.2</td>
+      <td>1.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00509</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>120.5</td>
+      <td>1.5e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01553</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>49.1</td>
+      <td>4.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01580</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>2701.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01591</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>138.4</td>
+      <td>5.1e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02164</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>75.8</td>
+      <td>4.8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02166</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>185.7</td>
+      <td>2.7e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03479</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>563.8</td>
+      <td>1.5e-169</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00368</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>374.2</td>
+      <td>2.4e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02750</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>1181.7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02751</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>180.4</td>
+      <td>1.4e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02752</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>67.4</td>
+      <td>1.5e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02753</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>114.3</td>
+      <td>1.2e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02754</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>91.4</td>
+      <td>1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02755</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>156.1</td>
+      <td>2.7e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02757</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>103.5</td>
+      <td>2.4e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02759</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>161.8</td>
+      <td>4.5e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02760</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>62.0</td>
+      <td>6.5e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02762</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>47.8</td>
+      <td>1.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02763</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>61.0</td>
+      <td>1.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02765</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>211.8</td>
+      <td>4e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02766</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>153.9</td>
+      <td>1.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02769</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>104.9</td>
+      <td>8.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02770</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>190.4</td>
+      <td>1.3e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02775</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>72.3</td>
+      <td>6.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02776</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>229.8</td>
+      <td>2.2e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02777</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>46.2</td>
+      <td>8.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02785</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>52.7</td>
+      <td>8.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00384</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>255.3</td>
+      <td>1.9e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01568</td>
+      <td>Respiratory nitrate reductase 2 alpha chain</td>
+      <td>75.2</td>
+      <td>9.3e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>toxin-associated protein</td>
+      <td>0.51</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.99526113</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

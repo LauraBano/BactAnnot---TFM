@@ -1,0 +1,5718 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01795</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01795</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>acyl-CoA synthetase [EC:6.2.1.-]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K12507</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K12507</td></tr><tr><th>mf_proposal_ids</th><td>GO:0031956</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K04116</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K12507</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:6.2.1.-</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td>derived_from_ko</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K04116</td>
+      <td>EC:6.2.1.-</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K12507</td>
+      <td>EC:6.2.1.-</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:6.2.1.-</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.-</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.-</td>
+      <td>GO:0015645</td>
+      <td>GO:0015645</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.-</td>
+      <td>GO:0016405</td>
+      <td>GO:0016405</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.-</td>
+      <td>GO:0016874</td>
+      <td>GO:0016874</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.-</td>
+      <td>GO:0016877</td>
+      <td>GO:0016877</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.-</td>
+      <td>GO:0016878</td>
+      <td>GO:0016878</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.-</td>
+      <td>GO:0031956</td>
+      <td>GO:0031956</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1783031|1784677|+</td></tr><tr><th>protein_id</th><td>KOIAIB_01795</td></tr><tr><th>product</th><td>Cyclohexanecarboxylate-CoA ligase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1783031</td></tr><tr><th>stop</th><td>1784677</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_2073</td></tr><tr><th>locus_tag</th><td>KOIAIB_01795</td></tr><tr><th>aa_md5</th><td>b934c01baf11e5405e05925f65e6dc4d</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>I; Q</td></tr><tr><th>GO</th><td><details class="value-details"><summary>15 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0006631</li><li>GO:0015645</li><li>GO:0016020</li><li>GO:0016405</li><li>GO:0016874</li><li>GO:0016877</li><li>GO:0016878</li><li>GO:0031956</li><li>GO:0044464</li><li>GO:0071944</li></ul></details></td></tr><tr><th>EC</th><td>EC:6.2.1.-</td></tr><tr><th>KEGG_KO</th><td>KEGG:K04116; KEGG:K12507</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00362; KEGG:ko01120; KEGG:map00362; KEGG:map01120</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00540</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R05620</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR000873; INTERPRO:IPR020845; INTERPRO:IPR025110; INTERPRO:IPR042099; INTERPRO:IPR045851</td></tr><tr><th>PFAM</th><td>PFAM:PF00501; PFAM:PF13193</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>1</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd05903</td>
+      <td>CDD:cd04433;CDD:cd05903;CDD:cd05904;CDD:cd05905;CDD:cd05906;CDD:cd05907;CDD:cd05908;CDD:cd05909;CDD:cd05910;CDD:cd05911;CDD:cd05912;CDD:cd05914;CDD:cd05915;CDD:cd05917;CDD:cd05918;CDD:cd05919;CDD:cd05920;CDD:cd05921;CDD:cd05922;CDD:cd05923;CDD:cd05924;CDD:cd05926;CDD:cd05927;CDD:cd05928;CDD:cd05929;CDD:cd05930;CDD:cd05931;CDD:cd05932;CDD:cd05933;CDD:cd05934;CDD:cd05935;CDD:cd05936;CDD:cd05937;CDD:cd05938;CDD:cd05939;CDD:cd05940;CDD:cd05941;CDD:cd05943;CDD:cd05944;CDD:cd05945;CDD:cd05958;CDD:cd05959;CDD:cd05966;CDD:cd05967;CDD:cd05968;CDD:cd05969;CDD:cd05970;CDD:cd05971;CDD:cd05972;CDD:cd05973;CDD:cd05974;CDD:cd12114;CDD:cd12115;CDD:cd12116;CDD:cd12117;CDD:cd12118;CDD:cd12119;CDD:cd17630;CDD:cd17631;CDD:cd17632;CDD:cd17633;CDD:cd17634;CDD:cd17635;CDD:cd17636;CDD:cd17637;CDD:cd17638;CDD:cd17639;CDD:cd17640;CDD:cd17641;CDD:cd17642;CDD:cd17643;CDD:cd17644;CDD:cd17645;CDD:cd17646;CDD:cd17647;CDD:cd17648;CDD:cd17649;CDD:cd17650;CDD:cd17651;CDD:cd17652;CDD:cd17653;CDD:cd17654;CDD:cd17655;CDD:cd17656</td>
+      <td>CDD:cd05903</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0318</td>
+      <td>COG:COG0318;COG:COG0365;COG:COG1020;COG:COG1021;COG:COG1022;COG:COG1541</td>
+      <td>COG:COG0318</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:6.2.1.-</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:6.2.1.-</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005575;GO:0005623;GO:0005886;GO:0015645;GO:0016020;GO:0016405;GO:0016874;GO:0016877;GO:0016878;GO:0031956;GO:0044464;GO:0071944</td>
+      <td>GO:0006631;GO:0031956</td>
+      <td>GO:0031956</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K04116;KEGG:K12507</td>
+      <td>KEGG:K12507</td>
+      <td>KEGG:K12507</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF004758</td>
+      <td>NCBIFAM:NF038078;NCBIFAM:NF038341;NCBIFAM:NF038342;NCBIFAM:NF038343;NCBIFAM:NF038344;NCBIFAM:NF041592;NCBIFAM:TIGR01217;NCBIFAM:TIGR01733;NCBIFAM:TIGR01734;NCBIFAM:TIGR01923;NCBIFAM:TIGR02188;NCBIFAM:TIGR02262;NCBIFAM:TIGR02275;NCBIFAM:TIGR02316;NCBIFAM:TIGR02372;NCBIFAM:TIGR03098;NCBIFAM:TIGR03205;NCBIFAM:TIGR03208;NCBIFAM:TIGR03443</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF004758</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF038078;NCBIFAM:NF038341;NCBIFAM:NF038342;NCBIFAM:NF038343;NCBIFAM:NF038344;NCBIFAM:NF041592;NCBIFAM:TIGR01217;NCBIFAM:TIGR01733;NCBIFAM:TIGR01734;NCBIFAM:TIGR01923;NCBIFAM:TIGR02188;NCBIFAM:TIGR02262;NCBIFAM:TIGR02275;NCBIFAM:TIGR02316;NCBIFAM:TIGR02372;NCBIFAM:TIGR03098;NCBIFAM:TIGR03205;NCBIFAM:TIGR03208;NCBIFAM:TIGR03443</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 40 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECIAI1_1343.ECIAI1_1755</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0318</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>I</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>Q</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MU6G@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMQ4@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMA2@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0318@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0318@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015645</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016405</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016874</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016877</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016878</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031956</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K04116</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K12507</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00540</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC01438</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>AMP-binding</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>AMP-binding_C</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85675083</td>
+      <td>fadK</td>
+      <td>Catalyzes the esterification, concomitant with transport, of exogenous fatty acids into metabolically active CoA thioesters for subsequent degradation or incorporation into phospholipids. Is maximally active on C6 0, C8 0 and C12 0 fatty acids, while has a low activity on C14-C18 chain length fatty acids. Is involved in the anaerobic beta-oxidative degradation of fatty acids, which allows anaerobic growth of E.coli on fatty acids as a sole carbon and energy source in the presence of nitrate or fumarate as a terminal electron acceptor. Can functionally replace FadD under anaerobic conditions</td>
+      <td>1112.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>96.8</td>
+      <td>1</td>
+      <td>548</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:6.2.1.-</td>
+      <td>KEGG:K12507</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K12507</td>
+      <td></td>
+      <td>acyl-CoA synthetase [EC:6.2.1.-]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K12507</td>
+      <td>acyl-CoA synthetase [EC:6.2.1.-]</td>
+      <td>above_threshold</td>
+      <td>741.5</td>
+      <td>601.93</td>
+      <td>1.3e-223</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 18 annotation rows, 11 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd05903</td>
+      <td></td>
+      <td>CHC_CoA_lg</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.300.30:FF:000026</td>
+      <td></td>
+      <td>Short-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.12780:FF:000044</td>
+      <td></td>
+      <td>Short-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.300.30</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.12780</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006631</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43201","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0031956</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43201","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000873</td>
+      <td></td>
+      <td>AMP-dependent synthetase/ligase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020845</td>
+      <td></td>
+      <td>AMP-binding, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR025110</td>
+      <td></td>
+      <td>AMP-binding enzyme, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR042099</td>
+      <td></td>
+      <td>ANL, N-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR045851</td>
+      <td></td>
+      <td>AMP-binding enzyme domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF004758</td>
+      <td></td>
+      <td>medium-chain fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43201</td>
+      <td></td>
+      <td>ACYL-COA SYNTHETASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00501</td>
+      <td></td>
+      <td>AMP-binding enzyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13193</td>
+      <td></td>
+      <td>AMP-binding enzyme C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00455</td>
+      <td></td>
+      <td>Putative AMP-binding domain signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56801</td>
+      <td></td>
+      <td>Acetyl-CoA synthetase-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd05903</td>
+      <td>CHC_CoA_lg</td>
+      <td>0.0</td>
+      <td>50</td>
+      <td>533</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.300.30:FF:000026</td>
+      <td>Short-chain-fatty-acid--CoA ligase</td>
+      <td>7.9E-56</td>
+      <td>434</td>
+      <td>539</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12780:FF:000044</td>
+      <td>Short-chain-fatty-acid--CoA ligase</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>433</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.300.30</td>
+      <td></td>
+      <td>9.2E-28</td>
+      <td>434</td>
+      <td>539</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12780</td>
+      <td></td>
+      <td>7.7E-110</td>
+      <td>3</td>
+      <td>433</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF004758</td>
+      <td>medium-chain fatty-acid--CoA ligase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>547</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43201</td>
+      <td>ACYL-COA SYNTHETASE</td>
+      <td>8.6E-106</td>
+      <td>33</td>
+      <td>535</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00501</td>
+      <td>AMP-binding enzyme</td>
+      <td>7.7E-85</td>
+      <td>31</td>
+      <td>397</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF13193</td>
+      <td>AMP-binding enzyme C-terminal domain</td>
+      <td>5.1E-15</td>
+      <td>448</td>
+      <td>525</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00455</td>
+      <td>Putative AMP-binding domain signature.</td>
+      <td></td>
+      <td>193</td>
+      <td>204</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56801</td>
+      <td>Acetyl-CoA synthetase-like</td>
+      <td>0.0</td>
+      <td>24</td>
+      <td>535</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 209 annotation rows, 415 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04433</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05903</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05904</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05905</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05906</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05907</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05908</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05909</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05910</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05911</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05912</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05914</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05915</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05917</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05918</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05919</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05920</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05921</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05922</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05923</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05924</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05926</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05927</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05928</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05929</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05930</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05931</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05932</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05933</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05934</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05935</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05936</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05937</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05938</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05939</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05940</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05941</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05943</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05944</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05945</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05958</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05959</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05966</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05967</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05968</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05969</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05970</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05971</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05972</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05973</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05974</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12114</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12115</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12116</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12117</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12118</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12119</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17630</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17631</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17632</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17633</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17634</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17635</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17636</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17637</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17638</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17639</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17640</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17641</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17642</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17643</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17644</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17645</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17646</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17647</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17648</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17649</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17650</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17651</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17652</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17653</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17654</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17655</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17656</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02246</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02330</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02387</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02430</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02479</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02574</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02614</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02654</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02736</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02860</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02861</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN03052</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN03102</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00174</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03584</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03640</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04319</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04813</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05605</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05620</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05677</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05691</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05850</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05851</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05852</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05857</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06018</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06060</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06087</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06145</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06155</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06164</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06178</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06187</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06188</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06334</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06710</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06814</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06839</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07008</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07059</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07445</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07470</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07514</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07529</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07638</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07656</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07768</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07786</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07787</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07788</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07798</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07824</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07867</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08008</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08043</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08162</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08180</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08276</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08279</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08308</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08314</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08315</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08316</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08633</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08751</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08974</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09029</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09088</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09192</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09274</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10252</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10524</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10946</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12316</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12406</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12467</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12492</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12582</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12583</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13295</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13382</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13383</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13388</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13390</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13391</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00216</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00237</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00342</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0318</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0365</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1020</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1021</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1022</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1541</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1175</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1176</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1177</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1178</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1179</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1180</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1256</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038078</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038341</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038342</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038343</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038344</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041592</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01217</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01733</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01734</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01923</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02188</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02262</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02275</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02316</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02372</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03098</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03205</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03208</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03443</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00501</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13193</td>
+      <td></td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0318</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>496.2</td>
+      <td>1.8e-149</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0365</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>333.4</td>
+      <td>4.4e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1020</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>212.5</td>
+      <td>3.4e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1021</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>435.1</td>
+      <td>5.6e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1022</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>262.0</td>
+      <td>2e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1541</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>78.6</td>
+      <td>7.5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1175</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>190.9</td>
+      <td>7.9e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1176</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>368.9</td>
+      <td>9.1e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1177</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>355.0</td>
+      <td>1.5e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1178</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>52.1</td>
+      <td>5.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1179</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>135.4</td>
+      <td>5e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1180</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>104.1</td>
+      <td>1.4e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1256</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>180.8</td>
+      <td>7.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038078</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>136.9</td>
+      <td>1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038341</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>177.5</td>
+      <td>7.4e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038342</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>66.4</td>
+      <td>3.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038343</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>120.9</td>
+      <td>1.2e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038344</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>96.0</td>
+      <td>3.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041592</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>69.5</td>
+      <td>2.7e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02246</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>211.2</td>
+      <td>5.5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02330</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>146.2</td>
+      <td>2.7e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02387</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>79.2</td>
+      <td>5.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02430</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>67.1</td>
+      <td>1.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02479</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>153.1</td>
+      <td>1.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02574</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>184.4</td>
+      <td>7.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02614</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>46.8</td>
+      <td>2.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02654</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>114.4</td>
+      <td>9.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02736</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>106.0</td>
+      <td>3.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02860</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>189.6</td>
+      <td>1.9e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02861</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>58.5</td>
+      <td>8.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03052</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>75.0</td>
+      <td>7.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03102</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>124.4</td>
+      <td>1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00174</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>148.4</td>
+      <td>5.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03584</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>86.7</td>
+      <td>2.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03640</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>248.7</td>
+      <td>2.2e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04319</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>212.1</td>
+      <td>2.6e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04813</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>102.5</td>
+      <td>4.6e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05605</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>256.9</td>
+      <td>7e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05620</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>116.8</td>
+      <td>1.8e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05677</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>218.0</td>
+      <td>4.5e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05691</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>121.5</td>
+      <td>2.1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05850</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>62.8</td>
+      <td>4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05851</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>59.2</td>
+      <td>4.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05852</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>183.4</td>
+      <td>1.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05857</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>92.0</td>
+      <td>7.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06018</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>205.5</td>
+      <td>3.1e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06060</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>113.8</td>
+      <td>1.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06087</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>1090.8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06145</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>238.9</td>
+      <td>1.8e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06155</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>248.4</td>
+      <td>2.4e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06164</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>216.5</td>
+      <td>1.4e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06178</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>242.8</td>
+      <td>1.6e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06187</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>400.9</td>
+      <td>1.4e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06188</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>251.3</td>
+      <td>3.8e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06334</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>120.7</td>
+      <td>1.5e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06710</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>190.5</td>
+      <td>7.9e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06814</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>176.7</td>
+      <td>1.4e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06839</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>268.6</td>
+      <td>2.1e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07008</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>187.6</td>
+      <td>8.5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07059</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>214.9</td>
+      <td>3.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07445</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>112.9</td>
+      <td>3e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07470</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>247.1</td>
+      <td>7.5e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07514</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>288.2</td>
+      <td>2e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07529</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>241.6</td>
+      <td>3.4e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07638</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>166.0</td>
+      <td>2.4e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07656</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>384.5</td>
+      <td>1.3e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07768</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>130.7</td>
+      <td>1.1e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07786</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>270.9</td>
+      <td>3.9e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07787</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>211.7</td>
+      <td>3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07788</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>257.6</td>
+      <td>4.6e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07798</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>210.4</td>
+      <td>9.7e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07824</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>124.7</td>
+      <td>1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07867</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>141.5</td>
+      <td>7.4e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08008</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>240.0</td>
+      <td>9.7e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08043</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>123.4</td>
+      <td>1.9e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08162</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>251.1</td>
+      <td>3.8e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08180</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>96.5</td>
+      <td>2.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08276</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>224.8</td>
+      <td>3.8e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08279</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>136.8</td>
+      <td>2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08308</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>91.4</td>
+      <td>1.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08314</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>274.3</td>
+      <td>3.6e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08315</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>374.4</td>
+      <td>2e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08316</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>335.7</td>
+      <td>9.5e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08633</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>203.2</td>
+      <td>1.2e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08751</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>176.0</td>
+      <td>2.3e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08974</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>202.9</td>
+      <td>1.3e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09029</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>152.5</td>
+      <td>3.5e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09088</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>258.2</td>
+      <td>3.1e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09192</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>118.3</td>
+      <td>6.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09274</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>141.1</td>
+      <td>7.3e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10252</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>119.9</td>
+      <td>1.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10524</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>99.7</td>
+      <td>3.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10946</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>304.1</td>
+      <td>3.2e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12316</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>148.6</td>
+      <td>1.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12406</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>199.1</td>
+      <td>2.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12467</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>145.6</td>
+      <td>1.2e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12492</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>216.8</td>
+      <td>1.1e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12582</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>84.2</td>
+      <td>1.3e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12583</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>353.7</td>
+      <td>3.4e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13295</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>504.4</td>
+      <td>8.8e-152</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13382</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>197.8</td>
+      <td>6.7e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13383</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>110.3</td>
+      <td>2.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13388</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>142.4</td>
+      <td>3.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13390</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>119.9</td>
+      <td>2.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13391</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>199.4</td>
+      <td>1.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00216</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>83.9</td>
+      <td>1.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00237</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>66.7</td>
+      <td>3.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00342</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>54.5</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01217</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>61.2</td>
+      <td>1.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01733</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>178.0</td>
+      <td>6e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01734</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>93.5</td>
+      <td>2.5e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01923</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>240.3</td>
+      <td>8.6e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02188</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>159.9</td>
+      <td>1.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02262</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>219.7</td>
+      <td>1.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02275</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>327.7</td>
+      <td>2.3e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02316</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>93.1</td>
+      <td>3.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02372</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>54.0</td>
+      <td>2.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03098</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>223.5</td>
+      <td>9.5e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03205</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>157.5</td>
+      <td>9.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03208</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>417.3</td>
+      <td>2.3e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03443</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>49.9</td>
+      <td>1.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04433</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>326.9</td>
+      <td>2.6e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05903</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>718.5</td>
+      <td>8.5e-217</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05904</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>284.4</td>
+      <td>3.4e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05905</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>42.7</td>
+      <td>4.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05906</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>182.0</td>
+      <td>3.7e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05907</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>246.8</td>
+      <td>8.5e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05908</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>141.6</td>
+      <td>5.9e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05909</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>213.9</td>
+      <td>6.5e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05910</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>99.9</td>
+      <td>2.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05911</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>305.9</td>
+      <td>9.2e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05912</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>249.7</td>
+      <td>1e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05914</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>212.5</td>
+      <td>2.1e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05915</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>221.6</td>
+      <td>4.1e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05917</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>288.2</td>
+      <td>1.9e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05918</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>153.7</td>
+      <td>1.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05919</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>249.1</td>
+      <td>1.7e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05920</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>369.4</td>
+      <td>5e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05921</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>80.2</td>
+      <td>2.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05922</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>214.8</td>
+      <td>3.9e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05923</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>193.8</td>
+      <td>1.1e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05924</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>142.4</td>
+      <td>5.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05926</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>297.0</td>
+      <td>5.2e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05927</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>120.6</td>
+      <td>1.3e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05928</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>185.2</td>
+      <td>3.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05929</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>178.4</td>
+      <td>4.8e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05930</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>238.3</td>
+      <td>2.9e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05931</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>171.5</td>
+      <td>5.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05932</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>141.5</td>
+      <td>6e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05933</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>115.9</td>
+      <td>4.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05934</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>310.3</td>
+      <td>3.9e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05935</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>283.2</td>
+      <td>7.1e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05936</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>374.9</td>
+      <td>1.1e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05937</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>116.5</td>
+      <td>3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05938</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>102.1</td>
+      <td>5.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05939</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>102.4</td>
+      <td>5.2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05940</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>119.4</td>
+      <td>3.7e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05941</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>290.5</td>
+      <td>4.7e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05943</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>94.6</td>
+      <td>1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05944</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>189.0</td>
+      <td>2.3e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05945</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>193.0</td>
+      <td>1.6e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05958</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>248.8</td>
+      <td>2.1e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05959</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>248.2</td>
+      <td>3.9e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05966</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>169.4</td>
+      <td>2.7e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05967</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>146.0</td>
+      <td>3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05968</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>124.8</td>
+      <td>9e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05969</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>205.5</td>
+      <td>2.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05970</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>174.5</td>
+      <td>6.5e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05971</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>209.5</td>
+      <td>1.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05972</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>254.7</td>
+      <td>3.2e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05973</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>207.1</td>
+      <td>8.8e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05974</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>122.3</td>
+      <td>5.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12114</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>171.0</td>
+      <td>8.4e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12115</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>150.7</td>
+      <td>1.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12116</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>180.1</td>
+      <td>1.5e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12117</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>199.9</td>
+      <td>1.1e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12118</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>267.1</td>
+      <td>5.6e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12119</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>273.5</td>
+      <td>7.5e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17630</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>196.4</td>
+      <td>1.3e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17631</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>388.2</td>
+      <td>1.2e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17632</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>63.7</td>
+      <td>2.8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17633</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>143.1</td>
+      <td>2.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17634</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>152.8</td>
+      <td>2.7e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17635</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>165.4</td>
+      <td>3.6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17636</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>174.2</td>
+      <td>7.9e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17637</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>217.9</td>
+      <td>3.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17638</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>244.9</td>
+      <td>2.4e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17639</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>126.3</td>
+      <td>2.8e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17640</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>181.5</td>
+      <td>6.1e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17641</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>111.8</td>
+      <td>5.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17642</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>192.1</td>
+      <td>3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17643</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>172.0</td>
+      <td>4.2e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17644</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>149.8</td>
+      <td>2.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17645</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>137.4</td>
+      <td>1.2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17646</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>219.7</td>
+      <td>1.4e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17647</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>63.7</td>
+      <td>2.7e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17648</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>118.5</td>
+      <td>6.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17649</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>188.9</td>
+      <td>3.2e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17650</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>134.6</td>
+      <td>1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17651</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>205.3</td>
+      <td>3.4e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17652</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>183.3</td>
+      <td>1.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17653</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>143.6</td>
+      <td>1.5e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17654</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>106.7</td>
+      <td>2.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17655</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>160.4</td>
+      <td>1.2e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17656</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>123.4</td>
+      <td>2.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00501</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>356.7</td>
+      <td>3.3e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13193</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>68.6</td>
+      <td>1.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0318</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>496.2</td>
+      <td>1.8e-149</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0365</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>333.4</td>
+      <td>4.4e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1020</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>212.5</td>
+      <td>3.4e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1021</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>435.1</td>
+      <td>5.6e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1022</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>262.0</td>
+      <td>2e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1541</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>78.6</td>
+      <td>7.5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1175</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>190.9</td>
+      <td>7.9e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1176</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>368.9</td>
+      <td>9.1e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1177</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>355.0</td>
+      <td>1.5e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1178</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>52.1</td>
+      <td>5.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1179</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>135.4</td>
+      <td>5e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1180</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>104.1</td>
+      <td>1.4e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1256</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>180.8</td>
+      <td>7.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038078</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>136.9</td>
+      <td>1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038341</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>177.5</td>
+      <td>7.4e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038342</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>66.4</td>
+      <td>3.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038343</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>120.9</td>
+      <td>1.2e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038344</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>96.0</td>
+      <td>3.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041592</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>69.5</td>
+      <td>2.7e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02246</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>211.2</td>
+      <td>5.5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02330</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>146.2</td>
+      <td>2.7e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02387</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>79.2</td>
+      <td>5.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02430</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>67.1</td>
+      <td>1.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02479</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>153.1</td>
+      <td>1.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02574</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>184.4</td>
+      <td>7.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02614</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>46.8</td>
+      <td>2.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02654</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>114.4</td>
+      <td>9.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02736</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>106.0</td>
+      <td>3.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02860</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>189.6</td>
+      <td>1.9e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02861</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>58.5</td>
+      <td>8.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03052</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>75.0</td>
+      <td>7.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03102</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>124.4</td>
+      <td>1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00174</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>148.4</td>
+      <td>5.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03584</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>86.7</td>
+      <td>2.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03640</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>248.7</td>
+      <td>2.2e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04319</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>212.1</td>
+      <td>2.6e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04813</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>102.5</td>
+      <td>4.6e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05605</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>256.9</td>
+      <td>7e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05620</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>116.8</td>
+      <td>1.8e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05677</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>218.0</td>
+      <td>4.5e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05691</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>121.5</td>
+      <td>2.1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05850</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>62.8</td>
+      <td>4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05851</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>59.2</td>
+      <td>4.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05852</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>183.4</td>
+      <td>1.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05857</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>92.0</td>
+      <td>7.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06018</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>205.5</td>
+      <td>3.1e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06060</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>113.8</td>
+      <td>1.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06087</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>1090.8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06145</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>238.9</td>
+      <td>1.8e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06155</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>248.4</td>
+      <td>2.4e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06164</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>216.5</td>
+      <td>1.4e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06178</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>242.8</td>
+      <td>1.6e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06187</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>400.9</td>
+      <td>1.4e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06188</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>251.3</td>
+      <td>3.8e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06334</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>120.7</td>
+      <td>1.5e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06710</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>190.5</td>
+      <td>7.9e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06814</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>176.7</td>
+      <td>1.4e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06839</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>268.6</td>
+      <td>2.1e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07008</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>187.6</td>
+      <td>8.5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07059</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>214.9</td>
+      <td>3.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07445</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>112.9</td>
+      <td>3e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07470</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>247.1</td>
+      <td>7.5e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07514</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>288.2</td>
+      <td>2e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07529</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>241.6</td>
+      <td>3.4e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07638</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>166.0</td>
+      <td>2.4e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07656</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>384.5</td>
+      <td>1.3e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07768</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>130.7</td>
+      <td>1.1e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07786</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>270.9</td>
+      <td>3.9e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07787</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>211.7</td>
+      <td>3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07788</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>257.6</td>
+      <td>4.6e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07798</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>210.4</td>
+      <td>9.7e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07824</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>124.7</td>
+      <td>1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07867</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>141.5</td>
+      <td>7.4e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08008</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>240.0</td>
+      <td>9.7e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08043</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>123.4</td>
+      <td>1.9e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08162</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>251.1</td>
+      <td>3.8e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08180</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>96.5</td>
+      <td>2.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08276</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>224.8</td>
+      <td>3.8e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08279</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>136.8</td>
+      <td>2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08308</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>91.4</td>
+      <td>1.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08314</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>274.3</td>
+      <td>3.6e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08315</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>374.4</td>
+      <td>2e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08316</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>335.7</td>
+      <td>9.5e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08633</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>203.2</td>
+      <td>1.2e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08751</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>176.0</td>
+      <td>2.3e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08974</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>202.9</td>
+      <td>1.3e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09029</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>152.5</td>
+      <td>3.5e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09088</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>258.2</td>
+      <td>3.1e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09192</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>118.3</td>
+      <td>6.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09274</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>141.1</td>
+      <td>7.3e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10252</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>119.9</td>
+      <td>1.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10524</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>99.7</td>
+      <td>3.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10946</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>304.1</td>
+      <td>3.2e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12316</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>148.6</td>
+      <td>1.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12406</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>199.1</td>
+      <td>2.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12467</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>145.6</td>
+      <td>1.2e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12492</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>216.8</td>
+      <td>1.1e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12582</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>84.2</td>
+      <td>1.3e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12583</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>353.7</td>
+      <td>3.4e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13295</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>504.4</td>
+      <td>8.8e-152</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13382</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>197.8</td>
+      <td>6.7e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13383</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>110.3</td>
+      <td>2.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13388</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>142.4</td>
+      <td>3.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13390</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>119.9</td>
+      <td>2.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13391</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>199.4</td>
+      <td>1.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00216</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>83.9</td>
+      <td>1.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00237</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>66.7</td>
+      <td>3.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00342</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>54.5</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01217</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>61.2</td>
+      <td>1.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01733</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>178.0</td>
+      <td>6e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01734</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>93.5</td>
+      <td>2.5e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01923</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>240.3</td>
+      <td>8.6e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02188</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>159.9</td>
+      <td>1.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02262</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>219.7</td>
+      <td>1.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02275</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>327.7</td>
+      <td>2.3e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02316</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>93.1</td>
+      <td>3.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02372</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>54.0</td>
+      <td>2.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03098</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>223.5</td>
+      <td>9.5e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03205</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>157.5</td>
+      <td>9.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03208</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>417.3</td>
+      <td>2.3e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03443</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>49.9</td>
+      <td>1.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04433</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>326.9</td>
+      <td>2.6e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05903</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>718.5</td>
+      <td>8.5e-217</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05904</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>284.4</td>
+      <td>3.4e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05905</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>42.7</td>
+      <td>4.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05906</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>182.0</td>
+      <td>3.7e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05907</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>246.8</td>
+      <td>8.5e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05908</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>141.6</td>
+      <td>5.9e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05909</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>213.9</td>
+      <td>6.5e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05910</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>99.9</td>
+      <td>2.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05911</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>305.9</td>
+      <td>9.2e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05912</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>249.7</td>
+      <td>1e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05914</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>212.5</td>
+      <td>2.1e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05915</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>221.6</td>
+      <td>4.1e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05917</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>288.2</td>
+      <td>1.9e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05918</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>153.7</td>
+      <td>1.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05919</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>249.1</td>
+      <td>1.7e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05920</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>369.4</td>
+      <td>5e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05921</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>80.2</td>
+      <td>2.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05922</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>214.8</td>
+      <td>3.9e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05923</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>193.8</td>
+      <td>1.1e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05924</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>142.4</td>
+      <td>5.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05926</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>297.0</td>
+      <td>5.2e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05927</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>120.6</td>
+      <td>1.3e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05928</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>185.2</td>
+      <td>3.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05929</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>178.4</td>
+      <td>4.8e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05930</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>238.3</td>
+      <td>2.9e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05931</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>171.5</td>
+      <td>5.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05932</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>141.5</td>
+      <td>6e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05933</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>115.9</td>
+      <td>4.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05934</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>310.3</td>
+      <td>3.9e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05935</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>283.2</td>
+      <td>7.1e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05936</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>374.9</td>
+      <td>1.1e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05937</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>116.5</td>
+      <td>3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05938</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>102.1</td>
+      <td>5.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05939</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>102.4</td>
+      <td>5.2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05940</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>119.4</td>
+      <td>3.7e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05941</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>290.5</td>
+      <td>4.7e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05943</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>94.6</td>
+      <td>1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05944</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>189.0</td>
+      <td>2.3e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05945</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>193.0</td>
+      <td>1.6e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05958</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>248.8</td>
+      <td>2.1e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05959</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>248.2</td>
+      <td>3.9e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05966</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>169.4</td>
+      <td>2.7e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05967</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>146.0</td>
+      <td>3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05968</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>124.8</td>
+      <td>9e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05969</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>205.5</td>
+      <td>2.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05970</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>174.5</td>
+      <td>6.5e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05971</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>209.5</td>
+      <td>1.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05972</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>254.7</td>
+      <td>3.2e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05973</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>207.1</td>
+      <td>8.8e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05974</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>122.3</td>
+      <td>5.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12114</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>171.0</td>
+      <td>8.4e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12115</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>150.7</td>
+      <td>1.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12116</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>180.1</td>
+      <td>1.5e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12117</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>199.9</td>
+      <td>1.1e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12118</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>267.1</td>
+      <td>5.6e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12119</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>273.5</td>
+      <td>7.5e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17630</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>196.4</td>
+      <td>1.3e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17631</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>388.2</td>
+      <td>1.2e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17632</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>63.7</td>
+      <td>2.8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17633</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>143.1</td>
+      <td>2.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17634</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>152.8</td>
+      <td>2.7e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17635</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>165.4</td>
+      <td>3.6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17636</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>174.2</td>
+      <td>7.9e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17637</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>217.9</td>
+      <td>3.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17638</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>244.9</td>
+      <td>2.4e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17639</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>126.3</td>
+      <td>2.8e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17640</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>181.5</td>
+      <td>6.1e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17641</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>111.8</td>
+      <td>5.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17642</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>192.1</td>
+      <td>3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17643</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>172.0</td>
+      <td>4.2e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17644</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>149.8</td>
+      <td>2.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17645</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>137.4</td>
+      <td>1.2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17646</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>219.7</td>
+      <td>1.4e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17647</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>63.7</td>
+      <td>2.7e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17648</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>118.5</td>
+      <td>6.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17649</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>188.9</td>
+      <td>3.2e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17650</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>134.6</td>
+      <td>1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17651</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>205.3</td>
+      <td>3.4e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17652</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>183.3</td>
+      <td>1.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17653</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>143.6</td>
+      <td>1.5e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17654</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>106.7</td>
+      <td>2.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17655</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>160.4</td>
+      <td>1.2e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17656</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>123.4</td>
+      <td>2.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00501</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>356.7</td>
+      <td>3.3e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13193</td>
+      <td>Cyclohexanecarboxylate-CoA ligase</td>
+      <td>68.6</td>
+      <td>1.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.96554095</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

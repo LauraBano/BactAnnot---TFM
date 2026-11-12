@@ -1,0 +1,2535 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_02648</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_02648</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>IMP dehydrogenase [EC:1.1.1.205]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K00088</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K00088</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.1.1.205</td></tr><tr><th>mf_proposal_ids</th><td>GO:0003938</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00088</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.1.1.205</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00088</td>
+      <td>EC:1.1.1.205</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.1.1.205</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.205</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.205</td>
+      <td>GO:0003938</td>
+      <td>GO:0003938</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.205</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.205</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.205</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.205</td>
+      <td>GO:0016614</td>
+      <td>GO:0016614</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.205</td>
+      <td>GO:0016616</td>
+      <td>GO:0016616</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.205</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|2632604|2634070|-</td></tr><tr><th>protein_id</th><td>KOIAIB_02648</td></tr><tr><th>product</th><td>Inosine-5&#x27;-monophosphate dehydrogenase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>2632604</td></tr><tr><th>stop</th><td>2634070</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_2869</td></tr><tr><th>locus_tag</th><td>KOIAIB_02648</td></tr><tr><th>aa_md5</th><td>116bddd68b8f96de06d9da6d574d1a85</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>F</td></tr><tr><th>GO</th><td><details class="value-details"><summary>91 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0003938</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006139</li><li>GO:0006163</li><li>GO:0006164</li><li>GO:0006183</li><li>GO:0006725</li><li>GO:0006753</li><li>GO:0006793</li><li>GO:0006796</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009058</li><li>GO:0009116</li><li>GO:0009117</li><li>GO:0009119</li><li>GO:0009141</li><li>GO:0009142</li><li>GO:0009144</li><li>GO:0009145</li><li>GO:0009150</li><li>GO:0009152</li><li>GO:0009163</li><li>GO:0009165</li><li>GO:0009199</li><li>GO:0009201</li><li>GO:0009205</li><li>GO:0009206</li><li>GO:0009259</li><li>GO:0009260</li><li>GO:0009314</li><li>GO:0009411</li><li>GO:0009416</li><li>GO:0009628</li><li>GO:0009987</li><li>GO:0016491</li><li>GO:0016614</li><li>GO:0016616</li><li>GO:0018130</li><li>GO:0019438</li><li>GO:0019637</li><li>GO:0019693</li><li>GO:0034404</li><li>GO:0034641</li><li>GO:0034654</li><li>GO:0042278</li><li>GO:0042451</li><li>GO:0042455</li><li>GO:0042802</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044249</li><li>GO:0044271</li><li>GO:0044281</li><li>GO:0044283</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046039</li><li>GO:0046128</li><li>GO:0046129</li><li>GO:0046390</li><li>GO:0046483</li><li>GO:0050896</li><li>GO:0055086</li><li>GO:0055114</li><li>GO:0071704</li><li>GO:0072521</li><li>GO:0072522</li><li>GO:0090407</li><li>GO:1901068</li><li>GO:1901070</li><li>GO:1901135</li><li>GO:1901137</li><li>GO:1901293</li><li>GO:1901360</li><li>GO:1901362</li><li>GO:1901564</li><li>GO:1901566</li><li>GO:1901576</li><li>GO:1901657</li><li>GO:1901659</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.1.1.205</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00088</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>8 values</summary><ul class="value-list"><li>KEGG:ko00230</li><li>KEGG:ko00983</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:map00230</li><li>KEGG:map00983</li><li>KEGG:map01100</li><li>KEGG:map01110</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00050</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R01130; KEGG:R08240</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR000644; INTERPRO:IPR001093; INTERPRO:IPR005990; INTERPRO:IPR013785; INTERPRO:IPR015875; INTERPRO:IPR046342</td></tr><tr><th>PFAM</th><td>PFAM:PF00478; PFAM:PF00571; PFAM:PF03060</td></tr><tr><th>SMART</th><td>SMART:SM00116; SMART:SM01240</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>6</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd00381;CDD:cd04601</td>
+      <td>CDD:cd00381;CDD:cd02205;CDD:cd04583;CDD:cd04584;CDD:cd04586;CDD:cd04588;CDD:cd04592;CDD:cd04595;CDD:cd04596;CDD:cd04599;CDD:cd04600;CDD:cd04601;CDD:cd04605;CDD:cd04606;CDD:cd04610;CDD:cd04622;CDD:cd04722;CDD:cd04730;CDD:cd04801;CDD:cd09836;CDD:cd17775;CDD:cd17776</td>
+      <td>CDD:cd00381;CDD:cd04601</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0516;COG:COG0517</td>
+      <td>COG:COG0516;COG:COG0517;COG:COG1304;COG:COG2070;COG:COG2239;COG:COG2524;COG:COG2905;COG:COG3448;COG:COG4109</td>
+      <td>COG:COG0516;COG:COG0517</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.1.1.205</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.1.1.205</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.1.1.205</td>
+      <td>EC:1.1.1.205</td>
+      <td>EC:1.1.1.205</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0003938;GO:0005488;GO:0005515;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006139;GO:0006163;GO:0006164;GO:0006183;GO:0006725;GO:0006753;GO:0006793;GO:0006796;GO:0006807;GO:0008150;GO:0008152;GO:0009058;GO:0009116;GO:0009117;GO:0009119;GO:0009141;GO:0009142;GO:0009144;GO:0009145;GO:0009150;GO:0009152;GO:0009163;GO:0009165;GO:0009199;GO:0009201;GO:0009205;GO:0009206;GO:0009259;GO:0009260;GO:0009314;GO:0009411;GO:0009416;GO:0009628;GO:0009987;GO:0016491;GO:0016614;GO:0016616;GO:0018130;GO:0019438;GO:0019637;GO:0019693;GO:0034404;GO:0034641;GO:0034654;GO:0042278;GO:0042451;GO:0042455;GO:0042802;GO:0044237;GO:0044238;GO:0044249;GO:0044271;GO:0044281;GO:0044283;GO:0044424;GO:0044444;GO:0044464;GO:0046039;GO:0046128;GO:0046129;GO:0046390;GO:0046483;GO:0050896;GO:0055086;GO:0055114;GO:0071704;GO:0072521;GO:0072522;GO:0090407;GO:1901068;GO:1901070;GO:1901135;GO:1901137;GO:1901293;GO:1901360;GO:1901362;GO:1901564;GO:1901566;GO:1901576;GO:1901657;GO:1901659</td>
+      <td>GO:0003824;GO:0003938;GO:0006164;GO:0006183;GO:0016491</td>
+      <td>GO:0003824;GO:0003938;GO:0006164;GO:0006183;GO:0016491</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00088</td>
+      <td>KEGG:K00088</td>
+      <td>KEGG:K00088</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:TIGR01302</td>
+      <td>NCBIFAM:TIGR01302;NCBIFAM:TIGR01303;NCBIFAM:TIGR01304;NCBIFAM:TIGR01305;NCBIFAM:TIGR01306</td>
+      <td>NCBIFAM:TIGR01302</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01302</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01302;NCBIFAM:TIGR01303;NCBIFAM:TIGR01304;NCBIFAM:TIGR01305;NCBIFAM:TIGR01306</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00478;PFAM:PF00571</td>
+      <td>PFAM:PF00478;PFAM:PF00571;PFAM:PF03060</td>
+      <td>PFAM:PF00478;PFAM:PF00571</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00478;PFAM:PF00571</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00478;PFAM:PF00571;PFAM:PF03060</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00116;SMART:SM01240</td>
+      <td>SMART:SM00116</td>
+      <td>SMART:SM00116</td>
+      <td>partial</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 130 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iAPECO1_1312.APECO1_4018</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECABU_c1320.ECABU_c28100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECP_1309.ECP_2510</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECSF_1327.ECSF_2349</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iUTI89_1310.UTI89_C2826</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>ic_1306.c3027</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0516</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0517</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.1.1.205</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MUJM@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMT8@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XNH9@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0516@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0516@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0517@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0517@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003938</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006139</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006163</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006164</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006183</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006753</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009116</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009117</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009119</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009141</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009142</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009145</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009163</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009165</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009199</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009201</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009205</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009206</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009259</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009314</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009411</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009416</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009628</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016614</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016616</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019438</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019637</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019693</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034404</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034654</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042278</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042451</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042455</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044271</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044283</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046039</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046128</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046129</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046390</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050896</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055086</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072521</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072522</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0090407</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901068</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901070</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901135</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901137</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901293</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901657</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901659</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko04147</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00088</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00050</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00983</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00983</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00143</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC02207</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R08240</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>CBS</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>IMPDH</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>NMO</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>1440052.EAKF1_ch3495c</td>
+      <td>guaB</td>
+      <td>Catalyzes the conversion of inosine 5'-phosphate (IMP) to xanthosine 5'-phosphate (XMP), the first committed and rate- limiting step in the de novo synthesis of guanine nucleotides, and therefore plays an important role in the regulation of cell growth</td>
+      <td>919.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>97.0</td>
+      <td>1</td>
+      <td>488</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.1.1.205</td>
+      <td>KEGG:K00088</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00088</td>
+      <td></td>
+      <td>IMP dehydrogenase [EC:1.1.1.205]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K00088</td>
+      <td>IMP dehydrogenase [EC:1.1.1.205]</td>
+      <td>above_threshold</td>
+      <td>673.9</td>
+      <td>360.53</td>
+      <td>7.3e-203</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 27 annotation rows, 19 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd00381</td>
+      <td></td>
+      <td>IMPDH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd04601</td>
+      <td></td>
+      <td>CBS_pair_IMPDH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.20.20.70:FF:000003</td>
+      <td></td>
+      <td>GMP reductase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.20.20.70</td>
+      <td></td>
+      <td>Aldolase class I</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00381","interpro_accession":"IPR001093","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00478","interpro_accession":"IPR001093","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003938</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01964","interpro_accession":"IPR005990","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01302","interpro_accession":"IPR005990","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR11911","interpro_accession":"IPR005990","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR11911","interpro_accession":"IPR005990","mapping_source":"PANTHER"},{"analysis":"PIRSF","signature_accession":"PIRSF000130","interpro_accession":"IPR005990","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006164</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01964","interpro_accession":"IPR005990","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01302","interpro_accession":"IPR005990","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR11911","interpro_accession":"IPR005990","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000130","interpro_accession":"IPR005990","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006183</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR11911","interpro_accession":"IPR005990","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00487","interpro_accession":"IPR015875","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_01964</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase [guaB].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000644</td>
+      <td></td>
+      <td>CBS domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001093</td>
+      <td></td>
+      <td>IMP dehydrogenase/GMP reductase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005990</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013785</td>
+      <td></td>
+      <td>Aldolase-type TIM barrel</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015875</td>
+      <td></td>
+      <td>IMP dehydrogenase / GMP reductase, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR046342</td>
+      <td></td>
+      <td>CBS domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01302</td>
+      <td></td>
+      <td>IMP dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR11911</td>
+      <td></td>
+      <td>INOSINE-5-MONOPHOSPHATE DEHYDROGENASE RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00478</td>
+      <td></td>
+      <td>IMP dehydrogenase / GMP reductase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00571</td>
+      <td></td>
+      <td>CBS domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF000130</td>
+      <td></td>
+      <td>IMPDH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00487</td>
+      <td></td>
+      <td>IMP dehydrogenase / GMP reductase signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS51371</td>
+      <td></td>
+      <td>CBS domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00116</td>
+      <td></td>
+      <td>cbs_1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM01240</td>
+      <td></td>
+      <td>IMPDH_2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF51412</td>
+      <td></td>
+      <td>Inosine monophosphate dehydrogenase (IMPDH)</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF54631</td>
+      <td></td>
+      <td>CBS-domain pair</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd00381</td>
+      <td>IMPDH</td>
+      <td>0.0</td>
+      <td>8</td>
+      <td>462</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd04601</td>
+      <td>CBS_pair_IMPDH</td>
+      <td>1.22406E-49</td>
+      <td>94</td>
+      <td>203</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.70:FF:000003</td>
+      <td>GMP reductase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>486</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.70</td>
+      <td>Aldolase class I</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>486</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_01964</td>
+      <td>Inosine-5'-monophosphate dehydrogenase [guaB].</td>
+      <td>85.506264</td>
+      <td>8</td>
+      <td>486</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01302</td>
+      <td>IMP dehydrogenase</td>
+      <td>0.0</td>
+      <td>8</td>
+      <td>454</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR11911</td>
+      <td>INOSINE-5-MONOPHOSPHATE DEHYDROGENASE RELATED</td>
+      <td>0.0</td>
+      <td>6</td>
+      <td>481</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF000130</td>
+      <td>IMPDH</td>
+      <td>0.0</td>
+      <td>6</td>
+      <td>485</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00478</td>
+      <td>IMP dehydrogenase / GMP reductase domain</td>
+      <td>0.0</td>
+      <td>8</td>
+      <td>473</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00571</td>
+      <td>CBS domain</td>
+      <td>0.016</td>
+      <td>153</td>
+      <td>204</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00571</td>
+      <td>CBS domain</td>
+      <td>2.5E-6</td>
+      <td>95</td>
+      <td>140</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00487</td>
+      <td>IMP dehydrogenase / GMP reductase signature.</td>
+      <td></td>
+      <td>295</td>
+      <td>307</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS51371</td>
+      <td>CBS domain profile.</td>
+      <td>11.916774</td>
+      <td>93</td>
+      <td>149</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS51371</td>
+      <td>CBS domain profile.</td>
+      <td>12.056388</td>
+      <td>153</td>
+      <td>214</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00116</td>
+      <td>cbs_1</td>
+      <td>1.9E-8</td>
+      <td>158</td>
+      <td>206</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00116</td>
+      <td>cbs_1</td>
+      <td>2.9E-11</td>
+      <td>96</td>
+      <td>144</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM01240</td>
+      <td>IMPDH_2</td>
+      <td>0.0</td>
+      <td>7</td>
+      <td>473</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF51412</td>
+      <td>Inosine monophosphate dehydrogenase (IMPDH)</td>
+      <td>1.31E-127</td>
+      <td>1</td>
+      <td>477</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF54631</td>
+      <td>CBS-domain pair</td>
+      <td>1.11E-24</td>
+      <td>94</td>
+      <td>203</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 50 annotation rows, 82 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00381</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02205</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04583</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04584</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04586</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04588</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04592</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04595</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04596</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04599</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04600</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04601</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04605</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04606</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04610</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04622</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04722</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04730</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04801</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd09836</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17775</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17776</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02274</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05096</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05458</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06843</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07107</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07807</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00314</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0516</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0517</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1304</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2070</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2239</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2524</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2905</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3448</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4109</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2550</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01302</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01303</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01304</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01305</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01306</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00478</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00571</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF03060</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00116</td>
+      <td></td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0516</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>539.9</td>
+      <td>1e-162</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0517</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>102.3</td>
+      <td>4.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1304</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>43.6</td>
+      <td>4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2070</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>53.1</td>
+      <td>6.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2239</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>42.4</td>
+      <td>9.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2524</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>137.9</td>
+      <td>8.7e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2905</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>72.8</td>
+      <td>6.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3448</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>84.5</td>
+      <td>1.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4109</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>74.5</td>
+      <td>1.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2550</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>456.4</td>
+      <td>2.3e-137</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02274</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>404.1</td>
+      <td>2e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05096</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>184.6</td>
+      <td>6e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05458</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>174.9</td>
+      <td>5.8e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06843</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>449.1</td>
+      <td>3e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07107</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>324.2</td>
+      <td>2.7e-97</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07807</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>306.9</td>
+      <td>6.3e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00314</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>519.3</td>
+      <td>2.1e-156</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01302</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>671.1</td>
+      <td>1.8e-202</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01303</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>266.4</td>
+      <td>1.2e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01304</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>108.5</td>
+      <td>1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01305</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>174.3</td>
+      <td>7.9e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01306</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>154.8</td>
+      <td>8.8e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00381</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>626.6</td>
+      <td>5.8e-189</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02205</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>75.5</td>
+      <td>8.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04583</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>42.8</td>
+      <td>1.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04584</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>52.6</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04586</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>49.3</td>
+      <td>1.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04588</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.1</td>
+      <td>4.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04592</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.5</td>
+      <td>2.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04595</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>52.8</td>
+      <td>9.5e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04596</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>43.7</td>
+      <td>5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04599</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>49.9</td>
+      <td>6.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04600</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>44.5</td>
+      <td>3.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04601</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>122.6</td>
+      <td>1.7e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04605</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.9</td>
+      <td>2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04606</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>44.3</td>
+      <td>4.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04610</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>43.7</td>
+      <td>6.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04622</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>47.9</td>
+      <td>3.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04722</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>62.5</td>
+      <td>1.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04730</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>58.3</td>
+      <td>1.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04801</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>43.7</td>
+      <td>6.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09836</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>63.8</td>
+      <td>3.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17775</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.7</td>
+      <td>2.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17776</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.8</td>
+      <td>2.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00478</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>706.6</td>
+      <td>3.4e-213</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00571</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>70.4</td>
+      <td>2.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam03060</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>50.1</td>
+      <td>5.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00116</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>91.0</td>
+      <td>5.8e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0517</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>102.3</td>
+      <td>4.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2070</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>53.1</td>
+      <td>6.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2239</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>42.4</td>
+      <td>9.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2524</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>137.9</td>
+      <td>8.7e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2905</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>72.8</td>
+      <td>6.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3448</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>84.5</td>
+      <td>1.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4109</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>74.5</td>
+      <td>1.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07807</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>306.9</td>
+      <td>6.3e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01302</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>671.1</td>
+      <td>1.8e-202</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02205</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>75.5</td>
+      <td>8.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04583</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>42.8</td>
+      <td>1.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04584</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>52.6</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04586</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>49.3</td>
+      <td>1.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04588</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.1</td>
+      <td>4.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04592</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.5</td>
+      <td>2.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04595</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>52.8</td>
+      <td>9.5e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04596</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>43.7</td>
+      <td>5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04599</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>49.9</td>
+      <td>6.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04600</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>44.5</td>
+      <td>3.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04601</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>122.6</td>
+      <td>1.7e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04605</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.9</td>
+      <td>2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04606</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>44.3</td>
+      <td>4.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04610</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>43.7</td>
+      <td>6.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04622</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>47.9</td>
+      <td>3.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04722</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>62.5</td>
+      <td>1.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04730</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>58.3</td>
+      <td>1.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04801</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>43.7</td>
+      <td>6.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09836</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>63.8</td>
+      <td>3.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17775</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.7</td>
+      <td>2.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17776</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>41.8</td>
+      <td>2.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00478</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>706.6</td>
+      <td>3.4e-213</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00571</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>70.4</td>
+      <td>2.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam03060</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>50.1</td>
+      <td>5.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00116</td>
+      <td>Inosine-5'-monophosphate dehydrogenase</td>
+      <td>91.0</td>
+      <td>5.8e-27</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

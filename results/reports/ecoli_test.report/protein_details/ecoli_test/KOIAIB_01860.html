@@ -1,0 +1,1854 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01860</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01860</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>DNA topoisomerase III [EC:5.6.2.1]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K03169</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K03169</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:5.6.2.1</td></tr><tr><th>mf_proposal_ids</th><td>GO:0003917</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03169</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:5.6.2.1</td>
+      <td>Additional proposal</td>
+      <td>bakta;KofamScan</td>
+      <td>BlastRules;KofamScan</td>
+      <td>profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:5.99.1.2</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K03169</td>
+      <td>EC:5.6.2.1</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K03169</td>
+      <td>EC:5.99.1.2</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:5.6.2.1</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.6.2.1</td>
+      <td>GO:0003677</td>
+      <td>GO:0003677</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.6.2.1</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.6.2.1</td>
+      <td>GO:0003916</td>
+      <td>GO:0003916</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.6.2.1</td>
+      <td>GO:0003917</td>
+      <td>GO:0003917</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.6.2.1</td>
+      <td>GO:0016853</td>
+      <td>GO:0016853</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.6.2.1</td>
+      <td>GO:0140097</td>
+      <td>GO:0140097</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.99.1.2</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.99.1.2</td>
+      <td>GO:0003677</td>
+      <td>GO:0003677</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.99.1.2</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.99.1.2</td>
+      <td>GO:0003916</td>
+      <td>GO:0003916</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.99.1.2</td>
+      <td>GO:0003917</td>
+      <td>GO:0003917</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.99.1.2</td>
+      <td>GO:0016853</td>
+      <td>GO:0016853</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.99.1.2</td>
+      <td>GO:0140097</td>
+      <td>GO:0140097</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1844999|1846960|-</td></tr><tr><th>protein_id</th><td>KOIAIB_01860</td></tr><tr><th>gene</th><td>topB</td></tr><tr><th>product</th><td>DNA topoisomerase III</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1844999</td></tr><tr><th>stop</th><td>1846960</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_2135</td></tr><tr><th>locus_tag</th><td>KOIAIB_01860</td></tr><tr><th>aa_md5</th><td>9c398b236aac30be7e202dcd1dfd3a2a</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>3Base/5BMM</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>L</td></tr><tr><th>GO</th><td><details class="value-details"><summary>36 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003677</li><li>GO:0003824</li><li>GO:0003916</li><li>GO:0003917</li><li>GO:0006139</li><li>GO:0006259</li><li>GO:0006265</li><li>GO:0006281</li><li>GO:0006310</li><li>GO:0006725</li><li>GO:0006807</li><li>GO:0006996</li><li>GO:0007049</li><li>GO:0007059</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009987</li><li>GO:0016043</li><li>GO:0016853</li><li>GO:0022402</li><li>GO:0034641</li><li>GO:0043170</li><li>GO:0043597</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044260</li><li>GO:0046483</li><li>GO:0051276</li><li>GO:0051304</li><li>GO:0071103</li><li>GO:0071704</li><li>GO:0071840</li><li>GO:0090304</li><li>GO:0140097</li><li>GO:1901360</li></ul></details></td></tr><tr><th>EC</th><td>EC:5.6.2.1; EC:5.99.1.2</td></tr><tr><th>KEGG_KO</th><td>KEGG:K03169</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>12 values</summary><ul class="value-list"><li>INTERPRO:IPR000380</li><li>INTERPRO:IPR003601</li><li>INTERPRO:IPR003602</li><li>INTERPRO:IPR005738</li><li>INTERPRO:IPR006171</li><li>INTERPRO:IPR013497</li><li>INTERPRO:IPR013824</li><li>INTERPRO:IPR013825</li><li>INTERPRO:IPR013826</li><li>INTERPRO:IPR023405</li><li>INTERPRO:IPR023406</li><li>INTERPRO:IPR034144</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF01131; PFAM:PF01751</td></tr><tr><th>SMART</th><td>SMART:SM00436; SMART:SM00437; SMART:SM00493</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>4</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>2</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd00186;CDD:cd03362</td>
+      <td>CDD:cd00186;CDD:cd00188;CDD:cd01028;CDD:cd03362</td>
+      <td>CDD:cd00186;CDD:cd03362</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0550</td>
+      <td>COG:COG0550;COG:COG1110</td>
+      <td>COG:COG0550</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:5.6.2.1</td>
+      <td>EC:5.6.2.1</td>
+      <td>EC:5.6.2.1</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:5.6.2.1</td>
+      <td>EC:5.99.1.2</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:5.99.1.2</td>
+      <td>EC:5.6.2.1</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0003916;GO:0003917;GO:0006139;GO:0006259;GO:0006265;GO:0006310;GO:0006725;GO:0006807;GO:0006996;GO:0007049;GO:0007059;GO:0008150;GO:0008152;GO:0009987;GO:0016043;GO:0016853;GO:0022402;GO:0034641;GO:0043170;GO:0044237;GO:0044238;GO:0044260;GO:0046483;GO:0051276;GO:0051304;GO:0071103;GO:0071704;GO:0071840;GO:0090304;GO:0140097;GO:1901360</td>
+      <td>GO:0003677;GO:0003916;GO:0003917;GO:0006265;GO:0006281;GO:0006310;GO:0043597</td>
+      <td>GO:0003916;GO:0003917;GO:0006265;GO:0006310</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K03169</td>
+      <td>KEGG:K03169</td>
+      <td>KEGG:K03169</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF005829;NCBIFAM:TIGR01056</td>
+      <td>NCBIFAM:TIGR01051;NCBIFAM:TIGR01054;NCBIFAM:TIGR01056;NCBIFAM:TIGR01057</td>
+      <td>NCBIFAM:TIGR01056</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF005829;NCBIFAM:TIGR01056</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01051;NCBIFAM:TIGR01054;NCBIFAM:TIGR01056;NCBIFAM:TIGR01057</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF01131;PFAM:PF01751</td>
+      <td>PFAM:PF01131;PFAM:PF01751</td>
+      <td>PFAM:PF01131;PFAM:PF01751</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF01131;PFAM:PF01751</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF01131;PFAM:PF01751</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00436;SMART:SM00437;SMART:SM00493</td>
+      <td>SMART:SM00436;SMART:SM00437;SMART:SM00493</td>
+      <td>SMART:SM00436;SMART:SM00437;SMART:SM00493</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 1 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:5.6.2.1</td>
+      <td>WP_001235800</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 47 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0550</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:5.99.1.2</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MUFZ@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RN4X@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XP4A@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0550@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0550@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003916</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003917</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006139</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006259</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006265</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006310</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006996</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0007049</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0007059</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016043</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016853</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022402</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043170</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051276</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051304</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071103</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071840</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0090304</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0140097</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko03032</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03169</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Topoisom_bac</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Toprim</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.1742870</td>
+      <td>topB</td>
+      <td>Releases the supercoiling and torsional tension of DNA, which is introduced during the DNA replication and transcription, by transiently cleaving and rejoining one strand of the DNA duplex. Introduces a single-strand break via transesterification at a target site in duplex DNA. The scissile phosphodiester is attacked by the catalytic tyrosine of the enzyme, resulting in the formation of a DNA-(5'-phosphotyrosyl)-enzyme intermediate and the expulsion of a 3'-OH DNA strand. The free DNA strand then undergoes passage around the unbroken strand, thus removing DNA supercoils. Finally, in the religation step, the DNA 3'-OH attacks the covalent intermediate to expel the active-site tyrosine and restore the DNA phosphodiester backbone</td>
+      <td>1306.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>653</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:5.6.2.1</td>
+      <td>KEGG:K03169</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03169</td>
+      <td></td>
+      <td>DNA topoisomerase III [EC:5.6.2.1]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K03169</td>
+      <td>DNA topoisomerase III [EC:5.6.2.1]</td>
+      <td>above_threshold</td>
+      <td>776.8</td>
+      <td>528.63</td>
+      <td>5.1e-234</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 43 annotation rows, 28 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd00186</td>
+      <td></td>
+      <td>TOP1Ac</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd03362</td>
+      <td></td>
+      <td>TOPRIM_TopoIA_TopoIII</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.290.10:FF:000004</td>
+      <td></td>
+      <td>DNA topoisomerase 3</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.460.10:FF:000004</td>
+      <td></td>
+      <td>DNA topoisomerase 3</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.140:FF:000004</td>
+      <td></td>
+      <td>DNA topoisomerase 3</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.290.10</td>
+      <td></td>
+      <td>Topoisomerase I, domain 4</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.460.10</td>
+      <td></td>
+      <td>Topoisomerase I, domain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:2.70.20.10</td>
+      <td></td>
+      <td>Topoisomerase I, domain 3</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.140</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003677</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00186","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00953","interpro_accession":"IPR005738","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01056","interpro_accession":"IPR005738","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR11390","interpro_accession":"IPR000380","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01131","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"PRINTS","signature_accession":"PR00417","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS52039","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00436","interpro_accession":"IPR003601","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00437","interpro_accession":"IPR003602","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003916</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00186","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00953","interpro_accession":"IPR005738","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01056","interpro_accession":"IPR005738","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01131","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"PRINTS","signature_accession":"PR00417","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS52039","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00436","interpro_accession":"IPR003601","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00437","interpro_accession":"IPR003602","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003917</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR11390","interpro_accession":"IPR000380","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR11390","interpro_accession":"IPR000380","mapping_source":"PANTHER"},{"analysis":"ProSitePatterns","signature_accession":"PS00396","interpro_accession":"IPR023406","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006265</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00186","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00953","interpro_accession":"IPR005738","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01056","interpro_accession":"IPR005738","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR11390","interpro_accession":"IPR000380","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR11390","interpro_accession":"IPR000380","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF01131","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"PRINTS","signature_accession":"PR00417","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS52039","interpro_accession":"IPR013497","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00436","interpro_accession":"IPR003601","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00437","interpro_accession":"IPR003602","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006281</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR11390","interpro_accession":"IPR000380","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006310</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR11390","interpro_accession":"IPR000380","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0043597</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR11390","interpro_accession":"IPR000380","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00953</td>
+      <td></td>
+      <td>DNA topoisomerase 3 [topB].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000380</td>
+      <td></td>
+      <td>DNA topoisomerase, type IA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003601</td>
+      <td></td>
+      <td>DNA topoisomerase, type IA, domain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003602</td>
+      <td></td>
+      <td>DNA topoisomerase, type IA, DNA-binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005738</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006171</td>
+      <td></td>
+      <td>TOPRIM domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013497</td>
+      <td></td>
+      <td>DNA topoisomerase, type IA, central</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013824</td>
+      <td></td>
+      <td>DNA topoisomerase, type IA, central region, subdomain 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013825</td>
+      <td></td>
+      <td>DNA topoisomerase, type IA, central region, subdomain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013826</td>
+      <td></td>
+      <td>DNA topoisomerase, type IA, central region, subdomain 3</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023405</td>
+      <td></td>
+      <td>DNA topoisomerase, type IA, core domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023406</td>
+      <td></td>
+      <td>DNA topoisomerase, type IA, active site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR034144</td>
+      <td></td>
+      <td>DNA topoisomerase 3-like, TOPRIM domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>MOBIDBLITE</td>
+      <td>MOBIDBLITE:mobidb-lite</td>
+      <td></td>
+      <td>consensus disorder prediction</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF005829</td>
+      <td></td>
+      <td>DNA topoisomerase 3</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01056</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR11390</td>
+      <td></td>
+      <td>PROKARYOTIC DNA TOPOISOMERASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01131</td>
+      <td></td>
+      <td>DNA topoisomerase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01751</td>
+      <td></td>
+      <td>Toprim domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00417</td>
+      <td></td>
+      <td>Prokaryotic DNA topoisomerase I signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00396</td>
+      <td></td>
+      <td>Topoisomerase (Topo) IA-type active site signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS50880</td>
+      <td></td>
+      <td>Toprim domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS52039</td>
+      <td></td>
+      <td>Topoisomerase (Topo) IA-type catalytic domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00436</td>
+      <td></td>
+      <td>topIban2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00437</td>
+      <td></td>
+      <td>topIaneu2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00493</td>
+      <td></td>
+      <td>toprim5</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56712</td>
+      <td></td>
+      <td>Prokaryotic type I DNA topoisomerase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd00186</td>
+      <td>TOP1Ac</td>
+      <td>0.0</td>
+      <td>157</td>
+      <td>603</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd03362</td>
+      <td>TOPRIM_TopoIA_TopoIII</td>
+      <td>1.58932E-52</td>
+      <td>1</td>
+      <td>149</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.290.10:FF:000004</td>
+      <td>DNA topoisomerase 3</td>
+      <td>5.5E-70</td>
+      <td>290</td>
+      <td>416</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.460.10:FF:000004</td>
+      <td>DNA topoisomerase 3</td>
+      <td>9.9E-55</td>
+      <td>477</td>
+      <td>593</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.140:FF:000004</td>
+      <td>DNA topoisomerase 3</td>
+      <td>1.3E-89</td>
+      <td>1</td>
+      <td>156</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.290.10</td>
+      <td>Topoisomerase I, domain 4</td>
+      <td>0.0</td>
+      <td>290</td>
+      <td>416</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.460.10</td>
+      <td>Topoisomerase I, domain 2</td>
+      <td>0.0</td>
+      <td>162</td>
+      <td>593</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:2.70.20.10</td>
+      <td>Topoisomerase I, domain 3</td>
+      <td>0.0</td>
+      <td>217</td>
+      <td>488</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.140</td>
+      <td></td>
+      <td>2.5E-49</td>
+      <td>1</td>
+      <td>156</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00953</td>
+      <td>DNA topoisomerase 3 [topB].</td>
+      <td>70.954941</td>
+      <td>1</td>
+      <td>647</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>616</td>
+      <td>653</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF005829</td>
+      <td>DNA topoisomerase 3</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>631</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01056</td>
+      <td>DNA topoisomerase III</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>652</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR11390</td>
+      <td>PROKARYOTIC DNA TOPOISOMERASE</td>
+      <td>4.8E-117</td>
+      <td>2</td>
+      <td>608</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00417</td>
+      <td>Prokaryotic DNA topoisomerase I signature</td>
+      <td>7.7E-26</td>
+      <td>193</td>
+      <td>211</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00417</td>
+      <td>Prokaryotic DNA topoisomerase I signature</td>
+      <td>7.7E-26</td>
+      <td>323</td>
+      <td>332</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00417</td>
+      <td>Prokaryotic DNA topoisomerase I signature</td>
+      <td>7.7E-26</td>
+      <td>402</td>
+      <td>418</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00417</td>
+      <td>Prokaryotic DNA topoisomerase I signature</td>
+      <td>7.7E-26</td>
+      <td>521</td>
+      <td>535</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00417</td>
+      <td>Prokaryotic DNA topoisomerase I signature</td>
+      <td>7.7E-26</td>
+      <td>98</td>
+      <td>111</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF01131</td>
+      <td>DNA topoisomerase</td>
+      <td>2.3E-105</td>
+      <td>159</td>
+      <td>593</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF01751</td>
+      <td>Toprim domain</td>
+      <td>7.1E-12</td>
+      <td>3</td>
+      <td>135</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00396</td>
+      <td>Topoisomerase (Topo) IA-type active site signature.</td>
+      <td></td>
+      <td>317</td>
+      <td>332</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS50880</td>
+      <td>Toprim domain profile.</td>
+      <td>20.719395</td>
+      <td>1</td>
+      <td>134</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS52039</td>
+      <td>Topoisomerase (Topo) IA-type catalytic domain profile.</td>
+      <td>74.419907</td>
+      <td>155</td>
+      <td>603</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00436</td>
+      <td>topIban2</td>
+      <td>3.8E-37</td>
+      <td>128</td>
+      <td>223</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00437</td>
+      <td>topIaneu2</td>
+      <td>9.6E-110</td>
+      <td>280</td>
+      <td>558</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00493</td>
+      <td>toprim5</td>
+      <td>2.9E-31</td>
+      <td>1</td>
+      <td>124</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56712</td>
+      <td>Prokaryotic type I DNA topoisomerase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>607</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 31 annotation rows, 32 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00186</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00188</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01028</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd03362</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05776</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06319</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06599</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07219</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07220</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07561</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07726</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08173</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08780</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK14724</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK14973</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00407</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0550</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1110</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1956</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1957</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01051</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01054</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01056</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01057</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01131</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01751</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00436</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00437</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00493</td>
+      <td></td>
+      <td>DNA topoisomerase III</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00188</td>
+      <td>DNA topoisomerase III</td>
+      <td>41.1</td>
+      <td>3.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01751</td>
+      <td>DNA topoisomerase III</td>
+      <td>59.1</td>
+      <td>9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0550</td>
+      <td>DNA topoisomerase III</td>
+      <td>428.5</td>
+      <td>9.5e-129</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1110</td>
+      <td>DNA topoisomerase III</td>
+      <td>79.1</td>
+      <td>3.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1956</td>
+      <td>DNA topoisomerase III</td>
+      <td>172.7</td>
+      <td>2.3e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1957</td>
+      <td>DNA topoisomerase III</td>
+      <td>73.9</td>
+      <td>2.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05776</td>
+      <td>DNA topoisomerase III</td>
+      <td>232.7</td>
+      <td>1.5e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06319</td>
+      <td>DNA topoisomerase III</td>
+      <td>105.5</td>
+      <td>4.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06599</td>
+      <td>DNA topoisomerase III</td>
+      <td>180.9</td>
+      <td>1.2e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07219</td>
+      <td>DNA topoisomerase III</td>
+      <td>284.6</td>
+      <td>3.4e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07220</td>
+      <td>DNA topoisomerase III</td>
+      <td>207.1</td>
+      <td>9.9e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07561</td>
+      <td>DNA topoisomerase III</td>
+      <td>189.0</td>
+      <td>4.5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07726</td>
+      <td>DNA topoisomerase III</td>
+      <td>953.7</td>
+      <td>1.3e-287</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08173</td>
+      <td>DNA topoisomerase III</td>
+      <td>432.1</td>
+      <td>6.9e-130</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08780</td>
+      <td>DNA topoisomerase III</td>
+      <td>143.6</td>
+      <td>1.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14724</td>
+      <td>DNA topoisomerase III</td>
+      <td>334.0</td>
+      <td>3.6e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14973</td>
+      <td>DNA topoisomerase III</td>
+      <td>176.1</td>
+      <td>1.9e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00407</td>
+      <td>DNA topoisomerase III</td>
+      <td>58.7</td>
+      <td>6.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01051</td>
+      <td>DNA topoisomerase III</td>
+      <td>176.9</td>
+      <td>2.1e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01054</td>
+      <td>DNA topoisomerase III</td>
+      <td>65.0</td>
+      <td>6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01056</td>
+      <td>DNA topoisomerase III</td>
+      <td>1026.6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01057</td>
+      <td>DNA topoisomerase III</td>
+      <td>222.0</td>
+      <td>2.5e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00186</td>
+      <td>DNA topoisomerase III</td>
+      <td>399.0</td>
+      <td>5.5e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00188</td>
+      <td>DNA topoisomerase III</td>
+      <td>41.1</td>
+      <td>3.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01028</td>
+      <td>DNA topoisomerase III</td>
+      <td>123.4</td>
+      <td>1.9e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd03362</td>
+      <td>DNA topoisomerase III</td>
+      <td>145.7</td>
+      <td>2.3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01131</td>
+      <td>DNA topoisomerase III</td>
+      <td>367.2</td>
+      <td>2.5e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01751</td>
+      <td>DNA topoisomerase III</td>
+      <td>59.1</td>
+      <td>9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00436</td>
+      <td>DNA topoisomerase III</td>
+      <td>85.9</td>
+      <td>3.2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00437</td>
+      <td>DNA topoisomerase III</td>
+      <td>244.6</td>
+      <td>3.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00493</td>
+      <td>DNA topoisomerase III</td>
+      <td>56.8</td>
+      <td>5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>toxin-associated protein</td>
+      <td>0.51</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

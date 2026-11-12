@@ -1,0 +1,2591 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_02351</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_02351</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>acetyl-CoA C-acetyltransferase [EC:2.3.1.9]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K00626</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K00626</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.3.1.9</td></tr><tr><th>mf_proposal_ids</th><td>GO:0016747</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00626</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.3.1.9</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00626</td>
+      <td>EC:2.3.1.9</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0003985</td>
+      <td>GO:0003985</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0003988</td>
+      <td>GO:0003988</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0016407</td>
+      <td>GO:0016407</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0016408</td>
+      <td>GO:0016747</td>
+      <td>replaced_by</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0016453</td>
+      <td>GO:0016453</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0016746</td>
+      <td>GO:0016746</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0016747</td>
+      <td>GO:0016747</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.9</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|2326109|2327293|+</td></tr><tr><th>protein_id</th><td>KOIAIB_02351</td></tr><tr><th>gene</th><td>atoB</td></tr><tr><th>product</th><td>acetyl-CoA acetyltransferase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>2326109</td></tr><tr><th>stop</th><td>2327293</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_2585</td></tr><tr><th>locus_tag</th><td>KOIAIB_02351</td></tr><tr><th>aa_md5</th><td>d467ffd301c62043001b9b93b7fa61f8</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGA</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>I</td></tr><tr><th>GO</th><td><details class="value-details"><summary>64 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0003985</li><li>GO:0003988</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0006082</li><li>GO:0006091</li><li>GO:0006629</li><li>GO:0006631</li><li>GO:0006635</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009056</li><li>GO:0009062</li><li>GO:0009987</li><li>GO:0016042</li><li>GO:0016043</li><li>GO:0016054</li><li>GO:0016407</li><li>GO:0016408</li><li>GO:0016453</li><li>GO:0016740</li><li>GO:0016746</li><li>GO:0016747</li><li>GO:0017144</li><li>GO:0019395</li><li>GO:0019626</li><li>GO:0019752</li><li>GO:0022607</li><li>GO:0030258</li><li>GO:0032787</li><li>GO:0034440</li><li>GO:0042737</li><li>GO:0042802</li><li>GO:0043436</li><li>GO:0043438</li><li>GO:0043442</li><li>GO:0043933</li><li>GO:0044085</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044242</li><li>GO:0044248</li><li>GO:0044255</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0046395</li><li>GO:0046459</li><li>GO:0046950</li><li>GO:0046952</li><li>GO:0051259</li><li>GO:0051260</li><li>GO:0051262</li><li>GO:0051289</li><li>GO:0055114</li><li>GO:0065003</li><li>GO:0071704</li><li>GO:0071840</li><li>GO:0072329</li><li>GO:1901568</li><li>GO:1901569</li><li>GO:1901575</li><li>GO:1902224</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.3.1.9</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00626</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>38 values</summary><ul class="value-list"><li>KEGG:ko00071</li><li>KEGG:ko00072</li><li>KEGG:ko00280</li><li>KEGG:ko00310</li><li>KEGG:ko00362</li><li>KEGG:ko00380</li><li>KEGG:ko00620</li><li>KEGG:ko00630</li><li>KEGG:ko00640</li><li>KEGG:ko00650</li><li>KEGG:ko00720</li><li>KEGG:ko00900</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01120</li><li>KEGG:ko01130</li><li>KEGG:ko01200</li><li>KEGG:ko01212</li><li>KEGG:ko02020</li><li>KEGG:map00071</li><li>KEGG:map00072</li><li>KEGG:map00280</li><li>KEGG:map00310</li><li>KEGG:map00362</li><li>KEGG:map00380</li><li>KEGG:map00620</li><li>KEGG:map00630</li><li>KEGG:map00640</li><li>KEGG:map00650</li><li>KEGG:map00720</li><li>KEGG:map00900</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01120</li><li>KEGG:map01130</li><li>KEGG:map01200</li><li>KEGG:map01212</li><li>KEGG:map02020</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00088; KEGG:M00095; KEGG:M00373; KEGG:M00374; KEGG:M00375</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R00238; KEGG:R01177</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>7 values</summary><ul class="value-list"><li>INTERPRO:IPR002155</li><li>INTERPRO:IPR016039</li><li>INTERPRO:IPR020610</li><li>INTERPRO:IPR020613</li><li>INTERPRO:IPR020615</li><li>INTERPRO:IPR020616</li><li>INTERPRO:IPR020617</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00108; PFAM:PF02803</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>6</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd00751</td>
+      <td>CDD:cd00327;CDD:cd00751;CDD:cd00826;CDD:cd00829</td>
+      <td>CDD:cd00751</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0183</td>
+      <td>COG:COG0183</td>
+      <td>COG:COG0183</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:2.3.1.9</td>
+      <td>EC:2.3.1.9</td>
+      <td>EC:2.3.1.9</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:2.3.1.9</td>
+      <td>EC:2.3.1.9</td>
+      <td>EC:2.3.1.9</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.3.1.9</td>
+      <td>EC:2.3.1.9</td>
+      <td>EC:2.3.1.9</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0003985;GO:0003988;GO:0005488;GO:0005515;GO:0006082;GO:0006091;GO:0006629;GO:0006631;GO:0006635;GO:0008150;GO:0008152;GO:0009056;GO:0009062;GO:0009987;GO:0016042;GO:0016043;GO:0016054;GO:0016407;GO:0016408;GO:0016453;GO:0016740;GO:0016746;GO:0016747;GO:0017144;GO:0019395;GO:0019626;GO:0019752;GO:0022607;GO:0030258;GO:0032787;GO:0034440;GO:0042737;GO:0042802;GO:0043436;GO:0043438;GO:0043442;GO:0043933;GO:0044085;GO:0044237;GO:0044238;GO:0044242;GO:0044248;GO:0044255;GO:0044281;GO:0044282;GO:0046395;GO:0046459;GO:0046950;GO:0046952;GO:0051259;GO:0051260;GO:0051262;GO:0051289;GO:0055114;GO:0065003;GO:0071704;GO:0071840;GO:0072329;GO:1901568;GO:1901569;GO:1901575;GO:1902224</td>
+      <td>GO:0016746;GO:0016747</td>
+      <td>GO:0016746;GO:0016747</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00626</td>
+      <td>KEGG:K00626</td>
+      <td>KEGG:K00626</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:TIGR01930</td>
+      <td>NCBIFAM:TIGR01930;NCBIFAM:TIGR02430;NCBIFAM:TIGR02445;NCBIFAM:TIGR02446</td>
+      <td>NCBIFAM:TIGR01930</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01930</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01930;NCBIFAM:TIGR02430;NCBIFAM:TIGR02445;NCBIFAM:TIGR02446</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00108;PFAM:PF02803</td>
+      <td>PFAM:PF00108;PFAM:PF02803</td>
+      <td>PFAM:PF00108;PFAM:PF02803</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00108;PFAM:PF02803</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00108;PFAM:PF02803</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 1 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:2.3.1.9</td>
+      <td>WP_000786547</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 142 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iAF1260.b2224</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iB21_1397.B21_02110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iBWG_1329.BWG_1998</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEC042_1314.EC042_2465</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECBD_1354.ECBD_1435</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECB_1328.ECB_02151</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECDH10B_1368.ECDH10B_2382</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECDH1ME8569_1439.ECDH1ME8569_2159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECD_1391.ECD_02151</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iETEC_1333.ETEC_2358</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcDH1_1363.EcDH1_1434</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcolC_1368.EcolC_1426</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJO1366.b2224</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJR904.b2224</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iY75_1357.Y75_RS11660</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0183</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>I</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.3.1.9</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MU5G@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RM93@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMFA@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0183@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0183@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003985</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003988</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006091</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006629</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006631</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006635</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009062</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016042</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016043</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016054</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016407</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016408</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016453</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016746</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016747</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0017144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019626</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022607</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030258</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034440</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043438</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043442</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043933</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044085</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044242</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044255</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046459</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046950</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046952</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051259</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051262</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051289</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0065003</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071840</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072329</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901568</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901569</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1902224</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko04147</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00626</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00088</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00095</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00373</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00374</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00375</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00072</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00280</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00310</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00380</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00630</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00640</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00650</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00720</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00900</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01200</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01212</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00072</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00280</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00310</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00380</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00630</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00640</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00650</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00720</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00900</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01200</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01212</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00326</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01177</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Thiolase_C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Thiolase_N</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.1736879</td>
+      <td>atoB</td>
+      <td>acetoacetic acid catabolic process</td>
+      <td>736.0</td>
+      <td>3.91e-268</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>394</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.3.1.9</td>
+      <td>KEGG:K00626</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00626</td>
+      <td></td>
+      <td>acetyl-CoA C-acetyltransferase [EC:2.3.1.9]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K00626</td>
+      <td>acetyl-CoA C-acetyltransferase [EC:2.3.1.9]</td>
+      <td>above_threshold</td>
+      <td>596.3</td>
+      <td>511.20</td>
+      <td>2.4e-179</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 21 annotation rows, 14 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd00751</td>
+      <td></td>
+      <td>thiolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.47.10:FF:000010</td>
+      <td></td>
+      <td>Acetyl-CoA acetyltransferase (Thiolase)</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.47.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016746</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:3.40.47.10","interpro_accession":"IPR016039","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF53901","interpro_accession":"IPR016039","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016747</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00751","interpro_accession":"IPR002155","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01930","interpro_accession":"IPR002155","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00108","interpro_accession":"IPR020616","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF02803","interpro_accession":"IPR020617","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000429","interpro_accession":"IPR002155","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00098","interpro_accession":"IPR020615","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00099","interpro_accession":"IPR020610","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00737","interpro_accession":"IPR020613","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR002155</td>
+      <td></td>
+      <td>Thiolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016039</td>
+      <td></td>
+      <td>Thiolase-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020610</td>
+      <td></td>
+      <td>Thiolase, active site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020613</td>
+      <td></td>
+      <td>Thiolase, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020615</td>
+      <td></td>
+      <td>Thiolase, acyl-enzyme intermediate active site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020616</td>
+      <td></td>
+      <td>Thiolase, N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020617</td>
+      <td></td>
+      <td>Thiolase, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01930</td>
+      <td></td>
+      <td>acetyl-CoA C-acyltransferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR18919</td>
+      <td></td>
+      <td>ACETYL-COA C-ACYLTRANSFERASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00108</td>
+      <td></td>
+      <td>Thiolase, N-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02803</td>
+      <td></td>
+      <td>Thiolase, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF000429</td>
+      <td></td>
+      <td>Ac-CoA_Ac_transf</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00098</td>
+      <td></td>
+      <td>Thiolases acyl-enzyme intermediate signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00099</td>
+      <td></td>
+      <td>Thiolases active site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00737</td>
+      <td></td>
+      <td>Thiolases signature 2.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53901</td>
+      <td></td>
+      <td>Thiolase-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd00751</td>
+      <td>thiolase</td>
+      <td>0.0</td>
+      <td>5</td>
+      <td>392</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.47.10:FF:000010</td>
+      <td>Acetyl-CoA acetyltransferase (Thiolase)</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>392</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.47.10</td>
+      <td></td>
+      <td>0.0</td>
+      <td>126</td>
+      <td>390</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.47.10</td>
+      <td></td>
+      <td>0.0</td>
+      <td>5</td>
+      <td>276</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01930</td>
+      <td>acetyl-CoA C-acyltransferase</td>
+      <td>0.0</td>
+      <td>6</td>
+      <td>391</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR18919</td>
+      <td>ACETYL-COA C-ACYLTRANSFERASE</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>393</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF000429</td>
+      <td>Ac-CoA_Ac_transf</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>393</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00108</td>
+      <td>Thiolase, N-terminal domain</td>
+      <td>3.6E-102</td>
+      <td>4</td>
+      <td>263</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF02803</td>
+      <td>Thiolase, C-terminal domain</td>
+      <td>4.5E-51</td>
+      <td>270</td>
+      <td>392</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00098</td>
+      <td>Thiolases acyl-enzyme intermediate signature.</td>
+      <td></td>
+      <td>84</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00099</td>
+      <td>Thiolases active site.</td>
+      <td></td>
+      <td>374</td>
+      <td>387</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00737</td>
+      <td>Thiolases signature 2.</td>
+      <td></td>
+      <td>339</td>
+      <td>355</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53901</td>
+      <td>Thiolase-like</td>
+      <td>6.13E-84</td>
+      <td>4</td>
+      <td>267</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53901</td>
+      <td>Thiolase-like</td>
+      <td>8.74E-46</td>
+      <td>271</td>
+      <td>392</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 47 annotation rows, 90 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00327</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00751</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00826</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00829</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02287</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02644</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05656</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05790</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06025</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06064</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06205</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06366</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06445</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06504</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06633</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06690</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06954</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07108</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07516</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07661</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07801</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07850</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07851</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08131</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08170</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08235</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08242</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08256</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08947</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08963</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09050</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09051</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09052</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09268</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0183</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1389</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1390</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1391</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1392</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01930</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02430</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02445</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02446</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00108</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02803</td>
+      <td></td>
+      <td>acetyl-CoA acetyltransferase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0183</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>561.5</td>
+      <td>1.9e-169</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1389</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>362.6</td>
+      <td>6.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1390</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>498.0</td>
+      <td>4.5e-150</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1391</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>389.2</td>
+      <td>4.3e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1392</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>189.0</td>
+      <td>2.8e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02287</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>345.7</td>
+      <td>7.5e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02644</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>436.7</td>
+      <td>1.7e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05656</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>544.7</td>
+      <td>2.7e-164</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05790</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>583.8</td>
+      <td>3.4e-176</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06025</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>272.4</td>
+      <td>1.7e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06064</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>59.3</td>
+      <td>6.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06205</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>416.6</td>
+      <td>2.3e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06366</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>352.3</td>
+      <td>7.3e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06445</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>314.2</td>
+      <td>3.1e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06504</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>304.3</td>
+      <td>3.2e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06633</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>436.0</td>
+      <td>2.2e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06690</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>275.2</td>
+      <td>2e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06954</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>395.7</td>
+      <td>5.2e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07108</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>304.9</td>
+      <td>1.8e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07516</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>58.3</td>
+      <td>1.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07661</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>364.7</td>
+      <td>1.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07801</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>309.3</td>
+      <td>9.5e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07850</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>285.2</td>
+      <td>1.9e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07851</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>354.6</td>
+      <td>1.6e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08131</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>358.0</td>
+      <td>1.3e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08170</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>278.7</td>
+      <td>1.7e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08235</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>454.1</td>
+      <td>9.6e-137</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08242</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>310.2</td>
+      <td>5.2e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08256</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>41.9</td>
+      <td>1.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08947</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>351.8</td>
+      <td>1e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08963</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>262.9</td>
+      <td>1e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09050</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>404.3</td>
+      <td>1.3e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09051</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>479.2</td>
+      <td>2.6e-144</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09052</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>345.2</td>
+      <td>1.1e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09268</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>204.0</td>
+      <td>9.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01930</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>514.2</td>
+      <td>4.3e-155</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02430</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>398.2</td>
+      <td>8.9e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02445</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>318.1</td>
+      <td>1.8e-95</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02446</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>209.9</td>
+      <td>1.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00327</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>182.9</td>
+      <td>2.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00751</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>561.4</td>
+      <td>1.7e-169</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00826</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>279.6</td>
+      <td>8.9e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00829</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>88.2</td>
+      <td>1.1e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00108</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>354.5</td>
+      <td>7.2e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02803</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>183.6</td>
+      <td>2.1e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0183</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>561.5</td>
+      <td>1.9e-169</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1389</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>362.6</td>
+      <td>6.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1390</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>498.0</td>
+      <td>4.5e-150</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1391</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>389.2</td>
+      <td>4.3e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1392</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>189.0</td>
+      <td>2.8e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02287</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>345.7</td>
+      <td>7.5e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02644</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>436.7</td>
+      <td>1.7e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05656</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>544.7</td>
+      <td>2.7e-164</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05790</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>583.8</td>
+      <td>3.4e-176</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06025</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>272.4</td>
+      <td>1.7e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06064</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>59.3</td>
+      <td>6.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06205</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>416.6</td>
+      <td>2.3e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06366</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>352.3</td>
+      <td>7.3e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06445</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>314.2</td>
+      <td>3.1e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06504</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>304.3</td>
+      <td>3.2e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06633</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>436.0</td>
+      <td>2.2e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06690</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>275.2</td>
+      <td>2e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06954</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>395.7</td>
+      <td>5.2e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07108</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>304.9</td>
+      <td>1.8e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07516</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>58.3</td>
+      <td>1.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07661</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>364.7</td>
+      <td>1.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07801</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>309.3</td>
+      <td>9.5e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07850</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>285.2</td>
+      <td>1.9e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07851</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>354.6</td>
+      <td>1.6e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08131</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>358.0</td>
+      <td>1.3e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08170</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>278.7</td>
+      <td>1.7e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08235</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>454.1</td>
+      <td>9.6e-137</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08242</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>310.2</td>
+      <td>5.2e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08256</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>41.9</td>
+      <td>1.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08947</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>351.8</td>
+      <td>1e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08963</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>262.9</td>
+      <td>1e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09050</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>404.3</td>
+      <td>1.3e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09051</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>479.2</td>
+      <td>2.6e-144</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09052</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>345.2</td>
+      <td>1.1e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09268</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>204.0</td>
+      <td>9.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01930</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>514.2</td>
+      <td>4.3e-155</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02430</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>398.2</td>
+      <td>8.9e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02445</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>318.1</td>
+      <td>1.8e-95</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02446</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>209.9</td>
+      <td>1.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00327</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>182.9</td>
+      <td>2.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00751</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>561.4</td>
+      <td>1.7e-169</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00826</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>279.6</td>
+      <td>8.9e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00829</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>88.2</td>
+      <td>1.1e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00108</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>354.5</td>
+      <td>7.2e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02803</td>
+      <td>acetyl-CoA acetyltransferase</td>
+      <td>183.6</td>
+      <td>2.1e-55</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

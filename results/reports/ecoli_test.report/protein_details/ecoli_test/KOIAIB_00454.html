@@ -1,0 +1,2280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00454</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00454</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>1-deoxy-D-xylulose-5-phosphate synthase [EC:2.2.1.7]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K01662</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K01662</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.2.1.7</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008661</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01662</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.2.1.7</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K01662</td>
+      <td>EC:2.2.1.7</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0008661</td>
+      <td>GO:0008661</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0016744</td>
+      <td>GO:0016744</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0019842</td>
+      <td>GO:0019842</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0030976</td>
+      <td>GO:0030976</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0043169</td>
+      <td>GO:0043169</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.2.1.7</td>
+      <td>GO:1901681</td>
+      <td>GO:1901681</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|438315|440177|-</td></tr><tr><th>protein_id</th><td>KOIAIB_00454</td></tr><tr><th>product</th><td>1-deoxy-D-xylulose-5-phosphate synthase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>438315</td></tr><tr><th>stop</th><td>440177</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_811</td></tr><tr><th>locus_tag</th><td>KOIAIB_00454</td></tr><tr><th>aa_md5</th><td>4972d29224db60427f2e8050ccd576c8</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>F</td></tr><tr><th>GO</th><td><details class="value-details"><summary>102 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005488</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006081</li><li>GO:0006082</li><li>GO:0006090</li><li>GO:0006629</li><li>GO:0006644</li><li>GO:0006720</li><li>GO:0006725</li><li>GO:0006732</li><li>GO:0006733</li><li>GO:0006743</li><li>GO:0006744</li><li>GO:0006766</li><li>GO:0006767</li><li>GO:0006772</li><li>GO:0006790</li><li>GO:0006793</li><li>GO:0006796</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008299</li><li>GO:0008610</li><li>GO:0008614</li><li>GO:0008615</li><li>GO:0008654</li><li>GO:0008661</li><li>GO:0009058</li><li>GO:0009108</li><li>GO:0009110</li><li>GO:0009228</li><li>GO:0009240</li><li>GO:0009987</li><li>GO:0016114</li><li>GO:0016740</li><li>GO:0016744</li><li>GO:0017144</li><li>GO:0018130</li><li>GO:0019288</li><li>GO:0019438</li><li>GO:0019637</li><li>GO:0019682</li><li>GO:0019752</li><li>GO:0019842</li><li>GO:0030976</li><li>GO:0032787</li><li>GO:0034641</li><li>GO:0036094</li><li>GO:0042180</li><li>GO:0042181</li><li>GO:0042364</li><li>GO:0042723</li><li>GO:0042724</li><li>GO:0042816</li><li>GO:0042819</li><li>GO:0043167</li><li>GO:0043168</li><li>GO:0043169</li><li>GO:0043436</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044249</li><li>GO:0044255</li><li>GO:0044271</li><li>GO:0044272</li><li>GO:0044281</li><li>GO:0044283</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046483</li><li>GO:0046490</li><li>GO:0048037</li><li>GO:0050662</li><li>GO:0051186</li><li>GO:0051188</li><li>GO:0071704</li><li>GO:0072524</li><li>GO:0072525</li><li>GO:0072527</li><li>GO:0072528</li><li>GO:0090407</li><li>GO:0097159</li><li>GO:1901135</li><li>GO:1901360</li><li>GO:1901362</li><li>GO:1901363</li><li>GO:1901564</li><li>GO:1901566</li><li>GO:1901576</li><li>GO:1901615</li><li>GO:1901617</li><li>GO:1901661</li><li>GO:1901663</li><li>GO:1901681</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.2.1.7</td></tr><tr><th>KEGG_KO</th><td>KEGG:K01662</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>10 values</summary><ul class="value-list"><li>KEGG:ko00730</li><li>KEGG:ko00900</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01130</li><li>KEGG:map00730</li><li>KEGG:map00900</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01130</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00096</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R05636</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>7 values</summary><ul class="value-list"><li>INTERPRO:IPR005475</li><li>INTERPRO:IPR005477</li><li>INTERPRO:IPR009014</li><li>INTERPRO:IPR020826</li><li>INTERPRO:IPR029061</li><li>INTERPRO:IPR033248</li><li>INTERPRO:IPR049557</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF02779; PFAM:PF02780; PFAM:PF13292</td></tr><tr><th>SMART</th><td>SMART:SM00861</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>4</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd02007;CDD:cd07033</td>
+      <td>CDD:cd02000;CDD:cd02007;CDD:cd02012;CDD:cd06586;CDD:cd07033;CDD:cd07036</td>
+      <td>CDD:cd02007;CDD:cd07033</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1154</td>
+      <td>COG:COG0021;COG:COG0022;COG:COG1071;COG:COG1154;COG:COG3958;COG:COG3959</td>
+      <td>COG:COG1154</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:2.2.1.7</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:2.2.1.7</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.2.1.7</td>
+      <td>EC:2.2.1.7</td>
+      <td>EC:2.2.1.7</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005488;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006081;GO:0006082;GO:0006090;GO:0006629;GO:0006644;GO:0006720;GO:0006725;GO:0006732;GO:0006733;GO:0006743;GO:0006744;GO:0006766;GO:0006767;GO:0006772;GO:0006790;GO:0006793;GO:0006796;GO:0006807;GO:0008150;GO:0008152;GO:0008299;GO:0008610;GO:0008614;GO:0008615;GO:0008654;GO:0008661;GO:0009058;GO:0009108;GO:0009110;GO:0009228;GO:0009240;GO:0009987;GO:0016740;GO:0016744;GO:0017144;GO:0018130;GO:0019288;GO:0019438;GO:0019637;GO:0019682;GO:0019752;GO:0019842;GO:0030976;GO:0032787;GO:0034641;GO:0036094;GO:0042180;GO:0042181;GO:0042364;GO:0042723;GO:0042724;GO:0042816;GO:0042819;GO:0043167;GO:0043168;GO:0043169;GO:0043436;GO:0044237;GO:0044238;GO:0044249;GO:0044255;GO:0044271;GO:0044272;GO:0044281;GO:0044283;GO:0044424;GO:0044444;GO:0044464;GO:0046483;GO:0046490;GO:0048037;GO:0050662;GO:0051186;GO:0051188;GO:0071704;GO:0072524;GO:0072525;GO:0072527;GO:0072528;GO:0090407;GO:0097159;GO:1901135;GO:1901360;GO:1901362;GO:1901363;GO:1901564;GO:1901566;GO:1901576;GO:1901615;GO:1901617;GO:1901661;GO:1901663;GO:1901681</td>
+      <td>GO:0005829;GO:0008661;GO:0016114;GO:0016744;GO:0019288</td>
+      <td>GO:0005829;GO:0008661;GO:0016744;GO:0019288</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K01662</td>
+      <td>KEGG:K01662</td>
+      <td>KEGG:K01662</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF003933;NCBIFAM:TIGR00204</td>
+      <td>NCBIFAM:TIGR00204;NCBIFAM:TIGR00232</td>
+      <td>NCBIFAM:TIGR00204</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF003933;NCBIFAM:TIGR00204</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR00204;NCBIFAM:TIGR00232</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF02779;PFAM:PF02780;PFAM:PF13292</td>
+      <td>PFAM:PF02779;PFAM:PF02780;PFAM:PF13292</td>
+      <td>PFAM:PF02779;PFAM:PF02780;PFAM:PF13292</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF02779;PFAM:PF02780;PFAM:PF13292</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF02779;PFAM:PF02780;PFAM:PF13292</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00861</td>
+      <td>SMART:SM00861</td>
+      <td>SMART:SM00861</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 132 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcSMS35_1347.EcSMS35_0456</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJN746.PP_0527</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1154</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.2.1.7</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MUSJ@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RNQD@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMYA@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1154@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1154@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006081</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006090</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006629</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006644</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006720</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006732</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006733</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006743</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006744</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006766</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006767</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006772</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006790</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008299</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008610</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008614</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008615</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008654</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008661</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009108</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009228</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009240</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016744</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0017144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019288</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019438</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019637</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019682</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019842</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030976</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036094</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042180</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042181</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042364</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042723</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042724</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042816</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042819</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043167</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043169</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044255</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044271</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044272</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044283</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046490</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048037</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051186</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051188</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072524</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072525</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072527</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072528</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0090407</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901135</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901615</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901617</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901661</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901663</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901681</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00096</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00730</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00900</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00730</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00900</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00032</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05636</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>DXP_synthase_N</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Transket_pyr</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Transketolase_C</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674560</td>
+      <td>dxs</td>
+      <td>Catalyzes the acyloin condensation reaction between C atoms 2 and 3 of pyruvate and glyceraldehyde 3-phosphate to yield 1-deoxy-D-xylulose-5-phosphate (DXP)</td>
+      <td>1241.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>620</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.2.1.7</td>
+      <td>KEGG:K01662</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01662</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase [EC:2.2.1.7]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K01662</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase [EC:2.2.1.7]</td>
+      <td>above_threshold</td>
+      <td>998.1</td>
+      <td>340.10</td>
+      <td>1.5e-300</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 30 annotation rows, 20 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd02007</td>
+      <td></td>
+      <td>TPP_DXS</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd07033</td>
+      <td></td>
+      <td>TPP_PYR_DXS_TK_like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.920:FF:000002</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.970:FF:000005</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.920</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.970</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43322","interpro_accession":"IPR005477","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008661</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd02007","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00315","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"NF003933","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00204","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43322","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43322","interpro_accession":"IPR005477","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF13292","interpro_accession":"IPR005477","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016114</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd02007","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00315","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"NF003933","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00204","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43322","interpro_accession":"IPR005477","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF13292","interpro_accession":"IPR005477","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016744</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43322","interpro_accession":"IPR005477","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0019288</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43322","interpro_accession":"IPR005477","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00315</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase [dxs].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005475</td>
+      <td></td>
+      <td>Transketolase-like, pyrimidine-binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005477</td>
+      <td></td>
+      <td>Deoxyxylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR009014</td>
+      <td></td>
+      <td>Transketolase C-terminal/Pyruvate-ferredoxin oxidoreductase domain II</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020826</td>
+      <td></td>
+      <td>Transketolase binding site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029061</td>
+      <td></td>
+      <td>Thiamin diphosphate-binding fold</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR033248</td>
+      <td></td>
+      <td>Transketolase, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR049557</td>
+      <td></td>
+      <td>Transketolase conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF003933</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00204</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43322</td>
+      <td></td>
+      <td>1-D-DEOXYXYLULOSE 5-PHOSPHATE SYNTHASE-RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02779</td>
+      <td></td>
+      <td>Transketolase, pyrimidine binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02780</td>
+      <td></td>
+      <td>Transketolase, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13292</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00801</td>
+      <td></td>
+      <td>Transketolase signature 1.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00802</td>
+      <td></td>
+      <td>Transketolase signature 2.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00861</td>
+      <td></td>
+      <td>Transket_pyr_3</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52518</td>
+      <td></td>
+      <td>Thiamin diphosphate-binding fold (THDP-binding)</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52922</td>
+      <td></td>
+      <td>TK C-terminal domain-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd02007</td>
+      <td>TPP_DXS</td>
+      <td>2.02172E-120</td>
+      <td>47</td>
+      <td>288</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd07033</td>
+      <td>TPP_PYR_DXS_TK_like</td>
+      <td>3.07212E-73</td>
+      <td>323</td>
+      <td>478</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.920:FF:000002</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>2.3E-47</td>
+      <td>495</td>
+      <td>620</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.970:FF:000005</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>1.8E-90</td>
+      <td>318</td>
+      <td>486</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.920</td>
+      <td></td>
+      <td>3.0E-38</td>
+      <td>495</td>
+      <td>620</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.970</td>
+      <td></td>
+      <td>4.3E-81</td>
+      <td>1</td>
+      <td>291</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.970</td>
+      <td></td>
+      <td>7.7E-60</td>
+      <td>318</td>
+      <td>494</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00315</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase [dxs].</td>
+      <td>46.661835</td>
+      <td>10</td>
+      <td>620</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF003933</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>0.0</td>
+      <td>9</td>
+      <td>617</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR00204</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>0.0</td>
+      <td>11</td>
+      <td>620</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43322</td>
+      <td>1-D-DEOXYXYLULOSE 5-PHOSPHATE SYNTHASE-RELATED</td>
+      <td>0.0</td>
+      <td>5</td>
+      <td>619</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF02779</td>
+      <td>Transketolase, pyrimidine binding domain</td>
+      <td>1.6E-44</td>
+      <td>320</td>
+      <td>480</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF02780</td>
+      <td>Transketolase, C-terminal domain</td>
+      <td>1.2E-23</td>
+      <td>495</td>
+      <td>610</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF13292</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>2.2E-113</td>
+      <td>13</td>
+      <td>282</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00801</td>
+      <td>Transketolase signature 1.</td>
+      <td></td>
+      <td>36</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00802</td>
+      <td>Transketolase signature 2.</td>
+      <td></td>
+      <td>425</td>
+      <td>441</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00861</td>
+      <td>Transket_pyr_3</td>
+      <td>8.7E-69</td>
+      <td>319</td>
+      <td>484</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52518</td>
+      <td>Thiamin diphosphate-binding fold (THDP-binding)</td>
+      <td>3.8E-75</td>
+      <td>10</td>
+      <td>381</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52518</td>
+      <td>Thiamin diphosphate-binding fold (THDP-binding)</td>
+      <td>9.36E-58</td>
+      <td>317</td>
+      <td>504</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52922</td>
+      <td>TK C-terminal domain-like</td>
+      <td>1.83E-32</td>
+      <td>491</td>
+      <td>619</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 33 annotation rows, 52 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02000</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02007</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02012</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06586</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07033</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07036</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02225</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02234</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02582</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02790</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05444</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05899</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09212</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11892</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12315</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12571</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00089</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00182</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0021</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0022</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1071</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1154</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3958</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3959</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0523</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00204</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00232</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02779</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02780</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13292</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00861</td>
+      <td></td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0021</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>56.9</td>
+      <td>2.7e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0022</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>85.1</td>
+      <td>8.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1071</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>43.8</td>
+      <td>3.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1154</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>915.2</td>
+      <td>4.3e-276</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3958</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>241.6</td>
+      <td>1.9e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3959</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>56.0</td>
+      <td>6.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0523</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>368.7</td>
+      <td>1.1e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02225</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>375.2</td>
+      <td>1.5e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02234</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>538.8</td>
+      <td>3.7e-162</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02582</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>616.8</td>
+      <td>1.2e-185</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02790</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>51.2</td>
+      <td>1.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05444</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>964.4</td>
+      <td>5.8e-291</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05899</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>119.0</td>
+      <td>4.5e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09212</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>54.8</td>
+      <td>1.5e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11892</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>41.4</td>
+      <td>1.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12315</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>448.6</td>
+      <td>6.3e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12571</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>765.6</td>
+      <td>8.6e-231</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00089</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>53.7</td>
+      <td>2.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00182</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>58.8</td>
+      <td>1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00204</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>1125.2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00232</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>58.3</td>
+      <td>1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02000</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>44.7</td>
+      <td>1.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02007</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>345.3</td>
+      <td>4.6e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02012</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>51.4</td>
+      <td>1.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06586</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>155.9</td>
+      <td>1.4e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07033</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>192.7</td>
+      <td>5.1e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07036</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>40.6</td>
+      <td>3.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02779</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>165.8</td>
+      <td>1.6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02780</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>95.1</td>
+      <td>6.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13292</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>390.6</td>
+      <td>8.1e-118</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00861</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>185.9</td>
+      <td>9.6e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0022</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>85.1</td>
+      <td>8.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1154</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>915.2</td>
+      <td>4.3e-276</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3958</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>241.6</td>
+      <td>1.9e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0523</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>368.7</td>
+      <td>1.1e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02225</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>375.2</td>
+      <td>1.5e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02234</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>538.8</td>
+      <td>3.7e-162</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02582</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>616.8</td>
+      <td>1.2e-185</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05444</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>964.4</td>
+      <td>5.8e-291</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05899</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>119.0</td>
+      <td>4.5e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09212</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>54.8</td>
+      <td>1.5e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11892</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>41.4</td>
+      <td>1.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12315</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>448.6</td>
+      <td>6.3e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12571</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>765.6</td>
+      <td>8.6e-231</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00182</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>58.8</td>
+      <td>1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00204</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>1125.2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06586</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>155.9</td>
+      <td>1.4e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07033</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>192.7</td>
+      <td>5.1e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07036</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>40.6</td>
+      <td>3.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02779</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>165.8</td>
+      <td>1.6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02780</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>95.1</td>
+      <td>6.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00861</td>
+      <td>1-deoxy-D-xylulose-5-phosphate synthase</td>
+      <td>185.9</td>
+      <td>9.6e-56</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

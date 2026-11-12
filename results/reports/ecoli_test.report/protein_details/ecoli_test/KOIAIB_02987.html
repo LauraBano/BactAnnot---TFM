@@ -1,0 +1,5627 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_02987</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_02987</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>acyl-[acyl-carrier-protein]-phospholipid O-acyltransferase / long-chain-fatty-acid--[acyl-carrier-protein] ligase [EC:2.3.1.40 6.2.1.20]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K05939</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K05939</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.3.1.40;EC:6.2.1.20</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008779;GO:0008922</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K05939</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.3.1.40</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:6.2.1.20</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K05939</td>
+      <td>EC:2.3.1.40</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K05939</td>
+      <td>EC:6.2.1.20</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0008374</td>
+      <td>GO:0016747</td>
+      <td>replaced_by</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0008779</td>
+      <td>GO:0008779</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0008922</td>
+      <td>GO:0008922</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0015645</td>
+      <td>GO:0015645</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0016746</td>
+      <td>GO:0016746</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0016747</td>
+      <td>GO:0016747</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0016874</td>
+      <td>GO:0016874</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0016877</td>
+      <td>GO:0016877</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0016878</td>
+      <td>GO:0016878</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.1.40</td>
+      <td>GO:0031956</td>
+      <td>GO:0031956</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0008374</td>
+      <td>GO:0016747</td>
+      <td>replaced_by</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0008779</td>
+      <td>GO:0008779</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0008922</td>
+      <td>GO:0008922</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0015645</td>
+      <td>GO:0015645</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0016746</td>
+      <td>GO:0016746</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0016747</td>
+      <td>GO:0016747</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0016874</td>
+      <td>GO:0016874</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0016877</td>
+      <td>GO:0016877</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0016878</td>
+      <td>GO:0016878</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.20</td>
+      <td>GO:0031956</td>
+      <td>GO:0031956</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|2973855|2976014|-</td></tr><tr><th>protein_id</th><td>KOIAIB_02987</td></tr><tr><th>product</th><td>Bifunctional protein Aas</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>2973855</td></tr><tr><th>stop</th><td>2976014</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_3176</td></tr><tr><th>locus_tag</th><td>KOIAIB_02987</td></tr><tr><th>aa_md5</th><td>b6563a329f81b8b7b406eacc500fac72</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>I</td></tr><tr><th>GO</th><td><details class="value-details"><summary>46 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0006082</li><li>GO:0006629</li><li>GO:0006631</li><li>GO:0006644</li><li>GO:0006793</li><li>GO:0006796</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008374</li><li>GO:0008610</li><li>GO:0008654</li><li>GO:0008779</li><li>GO:0008922</li><li>GO:0009058</li><li>GO:0009987</li><li>GO:0015645</li><li>GO:0016020</li><li>GO:0016021</li><li>GO:0016740</li><li>GO:0016746</li><li>GO:0016747</li><li>GO:0016874</li><li>GO:0016877</li><li>GO:0016878</li><li>GO:0019637</li><li>GO:0019752</li><li>GO:0031224</li><li>GO:0031956</li><li>GO:0032787</li><li>GO:0043436</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044249</li><li>GO:0044255</li><li>GO:0044281</li><li>GO:0044425</li><li>GO:0044464</li><li>GO:0071704</li><li>GO:0071944</li><li>GO:0090407</li><li>GO:1901576</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.3.1.40; EC:6.2.1.20</td></tr><tr><th>KEGG_KO</th><td>KEGG:K05939</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00071; KEGG:ko00564; KEGG:map00071; KEGG:map00564</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R01406; KEGG:R04864</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR000873; INTERPRO:IPR002123; INTERPRO:IPR020845; INTERPRO:IPR023775; INTERPRO:IPR042099; INTERPRO:IPR045851</td></tr><tr><th>PFAM</th><td>PFAM:PF00501; PFAM:PF01553</td></tr><tr><th>SMART</th><td>SMART:SM00563</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>4</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd05909;CDD:cd07989</td>
+      <td>CDD:cd04433;CDD:cd05903;CDD:cd05904;CDD:cd05906;CDD:cd05907;CDD:cd05908;CDD:cd05909;CDD:cd05910;CDD:cd05911;CDD:cd05912;CDD:cd05914;CDD:cd05915;CDD:cd05917;CDD:cd05918;CDD:cd05919;CDD:cd05920;CDD:cd05921;CDD:cd05922;CDD:cd05923;CDD:cd05926;CDD:cd05927;CDD:cd05928;CDD:cd05930;CDD:cd05931;CDD:cd05932;CDD:cd05933;CDD:cd05934;CDD:cd05935;CDD:cd05936;CDD:cd05937;CDD:cd05938;CDD:cd05940;CDD:cd05941;CDD:cd05944;CDD:cd05945;CDD:cd05958;CDD:cd05959;CDD:cd05966;CDD:cd05967;CDD:cd05968;CDD:cd05969;CDD:cd05970;CDD:cd05971;CDD:cd05972;CDD:cd05973;CDD:cd05974;CDD:cd06551;CDD:cd07989;CDD:cd12114;CDD:cd12115;CDD:cd12116;CDD:cd12117;CDD:cd12118;CDD:cd12119;CDD:cd17630;CDD:cd17631;CDD:cd17633;CDD:cd17634;CDD:cd17635;CDD:cd17636;CDD:cd17637;CDD:cd17638;CDD:cd17639;CDD:cd17640;CDD:cd17641;CDD:cd17642;CDD:cd17643;CDD:cd17644;CDD:cd17645;CDD:cd17646;CDD:cd17648;CDD:cd17649;CDD:cd17650;CDD:cd17651;CDD:cd17652;CDD:cd17653;CDD:cd17654;CDD:cd17655;CDD:cd17656</td>
+      <td>CDD:cd05909;CDD:cd07989</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0204;COG:COG0318</td>
+      <td>COG:COG0204;COG:COG0318;COG:COG0365;COG:COG1020;COG:COG1021;COG:COG1022;COG:COG1541</td>
+      <td>COG:COG0204;COG:COG0318</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:2.3.1.40;EC:6.2.1.20</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:2.3.1.40;EC:6.2.1.20</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.3.1.40;EC:6.2.1.20</td>
+      <td>EC:2.3.1.40;EC:6.2.1.20</td>
+      <td>EC:2.3.1.40;EC:6.2.1.20</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005575;GO:0005623;GO:0005886;GO:0006082;GO:0006629;GO:0006631;GO:0006644;GO:0006793;GO:0006796;GO:0008150;GO:0008152;GO:0008374;GO:0008610;GO:0008654;GO:0008779;GO:0008922;GO:0009058;GO:0009987;GO:0015645;GO:0016020;GO:0016021;GO:0016740;GO:0016746;GO:0016747;GO:0016874;GO:0016877;GO:0016878;GO:0019637;GO:0019752;GO:0031224;GO:0032787;GO:0043436;GO:0044237;GO:0044238;GO:0044249;GO:0044255;GO:0044281;GO:0044425;GO:0044464;GO:0071704;GO:0071944;GO:0090407;GO:1901576</td>
+      <td>GO:0006631;GO:0008654;GO:0008779;GO:0008922;GO:0016746;GO:0031956</td>
+      <td>GO:0006631;GO:0008654;GO:0008779;GO:0008922;GO:0016746</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K05939</td>
+      <td>KEGG:K05939</td>
+      <td>KEGG:K05939</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF005959</td>
+      <td>NCBIFAM:NF038078;NCBIFAM:NF038343;NCBIFAM:NF040633;NCBIFAM:TIGR00530;NCBIFAM:TIGR01733;NCBIFAM:TIGR01734;NCBIFAM:TIGR01923;NCBIFAM:TIGR02188;NCBIFAM:TIGR02262;NCBIFAM:TIGR02275;NCBIFAM:TIGR02372;NCBIFAM:TIGR03098;NCBIFAM:TIGR03205;NCBIFAM:TIGR03208</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF005959</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF038078;NCBIFAM:NF038343;NCBIFAM:NF040633;NCBIFAM:TIGR00530;NCBIFAM:TIGR01733;NCBIFAM:TIGR01734;NCBIFAM:TIGR01923;NCBIFAM:TIGR02188;NCBIFAM:TIGR02262;NCBIFAM:TIGR02275;NCBIFAM:TIGR02372;NCBIFAM:TIGR03098;NCBIFAM:TIGR03205;NCBIFAM:TIGR03208</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00501;PFAM:PF01553</td>
+      <td>PFAM:PF00501;PFAM:PF01553</td>
+      <td>PFAM:PF00501;PFAM:PF01553</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00501;PFAM:PF01553</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00501;PFAM:PF01553</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00563</td>
+      <td>SMART:SM00563</td>
+      <td>SMART:SM00563</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 74 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEC042_1314.EC042_3034</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0204</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0318</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>I</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.3.1.40</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:6.2.1.20</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MWDY@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RRXF@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XPGR@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0204@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0204@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0318@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0318@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006629</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006631</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006644</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008374</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008610</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008654</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008779</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008922</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015645</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016021</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016746</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016747</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016874</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016877</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016878</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019637</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031224</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044255</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044425</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0090407</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K05939</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00014</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00039</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00041</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01406</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04864</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>AMP-binding</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>AMP-binding_C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Acyltransferase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85675652</td>
+      <td>aas</td>
+      <td>Plays a role in lysophospholipid acylation. Transfers fatty acids to the 1-position via an enzyme-bound acyl-ACP intermediate in the presence of ATP and magnesium. Its physiological function is to regenerate phosphatidylethanolamine from 2-acyl-glycero-3-phosphoethanolamine (2-acyl-GPE) formed by transacylation reactions or degradation by phospholipase A1</td>
+      <td>1429.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>719</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.3.1.40</td>
+      <td>KEGG:K05939</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:6.2.1.20</td>
+      <td>KEGG:K05939</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K05939</td>
+      <td></td>
+      <td>acyl-[acyl-carrier-protein]-phospholipid O-acyltransferase / long-chain-fatty-acid--[acyl-carrier-protein] ligase [EC:2.3.1.40 6.2.1.20]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K05939</td>
+      <td>acyl-[acyl-carrier-protein]-phospholipid O-acyltransferase / long-chain-fatty-acid--[acyl-carrier-protein] ligase [EC:2.3.1.40 6.2.1.20]</td>
+      <td>above_threshold</td>
+      <td>1052.4</td>
+      <td>466.43</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 27 annotation rows, 15 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd05909</td>
+      <td></td>
+      <td>AAS_C</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd07989</td>
+      <td></td>
+      <td>LPLAT_AGPAT-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.300.30:FF:000009</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.12780:FF:000009</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.300.30</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.12780</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006631</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01162","interpro_accession":"IPR023775","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43201","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008654</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01162","interpro_accession":"IPR023775","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008779</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01162","interpro_accession":"IPR023775","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008922</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01162","interpro_accession":"IPR023775","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016746</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF01553","interpro_accession":"IPR002123","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00563","interpro_accession":"IPR002123","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0031956</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43201","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_01162</td>
+      <td></td>
+      <td>Bifunctional protein Aas [aas].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000873</td>
+      <td></td>
+      <td>AMP-dependent synthetase/ligase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR002123</td>
+      <td></td>
+      <td>Phospholipid/glycerol acyltransferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020845</td>
+      <td></td>
+      <td>AMP-binding, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023775</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR042099</td>
+      <td></td>
+      <td>ANL, N-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR045851</td>
+      <td></td>
+      <td>AMP-binding enzyme domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF005959</td>
+      <td></td>
+      <td>bifunctional acyl-ACP--phospholipid O-acyltransferase/long-chain-fatty-acid--ACP ligase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43201</td>
+      <td></td>
+      <td>ACYL-COA SYNTHETASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00501</td>
+      <td></td>
+      <td>AMP-binding enzyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01553</td>
+      <td></td>
+      <td>Acyltransferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00455</td>
+      <td></td>
+      <td>Putative AMP-binding domain signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00563</td>
+      <td></td>
+      <td>plsc_2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56801</td>
+      <td></td>
+      <td>Acetyl-CoA synthetase-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF69593</td>
+      <td></td>
+      <td>Glycerol-3-phosphate (1)-acyltransferase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd05909</td>
+      <td>AAS_C</td>
+      <td>0.0</td>
+      <td>225</td>
+      <td>711</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd07989</td>
+      <td>LPLAT_AGPAT-like</td>
+      <td>3.24559E-34</td>
+      <td>9</td>
+      <td>188</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.300.30:FF:000009</td>
+      <td>Bifunctional protein Aas</td>
+      <td>1.6E-62</td>
+      <td>619</td>
+      <td>716</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12780:FF:000009</td>
+      <td>Bifunctional protein Aas</td>
+      <td>0.0</td>
+      <td>222</td>
+      <td>612</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.300.30</td>
+      <td></td>
+      <td>5.8E-10</td>
+      <td>619</td>
+      <td>716</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12780</td>
+      <td></td>
+      <td>2.2E-75</td>
+      <td>222</td>
+      <td>618</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_01162</td>
+      <td>Bifunctional protein Aas [aas].</td>
+      <td>48.983379</td>
+      <td>1</td>
+      <td>717</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF005959</td>
+      <td>bifunctional acyl-ACP--phospholipid O-acyltransferase/long-chain-fatty-acid--ACP ligase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>719</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43201</td>
+      <td>ACYL-COA SYNTHETASE</td>
+      <td>1.3E-63</td>
+      <td>174</td>
+      <td>701</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00501</td>
+      <td>AMP-binding enzyme</td>
+      <td>8.5E-52</td>
+      <td>233</td>
+      <td>568</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF01553</td>
+      <td>Acyltransferase</td>
+      <td>4.3E-21</td>
+      <td>15</td>
+      <td>137</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00455</td>
+      <td>Putative AMP-binding domain signature.</td>
+      <td></td>
+      <td>370</td>
+      <td>381</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00563</td>
+      <td>plsc_2</td>
+      <td>3.4E-28</td>
+      <td>30</td>
+      <td>140</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56801</td>
+      <td>Acetyl-CoA synthetase-like</td>
+      <td>1.83E-93</td>
+      <td>219</td>
+      <td>712</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF69593</td>
+      <td>Glycerol-3-phosphate (1)-acyltransferase</td>
+      <td>7.72E-21</td>
+      <td>3</td>
+      <td>170</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 186 annotation rows, 369 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04433</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05903</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05904</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05906</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05907</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05908</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05909</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05910</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05911</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05912</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05914</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05915</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05917</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05918</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05919</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05920</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05921</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05922</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05923</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05926</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05927</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05928</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05930</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05931</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05932</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05933</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05934</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05935</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05936</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05937</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05938</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05940</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05941</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05944</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05945</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05958</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05959</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05966</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05967</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05968</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05969</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05970</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05971</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05972</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05973</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05974</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06551</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07989</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12114</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12115</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12116</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12117</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12118</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12119</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17630</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17631</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17633</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17634</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17635</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17636</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17637</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17638</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17639</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17640</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17641</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17642</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17643</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17644</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17645</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17646</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17648</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17649</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17650</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17651</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17652</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17653</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17654</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17655</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17656</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02246</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02387</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02430</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02574</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02614</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02736</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02860</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02861</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00174</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03640</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04319</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04813</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05605</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05620</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05677</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05691</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05850</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05851</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05852</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06018</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06060</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06087</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06145</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06155</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06164</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06178</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06187</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06188</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06334</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06710</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06814</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06839</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07008</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07059</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07470</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07514</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07529</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07638</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07656</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07768</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07786</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07787</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07788</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07798</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07824</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07867</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08008</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08043</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08162</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08180</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08276</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08279</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08314</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08315</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08316</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08633</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08751</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08974</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09029</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09088</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09192</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09274</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10252</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10946</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12316</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12406</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12467</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12492</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12582</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12583</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13295</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13382</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13383</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13388</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00216</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0204</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0318</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0365</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1020</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1021</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1022</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1541</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1175</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1176</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1177</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1179</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1180</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1256</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038078</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038343</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040633</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00530</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01733</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01734</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01923</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02188</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02262</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02275</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02372</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03098</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03205</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03208</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00501</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01553</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00563</td>
+      <td></td>
+      <td>Bifunctional protein Aas</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0204</td>
+      <td>Bifunctional protein Aas</td>
+      <td>124.3</td>
+      <td>1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0318</td>
+      <td>Bifunctional protein Aas</td>
+      <td>338.5</td>
+      <td>1.1e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0365</td>
+      <td>Bifunctional protein Aas</td>
+      <td>196.9</td>
+      <td>1e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1020</td>
+      <td>Bifunctional protein Aas</td>
+      <td>86.4</td>
+      <td>3.9e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1021</td>
+      <td>Bifunctional protein Aas</td>
+      <td>131.3</td>
+      <td>6.2e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1022</td>
+      <td>Bifunctional protein Aas</td>
+      <td>183.0</td>
+      <td>1.7e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1541</td>
+      <td>Bifunctional protein Aas</td>
+      <td>44.4</td>
+      <td>1.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1175</td>
+      <td>Bifunctional protein Aas</td>
+      <td>89.9</td>
+      <td>3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1176</td>
+      <td>Bifunctional protein Aas</td>
+      <td>167.7</td>
+      <td>8.2e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1177</td>
+      <td>Bifunctional protein Aas</td>
+      <td>122.7</td>
+      <td>3.2e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1179</td>
+      <td>Bifunctional protein Aas</td>
+      <td>61.8</td>
+      <td>8.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1180</td>
+      <td>Bifunctional protein Aas</td>
+      <td>114.7</td>
+      <td>8.9e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1256</td>
+      <td>Bifunctional protein Aas</td>
+      <td>131.7</td>
+      <td>5.3e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038078</td>
+      <td>Bifunctional protein Aas</td>
+      <td>55.6</td>
+      <td>3.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038343</td>
+      <td>Bifunctional protein Aas</td>
+      <td>95.3</td>
+      <td>6.5e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040633</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.4</td>
+      <td>4.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02246</td>
+      <td>Bifunctional protein Aas</td>
+      <td>94.1</td>
+      <td>1.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02387</td>
+      <td>Bifunctional protein Aas</td>
+      <td>75.3</td>
+      <td>8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02430</td>
+      <td>Bifunctional protein Aas</td>
+      <td>52.6</td>
+      <td>4.4e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02574</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.8</td>
+      <td>9.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02614</td>
+      <td>Bifunctional protein Aas</td>
+      <td>43.9</td>
+      <td>2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02736</td>
+      <td>Bifunctional protein Aas</td>
+      <td>82.2</td>
+      <td>5.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02860</td>
+      <td>Bifunctional protein Aas</td>
+      <td>67.6</td>
+      <td>1.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02861</td>
+      <td>Bifunctional protein Aas</td>
+      <td>51.4</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00174</td>
+      <td>Bifunctional protein Aas</td>
+      <td>59.2</td>
+      <td>5.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03640</td>
+      <td>Bifunctional protein Aas</td>
+      <td>88.6</td>
+      <td>7.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04319</td>
+      <td>Bifunctional protein Aas</td>
+      <td>117.0</td>
+      <td>1.6e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04813</td>
+      <td>Bifunctional protein Aas</td>
+      <td>47.5</td>
+      <td>2.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05605</td>
+      <td>Bifunctional protein Aas</td>
+      <td>155.3</td>
+      <td>4.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05620</td>
+      <td>Bifunctional protein Aas</td>
+      <td>68.4</td>
+      <td>8.6e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05677</td>
+      <td>Bifunctional protein Aas</td>
+      <td>123.8</td>
+      <td>1.6e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05691</td>
+      <td>Bifunctional protein Aas</td>
+      <td>94.0</td>
+      <td>4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05850</td>
+      <td>Bifunctional protein Aas</td>
+      <td>54.5</td>
+      <td>1.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05851</td>
+      <td>Bifunctional protein Aas</td>
+      <td>63.9</td>
+      <td>1.7e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05852</td>
+      <td>Bifunctional protein Aas</td>
+      <td>76.6</td>
+      <td>3.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06018</td>
+      <td>Bifunctional protein Aas</td>
+      <td>82.5</td>
+      <td>5.9e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06060</td>
+      <td>Bifunctional protein Aas</td>
+      <td>76.3</td>
+      <td>3.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06087</td>
+      <td>Bifunctional protein Aas</td>
+      <td>111.8</td>
+      <td>6.7e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06145</td>
+      <td>Bifunctional protein Aas</td>
+      <td>54.7</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06155</td>
+      <td>Bifunctional protein Aas</td>
+      <td>98.5</td>
+      <td>6.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06164</td>
+      <td>Bifunctional protein Aas</td>
+      <td>43.0</td>
+      <td>5.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06178</td>
+      <td>Bifunctional protein Aas</td>
+      <td>88.4</td>
+      <td>9.3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06187</td>
+      <td>Bifunctional protein Aas</td>
+      <td>199.6</td>
+      <td>1.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06188</td>
+      <td>Bifunctional protein Aas</td>
+      <td>80.5</td>
+      <td>2.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06334</td>
+      <td>Bifunctional protein Aas</td>
+      <td>196.7</td>
+      <td>1.4e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06710</td>
+      <td>Bifunctional protein Aas</td>
+      <td>88.5</td>
+      <td>6.1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06814</td>
+      <td>Bifunctional protein Aas</td>
+      <td>941.1</td>
+      <td>2.1e-283</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06839</td>
+      <td>Bifunctional protein Aas</td>
+      <td>102.5</td>
+      <td>4.8e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07008</td>
+      <td>Bifunctional protein Aas</td>
+      <td>89.7</td>
+      <td>3.8e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07059</td>
+      <td>Bifunctional protein Aas</td>
+      <td>110.9</td>
+      <td>1.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07470</td>
+      <td>Bifunctional protein Aas</td>
+      <td>56.3</td>
+      <td>5.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07514</td>
+      <td>Bifunctional protein Aas</td>
+      <td>142.4</td>
+      <td>3.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07529</td>
+      <td>Bifunctional protein Aas</td>
+      <td>168.2</td>
+      <td>5.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07638</td>
+      <td>Bifunctional protein Aas</td>
+      <td>72.1</td>
+      <td>7.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07656</td>
+      <td>Bifunctional protein Aas</td>
+      <td>196.2</td>
+      <td>1.5e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07768</td>
+      <td>Bifunctional protein Aas</td>
+      <td>83.7</td>
+      <td>1.9e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07786</td>
+      <td>Bifunctional protein Aas</td>
+      <td>75.0</td>
+      <td>8.9e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07787</td>
+      <td>Bifunctional protein Aas</td>
+      <td>132.4</td>
+      <td>3.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07788</td>
+      <td>Bifunctional protein Aas</td>
+      <td>109.8</td>
+      <td>2.9e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07798</td>
+      <td>Bifunctional protein Aas</td>
+      <td>60.5</td>
+      <td>2.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07824</td>
+      <td>Bifunctional protein Aas</td>
+      <td>48.3</td>
+      <td>1.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07867</td>
+      <td>Bifunctional protein Aas</td>
+      <td>73.1</td>
+      <td>3.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08008</td>
+      <td>Bifunctional protein Aas</td>
+      <td>53.6</td>
+      <td>3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08043</td>
+      <td>Bifunctional protein Aas</td>
+      <td>1534.9</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08162</td>
+      <td>Bifunctional protein Aas</td>
+      <td>66.0</td>
+      <td>4.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08180</td>
+      <td>Bifunctional protein Aas</td>
+      <td>74.2</td>
+      <td>1.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08276</td>
+      <td>Bifunctional protein Aas</td>
+      <td>48.1</td>
+      <td>1.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08279</td>
+      <td>Bifunctional protein Aas</td>
+      <td>77.8</td>
+      <td>1.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08314</td>
+      <td>Bifunctional protein Aas</td>
+      <td>127.4</td>
+      <td>1.2e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08315</td>
+      <td>Bifunctional protein Aas</td>
+      <td>134.4</td>
+      <td>1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08316</td>
+      <td>Bifunctional protein Aas</td>
+      <td>109.2</td>
+      <td>4.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08633</td>
+      <td>Bifunctional protein Aas</td>
+      <td>535.7</td>
+      <td>4.8e-161</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08751</td>
+      <td>Bifunctional protein Aas</td>
+      <td>99.6</td>
+      <td>3.3e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08974</td>
+      <td>Bifunctional protein Aas</td>
+      <td>129.1</td>
+      <td>3.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09029</td>
+      <td>Bifunctional protein Aas</td>
+      <td>74.9</td>
+      <td>1.3e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09088</td>
+      <td>Bifunctional protein Aas</td>
+      <td>88.7</td>
+      <td>7.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09192</td>
+      <td>Bifunctional protein Aas</td>
+      <td>60.2</td>
+      <td>2.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09274</td>
+      <td>Bifunctional protein Aas</td>
+      <td>75.9</td>
+      <td>4.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10252</td>
+      <td>Bifunctional protein Aas</td>
+      <td>73.1</td>
+      <td>1.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10946</td>
+      <td>Bifunctional protein Aas</td>
+      <td>76.9</td>
+      <td>2.2e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12316</td>
+      <td>Bifunctional protein Aas</td>
+      <td>85.9</td>
+      <td>9.9e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12406</td>
+      <td>Bifunctional protein Aas</td>
+      <td>67.6</td>
+      <td>1.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12467</td>
+      <td>Bifunctional protein Aas</td>
+      <td>89.2</td>
+      <td>1.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12492</td>
+      <td>Bifunctional protein Aas</td>
+      <td>100.1</td>
+      <td>2.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12582</td>
+      <td>Bifunctional protein Aas</td>
+      <td>50.2</td>
+      <td>2.7e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12583</td>
+      <td>Bifunctional protein Aas</td>
+      <td>120.6</td>
+      <td>1.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13295</td>
+      <td>Bifunctional protein Aas</td>
+      <td>110.6</td>
+      <td>1.7e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13382</td>
+      <td>Bifunctional protein Aas</td>
+      <td>60.4</td>
+      <td>2.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13383</td>
+      <td>Bifunctional protein Aas</td>
+      <td>45.2</td>
+      <td>1.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13388</td>
+      <td>Bifunctional protein Aas</td>
+      <td>69.6</td>
+      <td>4.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00216</td>
+      <td>Bifunctional protein Aas</td>
+      <td>99.1</td>
+      <td>3.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00530</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.1</td>
+      <td>8.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01733</td>
+      <td>Bifunctional protein Aas</td>
+      <td>133.9</td>
+      <td>1.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01734</td>
+      <td>Bifunctional protein Aas</td>
+      <td>43.1</td>
+      <td>4.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01923</td>
+      <td>Bifunctional protein Aas</td>
+      <td>127.9</td>
+      <td>1.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02188</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.4</td>
+      <td>1.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02262</td>
+      <td>Bifunctional protein Aas</td>
+      <td>108.0</td>
+      <td>1.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02275</td>
+      <td>Bifunctional protein Aas</td>
+      <td>79.6</td>
+      <td>3.5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02372</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.3</td>
+      <td>5.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03098</td>
+      <td>Bifunctional protein Aas</td>
+      <td>101.8</td>
+      <td>7e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03205</td>
+      <td>Bifunctional protein Aas</td>
+      <td>65.4</td>
+      <td>7.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03208</td>
+      <td>Bifunctional protein Aas</td>
+      <td>85.9</td>
+      <td>5.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04433</td>
+      <td>Bifunctional protein Aas</td>
+      <td>264.3</td>
+      <td>3e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05903</td>
+      <td>Bifunctional protein Aas</td>
+      <td>170.7</td>
+      <td>1.1e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05904</td>
+      <td>Bifunctional protein Aas</td>
+      <td>140.4</td>
+      <td>1.5e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05906</td>
+      <td>Bifunctional protein Aas</td>
+      <td>82.2</td>
+      <td>6.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05907</td>
+      <td>Bifunctional protein Aas</td>
+      <td>168.4</td>
+      <td>4.7e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05908</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.5</td>
+      <td>1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05909</td>
+      <td>Bifunctional protein Aas</td>
+      <td>657.5</td>
+      <td>2.1e-198</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05910</td>
+      <td>Bifunctional protein Aas</td>
+      <td>66.0</td>
+      <td>5.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05911</td>
+      <td>Bifunctional protein Aas</td>
+      <td>177.7</td>
+      <td>7.1e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05912</td>
+      <td>Bifunctional protein Aas</td>
+      <td>121.8</td>
+      <td>6.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05914</td>
+      <td>Bifunctional protein Aas</td>
+      <td>153.6</td>
+      <td>1.5e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05915</td>
+      <td>Bifunctional protein Aas</td>
+      <td>79.0</td>
+      <td>7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05917</td>
+      <td>Bifunctional protein Aas</td>
+      <td>129.2</td>
+      <td>4.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05918</td>
+      <td>Bifunctional protein Aas</td>
+      <td>125.0</td>
+      <td>6.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05919</td>
+      <td>Bifunctional protein Aas</td>
+      <td>176.7</td>
+      <td>1.5e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05920</td>
+      <td>Bifunctional protein Aas</td>
+      <td>106.7</td>
+      <td>2.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05921</td>
+      <td>Bifunctional protein Aas</td>
+      <td>59.0</td>
+      <td>7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05922</td>
+      <td>Bifunctional protein Aas</td>
+      <td>164.8</td>
+      <td>5.5e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05923</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.8</td>
+      <td>1.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05926</td>
+      <td>Bifunctional protein Aas</td>
+      <td>152.3</td>
+      <td>3.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05927</td>
+      <td>Bifunctional protein Aas</td>
+      <td>124.2</td>
+      <td>1.1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05928</td>
+      <td>Bifunctional protein Aas</td>
+      <td>69.4</td>
+      <td>4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05930</td>
+      <td>Bifunctional protein Aas</td>
+      <td>159.5</td>
+      <td>2.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05931</td>
+      <td>Bifunctional protein Aas</td>
+      <td>115.4</td>
+      <td>5.8e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05932</td>
+      <td>Bifunctional protein Aas</td>
+      <td>99.0</td>
+      <td>4.6e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05933</td>
+      <td>Bifunctional protein Aas</td>
+      <td>77.9</td>
+      <td>1.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05934</td>
+      <td>Bifunctional protein Aas</td>
+      <td>149.8</td>
+      <td>1.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05935</td>
+      <td>Bifunctional protein Aas</td>
+      <td>128.2</td>
+      <td>6.7e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05936</td>
+      <td>Bifunctional protein Aas</td>
+      <td>248.3</td>
+      <td>2.6e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05937</td>
+      <td>Bifunctional protein Aas</td>
+      <td>63.9</td>
+      <td>2.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05938</td>
+      <td>Bifunctional protein Aas</td>
+      <td>62.7</td>
+      <td>4.8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05940</td>
+      <td>Bifunctional protein Aas</td>
+      <td>77.5</td>
+      <td>1.8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05941</td>
+      <td>Bifunctional protein Aas</td>
+      <td>181.8</td>
+      <td>4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05944</td>
+      <td>Bifunctional protein Aas</td>
+      <td>151.8</td>
+      <td>4.8e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05945</td>
+      <td>Bifunctional protein Aas</td>
+      <td>130.3</td>
+      <td>1.7e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05958</td>
+      <td>Bifunctional protein Aas</td>
+      <td>130.2</td>
+      <td>1.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05959</td>
+      <td>Bifunctional protein Aas</td>
+      <td>169.5</td>
+      <td>2.7e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05966</td>
+      <td>Bifunctional protein Aas</td>
+      <td>84.3</td>
+      <td>1.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05967</td>
+      <td>Bifunctional protein Aas</td>
+      <td>62.0</td>
+      <td>8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05968</td>
+      <td>Bifunctional protein Aas</td>
+      <td>56.9</td>
+      <td>3.3e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05969</td>
+      <td>Bifunctional protein Aas</td>
+      <td>125.6</td>
+      <td>4.7e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05970</td>
+      <td>Bifunctional protein Aas</td>
+      <td>80.9</td>
+      <td>1.4e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05971</td>
+      <td>Bifunctional protein Aas</td>
+      <td>97.8</td>
+      <td>1.1e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05972</td>
+      <td>Bifunctional protein Aas</td>
+      <td>127.4</td>
+      <td>1.3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05973</td>
+      <td>Bifunctional protein Aas</td>
+      <td>80.2</td>
+      <td>2.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05974</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.0</td>
+      <td>7.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06551</td>
+      <td>Bifunctional protein Aas</td>
+      <td>53.9</td>
+      <td>3.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07989</td>
+      <td>Bifunctional protein Aas</td>
+      <td>116.6</td>
+      <td>1.9e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12114</td>
+      <td>Bifunctional protein Aas</td>
+      <td>84.9</td>
+      <td>1.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12115</td>
+      <td>Bifunctional protein Aas</td>
+      <td>85.8</td>
+      <td>4.9e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12116</td>
+      <td>Bifunctional protein Aas</td>
+      <td>99.4</td>
+      <td>4.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12117</td>
+      <td>Bifunctional protein Aas</td>
+      <td>123.1</td>
+      <td>2.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12118</td>
+      <td>Bifunctional protein Aas</td>
+      <td>95.9</td>
+      <td>4.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12119</td>
+      <td>Bifunctional protein Aas</td>
+      <td>136.7</td>
+      <td>2.2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17630</td>
+      <td>Bifunctional protein Aas</td>
+      <td>121.2</td>
+      <td>9.4e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17631</td>
+      <td>Bifunctional protein Aas</td>
+      <td>178.4</td>
+      <td>4.7e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17633</td>
+      <td>Bifunctional protein Aas</td>
+      <td>91.1</td>
+      <td>1.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17634</td>
+      <td>Bifunctional protein Aas</td>
+      <td>62.1</td>
+      <td>8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17635</td>
+      <td>Bifunctional protein Aas</td>
+      <td>87.7</td>
+      <td>1.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17636</td>
+      <td>Bifunctional protein Aas</td>
+      <td>66.0</td>
+      <td>6.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17637</td>
+      <td>Bifunctional protein Aas</td>
+      <td>87.4</td>
+      <td>1.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17638</td>
+      <td>Bifunctional protein Aas</td>
+      <td>116.4</td>
+      <td>2.9e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17639</td>
+      <td>Bifunctional protein Aas</td>
+      <td>135.2</td>
+      <td>5.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17640</td>
+      <td>Bifunctional protein Aas</td>
+      <td>117.8</td>
+      <td>1.1e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17641</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.8</td>
+      <td>2.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17642</td>
+      <td>Bifunctional protein Aas</td>
+      <td>104.5</td>
+      <td>1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17643</td>
+      <td>Bifunctional protein Aas</td>
+      <td>117.9</td>
+      <td>1.1e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17644</td>
+      <td>Bifunctional protein Aas</td>
+      <td>84.7</td>
+      <td>1.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17645</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.4</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17646</td>
+      <td>Bifunctional protein Aas</td>
+      <td>122.0</td>
+      <td>5.9e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17648</td>
+      <td>Bifunctional protein Aas</td>
+      <td>78.2</td>
+      <td>9.5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17649</td>
+      <td>Bifunctional protein Aas</td>
+      <td>110.0</td>
+      <td>2.7e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17650</td>
+      <td>Bifunctional protein Aas</td>
+      <td>63.4</td>
+      <td>3.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17651</td>
+      <td>Bifunctional protein Aas</td>
+      <td>106.3</td>
+      <td>3.4e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17652</td>
+      <td>Bifunctional protein Aas</td>
+      <td>93.0</td>
+      <td>3.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17653</td>
+      <td>Bifunctional protein Aas</td>
+      <td>122.0</td>
+      <td>5.4e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17654</td>
+      <td>Bifunctional protein Aas</td>
+      <td>87.4</td>
+      <td>1.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17655</td>
+      <td>Bifunctional protein Aas</td>
+      <td>79.1</td>
+      <td>5.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17656</td>
+      <td>Bifunctional protein Aas</td>
+      <td>48.4</td>
+      <td>1.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00501</td>
+      <td>Bifunctional protein Aas</td>
+      <td>221.8</td>
+      <td>3e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01553</td>
+      <td>Bifunctional protein Aas</td>
+      <td>87.0</td>
+      <td>2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00563</td>
+      <td>Bifunctional protein Aas</td>
+      <td>78.8</td>
+      <td>7.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0204</td>
+      <td>Bifunctional protein Aas</td>
+      <td>124.3</td>
+      <td>1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0318</td>
+      <td>Bifunctional protein Aas</td>
+      <td>338.5</td>
+      <td>1.1e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0365</td>
+      <td>Bifunctional protein Aas</td>
+      <td>196.9</td>
+      <td>1e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1020</td>
+      <td>Bifunctional protein Aas</td>
+      <td>86.4</td>
+      <td>3.9e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1021</td>
+      <td>Bifunctional protein Aas</td>
+      <td>131.3</td>
+      <td>6.2e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1022</td>
+      <td>Bifunctional protein Aas</td>
+      <td>183.0</td>
+      <td>1.7e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1541</td>
+      <td>Bifunctional protein Aas</td>
+      <td>44.4</td>
+      <td>1.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1175</td>
+      <td>Bifunctional protein Aas</td>
+      <td>89.9</td>
+      <td>3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1176</td>
+      <td>Bifunctional protein Aas</td>
+      <td>167.7</td>
+      <td>8.2e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1177</td>
+      <td>Bifunctional protein Aas</td>
+      <td>122.7</td>
+      <td>3.2e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1179</td>
+      <td>Bifunctional protein Aas</td>
+      <td>61.8</td>
+      <td>8.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1180</td>
+      <td>Bifunctional protein Aas</td>
+      <td>114.7</td>
+      <td>8.9e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1256</td>
+      <td>Bifunctional protein Aas</td>
+      <td>131.7</td>
+      <td>5.3e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038078</td>
+      <td>Bifunctional protein Aas</td>
+      <td>55.6</td>
+      <td>3.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038343</td>
+      <td>Bifunctional protein Aas</td>
+      <td>95.3</td>
+      <td>6.5e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040633</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.4</td>
+      <td>4.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02246</td>
+      <td>Bifunctional protein Aas</td>
+      <td>94.1</td>
+      <td>1.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02387</td>
+      <td>Bifunctional protein Aas</td>
+      <td>75.3</td>
+      <td>8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02430</td>
+      <td>Bifunctional protein Aas</td>
+      <td>52.6</td>
+      <td>4.4e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02574</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.8</td>
+      <td>9.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02614</td>
+      <td>Bifunctional protein Aas</td>
+      <td>43.9</td>
+      <td>2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02736</td>
+      <td>Bifunctional protein Aas</td>
+      <td>82.2</td>
+      <td>5.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02860</td>
+      <td>Bifunctional protein Aas</td>
+      <td>67.6</td>
+      <td>1.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02861</td>
+      <td>Bifunctional protein Aas</td>
+      <td>51.4</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00174</td>
+      <td>Bifunctional protein Aas</td>
+      <td>59.2</td>
+      <td>5.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03640</td>
+      <td>Bifunctional protein Aas</td>
+      <td>88.6</td>
+      <td>7.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04319</td>
+      <td>Bifunctional protein Aas</td>
+      <td>117.0</td>
+      <td>1.6e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04813</td>
+      <td>Bifunctional protein Aas</td>
+      <td>47.5</td>
+      <td>2.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05605</td>
+      <td>Bifunctional protein Aas</td>
+      <td>155.3</td>
+      <td>4.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05620</td>
+      <td>Bifunctional protein Aas</td>
+      <td>68.4</td>
+      <td>8.6e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05677</td>
+      <td>Bifunctional protein Aas</td>
+      <td>123.8</td>
+      <td>1.6e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05691</td>
+      <td>Bifunctional protein Aas</td>
+      <td>94.0</td>
+      <td>4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05850</td>
+      <td>Bifunctional protein Aas</td>
+      <td>54.5</td>
+      <td>1.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05851</td>
+      <td>Bifunctional protein Aas</td>
+      <td>63.9</td>
+      <td>1.7e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05852</td>
+      <td>Bifunctional protein Aas</td>
+      <td>76.6</td>
+      <td>3.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06018</td>
+      <td>Bifunctional protein Aas</td>
+      <td>82.5</td>
+      <td>5.9e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06060</td>
+      <td>Bifunctional protein Aas</td>
+      <td>76.3</td>
+      <td>3.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06087</td>
+      <td>Bifunctional protein Aas</td>
+      <td>111.8</td>
+      <td>6.7e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06145</td>
+      <td>Bifunctional protein Aas</td>
+      <td>54.7</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06155</td>
+      <td>Bifunctional protein Aas</td>
+      <td>98.5</td>
+      <td>6.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06164</td>
+      <td>Bifunctional protein Aas</td>
+      <td>43.0</td>
+      <td>5.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06178</td>
+      <td>Bifunctional protein Aas</td>
+      <td>88.4</td>
+      <td>9.3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06187</td>
+      <td>Bifunctional protein Aas</td>
+      <td>199.6</td>
+      <td>1.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06188</td>
+      <td>Bifunctional protein Aas</td>
+      <td>80.5</td>
+      <td>2.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06334</td>
+      <td>Bifunctional protein Aas</td>
+      <td>196.7</td>
+      <td>1.4e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06710</td>
+      <td>Bifunctional protein Aas</td>
+      <td>88.5</td>
+      <td>6.1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06814</td>
+      <td>Bifunctional protein Aas</td>
+      <td>941.1</td>
+      <td>2.1e-283</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06839</td>
+      <td>Bifunctional protein Aas</td>
+      <td>102.5</td>
+      <td>4.8e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07008</td>
+      <td>Bifunctional protein Aas</td>
+      <td>89.7</td>
+      <td>3.8e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07059</td>
+      <td>Bifunctional protein Aas</td>
+      <td>110.9</td>
+      <td>1.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07470</td>
+      <td>Bifunctional protein Aas</td>
+      <td>56.3</td>
+      <td>5.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07514</td>
+      <td>Bifunctional protein Aas</td>
+      <td>142.4</td>
+      <td>3.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07529</td>
+      <td>Bifunctional protein Aas</td>
+      <td>168.2</td>
+      <td>5.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07638</td>
+      <td>Bifunctional protein Aas</td>
+      <td>72.1</td>
+      <td>7.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07656</td>
+      <td>Bifunctional protein Aas</td>
+      <td>196.2</td>
+      <td>1.5e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07768</td>
+      <td>Bifunctional protein Aas</td>
+      <td>83.7</td>
+      <td>1.9e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07786</td>
+      <td>Bifunctional protein Aas</td>
+      <td>75.0</td>
+      <td>8.9e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07787</td>
+      <td>Bifunctional protein Aas</td>
+      <td>132.4</td>
+      <td>3.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07788</td>
+      <td>Bifunctional protein Aas</td>
+      <td>109.8</td>
+      <td>2.9e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07798</td>
+      <td>Bifunctional protein Aas</td>
+      <td>60.5</td>
+      <td>2.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07824</td>
+      <td>Bifunctional protein Aas</td>
+      <td>48.3</td>
+      <td>1.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07867</td>
+      <td>Bifunctional protein Aas</td>
+      <td>73.1</td>
+      <td>3.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08008</td>
+      <td>Bifunctional protein Aas</td>
+      <td>53.6</td>
+      <td>3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08043</td>
+      <td>Bifunctional protein Aas</td>
+      <td>1534.9</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08162</td>
+      <td>Bifunctional protein Aas</td>
+      <td>66.0</td>
+      <td>4.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08180</td>
+      <td>Bifunctional protein Aas</td>
+      <td>74.2</td>
+      <td>1.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08276</td>
+      <td>Bifunctional protein Aas</td>
+      <td>48.1</td>
+      <td>1.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08279</td>
+      <td>Bifunctional protein Aas</td>
+      <td>77.8</td>
+      <td>1.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08314</td>
+      <td>Bifunctional protein Aas</td>
+      <td>127.4</td>
+      <td>1.2e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08315</td>
+      <td>Bifunctional protein Aas</td>
+      <td>134.4</td>
+      <td>1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08316</td>
+      <td>Bifunctional protein Aas</td>
+      <td>109.2</td>
+      <td>4.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08633</td>
+      <td>Bifunctional protein Aas</td>
+      <td>535.7</td>
+      <td>4.8e-161</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08751</td>
+      <td>Bifunctional protein Aas</td>
+      <td>99.6</td>
+      <td>3.3e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08974</td>
+      <td>Bifunctional protein Aas</td>
+      <td>129.1</td>
+      <td>3.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09029</td>
+      <td>Bifunctional protein Aas</td>
+      <td>74.9</td>
+      <td>1.3e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09088</td>
+      <td>Bifunctional protein Aas</td>
+      <td>88.7</td>
+      <td>7.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09192</td>
+      <td>Bifunctional protein Aas</td>
+      <td>60.2</td>
+      <td>2.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09274</td>
+      <td>Bifunctional protein Aas</td>
+      <td>75.9</td>
+      <td>4.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10252</td>
+      <td>Bifunctional protein Aas</td>
+      <td>73.1</td>
+      <td>1.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10946</td>
+      <td>Bifunctional protein Aas</td>
+      <td>76.9</td>
+      <td>2.2e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12316</td>
+      <td>Bifunctional protein Aas</td>
+      <td>85.9</td>
+      <td>9.9e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12406</td>
+      <td>Bifunctional protein Aas</td>
+      <td>67.6</td>
+      <td>1.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12467</td>
+      <td>Bifunctional protein Aas</td>
+      <td>89.2</td>
+      <td>1.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12492</td>
+      <td>Bifunctional protein Aas</td>
+      <td>100.1</td>
+      <td>2.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12582</td>
+      <td>Bifunctional protein Aas</td>
+      <td>50.2</td>
+      <td>2.7e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12583</td>
+      <td>Bifunctional protein Aas</td>
+      <td>120.6</td>
+      <td>1.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13295</td>
+      <td>Bifunctional protein Aas</td>
+      <td>110.6</td>
+      <td>1.7e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13382</td>
+      <td>Bifunctional protein Aas</td>
+      <td>60.4</td>
+      <td>2.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13383</td>
+      <td>Bifunctional protein Aas</td>
+      <td>45.2</td>
+      <td>1.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13388</td>
+      <td>Bifunctional protein Aas</td>
+      <td>69.6</td>
+      <td>4.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00216</td>
+      <td>Bifunctional protein Aas</td>
+      <td>99.1</td>
+      <td>3.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00530</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.1</td>
+      <td>8.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01733</td>
+      <td>Bifunctional protein Aas</td>
+      <td>133.9</td>
+      <td>1.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01734</td>
+      <td>Bifunctional protein Aas</td>
+      <td>43.1</td>
+      <td>4.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01923</td>
+      <td>Bifunctional protein Aas</td>
+      <td>127.9</td>
+      <td>1.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02188</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.4</td>
+      <td>1.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02262</td>
+      <td>Bifunctional protein Aas</td>
+      <td>108.0</td>
+      <td>1.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02275</td>
+      <td>Bifunctional protein Aas</td>
+      <td>79.6</td>
+      <td>3.5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02372</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.3</td>
+      <td>5.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03098</td>
+      <td>Bifunctional protein Aas</td>
+      <td>101.8</td>
+      <td>7e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03205</td>
+      <td>Bifunctional protein Aas</td>
+      <td>65.4</td>
+      <td>7.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03208</td>
+      <td>Bifunctional protein Aas</td>
+      <td>85.9</td>
+      <td>5.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04433</td>
+      <td>Bifunctional protein Aas</td>
+      <td>264.3</td>
+      <td>3e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05903</td>
+      <td>Bifunctional protein Aas</td>
+      <td>170.7</td>
+      <td>1.1e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05904</td>
+      <td>Bifunctional protein Aas</td>
+      <td>140.4</td>
+      <td>1.5e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05906</td>
+      <td>Bifunctional protein Aas</td>
+      <td>82.2</td>
+      <td>6.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05907</td>
+      <td>Bifunctional protein Aas</td>
+      <td>168.4</td>
+      <td>4.7e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05908</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.5</td>
+      <td>1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05909</td>
+      <td>Bifunctional protein Aas</td>
+      <td>657.5</td>
+      <td>2.1e-198</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05910</td>
+      <td>Bifunctional protein Aas</td>
+      <td>66.0</td>
+      <td>5.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05911</td>
+      <td>Bifunctional protein Aas</td>
+      <td>177.7</td>
+      <td>7.1e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05912</td>
+      <td>Bifunctional protein Aas</td>
+      <td>121.8</td>
+      <td>6.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05914</td>
+      <td>Bifunctional protein Aas</td>
+      <td>153.6</td>
+      <td>1.5e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05915</td>
+      <td>Bifunctional protein Aas</td>
+      <td>79.0</td>
+      <td>7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05917</td>
+      <td>Bifunctional protein Aas</td>
+      <td>129.2</td>
+      <td>4.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05918</td>
+      <td>Bifunctional protein Aas</td>
+      <td>125.0</td>
+      <td>6.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05919</td>
+      <td>Bifunctional protein Aas</td>
+      <td>176.7</td>
+      <td>1.5e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05920</td>
+      <td>Bifunctional protein Aas</td>
+      <td>106.7</td>
+      <td>2.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05921</td>
+      <td>Bifunctional protein Aas</td>
+      <td>59.0</td>
+      <td>7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05922</td>
+      <td>Bifunctional protein Aas</td>
+      <td>164.8</td>
+      <td>5.5e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05923</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.8</td>
+      <td>1.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05926</td>
+      <td>Bifunctional protein Aas</td>
+      <td>152.3</td>
+      <td>3.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05927</td>
+      <td>Bifunctional protein Aas</td>
+      <td>124.2</td>
+      <td>1.1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05928</td>
+      <td>Bifunctional protein Aas</td>
+      <td>69.4</td>
+      <td>4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05930</td>
+      <td>Bifunctional protein Aas</td>
+      <td>159.5</td>
+      <td>2.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05931</td>
+      <td>Bifunctional protein Aas</td>
+      <td>115.4</td>
+      <td>5.8e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05932</td>
+      <td>Bifunctional protein Aas</td>
+      <td>99.0</td>
+      <td>4.6e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05933</td>
+      <td>Bifunctional protein Aas</td>
+      <td>77.9</td>
+      <td>1.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05934</td>
+      <td>Bifunctional protein Aas</td>
+      <td>149.8</td>
+      <td>1.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05935</td>
+      <td>Bifunctional protein Aas</td>
+      <td>128.2</td>
+      <td>6.7e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05936</td>
+      <td>Bifunctional protein Aas</td>
+      <td>248.3</td>
+      <td>2.6e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05937</td>
+      <td>Bifunctional protein Aas</td>
+      <td>63.9</td>
+      <td>2.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05938</td>
+      <td>Bifunctional protein Aas</td>
+      <td>62.7</td>
+      <td>4.8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05940</td>
+      <td>Bifunctional protein Aas</td>
+      <td>77.5</td>
+      <td>1.8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05941</td>
+      <td>Bifunctional protein Aas</td>
+      <td>181.8</td>
+      <td>4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05944</td>
+      <td>Bifunctional protein Aas</td>
+      <td>151.8</td>
+      <td>4.8e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05945</td>
+      <td>Bifunctional protein Aas</td>
+      <td>130.3</td>
+      <td>1.7e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05958</td>
+      <td>Bifunctional protein Aas</td>
+      <td>130.2</td>
+      <td>1.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05959</td>
+      <td>Bifunctional protein Aas</td>
+      <td>169.5</td>
+      <td>2.7e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05966</td>
+      <td>Bifunctional protein Aas</td>
+      <td>84.3</td>
+      <td>1.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05967</td>
+      <td>Bifunctional protein Aas</td>
+      <td>62.0</td>
+      <td>8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05968</td>
+      <td>Bifunctional protein Aas</td>
+      <td>56.9</td>
+      <td>3.3e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05969</td>
+      <td>Bifunctional protein Aas</td>
+      <td>125.6</td>
+      <td>4.7e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05970</td>
+      <td>Bifunctional protein Aas</td>
+      <td>80.9</td>
+      <td>1.4e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05971</td>
+      <td>Bifunctional protein Aas</td>
+      <td>97.8</td>
+      <td>1.1e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05972</td>
+      <td>Bifunctional protein Aas</td>
+      <td>127.4</td>
+      <td>1.3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05973</td>
+      <td>Bifunctional protein Aas</td>
+      <td>80.2</td>
+      <td>2.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05974</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.0</td>
+      <td>7.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06551</td>
+      <td>Bifunctional protein Aas</td>
+      <td>53.9</td>
+      <td>3.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07989</td>
+      <td>Bifunctional protein Aas</td>
+      <td>116.6</td>
+      <td>1.9e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12114</td>
+      <td>Bifunctional protein Aas</td>
+      <td>84.9</td>
+      <td>1.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12115</td>
+      <td>Bifunctional protein Aas</td>
+      <td>85.8</td>
+      <td>4.9e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12116</td>
+      <td>Bifunctional protein Aas</td>
+      <td>99.4</td>
+      <td>4.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12117</td>
+      <td>Bifunctional protein Aas</td>
+      <td>123.1</td>
+      <td>2.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12118</td>
+      <td>Bifunctional protein Aas</td>
+      <td>95.9</td>
+      <td>4.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12119</td>
+      <td>Bifunctional protein Aas</td>
+      <td>136.7</td>
+      <td>2.2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17630</td>
+      <td>Bifunctional protein Aas</td>
+      <td>121.2</td>
+      <td>9.4e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17631</td>
+      <td>Bifunctional protein Aas</td>
+      <td>178.4</td>
+      <td>4.7e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17633</td>
+      <td>Bifunctional protein Aas</td>
+      <td>91.1</td>
+      <td>1.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17634</td>
+      <td>Bifunctional protein Aas</td>
+      <td>62.1</td>
+      <td>8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17635</td>
+      <td>Bifunctional protein Aas</td>
+      <td>87.7</td>
+      <td>1.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17636</td>
+      <td>Bifunctional protein Aas</td>
+      <td>66.0</td>
+      <td>6.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17637</td>
+      <td>Bifunctional protein Aas</td>
+      <td>87.4</td>
+      <td>1.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17638</td>
+      <td>Bifunctional protein Aas</td>
+      <td>116.4</td>
+      <td>2.9e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17639</td>
+      <td>Bifunctional protein Aas</td>
+      <td>135.2</td>
+      <td>5.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17640</td>
+      <td>Bifunctional protein Aas</td>
+      <td>117.8</td>
+      <td>1.1e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17641</td>
+      <td>Bifunctional protein Aas</td>
+      <td>46.8</td>
+      <td>2.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17642</td>
+      <td>Bifunctional protein Aas</td>
+      <td>104.5</td>
+      <td>1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17643</td>
+      <td>Bifunctional protein Aas</td>
+      <td>117.9</td>
+      <td>1.1e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17644</td>
+      <td>Bifunctional protein Aas</td>
+      <td>84.7</td>
+      <td>1.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17645</td>
+      <td>Bifunctional protein Aas</td>
+      <td>71.4</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17646</td>
+      <td>Bifunctional protein Aas</td>
+      <td>122.0</td>
+      <td>5.9e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17648</td>
+      <td>Bifunctional protein Aas</td>
+      <td>78.2</td>
+      <td>9.5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17649</td>
+      <td>Bifunctional protein Aas</td>
+      <td>110.0</td>
+      <td>2.7e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17650</td>
+      <td>Bifunctional protein Aas</td>
+      <td>63.4</td>
+      <td>3.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17651</td>
+      <td>Bifunctional protein Aas</td>
+      <td>106.3</td>
+      <td>3.4e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17652</td>
+      <td>Bifunctional protein Aas</td>
+      <td>93.0</td>
+      <td>3.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17653</td>
+      <td>Bifunctional protein Aas</td>
+      <td>122.0</td>
+      <td>5.4e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17654</td>
+      <td>Bifunctional protein Aas</td>
+      <td>87.4</td>
+      <td>1.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17655</td>
+      <td>Bifunctional protein Aas</td>
+      <td>79.1</td>
+      <td>5.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17656</td>
+      <td>Bifunctional protein Aas</td>
+      <td>48.4</td>
+      <td>1.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00501</td>
+      <td>Bifunctional protein Aas</td>
+      <td>221.8</td>
+      <td>3e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01553</td>
+      <td>Bifunctional protein Aas</td>
+      <td>87.0</td>
+      <td>2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00563</td>
+      <td>Bifunctional protein Aas</td>
+      <td>78.8</td>
+      <td>7.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.854904</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

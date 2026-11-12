@@ -1,0 +1,6084 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00641</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00641</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>2,3-dihydroxybenzoate---[aryl-carrier protein] ligase [EC:6.3.2.14 6.2.1.71]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K02363</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K02363</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:6.3.2.14</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008668</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K02363</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K12238</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.5.1.-</td>
+      <td>Other observed claim</td>
+      <td>bakta</td>
+      <td>BlastRules</td>
+      <td>sequence_homology@BlastRules</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.7.7.58</td>
+      <td>Other observed claim</td>
+      <td>bakta;eggNOG-mapper</td>
+      <td>BlastRules;eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG;sequence_homology@BlastRules</td>
+      <td>transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:6.2.1.71</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td>derived_from_ko</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:6.3.2.14</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K02363</td>
+      <td>EC:2.5.1.-</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K02363</td>
+      <td>EC:2.7.7.58</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K02363</td>
+      <td>EC:6.2.1.71</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K02363</td>
+      <td>EC:6.3.2.14</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K12238</td>
+      <td>EC:2.5.1.-</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K12238</td>
+      <td>EC:2.7.7.58</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K12238</td>
+      <td>EC:6.2.1.71</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K12238</td>
+      <td>EC:6.3.2.14</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0008668</td>
+      <td>GO:0008668</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0016779</td>
+      <td>GO:0016779</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0016874</td>
+      <td>GO:0016874</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0016879</td>
+      <td>GO:0016879</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0016881</td>
+      <td>GO:0016881</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0047527</td>
+      <td>GO:0047527</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.5.1.-</td>
+      <td>GO:0070566</td>
+      <td>GO:0070566</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0008668</td>
+      <td>GO:0008668</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0016779</td>
+      <td>GO:0016779</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0016874</td>
+      <td>GO:0016874</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0016879</td>
+      <td>GO:0016879</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0016881</td>
+      <td>GO:0016881</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0047527</td>
+      <td>GO:0047527</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.7.58</td>
+      <td>GO:0070566</td>
+      <td>GO:0070566</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0008668</td>
+      <td>GO:0008668</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0016779</td>
+      <td>GO:0016779</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0016874</td>
+      <td>GO:0016874</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0016879</td>
+      <td>GO:0016879</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0016881</td>
+      <td>GO:0016881</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0047527</td>
+      <td>GO:0047527</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.71</td>
+      <td>GO:0070566</td>
+      <td>GO:0070566</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0008668</td>
+      <td>GO:0008668</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0016779</td>
+      <td>GO:0016779</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0016874</td>
+      <td>GO:0016874</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0016879</td>
+      <td>GO:0016879</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0016881</td>
+      <td>GO:0016881</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0047527</td>
+      <td>GO:0047527</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.3.2.14</td>
+      <td>GO:0070566</td>
+      <td>GO:0070566</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|626070|627680|+</td></tr><tr><th>protein_id</th><td>KOIAIB_00641</td></tr><tr><th>gene</th><td>entE</td></tr><tr><th>product</th><td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>626070</td></tr><tr><th>stop</th><td>627680</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_984</td></tr><tr><th>locus_tag</th><td>KOIAIB_00641</td></tr><tr><th>aa_md5</th><td>c4380653142ac6be1c2307929583d88d</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>Q</td></tr><tr><th>GO</th><td><details class="value-details"><summary>58 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006518</li><li>GO:0006725</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008668</li><li>GO:0009058</li><li>GO:0009237</li><li>GO:0009238</li><li>GO:0009239</li><li>GO:0009712</li><li>GO:0009713</li><li>GO:0009987</li><li>GO:0016740</li><li>GO:0016772</li><li>GO:0016779</li><li>GO:0016874</li><li>GO:0016879</li><li>GO:0016881</li><li>GO:0018130</li><li>GO:0018958</li><li>GO:0019184</li><li>GO:0019290</li><li>GO:0019438</li><li>GO:0019540</li><li>GO:0019748</li><li>GO:0034641</li><li>GO:0043043</li><li>GO:0043603</li><li>GO:0043604</li><li>GO:0044237</li><li>GO:0044249</li><li>GO:0044271</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0044550</li><li>GO:0046189</li><li>GO:0046483</li><li>GO:0047527</li><li>GO:0051186</li><li>GO:0051188</li><li>GO:0070566</li><li>GO:0071704</li><li>GO:1901360</li><li>GO:1901362</li><li>GO:1901564</li><li>GO:1901566</li><li>GO:1901576</li><li>GO:1901615</li><li>GO:1901617</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.5.1.-; EC:2.7.7.58; EC:6.2.1.71; EC:6.3.2.14</td></tr><tr><th>KEGG_KO</th><td>KEGG:K02363; KEGG:K12238</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko01053; KEGG:ko01110; KEGG:ko01130; KEGG:map01053; KEGG:map01110; KEGG:map01130</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R07644</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>7 values</summary><ul class="value-list"><li>INTERPRO:IPR000873</li><li>INTERPRO:IPR011963</li><li>INTERPRO:IPR020845</li><li>INTERPRO:IPR025110</li><li>INTERPRO:IPR042099</li><li>INTERPRO:IPR045851</li><li>INTERPRO:IPR050237</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00501; PFAM:PF13193</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>1</td></tr><tr><th>concordance_partial</th><td>8</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd05920</td>
+      <td>CDD:cd04433;CDD:cd05903;CDD:cd05904;CDD:cd05906;CDD:cd05907;CDD:cd05908;CDD:cd05909;CDD:cd05910;CDD:cd05911;CDD:cd05912;CDD:cd05914;CDD:cd05915;CDD:cd05917;CDD:cd05918;CDD:cd05919;CDD:cd05920;CDD:cd05921;CDD:cd05922;CDD:cd05923;CDD:cd05924;CDD:cd05926;CDD:cd05927;CDD:cd05928;CDD:cd05929;CDD:cd05930;CDD:cd05931;CDD:cd05932;CDD:cd05933;CDD:cd05934;CDD:cd05935;CDD:cd05936;CDD:cd05937;CDD:cd05938;CDD:cd05939;CDD:cd05940;CDD:cd05941;CDD:cd05943;CDD:cd05944;CDD:cd05945;CDD:cd05958;CDD:cd05959;CDD:cd05966;CDD:cd05967;CDD:cd05968;CDD:cd05969;CDD:cd05970;CDD:cd05971;CDD:cd05972;CDD:cd05973;CDD:cd05974;CDD:cd12114;CDD:cd12115;CDD:cd12116;CDD:cd12117;CDD:cd12118;CDD:cd12119;CDD:cd17630;CDD:cd17631;CDD:cd17633;CDD:cd17634;CDD:cd17635;CDD:cd17636;CDD:cd17637;CDD:cd17638;CDD:cd17639;CDD:cd17640;CDD:cd17641;CDD:cd17642;CDD:cd17643;CDD:cd17644;CDD:cd17645;CDD:cd17646;CDD:cd17648;CDD:cd17649;CDD:cd17650;CDD:cd17651;CDD:cd17652;CDD:cd17653;CDD:cd17654;CDD:cd17655;CDD:cd17656</td>
+      <td>CDD:cd05920</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1021</td>
+      <td>COG:COG0318;COG:COG0365;COG:COG1020;COG:COG1021;COG:COG1022;COG:COG1541</td>
+      <td>COG:COG1021</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:2.5.1.-;EC:2.7.7.58;EC:6.3.2.14</td>
+      <td>EC:6.2.1.71;EC:6.3.2.14</td>
+      <td>EC:6.3.2.14</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:2.5.1.-;EC:2.7.7.58;EC:6.3.2.14</td>
+      <td>EC:2.7.7.58;EC:6.3.2.14</td>
+      <td>EC:2.7.7.58;EC:6.3.2.14</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.7.7.58;EC:6.3.2.14</td>
+      <td>EC:6.2.1.71;EC:6.3.2.14</td>
+      <td>EC:6.3.2.14</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006518;GO:0006725;GO:0006807;GO:0008150;GO:0008152;GO:0008668;GO:0009058;GO:0009237;GO:0009238;GO:0009239;GO:0009712;GO:0009713;GO:0009987;GO:0016740;GO:0016772;GO:0016779;GO:0016874;GO:0016879;GO:0016881;GO:0018130;GO:0018958;GO:0019184;GO:0019290;GO:0019438;GO:0019540;GO:0019748;GO:0034641;GO:0043043;GO:0043603;GO:0043604;GO:0044237;GO:0044249;GO:0044271;GO:0044424;GO:0044444;GO:0044464;GO:0044550;GO:0046189;GO:0046483;GO:0047527;GO:0051186;GO:0051188;GO:0070566;GO:0071704;GO:1901360;GO:1901362;GO:1901564;GO:1901566;GO:1901576;GO:1901615;GO:1901617</td>
+      <td>GO:0008668;GO:0019290</td>
+      <td>GO:0008668;GO:0019290</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K02363;KEGG:K12238</td>
+      <td>KEGG:K02363</td>
+      <td>KEGG:K02363</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF008192;NCBIFAM:TIGR02275</td>
+      <td>NCBIFAM:NF038078;NCBIFAM:NF038341;NCBIFAM:NF038342;NCBIFAM:NF038343;NCBIFAM:NF038344;NCBIFAM:TIGR01217;NCBIFAM:TIGR01733;NCBIFAM:TIGR01734;NCBIFAM:TIGR01923;NCBIFAM:TIGR02188;NCBIFAM:TIGR02262;NCBIFAM:TIGR02275;NCBIFAM:TIGR02316;NCBIFAM:TIGR03098;NCBIFAM:TIGR03205;NCBIFAM:TIGR03208</td>
+      <td>NCBIFAM:TIGR02275</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF008192;NCBIFAM:TIGR02275</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF038078;NCBIFAM:NF038341;NCBIFAM:NF038342;NCBIFAM:NF038343;NCBIFAM:NF038344;NCBIFAM:TIGR01217;NCBIFAM:TIGR01733;NCBIFAM:TIGR01734;NCBIFAM:TIGR01923;NCBIFAM:TIGR02188;NCBIFAM:TIGR02262;NCBIFAM:TIGR02275;NCBIFAM:TIGR02316;NCBIFAM:TIGR03098;NCBIFAM:TIGR03205;NCBIFAM:TIGR03208</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 3 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:2.5.1.-</td>
+      <td>WP_000026784</td>
+    </tr>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:2.7.7.58</td>
+      <td>WP_000026784</td>
+    </tr>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:6.3.2.14</td>
+      <td>WP_000026784</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 88 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSF_1195.SF0508</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSSON_1240.SSON_0545</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iS_1188.S0514</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iZ_1308.Z0736</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1021</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>Q</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.7.7.58</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:6.3.2.14</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1NSN8@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RP8K@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMDK@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1021@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1021@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006518</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008668</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009239</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009712</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009713</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016772</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016779</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016874</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016879</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016881</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018958</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019184</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019290</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019438</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019540</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019748</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043043</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043603</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043604</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044271</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044550</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046189</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0047527</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051186</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051188</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901615</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901617</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01008</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K02363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K12238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01053</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01053</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00162</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC03046</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R07644</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>AMP-binding</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>AMP-binding_C</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674715</td>
+      <td>entE</td>
+      <td>Involved in the biosynthesis of the siderophore enterobactin (enterochelin), which is a macrocyclic trimeric lactone of N-(2,3-dihydroxybenzoyl)-serine. The serine trilactone serves as a scaffolding for the three catechol functionalities that provide hexadentate coordination for the tightly ligated iron(2 ) atoms. EntE proccesses via a two-step adenylation- ligation reaction (bi-uni-uni-bi ping-pong mechanism). First, it catalyzes the activation of the carboxylate group of 2,3- dihydroxy-benzoate (DHB), via a reversible ATP-dependent pyrophosphate exchange reactions to yield the acyladenylate intermediate 2,3-dihydroxybenzoyl-AMP. It can also transfer AMP to salicylate, 2,4-dihydroxybenzoate, gentisate and 2,3,4- trihydroxybenzoate. In the second step, DHB is transferred from 2,3-dihydroxybenzoyl-AMP onto the phosphopantetheinylated EntB (holo-EntB) to form DHB-holo-EntB. Then this product will serve in the formation of the amide bond between 2,3-dihydroxybenzoate (DHB) and L-serine</td>
+      <td>1068.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>536</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:6.2.1.71</td>
+      <td>KEGG:K02363</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:6.3.2.14</td>
+      <td>KEGG:K02363</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K02363</td>
+      <td></td>
+      <td>2,3-dihydroxybenzoate---[aryl-carrier protein] ligase [EC:6.3.2.14 6.2.1.71]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K02363</td>
+      <td>2,3-dihydroxybenzoate---[aryl-carrier protein] ligase [EC:6.3.2.14 6.2.1.71]</td>
+      <td>above_threshold</td>
+      <td>831.9</td>
+      <td>762.23</td>
+      <td>5.6e-251</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 22 annotation rows, 13 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd05920</td>
+      <td></td>
+      <td>23DHB-AMP_lg</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:2.30.38.10:FF:000003</td>
+      <td></td>
+      <td>Vibriobactin-specific 2,3-dihydroxybenzoate-AMP ligase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.300.30:FF:000021</td>
+      <td></td>
+      <td>Enterobactin synthase component E</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.12780:FF:000031</td>
+      <td></td>
+      <td>Enterobactin synthase component E</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.300.30</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.12780</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008668</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR02275","interpro_accession":"IPR011963","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0019290</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR02275","interpro_accession":"IPR011963","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000873</td>
+      <td></td>
+      <td>AMP-dependent synthetase/ligase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR011963</td>
+      <td></td>
+      <td>2,3-dihydroxybenzoate-AMP ligase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020845</td>
+      <td></td>
+      <td>AMP-binding, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR025110</td>
+      <td></td>
+      <td>AMP-binding enzyme, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR042099</td>
+      <td></td>
+      <td>ANL, N-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR045851</td>
+      <td></td>
+      <td>AMP-binding enzyme domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR050237</td>
+      <td></td>
+      <td>ATP-dependent AMP-binding enzyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF008192</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02275</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43767</td>
+      <td></td>
+      <td>LONG-CHAIN-FATTY-ACID--COA LIGASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00501</td>
+      <td></td>
+      <td>AMP-binding enzyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13193</td>
+      <td></td>
+      <td>AMP-binding enzyme C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00455</td>
+      <td></td>
+      <td>Putative AMP-binding domain signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56801</td>
+      <td></td>
+      <td>Acetyl-CoA synthetase-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd05920</td>
+      <td>23DHB-AMP_lg</td>
+      <td>0.0</td>
+      <td>11</td>
+      <td>526</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:2.30.38.10:FF:000003</td>
+      <td>Vibriobactin-specific 2,3-dihydroxybenzoate-AMP ligase</td>
+      <td>5.8E-27</td>
+      <td>356</td>
+      <td>430</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.300.30:FF:000021</td>
+      <td>Enterobactin synthase component E</td>
+      <td>5.3E-68</td>
+      <td>432</td>
+      <td>536</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12780:FF:000031</td>
+      <td>Enterobactin synthase component E</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>431</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.300.30</td>
+      <td></td>
+      <td>2.0E-27</td>
+      <td>432</td>
+      <td>536</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12780</td>
+      <td></td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>431</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF008192</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>534</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR02275</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>527</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43767</td>
+      <td>LONG-CHAIN-FATTY-ACID--COA LIGASE</td>
+      <td>8.1E-83</td>
+      <td>24</td>
+      <td>533</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00501</td>
+      <td>AMP-binding enzyme</td>
+      <td>1.1E-63</td>
+      <td>37</td>
+      <td>395</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF13193</td>
+      <td>AMP-binding enzyme C-terminal domain</td>
+      <td>1.4E-8</td>
+      <td>446</td>
+      <td>520</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00455</td>
+      <td>Putative AMP-binding domain signature.</td>
+      <td></td>
+      <td>187</td>
+      <td>198</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56801</td>
+      <td>Acetyl-CoA synthetase-like</td>
+      <td>4.19E-125</td>
+      <td>5</td>
+      <td>532</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 195 annotation rows, 387 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04433</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05903</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05904</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05906</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05907</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05908</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05909</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05910</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05911</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05912</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05914</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05915</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05917</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05918</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05919</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05920</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05921</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05922</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05923</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05924</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05926</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05927</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05928</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05929</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05930</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05931</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05932</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05933</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05934</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05935</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05936</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05937</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05938</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05939</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05940</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05941</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05943</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05944</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05945</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05958</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05959</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05966</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05967</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05968</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05969</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05970</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05971</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05972</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05973</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05974</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12114</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12115</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12116</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12117</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12118</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12119</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17630</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17631</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17633</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17634</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17635</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17636</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17637</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17638</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17639</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17640</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17641</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17642</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17643</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17644</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17645</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17646</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17648</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17649</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17650</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17651</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17652</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17653</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17654</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17655</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17656</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02246</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02330</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02430</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02479</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02574</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02654</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02736</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02860</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN03102</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00174</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03584</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03640</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04319</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04813</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05605</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05620</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05677</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05691</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05852</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05857</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06018</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06060</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06087</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06145</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06155</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06164</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06178</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06187</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06188</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06334</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06710</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06814</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06839</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07008</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07059</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07445</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07470</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07514</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07529</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07638</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07656</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07768</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07786</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07787</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07788</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07798</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07824</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07867</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08008</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08043</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08162</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08180</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08276</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08279</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08308</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08314</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08315</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08316</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08633</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08751</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08974</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09029</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09088</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09192</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09274</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10252</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10524</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10946</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12316</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12406</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12467</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12492</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12582</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12583</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13295</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13382</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13383</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13388</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13390</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13391</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00216</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00237</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0318</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0365</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1020</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1021</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1022</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1541</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1175</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1176</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1177</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1179</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1180</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1256</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038078</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038341</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038342</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038343</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038344</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01217</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01733</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01734</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01923</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02188</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02262</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02275</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02316</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03098</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03205</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03208</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00501</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13193</td>
+      <td></td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0318</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>396.6</td>
+      <td>2.8e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0365</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>266.1</td>
+      <td>1.1e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1020</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>157.1</td>
+      <td>1.8e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1021</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>793.4</td>
+      <td>1.5e-239</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1022</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>147.7</td>
+      <td>7.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1541</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>59.6</td>
+      <td>4.4e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1175</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>152.8</td>
+      <td>2.7e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1176</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>275.6</td>
+      <td>1.7e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1177</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>184.2</td>
+      <td>7.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1179</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>64.0</td>
+      <td>2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1180</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>52.0</td>
+      <td>8.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1256</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>90.9</td>
+      <td>1.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038078</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>98.6</td>
+      <td>3.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038341</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>118.7</td>
+      <td>5e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038342</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>42.5</td>
+      <td>6.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038343</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>66.5</td>
+      <td>3.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038344</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>129.1</td>
+      <td>3.5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02246</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.0</td>
+      <td>6.2e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02330</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>93.7</td>
+      <td>2.1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02430</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>40.3</td>
+      <td>2.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02479</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>110.8</td>
+      <td>1.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02574</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>128.5</td>
+      <td>6.3e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02654</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>73.7</td>
+      <td>1.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02736</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>58.2</td>
+      <td>9.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02860</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>136.2</td>
+      <td>2.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03102</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>87.2</td>
+      <td>1.9e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00174</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>106.1</td>
+      <td>3.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03584</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>58.9</td>
+      <td>5.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03640</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>165.4</td>
+      <td>4e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04319</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>127.4</td>
+      <td>1.2e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04813</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>91.7</td>
+      <td>8.2e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05605</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.6</td>
+      <td>4.2e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05620</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>99.0</td>
+      <td>4.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05677</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>150.5</td>
+      <td>1.3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05691</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>103.6</td>
+      <td>5.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05852</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>166.7</td>
+      <td>1.7e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05857</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>81.8</td>
+      <td>9.2e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06018</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>116.9</td>
+      <td>2.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06060</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>73.2</td>
+      <td>2.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06087</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>277.5</td>
+      <td>4e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06145</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>135.5</td>
+      <td>4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06155</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>160.1</td>
+      <td>1.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06164</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>151.9</td>
+      <td>5.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06178</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>166.5</td>
+      <td>2e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06187</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>273.2</td>
+      <td>7.2e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06188</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>199.6</td>
+      <td>1.7e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06334</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>82.6</td>
+      <td>5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06710</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>108.5</td>
+      <td>5.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06814</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>94.5</td>
+      <td>9.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06839</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>154.8</td>
+      <td>6.6e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07008</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>118.2</td>
+      <td>9.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07059</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>166.4</td>
+      <td>1.8e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07445</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>82.2</td>
+      <td>6.2e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07470</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>193.8</td>
+      <td>1.1e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07514</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>190.9</td>
+      <td>6.4e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07529</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>203.6</td>
+      <td>1.1e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07638</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>131.1</td>
+      <td>9.2e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07656</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>246.6</td>
+      <td>8.6e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07768</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>86.9</td>
+      <td>2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07786</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>157.9</td>
+      <td>6.6e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07787</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>153.4</td>
+      <td>1.5e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07788</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>192.0</td>
+      <td>3.6e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07798</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>172.2</td>
+      <td>3.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07824</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.6</td>
+      <td>8.2e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07867</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>126.3</td>
+      <td>3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08008</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.5</td>
+      <td>5.1e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08043</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>65.7</td>
+      <td>5.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08162</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>188.0</td>
+      <td>5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08180</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>64.8</td>
+      <td>1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08276</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>142.1</td>
+      <td>4.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08279</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>81.4</td>
+      <td>1.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08308</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>69.3</td>
+      <td>6.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08314</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>178.7</td>
+      <td>3.5e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08315</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>209.4</td>
+      <td>1.9e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08316</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>196.5</td>
+      <td>1.4e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08633</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>80.3</td>
+      <td>1.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08751</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>116.3</td>
+      <td>2.7e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08974</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>124.5</td>
+      <td>7.6e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09029</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>103.3</td>
+      <td>3e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09088</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>168.7</td>
+      <td>4.3e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09192</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.4</td>
+      <td>6.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09274</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>99.3</td>
+      <td>3.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10252</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>114.3</td>
+      <td>7e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10524</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>87.8</td>
+      <td>1.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10946</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>1066.8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12316</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>130.0</td>
+      <td>4.9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12406</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>120.4</td>
+      <td>1.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12467</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>147.7</td>
+      <td>2.8e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12492</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>136.1</td>
+      <td>2.9e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12582</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>61.8</td>
+      <td>8.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12583</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>198.8</td>
+      <td>2.8e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13295</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>268.9</td>
+      <td>2e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13382</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>137.5</td>
+      <td>1.2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13383</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>117.2</td>
+      <td>1.7e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13388</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>122.7</td>
+      <td>3.4e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13390</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>101.1</td>
+      <td>1.1e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13391</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>131.8</td>
+      <td>4.6e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00216</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>55.3</td>
+      <td>6.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00237</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>73.3</td>
+      <td>3.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01217</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>41.1</td>
+      <td>1.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01733</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>165.8</td>
+      <td>3e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01734</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>83.9</td>
+      <td>2.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01923</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>179.3</td>
+      <td>2.8e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02188</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>119.0</td>
+      <td>4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02262</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>146.0</td>
+      <td>3.4e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02275</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>960.3</td>
+      <td>4.2e-290</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02316</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.1</td>
+      <td>9.9e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03098</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>109.3</td>
+      <td>3.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03205</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>130.3</td>
+      <td>1.6e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03208</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>228.0</td>
+      <td>5.2e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04433</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>276.2</td>
+      <td>7.2e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05903</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>305.5</td>
+      <td>1.4e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05904</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>211.8</td>
+      <td>3.5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05906</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>131.0</td>
+      <td>1e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05907</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>145.8</td>
+      <td>3.3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05908</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>81.4</td>
+      <td>1.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05909</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>148.6</td>
+      <td>4.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05910</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>69.5</td>
+      <td>4.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05911</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>227.6</td>
+      <td>5.2e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05912</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>182.1</td>
+      <td>3.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05914</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>116.3</td>
+      <td>3.1e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05915</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>149.6</td>
+      <td>2.8e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05917</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>168.2</td>
+      <td>5.8e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05918</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.5</td>
+      <td>4.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05919</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>189.3</td>
+      <td>2.2e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05920</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>802.6</td>
+      <td>2.6e-242</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05921</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>65.5</td>
+      <td>7.4e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05922</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>143.3</td>
+      <td>1.9e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05923</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.9</td>
+      <td>3.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05924</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>108.9</td>
+      <td>8.5e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05926</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>234.7</td>
+      <td>4e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05927</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.0</td>
+      <td>8.6e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05928</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>104.9</td>
+      <td>7.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05929</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>142.9</td>
+      <td>2.9e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05930</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>224.0</td>
+      <td>6.2e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05931</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>103.4</td>
+      <td>2.4e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05932</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>84.6</td>
+      <td>1.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05933</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>40.4</td>
+      <td>3.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05934</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>251.0</td>
+      <td>3.8e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05935</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>196.2</td>
+      <td>1.7e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05936</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>280.9</td>
+      <td>3.4e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05937</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>54.4</td>
+      <td>2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05938</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>52.4</td>
+      <td>6.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05939</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>48.4</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05940</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.0</td>
+      <td>1.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05941</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>203.5</td>
+      <td>1.1e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05943</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>63.7</td>
+      <td>2.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05944</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>170.1</td>
+      <td>1.3e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05945</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>166.6</td>
+      <td>1.6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05958</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>198.2</td>
+      <td>4.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05959</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>168.4</td>
+      <td>5.9e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05966</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>125.7</td>
+      <td>4.5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05967</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>111.4</td>
+      <td>8.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05968</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.1</td>
+      <td>1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05969</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>134.6</td>
+      <td>8.6e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05970</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>127.0</td>
+      <td>1.6e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05971</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>157.3</td>
+      <td>1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05972</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>175.0</td>
+      <td>4.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05973</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>111.0</td>
+      <td>1.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05974</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>101.0</td>
+      <td>1.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12114</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>146.9</td>
+      <td>1.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12115</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.6</td>
+      <td>4.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12116</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>152.2</td>
+      <td>4.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12117</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>181.9</td>
+      <td>3.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12118</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>197.4</td>
+      <td>7.6e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12119</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>190.5</td>
+      <td>1.1e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17630</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.6</td>
+      <td>3.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17631</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>286.8</td>
+      <td>6.6e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17633</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>113.3</td>
+      <td>2.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17634</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>110.8</td>
+      <td>1.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17635</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>119.0</td>
+      <td>4.7e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17636</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>97.3</td>
+      <td>1.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17637</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>115.6</td>
+      <td>4.4e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17638</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>145.4</td>
+      <td>4.2e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17639</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>69.6</td>
+      <td>4.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17640</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>113.5</td>
+      <td>2.3e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17641</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>51.3</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17642</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>114.6</td>
+      <td>9.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17643</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.1</td>
+      <td>5.5e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17644</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>119.4</td>
+      <td>3.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17645</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>100.9</td>
+      <td>1.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17646</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>190.4</td>
+      <td>1.1e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17648</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>94.5</td>
+      <td>1.1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17649</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.2</td>
+      <td>6.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17650</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>143.4</td>
+      <td>2.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17651</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>169.0</td>
+      <td>3.4e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17652</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>176.0</td>
+      <td>2.3e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17653</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>127.3</td>
+      <td>1.3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17654</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>66.9</td>
+      <td>2.5e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17655</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.3</td>
+      <td>4.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17656</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>130.2</td>
+      <td>2.3e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00501</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>281.3</td>
+      <td>2.5e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13193</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>48.1</td>
+      <td>4e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0318</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>396.6</td>
+      <td>2.8e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0365</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>266.1</td>
+      <td>1.1e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1020</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>157.1</td>
+      <td>1.8e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1021</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>793.4</td>
+      <td>1.5e-239</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1022</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>147.7</td>
+      <td>7.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1541</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>59.6</td>
+      <td>4.4e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1175</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>152.8</td>
+      <td>2.7e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1176</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>275.6</td>
+      <td>1.7e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1177</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>184.2</td>
+      <td>7.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1179</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>64.0</td>
+      <td>2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1180</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>52.0</td>
+      <td>8.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1256</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>90.9</td>
+      <td>1.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038078</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>98.6</td>
+      <td>3.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038341</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>118.7</td>
+      <td>5e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038342</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>42.5</td>
+      <td>6.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038343</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>66.5</td>
+      <td>3.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038344</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>129.1</td>
+      <td>3.5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02246</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.0</td>
+      <td>6.2e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02330</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>93.7</td>
+      <td>2.1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02430</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>40.3</td>
+      <td>2.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02479</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>110.8</td>
+      <td>1.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02574</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>128.5</td>
+      <td>6.3e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02654</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>73.7</td>
+      <td>1.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02736</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>58.2</td>
+      <td>9.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02860</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>136.2</td>
+      <td>2.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03102</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>87.2</td>
+      <td>1.9e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00174</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>106.1</td>
+      <td>3.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03584</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>58.9</td>
+      <td>5.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03640</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>165.4</td>
+      <td>4e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04319</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>127.4</td>
+      <td>1.2e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04813</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>91.7</td>
+      <td>8.2e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05605</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.6</td>
+      <td>4.2e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05620</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>99.0</td>
+      <td>4.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05677</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>150.5</td>
+      <td>1.3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05691</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>103.6</td>
+      <td>5.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05852</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>166.7</td>
+      <td>1.7e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05857</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>81.8</td>
+      <td>9.2e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06018</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>116.9</td>
+      <td>2.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06060</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>73.2</td>
+      <td>2.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06087</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>277.5</td>
+      <td>4e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06145</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>135.5</td>
+      <td>4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06155</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>160.1</td>
+      <td>1.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06164</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>151.9</td>
+      <td>5.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06178</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>166.5</td>
+      <td>2e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06187</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>273.2</td>
+      <td>7.2e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06188</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>199.6</td>
+      <td>1.7e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06334</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>82.6</td>
+      <td>5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06710</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>108.5</td>
+      <td>5.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06814</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>94.5</td>
+      <td>9.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06839</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>154.8</td>
+      <td>6.6e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07008</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>118.2</td>
+      <td>9.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07059</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>166.4</td>
+      <td>1.8e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07445</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>82.2</td>
+      <td>6.2e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07470</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>193.8</td>
+      <td>1.1e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07514</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>190.9</td>
+      <td>6.4e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07529</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>203.6</td>
+      <td>1.1e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07638</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>131.1</td>
+      <td>9.2e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07656</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>246.6</td>
+      <td>8.6e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07768</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>86.9</td>
+      <td>2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07786</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>157.9</td>
+      <td>6.6e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07787</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>153.4</td>
+      <td>1.5e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07788</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>192.0</td>
+      <td>3.6e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07798</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>172.2</td>
+      <td>3.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07824</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.6</td>
+      <td>8.2e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07867</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>126.3</td>
+      <td>3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08008</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.5</td>
+      <td>5.1e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08043</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>65.7</td>
+      <td>5.6e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08162</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>188.0</td>
+      <td>5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08180</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>64.8</td>
+      <td>1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08276</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>142.1</td>
+      <td>4.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08279</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>81.4</td>
+      <td>1.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08308</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>69.3</td>
+      <td>6.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08314</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>178.7</td>
+      <td>3.5e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08315</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>209.4</td>
+      <td>1.9e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08316</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>196.5</td>
+      <td>1.4e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08633</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>80.3</td>
+      <td>1.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08751</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>116.3</td>
+      <td>2.7e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08974</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>124.5</td>
+      <td>7.6e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09029</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>103.3</td>
+      <td>3e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09088</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>168.7</td>
+      <td>4.3e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09192</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.4</td>
+      <td>6.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09274</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>99.3</td>
+      <td>3.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10252</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>114.3</td>
+      <td>7e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10524</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>87.8</td>
+      <td>1.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10946</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>1066.8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12316</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>130.0</td>
+      <td>4.9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12406</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>120.4</td>
+      <td>1.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12467</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>147.7</td>
+      <td>2.8e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12492</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>136.1</td>
+      <td>2.9e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12582</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>61.8</td>
+      <td>8.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12583</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>198.8</td>
+      <td>2.8e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13295</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>268.9</td>
+      <td>2e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13382</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>137.5</td>
+      <td>1.2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13383</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>117.2</td>
+      <td>1.7e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13388</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>122.7</td>
+      <td>3.4e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13390</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>101.1</td>
+      <td>1.1e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13391</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>131.8</td>
+      <td>4.6e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00216</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>55.3</td>
+      <td>6.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00237</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>73.3</td>
+      <td>3.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01217</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>41.1</td>
+      <td>1.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01733</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>165.8</td>
+      <td>3e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01734</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>83.9</td>
+      <td>2.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01923</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>179.3</td>
+      <td>2.8e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02188</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>119.0</td>
+      <td>4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02262</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>146.0</td>
+      <td>3.4e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02275</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>960.3</td>
+      <td>4.2e-290</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02316</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.1</td>
+      <td>9.9e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03098</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>109.3</td>
+      <td>3.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03205</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>130.3</td>
+      <td>1.6e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03208</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>228.0</td>
+      <td>5.2e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04433</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>276.2</td>
+      <td>7.2e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05903</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>305.5</td>
+      <td>1.4e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05904</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>211.8</td>
+      <td>3.5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05906</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>131.0</td>
+      <td>1e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05907</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>145.8</td>
+      <td>3.3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05908</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>81.4</td>
+      <td>1.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05909</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>148.6</td>
+      <td>4.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05910</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>69.5</td>
+      <td>4.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05911</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>227.6</td>
+      <td>5.2e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05912</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>182.1</td>
+      <td>3.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05914</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>116.3</td>
+      <td>3.1e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05915</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>149.6</td>
+      <td>2.8e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05917</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>168.2</td>
+      <td>5.8e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05918</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.5</td>
+      <td>4.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05919</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>189.3</td>
+      <td>2.2e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05920</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>802.6</td>
+      <td>2.6e-242</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05921</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>65.5</td>
+      <td>7.4e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05922</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>143.3</td>
+      <td>1.9e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05923</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.9</td>
+      <td>3.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05924</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>108.9</td>
+      <td>8.5e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05926</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>234.7</td>
+      <td>4e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05927</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.0</td>
+      <td>8.6e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05928</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>104.9</td>
+      <td>7.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05929</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>142.9</td>
+      <td>2.9e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05930</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>224.0</td>
+      <td>6.2e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05931</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>103.4</td>
+      <td>2.4e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05932</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>84.6</td>
+      <td>1.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05933</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>40.4</td>
+      <td>3.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05934</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>251.0</td>
+      <td>3.8e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05935</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>196.2</td>
+      <td>1.7e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05936</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>280.9</td>
+      <td>3.4e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05937</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>54.4</td>
+      <td>2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05938</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>52.4</td>
+      <td>6.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05939</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>48.4</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05940</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.0</td>
+      <td>1.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05941</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>203.5</td>
+      <td>1.1e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05943</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>63.7</td>
+      <td>2.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05944</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>170.1</td>
+      <td>1.3e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05945</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>166.6</td>
+      <td>1.6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05958</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>198.2</td>
+      <td>4.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05959</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>168.4</td>
+      <td>5.9e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05966</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>125.7</td>
+      <td>4.5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05967</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>111.4</td>
+      <td>8.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05968</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>75.1</td>
+      <td>1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05969</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>134.6</td>
+      <td>8.6e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05970</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>127.0</td>
+      <td>1.6e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05971</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>157.3</td>
+      <td>1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05972</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>175.0</td>
+      <td>4.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05973</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>111.0</td>
+      <td>1.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05974</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>101.0</td>
+      <td>1.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12114</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>146.9</td>
+      <td>1.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12115</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.6</td>
+      <td>4.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12116</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>152.2</td>
+      <td>4.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12117</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>181.9</td>
+      <td>3.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12118</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>197.4</td>
+      <td>7.6e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12119</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>190.5</td>
+      <td>1.1e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17630</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.6</td>
+      <td>3.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17631</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>286.8</td>
+      <td>6.6e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17633</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>113.3</td>
+      <td>2.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17634</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>110.8</td>
+      <td>1.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17635</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>119.0</td>
+      <td>4.7e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17636</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>97.3</td>
+      <td>1.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17637</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>115.6</td>
+      <td>4.4e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17638</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>145.4</td>
+      <td>4.2e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17639</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>69.6</td>
+      <td>4.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17640</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>113.5</td>
+      <td>2.3e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17641</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>51.3</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17642</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>114.6</td>
+      <td>9.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17643</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.1</td>
+      <td>5.5e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17644</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>119.4</td>
+      <td>3.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17645</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>100.9</td>
+      <td>1.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17646</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>190.4</td>
+      <td>1.1e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17648</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>94.5</td>
+      <td>1.1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17649</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>158.2</td>
+      <td>6.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17650</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>143.4</td>
+      <td>2.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17651</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>169.0</td>
+      <td>3.4e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17652</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>176.0</td>
+      <td>2.3e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17653</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>127.3</td>
+      <td>1.3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17654</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>66.9</td>
+      <td>2.5e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17655</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>155.3</td>
+      <td>4.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17656</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>130.2</td>
+      <td>2.3e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00501</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>281.3</td>
+      <td>2.5e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13193</td>
+      <td>(2,3-dihydroxybenzoyl)adenylate synthase EntE</td>
+      <td>48.1</td>
+      <td>4e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.99993217</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

@@ -1,0 +1,3955 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_03526</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_03526</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>acetylornithine/N-succinyldiaminopimelate aminotransferase [EC:2.6.1.11 2.6.1.17]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K00821</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K00821</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.6.1.11;EC:2.6.1.17</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008483;GO:0030170;GO:0042802</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00821</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00840</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.6.1.11</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.6.1.17</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.6.1.81</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00821</td>
+      <td>EC:2.6.1.11</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00821</td>
+      <td>EC:2.6.1.17</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00821</td>
+      <td>EC:2.6.1.81</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00840</td>
+      <td>EC:2.6.1.11</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00840</td>
+      <td>EC:2.6.1.17</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00840</td>
+      <td>EC:2.6.1.81</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0003992</td>
+      <td>GO:0003992</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0004069</td>
+      <td>GO:0004069</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0008144</td>
+      <td>GO:0008144</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0008483</td>
+      <td>GO:0008483</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0009016</td>
+      <td>GO:0009016</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0016769</td>
+      <td>GO:0016769</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0019842</td>
+      <td>GO:0019842</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0030170</td>
+      <td>GO:0030170</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0043825</td>
+      <td>GO:0043825</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0070279</td>
+      <td>GO:0070279</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.11</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0003992</td>
+      <td>GO:0003992</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0004069</td>
+      <td>GO:0004069</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0008144</td>
+      <td>GO:0008144</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0008483</td>
+      <td>GO:0008483</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0009016</td>
+      <td>GO:0009016</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0016769</td>
+      <td>GO:0016769</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0019842</td>
+      <td>GO:0019842</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0030170</td>
+      <td>GO:0030170</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0043825</td>
+      <td>GO:0043825</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0070279</td>
+      <td>GO:0070279</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.17</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0003992</td>
+      <td>GO:0003992</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0004069</td>
+      <td>GO:0004069</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0008144</td>
+      <td>GO:0008144</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0008483</td>
+      <td>GO:0008483</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0009016</td>
+      <td>GO:0009016</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0016769</td>
+      <td>GO:0016769</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0019842</td>
+      <td>GO:0019842</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0030170</td>
+      <td>GO:0030170</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0043825</td>
+      <td>GO:0043825</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0070279</td>
+      <td>GO:0070279</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.6.1.81</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|3488960|3490180|-</td></tr><tr><th>protein_id</th><td>KOIAIB_03526</td></tr><tr><th>gene</th><td>argD</td></tr><tr><th>product</th><td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>3488960</td></tr><tr><th>stop</th><td>3490180</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_3675</td></tr><tr><th>locus_tag</th><td>KOIAIB_03526</td></tr><tr><th>aa_md5</th><td>08b0189e5531375beafa9740e633c217</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>E</td></tr><tr><th>GO</th><td><details class="value-details"><summary>75 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0003992</li><li>GO:0004069</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0006082</li><li>GO:0006105</li><li>GO:0006520</li><li>GO:0006525</li><li>GO:0006526</li><li>GO:0006527</li><li>GO:0006553</li><li>GO:0006591</li><li>GO:0006593</li><li>GO:0006807</li><li>GO:0008144</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008483</li><li>GO:0008652</li><li>GO:0009016</li><li>GO:0009056</li><li>GO:0009058</li><li>GO:0009063</li><li>GO:0009064</li><li>GO:0009065</li><li>GO:0009066</li><li>GO:0009067</li><li>GO:0009084</li><li>GO:0009085</li><li>GO:0009089</li><li>GO:0009987</li><li>GO:0016053</li><li>GO:0016054</li><li>GO:0016740</li><li>GO:0016769</li><li>GO:0017144</li><li>GO:0019545</li><li>GO:0019752</li><li>GO:0019842</li><li>GO:0030170</li><li>GO:0033359</li><li>GO:0036094</li><li>GO:0042450</li><li>GO:0042802</li><li>GO:0043167</li><li>GO:0043168</li><li>GO:0043436</li><li>GO:0043648</li><li>GO:0043825</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044248</li><li>GO:0044249</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0044283</li><li>GO:0046394</li><li>GO:0046395</li><li>GO:0046451</li><li>GO:0048037</li><li>GO:0050662</li><li>GO:0070279</li><li>GO:0071704</li><li>GO:0097159</li><li>GO:1901363</li><li>GO:1901564</li><li>GO:1901565</li><li>GO:1901566</li><li>GO:1901575</li><li>GO:1901576</li><li>GO:1901605</li><li>GO:1901606</li><li>GO:1901607</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.6.1.11; EC:2.6.1.17; EC:2.6.1.81</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00821; KEGG:K00840</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>18 values</summary><ul class="value-list"><li>KEGG:ko00220</li><li>KEGG:ko00300</li><li>KEGG:ko00330</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01120</li><li>KEGG:ko01130</li><li>KEGG:ko01210</li><li>KEGG:ko01230</li><li>KEGG:map00220</li><li>KEGG:map00300</li><li>KEGG:map00330</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01120</li><li>KEGG:map01130</li><li>KEGG:map01210</li><li>KEGG:map01230</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00016; KEGG:M00028; KEGG:M00845</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R02283; KEGG:R04217; KEGG:R04475</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>8 values</summary><ul class="value-list"><li>INTERPRO:IPR004636</li><li>INTERPRO:IPR005814</li><li>INTERPRO:IPR015421</li><li>INTERPRO:IPR015422</li><li>INTERPRO:IPR015424</li><li>INTERPRO:IPR017652</li><li>INTERPRO:IPR049704</li><li>INTERPRO:IPR050103</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00202</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>7</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd00610</td>
+      <td>CDD:cd00610;CDD:cd01494</td>
+      <td>CDD:cd00610</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG4992</td>
+      <td>COG:COG0001;COG:COG0160;COG:COG0161;COG:COG4992</td>
+      <td>COG:COG4992</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:2.6.1.11;EC:2.6.1.17</td>
+      <td>EC:2.6.1.11;EC:2.6.1.17</td>
+      <td>EC:2.6.1.11;EC:2.6.1.17</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:2.6.1.11;EC:2.6.1.17</td>
+      <td>EC:2.6.1.11;EC:2.6.1.17;EC:2.6.1.81</td>
+      <td>EC:2.6.1.11;EC:2.6.1.17</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.6.1.11;EC:2.6.1.17;EC:2.6.1.81</td>
+      <td>EC:2.6.1.11;EC:2.6.1.17</td>
+      <td>EC:2.6.1.11;EC:2.6.1.17</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0003992;GO:0004069;GO:0005488;GO:0005515;GO:0006082;GO:0006105;GO:0006520;GO:0006525;GO:0006526;GO:0006527;GO:0006553;GO:0006591;GO:0006593;GO:0006807;GO:0008144;GO:0008150;GO:0008152;GO:0008483;GO:0008652;GO:0009016;GO:0009056;GO:0009058;GO:0009063;GO:0009064;GO:0009065;GO:0009066;GO:0009067;GO:0009084;GO:0009085;GO:0009089;GO:0009987;GO:0016053;GO:0016054;GO:0016740;GO:0016769;GO:0017144;GO:0019545;GO:0019752;GO:0019842;GO:0030170;GO:0033359;GO:0036094;GO:0042450;GO:0042802;GO:0043167;GO:0043168;GO:0043436;GO:0043648;GO:0043825;GO:0044237;GO:0044238;GO:0044248;GO:0044249;GO:0044281;GO:0044282;GO:0044283;GO:0046394;GO:0046395;GO:0046451;GO:0048037;GO:0050662;GO:0070279;GO:0071704;GO:0097159;GO:1901363;GO:1901564;GO:1901565;GO:1901566;GO:1901575;GO:1901576;GO:1901605;GO:1901606;GO:1901607</td>
+      <td>GO:0006520;GO:0006525;GO:0008483;GO:0030170;GO:0042802</td>
+      <td>GO:0006520;GO:0006525;GO:0008483;GO:0030170;GO:0042802</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00821;KEGG:K00840</td>
+      <td>KEGG:K00821</td>
+      <td>KEGG:K00821</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF002325;NCBIFAM:NF003468;NCBIFAM:NF009047;NCBIFAM:TIGR00707;NCBIFAM:TIGR03246</td>
+      <td>NCBIFAM:NF041362;NCBIFAM:TIGR00508;NCBIFAM:TIGR00699;NCBIFAM:TIGR00700;NCBIFAM:TIGR00707;NCBIFAM:TIGR00709;NCBIFAM:TIGR00713;NCBIFAM:TIGR01885;NCBIFAM:TIGR02407;NCBIFAM:TIGR03246;NCBIFAM:TIGR03251;NCBIFAM:TIGR03372</td>
+      <td>NCBIFAM:TIGR00707;NCBIFAM:TIGR03246</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF002325;NCBIFAM:NF003468;NCBIFAM:NF009047;NCBIFAM:TIGR00707;NCBIFAM:TIGR03246</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041362;NCBIFAM:TIGR00508;NCBIFAM:TIGR00699;NCBIFAM:TIGR00700;NCBIFAM:TIGR00707;NCBIFAM:TIGR00709;NCBIFAM:TIGR00713;NCBIFAM:TIGR01885;NCBIFAM:TIGR02407;NCBIFAM:TIGR03246;NCBIFAM:TIGR03251;NCBIFAM:TIGR03372</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00202</td>
+      <td>PFAM:PF00202</td>
+      <td>PFAM:PF00202</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00202</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00202</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 2 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:2.6.1.11</td>
+      <td>WP_000963792</td>
+    </tr>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:2.6.1.17</td>
+      <td>WP_000963792</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 125 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEC55989_1330.EC55989_1916</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSFV_1184.SFV_3365</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSF_1195.SF3378</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSFxv_1172.SFxv_3689</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSSON_1240.SSON_3490</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iS_1188.S4385</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG4992</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.6.1.11</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.6.1.17</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.6.1.81</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MV3C@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMV1@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XPBV@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG4992@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG4992@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003992</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004069</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006105</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006525</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006526</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006527</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006553</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006591</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006593</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008652</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009016</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009063</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009064</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009065</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009066</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009067</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009084</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009085</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009089</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016053</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016054</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016769</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0017144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019545</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019842</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030170</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033359</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036094</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042450</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043167</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043648</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043825</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044283</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046394</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046451</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048037</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070279</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901565</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901605</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901606</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901607</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01007</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00821</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00840</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00016</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00028</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00845</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00220</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00300</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00330</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01210</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00220</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00300</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00330</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01210</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00006</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00062</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02283</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04217</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04475</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Aminotran_3</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85676681</td>
+      <td>argD</td>
+      <td>Involved in both the arginine and lysine biosynthetic pathways</td>
+      <td>816.0</td>
+      <td>1.39e-299</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>406</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.6.1.11</td>
+      <td>KEGG:K00821</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.6.1.17</td>
+      <td>KEGG:K00821</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00821</td>
+      <td></td>
+      <td>acetylornithine/N-succinyldiaminopimelate aminotransferase [EC:2.6.1.11 2.6.1.17]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K00821</td>
+      <td>acetylornithine/N-succinyldiaminopimelate aminotransferase [EC:2.6.1.11 2.6.1.17]</td>
+      <td>above_threshold</td>
+      <td>552.2</td>
+      <td>490.17</td>
+      <td>3.2e-166</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 29 annotation rows, 16 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd00610</td>
+      <td></td>
+      <td>OAT_like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.640.10:FF:000004</td>
+      <td></td>
+      <td>Acetylornithine aminotransferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.90.1150.10:FF:000009</td>
+      <td></td>
+      <td>Succinylornithine transaminase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.640.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.90.1150.10</td>
+      <td></td>
+      <td>Aspartate Aminotransferase, domain 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006520</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR03246","interpro_accession":"IPR017652","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006525</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01107","interpro_accession":"IPR004636","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00707","interpro_accession":"IPR004636","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008483</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01107","interpro_accession":"IPR004636","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00707","interpro_accession":"IPR004636","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR03246","interpro_accession":"IPR017652","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0030170</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00610","interpro_accession":"IPR005814","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR03246","interpro_accession":"IPR017652","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR11986","interpro_accession":"IPR050103","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF00202","interpro_accession":"IPR005814","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000521","interpro_accession":"IPR005814","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR11986","interpro_accession":"IPR050103","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_01107</td>
+      <td></td>
+      <td>Acetylornithine/succinyldiaminopimelate aminotransferase [argD].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR004636</td>
+      <td></td>
+      <td>Acetylornithine/Succinylornithine transaminase family</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005814</td>
+      <td></td>
+      <td>Aminotransferase class-III</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015421</td>
+      <td></td>
+      <td>Pyridoxal phosphate-dependent transferase, major domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015422</td>
+      <td></td>
+      <td>Pyridoxal phosphate-dependent transferase, small domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015424</td>
+      <td></td>
+      <td>Pyridoxal phosphate-dependent transferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR017652</td>
+      <td></td>
+      <td>Acetyl/Succinylornithine transaminase family, bacteria</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR049704</td>
+      <td></td>
+      <td>Aminotransferases class-III pyridoxal-phosphate attachment site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR050103</td>
+      <td></td>
+      <td>Class-III Pyridoxal-phosphate-dependent Aminotransferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF002325</td>
+      <td></td>
+      <td>acetylornithine transaminase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF003468</td>
+      <td></td>
+      <td>acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF009047</td>
+      <td></td>
+      <td>bifunctional succinylornithine transaminase/acetylornithine transaminase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00707</td>
+      <td></td>
+      <td>acetylornithine/succinylornithine family transaminase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03246</td>
+      <td></td>
+      <td>acetylornithine/succinylornithine family transaminase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR11986</td>
+      <td></td>
+      <td>AMINOTRANSFERASE CLASS III</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00202</td>
+      <td></td>
+      <td>Aminotransferase class-III</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF000521</td>
+      <td></td>
+      <td>Transaminase_4ab_Lys_Orn</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00600</td>
+      <td></td>
+      <td>Aminotransferases class-III pyridoxal-phosphate attachment site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53383</td>
+      <td></td>
+      <td>PLP-dependent transferases</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd00610</td>
+      <td>OAT_like</td>
+      <td>0.0</td>
+      <td>21</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.640.10:FF:000004</td>
+      <td>Acetylornithine aminotransferase</td>
+      <td>2.9E-112</td>
+      <td>60</td>
+      <td>306</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.90.1150.10:FF:000009</td>
+      <td>Succinylornithine transaminase</td>
+      <td>5.0E-33</td>
+      <td>286</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.640.10</td>
+      <td></td>
+      <td>0.0</td>
+      <td>60</td>
+      <td>305</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.90.1150.10</td>
+      <td>Aspartate Aminotransferase, domain 1</td>
+      <td>0.0</td>
+      <td>30</td>
+      <td>393</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_01107</td>
+      <td>Acetylornithine/succinyldiaminopimelate aminotransferase [argD].</td>
+      <td>71.227318</td>
+      <td>16</td>
+      <td>403</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF002325</td>
+      <td>acetylornithine transaminase</td>
+      <td>0.0</td>
+      <td>15</td>
+      <td>403</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF003468</td>
+      <td>acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>405</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF009047</td>
+      <td>bifunctional succinylornithine transaminase/acetylornithine transaminase</td>
+      <td>0.0</td>
+      <td>6</td>
+      <td>404</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR00707</td>
+      <td>acetylornithine/succinylornithine family transaminase</td>
+      <td>0.0</td>
+      <td>17</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR03246</td>
+      <td>acetylornithine/succinylornithine family transaminase</td>
+      <td>0.0</td>
+      <td>8</td>
+      <td>404</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR11986</td>
+      <td>AMINOTRANSFERASE CLASS III</td>
+      <td>0.0</td>
+      <td>13</td>
+      <td>403</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF000521</td>
+      <td>Transaminase_4ab_Lys_Orn</td>
+      <td>1.2E-48</td>
+      <td>30</td>
+      <td>402</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00202</td>
+      <td>Aminotransferase class-III</td>
+      <td>0.0</td>
+      <td>26</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00600</td>
+      <td>Aminotransferases class-III pyridoxal-phosphate attachment site.</td>
+      <td></td>
+      <td>223</td>
+      <td>260</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53383</td>
+      <td>PLP-dependent transferases</td>
+      <td>4.3E-127</td>
+      <td>20</td>
+      <td>401</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 84 annotation rows, 164 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00610</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01494</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN00144</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02482</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02624</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02760</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02974</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00062</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00615</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00854</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK01278</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK02627</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK02936</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03244</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03715</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04013</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04073</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04260</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04612</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05093</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05639</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05769</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05964</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05965</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06058</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06062</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06082</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06105</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06148</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06149</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06209</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06541</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06777</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06917</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06918</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06931</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06938</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07030</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07036</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07046</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07480</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07481</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07482</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07483</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07495</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07678</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07986</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08088</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08117</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08360</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08593</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09221</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09264</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09792</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11522</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12381</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12389</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12403</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13360</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00125</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0001</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0160</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0161</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4992</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1401</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1402</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1403</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1404</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1405</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041362</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00508</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00699</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00700</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00707</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00709</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00713</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01885</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02407</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03246</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03251</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03372</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00202</td>
+      <td></td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0001</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>217.4</td>
+      <td>6.5e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0160</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>384.6</td>
+      <td>1.1e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0161</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>330.5</td>
+      <td>2.6e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4992</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>545.6</td>
+      <td>1.1e-164</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1401</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>356.9</td>
+      <td>3.3e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1402</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>329.1</td>
+      <td>8.2e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1403</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>163.5</td>
+      <td>1.7e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1404</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>296.7</td>
+      <td>6.7e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1405</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>115.6</td>
+      <td>5.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041362</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>145.7</td>
+      <td>3.4e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00144</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>383.6</td>
+      <td>1.9e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02482</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>129.4</td>
+      <td>2.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02624</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>281.9</td>
+      <td>1.7e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02760</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>170.1</td>
+      <td>1.6e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02974</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>73.4</td>
+      <td>2.6e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00062</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>173.0</td>
+      <td>1.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00615</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>102.0</td>
+      <td>5.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00854</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>293.8</td>
+      <td>3.6e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK01278</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>476.5</td>
+      <td>1.1e-143</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02627</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>473.0</td>
+      <td>1.2e-142</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02936</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>388.2</td>
+      <td>7.1e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03244</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>416.3</td>
+      <td>2.5e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03715</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>355.2</td>
+      <td>8e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04013</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>251.0</td>
+      <td>4.2e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04073</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>294.6</td>
+      <td>1.9e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04260</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>314.8</td>
+      <td>1.3e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04612</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>442.0</td>
+      <td>4.1e-133</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05093</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>784.4</td>
+      <td>4e-237</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05639</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>154.9</td>
+      <td>6.7e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05769</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>331.3</td>
+      <td>1.9e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05964</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>237.7</td>
+      <td>3.9e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05965</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>151.4</td>
+      <td>7.4e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06058</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>238.6</td>
+      <td>2.4e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06062</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>201.5</td>
+      <td>4.2e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06082</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>219.2</td>
+      <td>1.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06105</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>199.7</td>
+      <td>1.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06148</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>158.9</td>
+      <td>3.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06149</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>128.5</td>
+      <td>5.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06209</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>97.2</td>
+      <td>1.9e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06541</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>230.0</td>
+      <td>9.1e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06777</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>249.7</td>
+      <td>8.8e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06917</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>190.0</td>
+      <td>1.3e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06918</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>249.6</td>
+      <td>9e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06931</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>175.4</td>
+      <td>3.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06938</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>178.7</td>
+      <td>3.1e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07030</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>181.0</td>
+      <td>6.6e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07036</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>169.6</td>
+      <td>2.1e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07046</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>102.2</td>
+      <td>5.5e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07480</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>201.7</td>
+      <td>4e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07481</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>212.4</td>
+      <td>2.7e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07482</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>163.3</td>
+      <td>1.6e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07483</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>228.7</td>
+      <td>2.7e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07495</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>260.4</td>
+      <td>5.4e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07678</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>212.7</td>
+      <td>1.7e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07986</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>159.2</td>
+      <td>2.5e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08088</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>255.4</td>
+      <td>1.9e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08117</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>329.0</td>
+      <td>8.1e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08360</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>244.4</td>
+      <td>4.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08593</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>223.1</td>
+      <td>1.1e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09221</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>214.2</td>
+      <td>5.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09264</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>212.4</td>
+      <td>1.8e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09792</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>213.2</td>
+      <td>1.3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11522</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>246.3</td>
+      <td>1.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12381</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>650.3</td>
+      <td>2.4e-196</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12389</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>137.5</td>
+      <td>1.1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12403</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>140.1</td>
+      <td>2e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13360</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>201.4</td>
+      <td>4.6e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00125</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>369.0</td>
+      <td>5.7e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00508</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>257.3</td>
+      <td>4.5e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00699</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>98.3</td>
+      <td>9.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00700</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>267.2</td>
+      <td>4.4e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00707</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>503.1</td>
+      <td>9.1e-152</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00709</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>185.0</td>
+      <td>4.1e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00713</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>164.5</td>
+      <td>7.3e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01885</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>314.9</td>
+      <td>1.5e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02407</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>190.4</td>
+      <td>8.7e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03246</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>680.8</td>
+      <td>1.3e-205</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03251</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>161.1</td>
+      <td>6.9e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03372</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>207.8</td>
+      <td>6e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00610</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>450.4</td>
+      <td>1.2e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01494</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>67.9</td>
+      <td>1.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00202</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>500.2</td>
+      <td>7.6e-151</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0001</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>217.4</td>
+      <td>6.5e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0160</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>384.6</td>
+      <td>1.1e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0161</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>330.5</td>
+      <td>2.6e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4992</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>545.6</td>
+      <td>1.1e-164</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1401</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>356.9</td>
+      <td>3.3e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1402</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>329.1</td>
+      <td>8.2e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1403</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>163.5</td>
+      <td>1.7e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1404</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>296.7</td>
+      <td>6.7e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1405</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>115.6</td>
+      <td>5.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041362</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>145.7</td>
+      <td>3.4e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00144</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>383.6</td>
+      <td>1.9e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02482</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>129.4</td>
+      <td>2.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02624</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>281.9</td>
+      <td>1.7e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02760</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>170.1</td>
+      <td>1.6e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02974</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>73.4</td>
+      <td>2.6e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00062</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>173.0</td>
+      <td>1.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00615</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>102.0</td>
+      <td>5.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00854</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>293.8</td>
+      <td>3.6e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK01278</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>476.5</td>
+      <td>1.1e-143</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02627</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>473.0</td>
+      <td>1.2e-142</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02936</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>388.2</td>
+      <td>7.1e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03244</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>416.3</td>
+      <td>2.5e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03715</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>355.2</td>
+      <td>8e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04013</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>251.0</td>
+      <td>4.2e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04073</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>294.6</td>
+      <td>1.9e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04260</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>314.8</td>
+      <td>1.3e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04612</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>442.0</td>
+      <td>4.1e-133</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05093</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>784.4</td>
+      <td>4e-237</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05639</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>154.9</td>
+      <td>6.7e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05769</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>331.3</td>
+      <td>1.9e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05964</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>237.7</td>
+      <td>3.9e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05965</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>151.4</td>
+      <td>7.4e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06058</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>238.6</td>
+      <td>2.4e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06062</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>201.5</td>
+      <td>4.2e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06082</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>219.2</td>
+      <td>1.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06105</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>199.7</td>
+      <td>1.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06148</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>158.9</td>
+      <td>3.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06149</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>128.5</td>
+      <td>5.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06209</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>97.2</td>
+      <td>1.9e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06541</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>230.0</td>
+      <td>9.1e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06777</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>249.7</td>
+      <td>8.8e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06917</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>190.0</td>
+      <td>1.3e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06918</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>249.6</td>
+      <td>9e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06931</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>175.4</td>
+      <td>3.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06938</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>178.7</td>
+      <td>3.1e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07030</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>181.0</td>
+      <td>6.6e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07036</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>169.6</td>
+      <td>2.1e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07046</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>102.2</td>
+      <td>5.5e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07480</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>201.7</td>
+      <td>4e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07481</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>212.4</td>
+      <td>2.7e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07482</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>163.3</td>
+      <td>1.6e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07483</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>228.7</td>
+      <td>2.7e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07495</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>260.4</td>
+      <td>5.4e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07678</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>212.7</td>
+      <td>1.7e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07986</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>159.2</td>
+      <td>2.5e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08088</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>255.4</td>
+      <td>1.9e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08117</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>329.0</td>
+      <td>8.1e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08360</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>244.4</td>
+      <td>4.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08593</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>223.1</td>
+      <td>1.1e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09221</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>214.2</td>
+      <td>5.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09264</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>212.4</td>
+      <td>1.8e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09792</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>213.2</td>
+      <td>1.3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11522</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>246.3</td>
+      <td>1.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12381</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>650.3</td>
+      <td>2.4e-196</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12389</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>137.5</td>
+      <td>1.1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12403</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>140.1</td>
+      <td>2e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13360</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>201.4</td>
+      <td>4.6e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00125</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>369.0</td>
+      <td>5.7e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00508</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>257.3</td>
+      <td>4.5e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00699</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>98.3</td>
+      <td>9.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00700</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>267.2</td>
+      <td>4.4e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00707</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>503.1</td>
+      <td>9.1e-152</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00709</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>185.0</td>
+      <td>4.1e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00713</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>164.5</td>
+      <td>7.3e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01885</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>314.9</td>
+      <td>1.5e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02407</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>190.4</td>
+      <td>8.7e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03246</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>680.8</td>
+      <td>1.3e-205</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03251</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>161.1</td>
+      <td>6.9e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03372</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>207.8</td>
+      <td>6e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00610</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>450.4</td>
+      <td>1.2e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01494</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>67.9</td>
+      <td>1.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00202</td>
+      <td>bifunctional acetylornithine/succinyldiaminopimelate transaminase</td>
+      <td>500.2</td>
+      <td>7.6e-151</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

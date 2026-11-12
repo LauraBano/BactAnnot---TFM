@@ -1,0 +1,3302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00220</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00220</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>2,5-diketo-D-gluconate reductase B [EC:1.1.1.346]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K06222</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K06222</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.1.1.346</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008106;GO:1990002</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K06221</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K06222</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.1.1.346</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K06221</td>
+      <td>EC:1.1.1.346</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K06222</td>
+      <td>EC:1.1.1.346</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.1.1.346</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.346</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.346</td>
+      <td>GO:0004033</td>
+      <td>GO:0008106</td>
+      <td>replaced_by</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.346</td>
+      <td>GO:0008106</td>
+      <td>GO:0008106</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.346</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.346</td>
+      <td>GO:0016614</td>
+      <td>GO:0016614</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.346</td>
+      <td>GO:0016616</td>
+      <td>GO:0016616</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.346</td>
+      <td>GO:0047681</td>
+      <td>GO:0047681</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.346</td>
+      <td>GO:1990002</td>
+      <td>GO:1990002</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|229167|229970|+</td></tr><tr><th>protein_id</th><td>KOIAIB_00220</td></tr><tr><th>gene</th><td>dkgB</td></tr><tr><th>product</th><td>2,5-didehydrogluconate reductase DkgB</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>229167</td></tr><tr><th>stop</th><td>229970</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_598</td></tr><tr><th>locus_tag</th><td>KOIAIB_00220</td></tr><tr><th>aa_md5</th><td>42d497419a55e8f85fbbf0897fb40734</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>S</td></tr><tr><th>GO</th><td><details class="value-details"><summary>34 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004033</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006081</li><li>GO:0008106</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009056</li><li>GO:0009438</li><li>GO:0009987</li><li>GO:0016491</li><li>GO:0016614</li><li>GO:0016616</li><li>GO:0042180</li><li>GO:0042182</li><li>GO:0044237</li><li>GO:0044248</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046185</li><li>GO:0047681</li><li>GO:0051596</li><li>GO:0055114</li><li>GO:0071704</li><li>GO:1901575</li><li>GO:1990002</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.1.1.346</td></tr><tr><th>KEGG_KO</th><td>KEGG:K06221; KEGG:K06222</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R08878</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR018170; INTERPRO:IPR020471; INTERPRO:IPR023210; INTERPRO:IPR036812</td></tr><tr><th>PFAM</th><td>PFAM:PF00248</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd19139</td>
+      <td>CDD:cd06660;CDD:cd19071;CDD:cd19072;CDD:cd19073;CDD:cd19074;CDD:cd19075;CDD:cd19076;CDD:cd19077;CDD:cd19078;CDD:cd19079;CDD:cd19080;CDD:cd19081;CDD:cd19082;CDD:cd19083;CDD:cd19084;CDD:cd19085;CDD:cd19086;CDD:cd19087;CDD:cd19088;CDD:cd19089;CDD:cd19090;CDD:cd19091;CDD:cd19092;CDD:cd19093;CDD:cd19094;CDD:cd19095;CDD:cd19096;CDD:cd19097;CDD:cd19099;CDD:cd19100;CDD:cd19101;CDD:cd19102;CDD:cd19103;CDD:cd19104;CDD:cd19105;CDD:cd19106;CDD:cd19107;CDD:cd19108;CDD:cd19109;CDD:cd19110;CDD:cd19111;CDD:cd19112;CDD:cd19113;CDD:cd19114;CDD:cd19115;CDD:cd19116;CDD:cd19117;CDD:cd19118;CDD:cd19119;CDD:cd19120;CDD:cd19121;CDD:cd19122;CDD:cd19123;CDD:cd19124;CDD:cd19125;CDD:cd19126;CDD:cd19127;CDD:cd19128;CDD:cd19129;CDD:cd19130;CDD:cd19131;CDD:cd19132;CDD:cd19133;CDD:cd19134;CDD:cd19135;CDD:cd19136;CDD:cd19137;CDD:cd19138;CDD:cd19139;CDD:cd19140;CDD:cd19141;CDD:cd19142;CDD:cd19143;CDD:cd19144;CDD:cd19145;CDD:cd19146;CDD:cd19147;CDD:cd19148;CDD:cd19149;CDD:cd19151;CDD:cd19153;CDD:cd19154;CDD:cd19155;CDD:cd19156;CDD:cd19157;CDD:cd19159;CDD:cd19162;CDD:cd19163;CDD:cd19164;CDD:cd19752</td>
+      <td>CDD:cd19139</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0656</td>
+      <td>COG:COG0656;COG:COG0667;COG:COG1453;COG:COG4989</td>
+      <td>COG:COG0656</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.1.1.346</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.1.1.346</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.1.1.346</td>
+      <td>EC:1.1.1.346</td>
+      <td>EC:1.1.1.346</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0004033;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006081;GO:0008106;GO:0008150;GO:0008152;GO:0009056;GO:0009438;GO:0009987;GO:0016491;GO:0016614;GO:0016616;GO:0042180;GO:0042182;GO:0044237;GO:0044248;GO:0044281;GO:0044282;GO:0044424;GO:0044444;GO:0044464;GO:0046185;GO:0047681;GO:0051596;GO:0055114;GO:0071704;GO:1901575;GO:1990002</td>
+      <td>GO:0004033;GO:0016491;GO:0051596;GO:1990002</td>
+      <td>GO:0004033;GO:0016491;GO:0051596;GO:1990002</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K06221;KEGG:K06222</td>
+      <td>KEGG:K06222</td>
+      <td>KEGG:K06222</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF008377</td>
+      <td>NCBIFAM:TIGR01293</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF008377</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01293</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00248</td>
+      <td>PFAM:PF00248</td>
+      <td>PFAM:PF00248</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00248</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00248</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 52 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECH74115_1262.ECH74115_4323</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECSP_1301.ECSP_3988</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcolC_1368.EcolC_3458</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0656</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.1.1.346</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MWFS@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMX6@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XPB8@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0656@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0656@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004033</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006081</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008106</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009438</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016614</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016616</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042180</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042182</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046185</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0047681</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051596</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1990002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K06221</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K06222</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00089</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R08878</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Aldo_ket_red</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674382</td>
+      <td>dkgB</td>
+      <td>Catalyzes the reduction of 2,5-diketo-D-gluconic acid (25DKG) to 2-keto-L-gulonic acid (2KLG)</td>
+      <td>519.0</td>
+      <td>1.33e-186</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>267</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.1.1.346</td>
+      <td>KEGG:K06222</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K06222</td>
+      <td></td>
+      <td>2,5-diketo-D-gluconate reductase B [EC:1.1.1.346]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K06222</td>
+      <td>2,5-diketo-D-gluconate reductase B [EC:1.1.1.346]</td>
+      <td>above_threshold</td>
+      <td>465.1</td>
+      <td>329.37</td>
+      <td>3.9e-140</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 20 annotation rows, 16 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd19139</td>
+      <td></td>
+      <td>AKR_AKR3F2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>COILS</td>
+      <td>COILS:Coil</td>
+      <td></td>
+      <td>Coil</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.20.20.100:FF:000016</td>
+      <td></td>
+      <td>2,5-diketo-D-gluconic acid reductase B</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.20.20.100</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004033</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43827","interpro_accession":"IPR020471","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43827","interpro_accession":"IPR020471","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000097","interpro_accession":"IPR020471","mapping_source":"InterPro"},{"analysis":"PRINTS","signature_accession":"PR00069","interpro_accession":"IPR020471","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00062","interpro_accession":"IPR018170","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00798","interpro_accession":"IPR018170","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0051596</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43827","interpro_accession":"IPR020471","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:1990002</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43827","interpro_accession":"IPR020471","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR018170</td>
+      <td></td>
+      <td>Aldo/keto reductase, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020471</td>
+      <td></td>
+      <td>Aldo-keto reductase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023210</td>
+      <td></td>
+      <td>NADP-dependent oxidoreductase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036812</td>
+      <td></td>
+      <td>NAD(P)-dependent oxidoreductase domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF008377</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43827</td>
+      <td></td>
+      <td>2,5-DIKETO-D-GLUCONIC ACID REDUCTASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00248</td>
+      <td></td>
+      <td>Aldo/keto reductase family</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF000097</td>
+      <td></td>
+      <td>AKR</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00069</td>
+      <td></td>
+      <td>Aldo-keto reductase signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00062</td>
+      <td></td>
+      <td>Aldo/keto reductase family signature 2.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00798</td>
+      <td></td>
+      <td>Aldo/keto reductase family signature 1.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF51430</td>
+      <td></td>
+      <td>NAD(P)-linked oxidoreductase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd19139</td>
+      <td>AKR_AKR3F2</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Coils</td>
+      <td>signature_match</td>
+      <td>Coil</td>
+      <td>Coil</td>
+      <td></td>
+      <td>225</td>
+      <td>245</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.100:FF:000016</td>
+      <td>2,5-diketo-D-gluconic acid reductase B</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>265</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.100</td>
+      <td></td>
+      <td>2.7E-88</td>
+      <td>1</td>
+      <td>265</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF008377</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>267</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43827</td>
+      <td>2,5-DIKETO-D-GLUCONIC ACID REDUCTASE</td>
+      <td>4.2E-78</td>
+      <td>2</td>
+      <td>257</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF000097</td>
+      <td>AKR</td>
+      <td>1.3E-69</td>
+      <td>2</td>
+      <td>259</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00069</td>
+      <td>Aldo-keto reductase signature</td>
+      <td>1.0E-45</td>
+      <td>114</td>
+      <td>131</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00069</td>
+      <td>Aldo-keto reductase signature</td>
+      <td>1.0E-45</td>
+      <td>149</td>
+      <td>178</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00069</td>
+      <td>Aldo-keto reductase signature</td>
+      <td>1.0E-45</td>
+      <td>186</td>
+      <td>210</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00069</td>
+      <td>Aldo-keto reductase signature</td>
+      <td>1.0E-45</td>
+      <td>25</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00069</td>
+      <td>Aldo-keto reductase signature</td>
+      <td>1.0E-45</td>
+      <td>81</td>
+      <td>99</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00248</td>
+      <td>Aldo/keto reductase family</td>
+      <td>2.3E-49</td>
+      <td>8</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00062</td>
+      <td>Aldo/keto reductase family signature 2.</td>
+      <td></td>
+      <td>114</td>
+      <td>131</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00798</td>
+      <td>Aldo/keto reductase family signature 1.</td>
+      <td></td>
+      <td>29</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF51430</td>
+      <td>NAD(P)-linked oxidoreductase</td>
+      <td>9.17E-83</td>
+      <td>2</td>
+      <td>257</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 105 annotation rows, 187 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06660</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19071</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19072</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19073</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19074</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19075</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19076</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19077</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19078</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19079</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19080</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19081</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19082</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19083</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19084</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19085</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19086</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19087</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19088</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19089</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19090</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19091</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19092</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19093</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19094</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19095</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19096</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19097</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19099</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19100</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19101</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19102</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19103</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19104</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19105</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19106</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19107</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19108</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19109</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19110</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19111</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19112</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19113</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19114</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19115</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19116</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19117</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19118</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19119</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19120</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19121</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19122</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19123</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19124</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19125</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19126</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19127</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19128</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19129</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19130</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19131</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19132</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19133</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19134</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19135</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19136</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19137</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19138</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19139</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19140</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19141</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19142</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19143</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19144</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19145</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19146</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19147</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19148</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19149</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19151</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19153</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19154</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19155</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19156</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19157</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19159</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19162</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19163</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19164</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19752</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02587</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10376</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11172</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11565</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0656</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0667</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1453</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4989</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1575</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1576</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1577</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01293</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00248</td>
+      <td></td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0656</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>321.6</td>
+      <td>6.6e-97</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0667</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>159.0</td>
+      <td>3.2e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1453</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>111.6</td>
+      <td>8.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4989</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>109.2</td>
+      <td>4.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1575</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>126.7</td>
+      <td>2.2e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1576</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>63.3</td>
+      <td>4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1577</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>252.2</td>
+      <td>1.5e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02587</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>48.1</td>
+      <td>2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10376</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>73.8</td>
+      <td>2.6e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11172</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>533.1</td>
+      <td>2.3e-161</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11565</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>225.1</td>
+      <td>1.9e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01293</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>49.0</td>
+      <td>9.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06660</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>147.8</td>
+      <td>8.3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19071</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>274.9</td>
+      <td>1.1e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19072</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>202.0</td>
+      <td>1.9e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19073</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>319.0</td>
+      <td>3.8e-96</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19074</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>91.0</td>
+      <td>1.8e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19075</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>62.7</td>
+      <td>6.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19076</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>96.4</td>
+      <td>3.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19077</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>73.2</td>
+      <td>4.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19078</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>81.2</td>
+      <td>1.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19079</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>104.1</td>
+      <td>1.7e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19080</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>72.7</td>
+      <td>6.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19081</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>97.1</td>
+      <td>1.9e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19082</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>85.6</td>
+      <td>7.3e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19083</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>94.1</td>
+      <td>1.8e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19084</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>127.4</td>
+      <td>1.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19085</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>146.4</td>
+      <td>2.1e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19086</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>89.9</td>
+      <td>3.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19087</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>74.2</td>
+      <td>2.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19088</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>114.6</td>
+      <td>1.1e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19089</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>64.9</td>
+      <td>1.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19090</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>87.9</td>
+      <td>1.2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19091</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>88.0</td>
+      <td>1.2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19092</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>103.8</td>
+      <td>2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19093</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>131.1</td>
+      <td>9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19094</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>50.5</td>
+      <td>3.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19095</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>103.8</td>
+      <td>1.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19096</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>84.2</td>
+      <td>1.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19097</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>60.0</td>
+      <td>4.3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19099</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>69.8</td>
+      <td>4.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19100</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>92.3</td>
+      <td>4.6e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19101</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>79.5</td>
+      <td>5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19102</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>108.4</td>
+      <td>8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19103</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>79.7</td>
+      <td>4.3e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19104</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>55.8</td>
+      <td>7.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19105</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>103.4</td>
+      <td>2.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19106</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>168.5</td>
+      <td>4.4e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19107</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>147.5</td>
+      <td>8.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19108</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>146.7</td>
+      <td>1.7e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19109</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>129.2</td>
+      <td>3.4e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19110</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>129.3</td>
+      <td>2.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19111</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>183.2</td>
+      <td>1.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19112</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>166.3</td>
+      <td>2.1e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19113</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>154.0</td>
+      <td>1.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19114</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>163.0</td>
+      <td>2.5e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19115</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>153.6</td>
+      <td>1.6e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19116</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>203.9</td>
+      <td>6.1e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19117</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>215.6</td>
+      <td>1.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19118</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>198.2</td>
+      <td>3.4e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19119</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>158.8</td>
+      <td>3.1e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19120</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>205.7</td>
+      <td>1.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19121</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>174.1</td>
+      <td>8e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19122</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>129.9</td>
+      <td>2.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19123</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>229.2</td>
+      <td>1.3e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19124</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>189.2</td>
+      <td>2e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19125</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>201.6</td>
+      <td>3.3e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19126</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>225.7</td>
+      <td>1.5e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19127</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>197.3</td>
+      <td>6.9e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19128</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>168.3</td>
+      <td>3.8e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19129</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>133.7</td>
+      <td>1.8e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19130</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>249.7</td>
+      <td>6.6e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19131</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>255.2</td>
+      <td>1.4e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19132</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>246.2</td>
+      <td>6.6e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19133</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>236.6</td>
+      <td>6.2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19134</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>230.5</td>
+      <td>5e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19135</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>206.9</td>
+      <td>7.3e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19136</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>223.5</td>
+      <td>6.2e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19137</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>185.6</td>
+      <td>2.1e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19138</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>167.8</td>
+      <td>4.7e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19139</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>436.0</td>
+      <td>8.1e-132</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19140</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>301.3</td>
+      <td>9.9e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19142</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>40.5</td>
+      <td>4.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19143</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>66.1</td>
+      <td>5.9e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19144</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>93.5</td>
+      <td>2.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19145</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>61.0</td>
+      <td>2.4e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19148</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>79.8</td>
+      <td>5.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19149</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>95.9</td>
+      <td>5.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19153</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>69.8</td>
+      <td>4.7e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19154</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>199.2</td>
+      <td>1.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19155</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>161.2</td>
+      <td>5.9e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19156</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>203.5</td>
+      <td>1e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19157</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>217.4</td>
+      <td>5.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19162</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>47.8</td>
+      <td>2.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19163</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>68.6</td>
+      <td>9.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19164</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>63.9</td>
+      <td>3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19752</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>64.9</td>
+      <td>1.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00248</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>181.6</td>
+      <td>4.1e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0656</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>321.6</td>
+      <td>6.6e-97</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0667</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>159.0</td>
+      <td>3.2e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1453</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>111.6</td>
+      <td>8.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4989</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>109.2</td>
+      <td>4.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1575</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>126.7</td>
+      <td>2.2e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1576</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>63.3</td>
+      <td>4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1577</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>252.2</td>
+      <td>1.5e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02587</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>48.1</td>
+      <td>2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10376</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>73.8</td>
+      <td>2.6e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11172</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>533.1</td>
+      <td>2.3e-161</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11565</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>225.1</td>
+      <td>1.9e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01293</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>49.0</td>
+      <td>9.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06660</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>147.8</td>
+      <td>8.3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19071</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>274.9</td>
+      <td>1.1e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19072</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>202.0</td>
+      <td>1.9e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19073</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>319.0</td>
+      <td>3.8e-96</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19074</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>91.0</td>
+      <td>1.8e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19075</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>62.7</td>
+      <td>6.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19076</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>96.4</td>
+      <td>3.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19077</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>73.2</td>
+      <td>4.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19078</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>81.2</td>
+      <td>1.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19079</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>104.1</td>
+      <td>1.7e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19080</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>72.7</td>
+      <td>6.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19081</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>97.1</td>
+      <td>1.9e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19082</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>85.6</td>
+      <td>7.3e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19083</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>94.1</td>
+      <td>1.8e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19084</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>127.4</td>
+      <td>1.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19085</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>146.4</td>
+      <td>2.1e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19086</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>89.9</td>
+      <td>3.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19087</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>74.2</td>
+      <td>2.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19088</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>114.6</td>
+      <td>1.1e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19089</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>64.9</td>
+      <td>1.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19090</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>87.9</td>
+      <td>1.2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19091</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>88.0</td>
+      <td>1.2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19092</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>103.8</td>
+      <td>2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19093</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>131.1</td>
+      <td>9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19094</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>50.5</td>
+      <td>3.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19095</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>103.8</td>
+      <td>1.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19096</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>84.2</td>
+      <td>1.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19097</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>60.0</td>
+      <td>4.3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19099</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>69.8</td>
+      <td>4.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19100</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>92.3</td>
+      <td>4.6e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19101</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>79.5</td>
+      <td>5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19102</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>108.4</td>
+      <td>8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19103</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>79.7</td>
+      <td>4.3e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19104</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>55.8</td>
+      <td>7.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19105</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>103.4</td>
+      <td>2.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19111</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>183.2</td>
+      <td>1.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19113</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>154.0</td>
+      <td>1.2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19116</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>203.9</td>
+      <td>6.1e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19117</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>215.6</td>
+      <td>1.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19120</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>205.7</td>
+      <td>1.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19123</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>229.2</td>
+      <td>1.3e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19124</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>189.2</td>
+      <td>2e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19126</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>225.7</td>
+      <td>1.5e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19127</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>197.3</td>
+      <td>6.9e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19128</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>168.3</td>
+      <td>3.8e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19129</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>133.7</td>
+      <td>1.8e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19130</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>249.7</td>
+      <td>6.6e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19131</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>255.2</td>
+      <td>1.4e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19132</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>246.2</td>
+      <td>6.6e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19133</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>236.6</td>
+      <td>6.2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19134</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>230.5</td>
+      <td>5e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19135</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>206.9</td>
+      <td>7.3e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19136</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>223.5</td>
+      <td>6.2e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19137</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>185.6</td>
+      <td>2.1e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19138</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>167.8</td>
+      <td>4.7e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19139</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>436.0</td>
+      <td>8.1e-132</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19140</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>301.3</td>
+      <td>9.9e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19141</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>44.5</td>
+      <td>2.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19142</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>40.5</td>
+      <td>4.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19143</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>66.1</td>
+      <td>5.9e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19144</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>93.5</td>
+      <td>2.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19145</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>61.0</td>
+      <td>2.4e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19146</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>44.7</td>
+      <td>1.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19147</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>43.0</td>
+      <td>6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19148</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>79.8</td>
+      <td>5.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19149</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>95.9</td>
+      <td>5.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19151</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>40.1</td>
+      <td>4.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19153</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>69.8</td>
+      <td>4.7e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19154</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>199.2</td>
+      <td>1.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19156</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>203.5</td>
+      <td>1e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19157</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>217.4</td>
+      <td>5.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19159</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>42.1</td>
+      <td>1.1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19162</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>47.8</td>
+      <td>2.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19163</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>68.6</td>
+      <td>9.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19164</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>63.9</td>
+      <td>3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19752</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>64.9</td>
+      <td>1.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00248</td>
+      <td>2,5-didehydrogluconate reductase DkgB</td>
+      <td>181.6</td>
+      <td>4.1e-54</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

@@ -1,0 +1,2623 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_03977</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_03977</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K01710</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K01710</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:4.2.1.46</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008460</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01710</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:4.2.1.46</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K01710</td>
+      <td>EC:4.2.1.46</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0008460</td>
+      <td>GO:0008460</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0016829</td>
+      <td>GO:0016829</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0016835</td>
+      <td>GO:0016835</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0016836</td>
+      <td>GO:0016836</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.2.1.46</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|3972522|3973589|+</td></tr><tr><th>protein_id</th><td>KOIAIB_03977</td></tr><tr><th>product</th><td>dTDP-glucose 4,6-dehydratase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>3972522</td></tr><tr><th>stop</th><td>3973589</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_4100</td></tr><tr><th>locus_tag</th><td>KOIAIB_03977</td></tr><tr><th>aa_md5</th><td>32a2f8e77bb8b999859069771986b659</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>M</td></tr><tr><th>GO</th><td><details class="value-details"><summary>65 values</summary><ul class="value-list"><li>GO:0000271</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0005975</li><li>GO:0005976</li><li>GO:0006139</li><li>GO:0006629</li><li>GO:0006725</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008460</li><li>GO:0008610</li><li>GO:0008653</li><li>GO:0009058</li><li>GO:0009059</li><li>GO:0009103</li><li>GO:0009225</li><li>GO:0009226</li><li>GO:0009987</li><li>GO:0016051</li><li>GO:0016829</li><li>GO:0016835</li><li>GO:0016836</li><li>GO:0018130</li><li>GO:0019438</li><li>GO:0033692</li><li>GO:0034637</li><li>GO:0034641</li><li>GO:0034645</li><li>GO:0034654</li><li>GO:0042802</li><li>GO:0043170</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044249</li><li>GO:0044255</li><li>GO:0044260</li><li>GO:0044262</li><li>GO:0044264</li><li>GO:0044271</li><li>GO:0044281</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0045226</li><li>GO:0046379</li><li>GO:0046483</li><li>GO:0048037</li><li>GO:0050662</li><li>GO:0055086</li><li>GO:0071704</li><li>GO:1901135</li><li>GO:1901137</li><li>GO:1901360</li><li>GO:1901362</li><li>GO:1901576</li><li>GO:1903509</li></ul></details></td></tr><tr><th>EC</th><td>EC:4.2.1.46</td></tr><tr><th>KEGG_KO</th><td>KEGG:K01710</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>10 values</summary><ul class="value-list"><li>KEGG:ko00521</li><li>KEGG:ko00523</li><li>KEGG:ko00525</li><li>KEGG:ko01055</li><li>KEGG:ko01130</li><li>KEGG:map00521</li><li>KEGG:map00523</li><li>KEGG:map00525</li><li>KEGG:map01055</li><li>KEGG:map01130</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00793</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R06513</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR005888; INTERPRO:IPR016040; INTERPRO:IPR036291</td></tr><tr><th>PFAM</th><td>PFAM:PF01073; PFAM:PF01370; PFAM:PF02719; PFAM:PF04321; PFAM:PF07993; PFAM:PF16363</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>5</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd05246</td>
+      <td>CDD:cd02266;CDD:cd05226;CDD:cd05228;CDD:cd05230;CDD:cd05232;CDD:cd05234;CDD:cd05237;CDD:cd05238;CDD:cd05239;CDD:cd05240;CDD:cd05241;CDD:cd05246;CDD:cd05247;CDD:cd05248;CDD:cd05252;CDD:cd05253;CDD:cd05254;CDD:cd05255;CDD:cd05256;CDD:cd05257;CDD:cd05258;CDD:cd05260;CDD:cd05263;CDD:cd05264;CDD:cd05265;CDD:cd05273;CDD:cd08946;CDD:cd08957;CDD:cd09813</td>
+      <td>CDD:cd05246</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1088</td>
+      <td>COG:COG0451;COG:COG1087;COG:COG1088;COG:COG1089;COG:COG1091;COG:COG3320</td>
+      <td>COG:COG1088</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:4.2.1.46</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:4.2.1.46</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:4.2.1.46</td>
+      <td>EC:4.2.1.46</td>
+      <td>EC:4.2.1.46</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000271;GO:0003674;GO:0003824;GO:0005488;GO:0005515;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0005975;GO:0005976;GO:0006139;GO:0006629;GO:0006725;GO:0006807;GO:0008150;GO:0008152;GO:0008460;GO:0008610;GO:0008653;GO:0009058;GO:0009059;GO:0009103;GO:0009225;GO:0009226;GO:0009987;GO:0016051;GO:0016829;GO:0016835;GO:0016836;GO:0018130;GO:0019438;GO:0033692;GO:0034637;GO:0034641;GO:0034645;GO:0034654;GO:0042802;GO:0043170;GO:0044237;GO:0044238;GO:0044249;GO:0044255;GO:0044260;GO:0044262;GO:0044264;GO:0044271;GO:0044281;GO:0044424;GO:0044444;GO:0044464;GO:0045226;GO:0046379;GO:0046483;GO:0048037;GO:0050662;GO:0055086;GO:0071704;GO:1901135;GO:1901137;GO:1901360;GO:1901362;GO:1901576;GO:1903509</td>
+      <td>GO:0008460;GO:0009225</td>
+      <td>GO:0008460;GO:0009225</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K01710</td>
+      <td>KEGG:K01710</td>
+      <td>KEGG:K01710</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF007490;NCBIFAM:NF007582;NCBIFAM:TIGR01181</td>
+      <td>NCBIFAM:TIGR01179;NCBIFAM:TIGR01181;NCBIFAM:TIGR01214;NCBIFAM:TIGR01472;NCBIFAM:TIGR02197;NCBIFAM:TIGR02622;NCBIFAM:TIGR03466;NCBIFAM:TIGR04180</td>
+      <td>NCBIFAM:TIGR01181</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF007490;NCBIFAM:NF007582;NCBIFAM:TIGR01181</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01179;NCBIFAM:TIGR01181;NCBIFAM:TIGR01214;NCBIFAM:TIGR01472;NCBIFAM:TIGR02197;NCBIFAM:TIGR02622;NCBIFAM:TIGR03466;NCBIFAM:TIGR04180</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF16363</td>
+      <td>PFAM:PF01073;PFAM:PF01370;PFAM:PF02719;PFAM:PF04321;PFAM:PF07993;PFAM:PF16363</td>
+      <td>PFAM:PF16363</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF16363</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF01073;PFAM:PF01370;PFAM:PF02719;PFAM:PF04321;PFAM:PF07993;PFAM:PF16363</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 95 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECNA114_1301.ECNA114_3926</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECO26_1355.ECO26_2952</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECSF_1327.ECSF_3628</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1088</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:4.2.1.46</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MU5E@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RP7G@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XM8Z@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1088@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1088@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000271</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005975</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005976</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006139</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006629</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008460</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008610</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008653</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009059</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009103</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009225</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009226</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016051</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016835</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016836</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019438</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033692</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034637</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034645</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034654</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043170</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044255</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044262</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044264</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044271</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0045226</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046379</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048037</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055086</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901135</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901137</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1903509</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01710</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00521</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00523</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00525</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01055</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00521</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00523</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00525</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01055</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00402</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R06513</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>GDP_Man_Dehyd</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85676260</td>
+      <td>rffG</td>
+      <td>Belongs to the NAD(P)-dependent epimerase dehydratase family. dTDP-glucose dehydratase subfamily</td>
+      <td>728.0</td>
+      <td>2.96e-266</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>355</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:4.2.1.46</td>
+      <td>KEGG:K01710</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01710</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K01710</td>
+      <td>dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]</td>
+      <td>above_threshold</td>
+      <td>626.8</td>
+      <td>490.03</td>
+      <td>1.7e-188</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 15 annotation rows, 10 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd05246</td>
+      <td></td>
+      <td>dTDP_GD_SDR_e</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.720:FF:000108</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.720</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.90.25.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008460</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd05246","interpro_accession":"IPR005888","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01181","interpro_accession":"IPR005888","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0009225</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd05246","interpro_accession":"IPR005888","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01181","interpro_accession":"IPR005888","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005888</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016040</td>
+      <td></td>
+      <td>NAD(P)-binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036291</td>
+      <td></td>
+      <td>NAD(P)-binding domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF007490</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF007582</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01181</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43000</td>
+      <td></td>
+      <td>DTDP-D-GLUCOSE 4,6-DEHYDRATASE-RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF16363</td>
+      <td></td>
+      <td>GDP-mannose 4,6 dehydratase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF51735</td>
+      <td></td>
+      <td>NAD(P)-binding Rossmann-fold domains</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd05246</td>
+      <td>dTDP_GD_SDR_e</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>336</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.720:FF:000108</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>3.3E-100</td>
+      <td>4</td>
+      <td>215</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.720</td>
+      <td></td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>325</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.90.25.10</td>
+      <td></td>
+      <td>0.0</td>
+      <td>201</td>
+      <td>335</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF007490</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>348</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF007582</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>355</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01181</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>341</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43000</td>
+      <td>DTDP-D-GLUCOSE 4,6-DEHYDRATASE-RELATED</td>
+      <td>3.1E-119</td>
+      <td>2</td>
+      <td>343</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF16363</td>
+      <td>GDP-mannose 4,6 dehydratase</td>
+      <td>6.1E-90</td>
+      <td>5</td>
+      <td>327</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF51735</td>
+      <td>NAD(P)-binding Rossmann-fold domains</td>
+      <td>4.09E-96</td>
+      <td>1</td>
+      <td>339</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 69 annotation rows, 118 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02266</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05226</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05228</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05230</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05232</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05234</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05237</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05238</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05239</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05240</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05241</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05246</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05247</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05248</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05252</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05253</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05254</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05255</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05256</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05257</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05258</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05260</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05263</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05264</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05265</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05273</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08946</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08957</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd09813</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02166</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02206</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02240</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02260</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02653</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02725</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10084</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10217</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10675</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11908</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15181</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0451</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1087</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1088</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1089</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1091</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3320</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0747</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1371</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1372</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1429</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1430</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1431</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1502</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01179</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01181</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01214</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01472</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02197</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02622</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03466</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR04180</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01073</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01370</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02719</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF04321</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF07993</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF16363</td>
+      <td></td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0451</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>239.7</td>
+      <td>1.2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1087</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>133.4</td>
+      <td>1.9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1088</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>545.9</td>
+      <td>6.2e-165</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1091</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>95.1</td>
+      <td>1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3320</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>50.9</td>
+      <td>2.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0747</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>299.4</td>
+      <td>6.6e-90</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1371</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>115.3</td>
+      <td>6.6e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1429</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>118.7</td>
+      <td>5.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1430</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>71.8</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1502</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>42.0</td>
+      <td>1.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02240</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>85.3</td>
+      <td>7.8e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02260</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>286.0</td>
+      <td>1.4e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10084</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>649.1</td>
+      <td>3.5e-196</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10675</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>70.9</td>
+      <td>2.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01179</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>115.5</td>
+      <td>5e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01181</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>551.9</td>
+      <td>8.4e-167</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02197</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>71.6</td>
+      <td>1.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03466</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>54.6</td>
+      <td>1.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04180</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>124.3</td>
+      <td>1.1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02266</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>264.4</td>
+      <td>2.3e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05226</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>180.9</td>
+      <td>5.8e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05228</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>95.3</td>
+      <td>9.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05230</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>134.0</td>
+      <td>1.5e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05232</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>72.5</td>
+      <td>6.6e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05234</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>127.1</td>
+      <td>2.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05237</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>72.6</td>
+      <td>7.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05238</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>54.5</td>
+      <td>2.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05240</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>67.7</td>
+      <td>2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05241</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>84.4</td>
+      <td>1.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05246</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>479.6</td>
+      <td>8.1e-145</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05247</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>133.0</td>
+      <td>2.7e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05248</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>78.9</td>
+      <td>9.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05252</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>125.2</td>
+      <td>6.7e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05253</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>137.1</td>
+      <td>2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05254</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>75.1</td>
+      <td>1.3e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05256</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>197.3</td>
+      <td>8.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05257</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>150.2</td>
+      <td>1.6e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05258</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>175.5</td>
+      <td>2.9e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05260</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>171.4</td>
+      <td>6.7e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05263</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>54.5</td>
+      <td>2.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05264</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>138.6</td>
+      <td>4.5e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08946</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>213.9</td>
+      <td>5.5e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08957</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>68.7</td>
+      <td>1.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09813</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>73.8</td>
+      <td>2.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01073</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>53.4</td>
+      <td>4.4e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01370</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>255.4</td>
+      <td>1.1e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02719</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>58.4</td>
+      <td>1.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam04321</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>53.4</td>
+      <td>4.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam07993</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>42.0</td>
+      <td>1.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam16363</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>323.4</td>
+      <td>4.1e-97</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0451</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>239.7</td>
+      <td>1.2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1087</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>133.4</td>
+      <td>1.9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1088</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>545.9</td>
+      <td>6.2e-165</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1089</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>115.4</td>
+      <td>7.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1091</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>95.1</td>
+      <td>1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3320</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>50.9</td>
+      <td>2.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0747</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>299.4</td>
+      <td>6.6e-90</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1371</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>115.3</td>
+      <td>6.6e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1372</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>68.2</td>
+      <td>1.5e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1429</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>118.7</td>
+      <td>5.4e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1430</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>71.8</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1431</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>51.4</td>
+      <td>1.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1502</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>42.0</td>
+      <td>1.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02166</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>71.4</td>
+      <td>1.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02206</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>68.4</td>
+      <td>1.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02240</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>85.3</td>
+      <td>7.8e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02260</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>286.0</td>
+      <td>1.4e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02653</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>75.9</td>
+      <td>6.8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02725</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>61.1</td>
+      <td>2.3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10084</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>649.1</td>
+      <td>3.5e-196</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10217</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>833.1</td>
+      <td>4.3e-252</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10675</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>70.9</td>
+      <td>2.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11908</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>42.3</td>
+      <td>1.1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15181</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>57.8</td>
+      <td>2.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01179</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>115.5</td>
+      <td>5e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01181</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>551.9</td>
+      <td>8.4e-167</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01214</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>52.5</td>
+      <td>7.9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01472</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>77.1</td>
+      <td>3.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02197</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>71.6</td>
+      <td>1.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02622</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>96.5</td>
+      <td>3.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03466</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>54.6</td>
+      <td>1.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04180</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>124.3</td>
+      <td>1.1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02266</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>264.4</td>
+      <td>2.3e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05226</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>180.9</td>
+      <td>5.8e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05228</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>95.3</td>
+      <td>9.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05230</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>134.0</td>
+      <td>1.5e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05232</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>72.5</td>
+      <td>6.6e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05234</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>127.1</td>
+      <td>2.1e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05237</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>72.6</td>
+      <td>7.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05238</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>54.5</td>
+      <td>2.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05239</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>94.0</td>
+      <td>1.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05240</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>67.7</td>
+      <td>2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05241</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>84.4</td>
+      <td>1.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05246</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>479.6</td>
+      <td>8.1e-145</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05247</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>133.0</td>
+      <td>2.7e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05248</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>78.9</td>
+      <td>9.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05252</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>125.2</td>
+      <td>6.7e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05253</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>137.1</td>
+      <td>2e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05254</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>75.1</td>
+      <td>1.3e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05255</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>41.8</td>
+      <td>1.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05256</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>197.3</td>
+      <td>8.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05257</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>150.2</td>
+      <td>1.6e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05258</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>175.5</td>
+      <td>2.9e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05260</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>171.4</td>
+      <td>6.7e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05263</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>54.5</td>
+      <td>2.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05264</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>138.6</td>
+      <td>4.5e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05265</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>55.0</td>
+      <td>1.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05273</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>90.8</td>
+      <td>2.3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08946</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>213.9</td>
+      <td>5.5e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08957</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>68.7</td>
+      <td>1.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09813</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>73.8</td>
+      <td>2.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01073</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>53.4</td>
+      <td>4.4e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01370</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>255.4</td>
+      <td>1.1e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02719</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>58.4</td>
+      <td>1.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam04321</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>53.4</td>
+      <td>4.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam07993</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>42.0</td>
+      <td>1.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam16363</td>
+      <td>dTDP-glucose 4,6-dehydratase</td>
+      <td>323.4</td>
+      <td>4.1e-97</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.9732877</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

@@ -1,0 +1,2919 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00810</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00810</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>UDP-glucose 4-epimerase [EC:5.1.3.2]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K01784</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K01784</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:5.1.3.2</td></tr><tr><th>mf_proposal_ids</th><td>GO:0003978</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01784</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:5.1.3.2</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K01784</td>
+      <td>EC:5.1.3.2</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0003978</td>
+      <td>GO:0003978</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0016853</td>
+      <td>GO:0016853</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0016854</td>
+      <td>GO:0016854</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0016857</td>
+      <td>GO:0016857</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0051287</td>
+      <td>GO:0051287</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0070403</td>
+      <td>GO:0070403</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:1901265</td>
+      <td>GO:1901265</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.1.3.2</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|791039|792055|-</td></tr><tr><th>protein_id</th><td>KOIAIB_00810</td></tr><tr><th>product</th><td>UDP-glucose 4-epimerase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>791039</td></tr><tr><th>stop</th><td>792055</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_1134</td></tr><tr><th>locus_tag</th><td>KOIAIB_00810</td></tr><tr><th>aa_md5</th><td>4b77aa7d76c7b1946ca0d8ca6aa05562</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>M</td></tr><tr><th>GO</th><td><details class="value-details"><summary>65 values</summary><ul class="value-list"><li>GO:0000166</li><li>GO:0000271</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0003978</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0005975</li><li>GO:0005976</li><li>GO:0005996</li><li>GO:0006012</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009056</li><li>GO:0009058</li><li>GO:0009059</li><li>GO:0009242</li><li>GO:0009987</li><li>GO:0016051</li><li>GO:0016052</li><li>GO:0016853</li><li>GO:0016854</li><li>GO:0016857</li><li>GO:0019318</li><li>GO:0019320</li><li>GO:0019388</li><li>GO:0033499</li><li>GO:0033692</li><li>GO:0034637</li><li>GO:0034645</li><li>GO:0036094</li><li>GO:0042802</li><li>GO:0043167</li><li>GO:0043168</li><li>GO:0043170</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044249</li><li>GO:0044260</li><li>GO:0044262</li><li>GO:0044264</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046365</li><li>GO:0046377</li><li>GO:0048037</li><li>GO:0050662</li><li>GO:0051287</li><li>GO:0070403</li><li>GO:0071704</li><li>GO:0097159</li><li>GO:1901135</li><li>GO:1901137</li><li>GO:1901265</li><li>GO:1901363</li><li>GO:1901575</li><li>GO:1901576</li></ul></details></td></tr><tr><th>EC</th><td>EC:5.1.3.2</td></tr><tr><th>KEGG_KO</th><td>KEGG:K01784</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00052; KEGG:ko00520; KEGG:ko01100; KEGG:map00052; KEGG:map00520; KEGG:map01100</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00361; KEGG:M00362; KEGG:M00632</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R00291; KEGG:R02984</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR001509; INTERPRO:IPR005886; INTERPRO:IPR036291</td></tr><tr><th>PFAM</th><td>PFAM:PF01073; PFAM:PF01370; PFAM:PF02719; PFAM:PF04321; PFAM:PF16363</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>5</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd05247</td>
+      <td>CDD:cd02266;CDD:cd05193;CDD:cd05226;CDD:cd05227;CDD:cd05228;CDD:cd05230;CDD:cd05232;CDD:cd05234;CDD:cd05237;CDD:cd05238;CDD:cd05239;CDD:cd05240;CDD:cd05241;CDD:cd05243;CDD:cd05244;CDD:cd05246;CDD:cd05247;CDD:cd05248;CDD:cd05252;CDD:cd05253;CDD:cd05254;CDD:cd05255;CDD:cd05256;CDD:cd05257;CDD:cd05258;CDD:cd05260;CDD:cd05262;CDD:cd05263;CDD:cd05264;CDD:cd05265;CDD:cd05271;CDD:cd05272;CDD:cd05273;CDD:cd08946;CDD:cd08957;CDD:cd08958;CDD:cd09811;CDD:cd09812;CDD:cd09813</td>
+      <td>CDD:cd05247</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1087</td>
+      <td>COG:COG0451;COG:COG0702;COG:COG1087;COG:COG1088;COG:COG1089;COG:COG1090;COG:COG1091;COG:COG2910;COG:COG3320</td>
+      <td>COG:COG1087</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:5.1.3.2</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:5.1.3.2</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:5.1.3.2</td>
+      <td>EC:5.1.3.2</td>
+      <td>EC:5.1.3.2</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000166;GO:0000271;GO:0003674;GO:0003824;GO:0003978;GO:0005488;GO:0005515;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0005975;GO:0005976;GO:0005996;GO:0006012;GO:0008150;GO:0008152;GO:0009056;GO:0009058;GO:0009059;GO:0009242;GO:0009987;GO:0016051;GO:0016052;GO:0016853;GO:0016854;GO:0016857;GO:0019318;GO:0019320;GO:0019388;GO:0033499;GO:0033692;GO:0034637;GO:0034645;GO:0036094;GO:0042802;GO:0043167;GO:0043168;GO:0043170;GO:0044237;GO:0044238;GO:0044249;GO:0044260;GO:0044262;GO:0044264;GO:0044281;GO:0044282;GO:0044424;GO:0044444;GO:0044464;GO:0046365;GO:0046377;GO:0048037;GO:0050662;GO:0051287;GO:0070403;GO:0071704;GO:0097159;GO:1901135;GO:1901137;GO:1901265;GO:1901363;GO:1901575;GO:1901576</td>
+      <td>GO:0003978;GO:0005829;GO:0005996;GO:0006012</td>
+      <td>GO:0003978;GO:0005829;GO:0005996;GO:0006012</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K01784</td>
+      <td>KEGG:K01784</td>
+      <td>KEGG:K01784</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF007956;NCBIFAM:TIGR01179</td>
+      <td>NCBIFAM:NF041015;NCBIFAM:TIGR01179;NCBIFAM:TIGR01181;NCBIFAM:TIGR02197;NCBIFAM:TIGR02622;NCBIFAM:TIGR03466;NCBIFAM:TIGR04180</td>
+      <td>NCBIFAM:TIGR01179</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF007956;NCBIFAM:TIGR01179</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041015;NCBIFAM:TIGR01179;NCBIFAM:TIGR01181;NCBIFAM:TIGR02197;NCBIFAM:TIGR02622;NCBIFAM:TIGR03466;NCBIFAM:TIGR04180</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF01370</td>
+      <td>PFAM:PF01073;PFAM:PF01370;PFAM:PF02719;PFAM:PF04321;PFAM:PF16363</td>
+      <td>PFAM:PF01370</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF01370</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF01073;PFAM:PF01370;PFAM:PF02719;PFAM:PF04321;PFAM:PF16363</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 97 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iPC815.YPO1139</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSF_1195.SF0545</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSFxv_1172.SFxv_0601</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iS_1188.S0553</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iYL1228.KPN_00773</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1087</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:5.1.3.2</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MUHI@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMTU@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XP3B@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1087@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1087@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000166</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000271</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003978</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005975</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005976</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005996</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006012</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009059</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009242</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016051</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016052</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016853</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016854</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016857</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019318</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019320</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019388</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033499</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033692</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034637</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034645</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036094</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043167</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043170</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044262</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044264</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046365</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046377</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048037</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051287</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070403</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901135</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901137</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901265</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01784</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00361</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00632</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00052</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00052</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00289</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00291</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02984</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Epimerase</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>GDP_Man_Dehyd</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.1651344</td>
+      <td>galE</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>697.0</td>
+      <td>6.09e-255</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>338</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:5.1.3.2</td>
+      <td>KEGG:K01784</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01784</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase [EC:5.1.3.2]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K01784</td>
+      <td>UDP-glucose 4-epimerase [EC:5.1.3.2]</td>
+      <td>above_threshold</td>
+      <td>534.8</td>
+      <td>243.30</td>
+      <td>7.8e-161</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 16 annotation rows, 9 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd05247</td>
+      <td></td>
+      <td>UDP_G4E_1_SDR_e</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.720:FF:000040</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.720</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.90.25.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003978</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd05247","interpro_accession":"IPR005886","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01179","interpro_accession":"IPR005886","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43725","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43725","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005996</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43725","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006012</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd05247","interpro_accession":"IPR005886","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01179","interpro_accession":"IPR005886","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001509</td>
+      <td></td>
+      <td>NAD-dependent epimerase/dehydratase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005886</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036291</td>
+      <td></td>
+      <td>NAD(P)-binding domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF007956</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01179</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase GalE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43725</td>
+      <td></td>
+      <td>UDP-GLUCOSE 4-EPIMERASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01370</td>
+      <td></td>
+      <td>NAD dependent epimerase/dehydratase family</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF51735</td>
+      <td></td>
+      <td>NAD(P)-binding Rossmann-fold domains</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd05247</td>
+      <td>UDP_G4E_1_SDR_e</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>330</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.720:FF:000040</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>1.9E-92</td>
+      <td>3</td>
+      <td>194</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.720</td>
+      <td></td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>269</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.90.25.10</td>
+      <td></td>
+      <td>0.0</td>
+      <td>189</td>
+      <td>329</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF007956</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>338</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01179</td>
+      <td>UDP-glucose 4-epimerase GalE</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>335</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43725</td>
+      <td>UDP-GLUCOSE 4-EPIMERASE</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>336</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF01370</td>
+      <td>NAD dependent epimerase/dehydratase family</td>
+      <td>2.5E-61</td>
+      <td>3</td>
+      <td>262</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF51735</td>
+      <td>NAD(P)-binding Rossmann-fold domains</td>
+      <td>1.18E-101</td>
+      <td>1</td>
+      <td>336</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 77 annotation rows, 138 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02266</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05193</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05226</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05227</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05228</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05230</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05232</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05234</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05237</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05238</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05239</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05240</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05241</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05243</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05244</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05246</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05247</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05248</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05252</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05253</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05254</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05255</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05256</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05257</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05258</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05260</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05262</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05263</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05264</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05265</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05271</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05272</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05273</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08946</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08957</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08958</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd09811</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd09812</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd09813</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02166</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02206</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02240</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02260</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02725</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10084</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10217</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10675</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11150</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15181</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0451</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0702</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1087</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1088</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1089</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1090</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1091</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2910</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3320</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0747</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1371</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1429</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1430</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1502</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041015</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01179</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01181</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02197</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02622</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03466</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR04180</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01073</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01370</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02719</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF04321</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF16363</td>
+      <td></td>
+      <td>UDP-glucose 4-epimerase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0451</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>243.7</td>
+      <td>7.8e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0702</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>60.7</td>
+      <td>3.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1087</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>479.4</td>
+      <td>1.1e-144</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1088</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>184.2</td>
+      <td>6.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1090</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>40.8</td>
+      <td>3.8e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1091</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>74.3</td>
+      <td>2.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2910</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>45.9</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3320</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>59.2</td>
+      <td>8.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0747</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>107.2</td>
+      <td>2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1371</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>428.1</td>
+      <td>5e-129</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1429</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>94.7</td>
+      <td>1.1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1430</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>72.6</td>
+      <td>6.5e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1502</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>79.8</td>
+      <td>4.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02240</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>494.1</td>
+      <td>3.9e-149</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02260</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>93.1</td>
+      <td>3.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10084</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>62.1</td>
+      <td>1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10675</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>764.1</td>
+      <td>3.1e-231</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01179</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>515.1</td>
+      <td>1.3e-155</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01181</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>122.2</td>
+      <td>5.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02197</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>106.3</td>
+      <td>3.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03466</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>61.3</td>
+      <td>1.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04180</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>106.4</td>
+      <td>3.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02266</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>56.3</td>
+      <td>8.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05193</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>43.8</td>
+      <td>4.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05226</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>70.2</td>
+      <td>4.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05227</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>66.0</td>
+      <td>8.3e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05228</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>85.4</td>
+      <td>9.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05230</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>105.0</td>
+      <td>1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05232</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>84.6</td>
+      <td>1.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05234</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>144.2</td>
+      <td>1.3e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05237</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>81.2</td>
+      <td>1.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05238</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>95.0</td>
+      <td>1.2e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05240</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>92.2</td>
+      <td>7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05241</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>88.9</td>
+      <td>8e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05243</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>44.5</td>
+      <td>2.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05244</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>40.4</td>
+      <td>5.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05246</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>150.5</td>
+      <td>1.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05247</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>492.5</td>
+      <td>1.1e-148</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05248</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>107.2</td>
+      <td>2.5e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05252</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>106.0</td>
+      <td>4.5e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05253</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>141.2</td>
+      <td>1.1e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05254</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>70.9</td>
+      <td>2.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05256</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>215.3</td>
+      <td>2.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05257</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>142.8</td>
+      <td>2.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05258</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>158.1</td>
+      <td>5.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05260</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>110.8</td>
+      <td>1.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05262</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>40.4</td>
+      <td>6.1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05263</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>63.5</td>
+      <td>4.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05264</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>158.7</td>
+      <td>3.5e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05271</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>53.8</td>
+      <td>3.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05272</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>50.0</td>
+      <td>6.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08946</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>182.0</td>
+      <td>3.2e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08957</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>100.4</td>
+      <td>2.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08958</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>45.4</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09811</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>54.3</td>
+      <td>2.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09812</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>45.6</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09813</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>72.0</td>
+      <td>9.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01073</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>71.2</td>
+      <td>1.6e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01370</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>214.0</td>
+      <td>4.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02719</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>66.9</td>
+      <td>3.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam04321</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>47.0</td>
+      <td>4.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam16363</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>215.4</td>
+      <td>3e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0451</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>243.7</td>
+      <td>7.8e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0702</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>60.7</td>
+      <td>3.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1087</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>479.4</td>
+      <td>1.1e-144</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1088</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>184.2</td>
+      <td>6.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1089</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>82.4</td>
+      <td>7.9e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1090</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>40.8</td>
+      <td>3.8e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1091</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>74.3</td>
+      <td>2.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2910</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>45.9</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3320</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>59.2</td>
+      <td>8.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0747</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>107.2</td>
+      <td>2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1371</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>428.1</td>
+      <td>5e-129</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1429</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>94.7</td>
+      <td>1.1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1430</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>72.6</td>
+      <td>6.5e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1502</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>79.8</td>
+      <td>4.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041015</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>46.3</td>
+      <td>6.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02166</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>66.6</td>
+      <td>4.3e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02206</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>61.6</td>
+      <td>1.3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02240</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>494.1</td>
+      <td>3.9e-149</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02260</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>93.1</td>
+      <td>3.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02725</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>45.9</td>
+      <td>1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10084</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>62.1</td>
+      <td>1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10217</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>57.7</td>
+      <td>2.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10675</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>764.1</td>
+      <td>3.1e-231</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11150</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>41.6</td>
+      <td>2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15181</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>73.0</td>
+      <td>4.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01179</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>515.1</td>
+      <td>1.3e-155</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01181</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>122.2</td>
+      <td>5.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02197</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>106.3</td>
+      <td>3.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02622</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>71.2</td>
+      <td>1.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03466</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>61.3</td>
+      <td>1.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04180</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>106.4</td>
+      <td>3.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02266</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>56.3</td>
+      <td>8.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05193</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>43.8</td>
+      <td>4.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05226</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>70.2</td>
+      <td>4.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05227</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>66.0</td>
+      <td>8.3e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05228</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>85.4</td>
+      <td>9.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05230</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>105.0</td>
+      <td>1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05232</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>84.6</td>
+      <td>1.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05234</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>144.2</td>
+      <td>1.3e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05237</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>81.2</td>
+      <td>1.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05238</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>95.0</td>
+      <td>1.2e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05239</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>71.5</td>
+      <td>1.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05240</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>92.2</td>
+      <td>7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05241</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>88.9</td>
+      <td>8e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05243</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>44.5</td>
+      <td>2.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05244</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>40.4</td>
+      <td>5.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05246</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>150.5</td>
+      <td>1.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05247</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>492.5</td>
+      <td>1.1e-148</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05248</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>107.2</td>
+      <td>2.5e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05252</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>106.0</td>
+      <td>4.5e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05253</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>141.2</td>
+      <td>1.1e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05254</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>70.9</td>
+      <td>2.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05255</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>52.2</td>
+      <td>1.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05256</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>215.3</td>
+      <td>2.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05257</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>142.8</td>
+      <td>2.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05258</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>158.1</td>
+      <td>5.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05260</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>110.8</td>
+      <td>1.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05262</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>40.4</td>
+      <td>6.1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05263</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>63.5</td>
+      <td>4.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05264</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>158.7</td>
+      <td>3.5e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05265</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>55.6</td>
+      <td>1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05271</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>53.8</td>
+      <td>3.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05272</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>50.0</td>
+      <td>6.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05273</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>81.9</td>
+      <td>1.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08946</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>182.0</td>
+      <td>3.2e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08957</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>100.4</td>
+      <td>2.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08958</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>45.4</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09811</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>54.3</td>
+      <td>2.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09812</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>45.6</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd09813</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>72.0</td>
+      <td>9.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01073</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>71.2</td>
+      <td>1.6e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01370</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>214.0</td>
+      <td>4.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02719</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>66.9</td>
+      <td>3.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam04321</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>47.0</td>
+      <td>4.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam16363</td>
+      <td>UDP-glucose 4-epimerase</td>
+      <td>215.4</td>
+      <td>3e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.9953601</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

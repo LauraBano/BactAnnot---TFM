@@ -1,0 +1,2952 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_03075</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_03075</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>methylmalonyl-CoA decarboxylase [EC:4.1.1.-]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K11264</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K11264</td></tr><tr><th>mf_proposal_ids</th><td>GO:0003824</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K11264</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:4.1.1.-</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td>derived_from_ko</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:4.1.1.41</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K11264</td>
+      <td>EC:4.1.1.-</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K11264</td>
+      <td>EC:4.1.1.41</td>
+      <td>hierarchical_compatible</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:4.1.1.-</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.-</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.-</td>
+      <td>GO:0004300</td>
+      <td>GO:0004300</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.-</td>
+      <td>GO:0004492</td>
+      <td>GO:0004492</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.-</td>
+      <td>GO:0016829</td>
+      <td>GO:0016829</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.-</td>
+      <td>GO:0016830</td>
+      <td>GO:0016830</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.-</td>
+      <td>GO:0016831</td>
+      <td>GO:0016831</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.-</td>
+      <td>GO:0016835</td>
+      <td>GO:0016835</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.-</td>
+      <td>GO:0016836</td>
+      <td>GO:0016836</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.41</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.41</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.41</td>
+      <td>GO:0004300</td>
+      <td>GO:0004300</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.41</td>
+      <td>GO:0004492</td>
+      <td>GO:0004492</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.41</td>
+      <td>GO:0016829</td>
+      <td>GO:0016829</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.41</td>
+      <td>GO:0016830</td>
+      <td>GO:0016830</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.41</td>
+      <td>GO:0016831</td>
+      <td>GO:0016831</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.41</td>
+      <td>GO:0016835</td>
+      <td>GO:0016835</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:4.1.1.41</td>
+      <td>GO:0016836</td>
+      <td>GO:0016836</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|3063993|3064778|+</td></tr><tr><th>protein_id</th><td>KOIAIB_03075</td></tr><tr><th>product</th><td>Methylmalonyl-CoA decarboxylase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>3063993</td></tr><tr><th>stop</th><td>3064778</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_3257</td></tr><tr><th>locus_tag</th><td>KOIAIB_03075</td></tr><tr><th>aa_md5</th><td>0e95d9058728eda4dbe930caf65005d8</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGA</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>I</td></tr><tr><th>GO</th><td><details class="value-details"><summary>46 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004300</li><li>GO:0004492</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006082</li><li>GO:0006629</li><li>GO:0006631</li><li>GO:0006635</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009056</li><li>GO:0009062</li><li>GO:0009987</li><li>GO:0016042</li><li>GO:0016054</li><li>GO:0016829</li><li>GO:0016830</li><li>GO:0016831</li><li>GO:0016835</li><li>GO:0016836</li><li>GO:0019395</li><li>GO:0019752</li><li>GO:0030258</li><li>GO:0032787</li><li>GO:0034440</li><li>GO:0043436</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044242</li><li>GO:0044248</li><li>GO:0044255</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046395</li><li>GO:0055114</li><li>GO:0071704</li><li>GO:0072329</li><li>GO:1901575</li></ul></details></td></tr><tr><th>EC</th><td>EC:4.1.1.-; EC:4.1.1.41</td></tr><tr><th>KEGG_KO</th><td>KEGG:K11264</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00640; KEGG:map00640</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R00923</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR001753; INTERPRO:IPR014748; INTERPRO:IPR018376; INTERPRO:IPR029045</td></tr><tr><th>PFAM</th><td>PFAM:PF00378; PFAM:PF16113</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>2</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd06558</td>
+      <td>CDD:cd06558</td>
+      <td>CDD:cd06558</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1024</td>
+      <td>COG:COG0447;COG:COG1024</td>
+      <td>COG:COG1024</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:4.1.1.-</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:4.1.1.41</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:4.1.1.41</td>
+      <td>EC:4.1.1.-</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0004300;GO:0004492;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006082;GO:0006629;GO:0006631;GO:0006635;GO:0008150;GO:0008152;GO:0009056;GO:0009062;GO:0009987;GO:0016042;GO:0016054;GO:0016829;GO:0016830;GO:0016831;GO:0016835;GO:0016836;GO:0019395;GO:0019752;GO:0030258;GO:0032787;GO:0034440;GO:0043436;GO:0044237;GO:0044238;GO:0044242;GO:0044248;GO:0044255;GO:0044281;GO:0044282;GO:0044424;GO:0044444;GO:0044464;GO:0046395;GO:0055114;GO:0071704;GO:0072329;GO:1901575</td>
+      <td>GO:0003824;GO:0006635</td>
+      <td>GO:0003824;GO:0006635</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K11264</td>
+      <td>KEGG:K11264</td>
+      <td>KEGG:K11264</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF008506</td>
+      <td>NCBIFAM:TIGR01929;NCBIFAM:TIGR02280;NCBIFAM:TIGR02437;NCBIFAM:TIGR03189;NCBIFAM:TIGR03210</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF008506</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01929;NCBIFAM:TIGR02280;NCBIFAM:TIGR02437;NCBIFAM:TIGR03189;NCBIFAM:TIGR03210</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00378</td>
+      <td>PFAM:PF00378;PFAM:PF16113</td>
+      <td>PFAM:PF00378</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00378</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00378;PFAM:PF16113</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 64 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSSON_1240.SSON_3070</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1024</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>I</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:4.1.1.41</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1R3SQ@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RR23@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XP4S@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1024@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1024@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004300</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004492</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006629</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006631</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006635</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009062</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016042</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016054</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016830</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016831</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016835</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016836</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030258</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034440</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044242</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044255</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072329</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K11264</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00640</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00640</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00097</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00923</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>ECH_1</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>155864.EDL933_4122</td>
+      <td>scpB</td>
+      <td>Catalyzes the decarboxylation of methylmalonyl-CoA to propionyl-CoA. Could be part of a pathway that converts succinate to propionate</td>
+      <td>513.0</td>
+      <td>1.62e-184</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>261</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:4.1.1.-</td>
+      <td>KEGG:K11264</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K11264</td>
+      <td></td>
+      <td>methylmalonyl-CoA decarboxylase [EC:4.1.1.-]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K11264</td>
+      <td>methylmalonyl-CoA decarboxylase [EC:4.1.1.-]</td>
+      <td>above_threshold</td>
+      <td>421.1</td>
+      <td>234.83</td>
+      <td>3.5e-127</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 16 annotation rows, 10 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd06558</td>
+      <td></td>
+      <td>crotonase-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.12.10:FF:000009</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.90.226.10:FF:000032</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.12.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.90.226.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00166","interpro_accession":"IPR018376","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006635</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR11941","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001753</td>
+      <td></td>
+      <td>Enoyl-CoA hydratase/isomerase-like domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR014748</td>
+      <td></td>
+      <td>Enoyl-CoA hydratase, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR018376</td>
+      <td></td>
+      <td>Enoyl-CoA hydratase/isomerase, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029045</td>
+      <td></td>
+      <td>ClpP/crotonase-like domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF008506</td>
+      <td></td>
+      <td>methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR11941</td>
+      <td></td>
+      <td>ENOYL-COA HYDRATASE-RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00378</td>
+      <td></td>
+      <td>Enoyl-CoA hydratase/isomerase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00166</td>
+      <td></td>
+      <td>Enoyl-CoA hydratase/isomerase signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52096</td>
+      <td></td>
+      <td>ClpP/crotonase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd06558</td>
+      <td>crotonase-like</td>
+      <td>7.23417E-55</td>
+      <td>6</td>
+      <td>198</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.12.10:FF:000009</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>5.4E-44</td>
+      <td>203</td>
+      <td>261</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.90.226.10:FF:000032</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>1.8E-128</td>
+      <td>1</td>
+      <td>185</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.12.10</td>
+      <td></td>
+      <td>1.8E-31</td>
+      <td>203</td>
+      <td>261</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.90.226.10</td>
+      <td></td>
+      <td>2.3E-48</td>
+      <td>1</td>
+      <td>185</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF008506</td>
+      <td>methylmalonyl-CoA decarboxylase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>261</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR11941</td>
+      <td>ENOYL-COA HYDRATASE-RELATED</td>
+      <td>3.8E-44</td>
+      <td>13</td>
+      <td>257</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00378</td>
+      <td>Enoyl-CoA hydratase/isomerase</td>
+      <td>1.7E-43</td>
+      <td>12</td>
+      <td>259</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00166</td>
+      <td>Enoyl-CoA hydratase/isomerase signature.</td>
+      <td></td>
+      <td>100</td>
+      <td>120</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52096</td>
+      <td>ClpP/crotonase</td>
+      <td>6.01E-62</td>
+      <td>1</td>
+      <td>260</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 81 annotation rows, 158 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06558</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02600</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02664</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02874</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02888</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02921</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03580</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05617</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05674</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05809</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05862</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05864</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05869</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05870</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05980</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05981</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05995</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06023</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06072</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06127</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06142</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06143</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06144</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06190</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06210</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06213</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06494</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06495</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06563</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06688</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07110</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07112</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07260</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07327</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07396</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07468</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07509</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07511</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07657</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07658</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07659</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07799</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07827</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07854</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07938</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08138</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08139</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08140</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08150</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08252</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08258</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08259</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08260</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08272</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08290</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08321</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09076</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09120</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09245</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09674</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11154</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11423</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11730</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12478</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0447</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1024</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0016</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1679</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1680</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1681</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1682</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1684</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01929</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02280</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02437</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03189</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03210</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00378</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF16113</td>
+      <td></td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0447</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>112.2</td>
+      <td>7.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1024</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>198.3</td>
+      <td>3.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0016</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>57.6</td>
+      <td>2.5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1679</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>116.4</td>
+      <td>3.5e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1680</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>143.1</td>
+      <td>2.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1681</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>87.7</td>
+      <td>1.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1682</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>106.1</td>
+      <td>4.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1684</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>46.6</td>
+      <td>4.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02600</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>103.6</td>
+      <td>2.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02664</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>69.8</td>
+      <td>5.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02874</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>43.9</td>
+      <td>2.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02888</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>74.3</td>
+      <td>1.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02921</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>102.0</td>
+      <td>8e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03580</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>129.9</td>
+      <td>2.6e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05617</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>73.9</td>
+      <td>3.5e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05674</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>79.7</td>
+      <td>6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05809</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>130.8</td>
+      <td>1.4e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05862</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>124.3</td>
+      <td>1.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05864</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>43.2</td>
+      <td>6.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05869</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>51.9</td>
+      <td>1.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05870</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>55.3</td>
+      <td>2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05980</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>134.8</td>
+      <td>7.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05981</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>86.8</td>
+      <td>3.6e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05995</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>125.6</td>
+      <td>5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06023</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>59.7</td>
+      <td>6.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06072</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>73.9</td>
+      <td>3.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06127</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>161.4</td>
+      <td>7.3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06142</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>109.1</td>
+      <td>6.6e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06143</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>99.0</td>
+      <td>7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06144</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>136.5</td>
+      <td>2.4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06190</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>101.1</td>
+      <td>1.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06210</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>92.0</td>
+      <td>9.5e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06213</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>65.3</td>
+      <td>1.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06494</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>134.0</td>
+      <td>1.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06495</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>122.2</td>
+      <td>5.1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06563</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>111.4</td>
+      <td>1.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06688</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>161.3</td>
+      <td>6e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07110</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>69.0</td>
+      <td>7.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07112</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>55.8</td>
+      <td>1.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07260</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>88.5</td>
+      <td>1e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07327</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>58.6</td>
+      <td>1.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07396</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>108.1</td>
+      <td>1.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07468</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>93.9</td>
+      <td>3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07509</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>83.4</td>
+      <td>4.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07511</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>116.6</td>
+      <td>3.1e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07657</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>127.5</td>
+      <td>1.4e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07658</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>133.6</td>
+      <td>1.8e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07659</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>101.7</td>
+      <td>1e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07799</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>103.5</td>
+      <td>2.5e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07827</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>100.7</td>
+      <td>1.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07854</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>112.7</td>
+      <td>4.7e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07938</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>90.0</td>
+      <td>3.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08138</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>140.5</td>
+      <td>1.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08139</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>124.1</td>
+      <td>1.6e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08140</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>123.4</td>
+      <td>2.4e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08150</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>66.8</td>
+      <td>4.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08252</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>128.7</td>
+      <td>6.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08258</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>71.2</td>
+      <td>1.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08259</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>61.8</td>
+      <td>1.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08260</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>92.5</td>
+      <td>6.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08272</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>54.6</td>
+      <td>2.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08290</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>113.4</td>
+      <td>2.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08321</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>83.2</td>
+      <td>5.2e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09076</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>93.9</td>
+      <td>2.8e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09120</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>89.5</td>
+      <td>4.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09245</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>96.7</td>
+      <td>2.9e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09674</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>122.8</td>
+      <td>3.6e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11154</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>49.8</td>
+      <td>3.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11423</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>486.4</td>
+      <td>4.6e-147</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11730</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>66.6</td>
+      <td>3.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12478</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>40.8</td>
+      <td>3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01929</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>111.5</td>
+      <td>1.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02280</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>104.2</td>
+      <td>1.7e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02437</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>50.6</td>
+      <td>2.3e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03189</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>44.3</td>
+      <td>3.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03210</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>89.7</td>
+      <td>4.3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06558</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>161.8</td>
+      <td>3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00378</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>158.4</td>
+      <td>4.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam16113</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>83.5</td>
+      <td>4.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0447</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>112.2</td>
+      <td>7.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1024</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>198.3</td>
+      <td>3.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0016</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>57.6</td>
+      <td>2.5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1679</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>116.4</td>
+      <td>3.5e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1680</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>143.1</td>
+      <td>2.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1681</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>87.7</td>
+      <td>1.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1682</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>106.1</td>
+      <td>4.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1684</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>46.6</td>
+      <td>4.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02600</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>103.6</td>
+      <td>2.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02664</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>69.8</td>
+      <td>5.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02874</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>43.9</td>
+      <td>2.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02888</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>74.3</td>
+      <td>1.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02921</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>102.0</td>
+      <td>8e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03580</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>129.9</td>
+      <td>2.6e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05617</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>73.9</td>
+      <td>3.5e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05674</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>79.7</td>
+      <td>6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05809</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>130.8</td>
+      <td>1.4e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05862</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>124.3</td>
+      <td>1.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05864</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>43.2</td>
+      <td>6.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05869</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>51.9</td>
+      <td>1.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05870</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>55.3</td>
+      <td>2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05980</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>134.8</td>
+      <td>7.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05981</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>86.8</td>
+      <td>3.6e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05995</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>125.6</td>
+      <td>5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06023</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>59.7</td>
+      <td>6.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06072</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>73.9</td>
+      <td>3.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06127</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>161.4</td>
+      <td>7.3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06142</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>109.1</td>
+      <td>6.6e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06143</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>99.0</td>
+      <td>7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06144</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>136.5</td>
+      <td>2.4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06190</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>101.1</td>
+      <td>1.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06210</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>92.0</td>
+      <td>9.5e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06213</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>65.3</td>
+      <td>1.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06494</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>134.0</td>
+      <td>1.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06495</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>122.2</td>
+      <td>5.1e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06563</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>111.4</td>
+      <td>1.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06688</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>161.3</td>
+      <td>6e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07110</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>69.0</td>
+      <td>7.5e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07112</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>55.8</td>
+      <td>1.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07260</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>88.5</td>
+      <td>1e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07327</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>58.6</td>
+      <td>1.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07396</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>108.1</td>
+      <td>1.1e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07468</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>93.9</td>
+      <td>3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07509</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>83.4</td>
+      <td>4.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07511</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>116.6</td>
+      <td>3.1e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07657</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>127.5</td>
+      <td>1.4e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07658</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>133.6</td>
+      <td>1.8e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07659</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>101.7</td>
+      <td>1e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07799</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>103.5</td>
+      <td>2.5e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07827</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>100.7</td>
+      <td>1.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07854</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>112.7</td>
+      <td>4.7e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07938</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>90.0</td>
+      <td>3.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08138</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>140.5</td>
+      <td>1.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08139</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>124.1</td>
+      <td>1.6e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08140</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>123.4</td>
+      <td>2.4e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08150</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>66.8</td>
+      <td>4.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08252</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>128.7</td>
+      <td>6.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08258</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>71.2</td>
+      <td>1.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08259</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>61.8</td>
+      <td>1.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08260</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>92.5</td>
+      <td>6.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08272</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>54.6</td>
+      <td>2.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08290</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>113.4</td>
+      <td>2.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08321</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>83.2</td>
+      <td>5.2e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09076</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>93.9</td>
+      <td>2.8e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09120</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>89.5</td>
+      <td>4.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09245</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>96.7</td>
+      <td>2.9e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09674</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>122.8</td>
+      <td>3.6e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11154</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>49.8</td>
+      <td>3.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11423</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>486.4</td>
+      <td>4.6e-147</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11730</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>66.6</td>
+      <td>3.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12478</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>40.8</td>
+      <td>3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01929</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>111.5</td>
+      <td>1.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02280</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>104.2</td>
+      <td>1.7e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02437</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>50.6</td>
+      <td>2.3e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03189</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>44.3</td>
+      <td>3.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03210</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>89.7</td>
+      <td>4.3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06558</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>161.8</td>
+      <td>3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00378</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>158.4</td>
+      <td>4.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam16113</td>
+      <td>Methylmalonyl-CoA decarboxylase</td>
+      <td>83.5</td>
+      <td>4.4e-24</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

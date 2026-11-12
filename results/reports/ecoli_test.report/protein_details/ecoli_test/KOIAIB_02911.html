@@ -1,0 +1,2238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_02911</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_02911</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>sulfite reductase (NADPH) flavoprotein alpha-component [EC:1.8.1.2]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K00380</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K00380</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.8.1.2</td></tr><tr><th>mf_proposal_ids</th><td>GO:0010181;GO:0016491;GO:0050660</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00380</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.8.1.2</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00380</td>
+      <td>EC:1.8.1.2</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0004783</td>
+      <td>GO:0004783</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0010181</td>
+      <td>GO:0010181</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0016645</td>
+      <td>GO:0016645</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0016646</td>
+      <td>GO:0016646</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0032553</td>
+      <td>GO:0032553</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0042602</td>
+      <td>GO:0042602</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0050660</td>
+      <td>GO:0050660</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0050661</td>
+      <td>GO:0050661</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0070401</td>
+      <td>GO:0070401</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:0097367</td>
+      <td>GO:0097367</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:1901265</td>
+      <td>GO:1901265</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.8.1.2</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|2890099|2891898|-</td></tr><tr><th>protein_id</th><td>KOIAIB_02911</td></tr><tr><th>product</th><td>Sulfite reductase [NADPH] flavoprotein alpha-component</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>2890099</td></tr><tr><th>stop</th><td>2891898</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_3106</td></tr><tr><th>locus_tag</th><td>KOIAIB_02911</td></tr><tr><th>aa_md5</th><td>fb5aec671520cf6aab02a5a3862c2aeb</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>E</td></tr><tr><th>GO</th><td><details class="value-details"><summary>36 values</summary><ul class="value-list"><li>GO:0000103</li><li>GO:0000166</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004783</li><li>GO:0005488</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005829</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009337</li><li>GO:0010181</li><li>GO:0016491</li><li>GO:0016645</li><li>GO:0016646</li><li>GO:0019344</li><li>GO:0032553</li><li>GO:0032991</li><li>GO:0036094</li><li>GO:0042602</li><li>GO:0043167</li><li>GO:0043168</li><li>GO:0044424</li><li>GO:0044464</li><li>GO:0048037</li><li>GO:0050660</li><li>GO:0050661</li><li>GO:0050662</li><li>GO:0055114</li><li>GO:0070401</li><li>GO:0097159</li><li>GO:0097367</li><li>GO:1901265</li><li>GO:1901363</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.8.1.2</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00380</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00920; KEGG:ko01100; KEGG:ko01120; KEGG:map00920; KEGG:map01100; KEGG:map01120</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00176</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R00858</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>12 values</summary><ul class="value-list"><li>INTERPRO:IPR001094</li><li>INTERPRO:IPR001433</li><li>INTERPRO:IPR001709</li><li>INTERPRO:IPR003097</li><li>INTERPRO:IPR008254</li><li>INTERPRO:IPR010199</li><li>INTERPRO:IPR017927</li><li>INTERPRO:IPR017938</li><li>INTERPRO:IPR023173</li><li>INTERPRO:IPR029039</li><li>INTERPRO:IPR029758</li><li>INTERPRO:IPR039261</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00175; PFAM:PF00258; PFAM:PF00667</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>3</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd06199</td>
+      <td>CDD:cd00322;CDD:cd06182;CDD:cd06187;CDD:cd06199;CDD:cd06200;CDD:cd06201;CDD:cd06202;CDD:cd06203;CDD:cd06204;CDD:cd06206;CDD:cd06207;CDD:cd06208;CDD:cd06215;CDD:cd06217</td>
+      <td>CDD:cd06199</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0369</td>
+      <td>COG:COG0369;COG:COG0543;COG:COG0716;COG:COG1018;COG:COG5675</td>
+      <td>COG:COG0369</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.8.1.2</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.8.1.2</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.8.1.2</td>
+      <td>EC:1.8.1.2</td>
+      <td>EC:1.8.1.2</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000166;GO:0003674;GO:0003824;GO:0005488;GO:0005575;GO:0005622;GO:0005623;GO:0008150;GO:0008152;GO:0009337;GO:0010181;GO:0016491;GO:0016645;GO:0016646;GO:0032553;GO:0032991;GO:0036094;GO:0042602;GO:0043167;GO:0043168;GO:0044424;GO:0044464;GO:0048037;GO:0050660;GO:0050661;GO:0050662;GO:0055114;GO:0070401;GO:0097159;GO:0097367;GO:1901265;GO:1901363</td>
+      <td>GO:0000103;GO:0004783;GO:0005829;GO:0010181;GO:0016491;GO:0019344;GO:0050660</td>
+      <td>GO:0010181;GO:0016491;GO:0050660</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00380</td>
+      <td>KEGG:K00380</td>
+      <td>KEGG:K00380</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF004859;NCBIFAM:NF008197;NCBIFAM:TIGR01931</td>
+      <td>NCBIFAM:TIGR01753;NCBIFAM:TIGR01931;NCBIFAM:TIGR03224</td>
+      <td>NCBIFAM:TIGR01931</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF004859;NCBIFAM:NF008197;NCBIFAM:TIGR01931</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01753;NCBIFAM:TIGR01931;NCBIFAM:TIGR03224</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00175;PFAM:PF00258;PFAM:PF00667</td>
+      <td>PFAM:PF00175;PFAM:PF00258;PFAM:PF00667</td>
+      <td>PFAM:PF00175;PFAM:PF00258;PFAM:PF00667</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00175;PFAM:PF00258;PFAM:PF00667</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00175;PFAM:PF00258;PFAM:PF00667</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 64 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECO26_1355.ECO26_3835</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECSE_1348.ECSE_3020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECW_1372.ECW_m2972</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEKO11_1354.EKO11_1004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcE24377_1341.EcE24377A_3066</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcolC_1368.EcolC_0948</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iWFL_1372.ECW_m2972</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0369</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.8.1.2</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1QUAH@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1T1RJ@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XM2T@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0369@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0369@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000166</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009337</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0010181</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016645</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016646</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032553</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032991</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036094</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042602</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043167</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048037</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050660</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050661</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070401</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097367</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901265</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00380</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00176</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00920</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00920</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00065</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00858</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>FAD_binding_1</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Flavodoxin_1</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>NAD_binding_1</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85675585</td>
+      <td>cysJ</td>
+      <td>Component of the sulfite reductase complex that catalyzes the 6-electron reduction of sulfite to sulfide. This is one of several activities required for the biosynthesis of L- cysteine from sulfate. The flavoprotein component catalyzes the electron flow from NADPH - FAD - FMN to the hemoprotein component</td>
+      <td>1176.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>599</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.8.1.2</td>
+      <td>KEGG:K00380</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00380</td>
+      <td></td>
+      <td>sulfite reductase (NADPH) flavoprotein alpha-component [EC:1.8.1.2]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K00380</td>
+      <td>sulfite reductase (NADPH) flavoprotein alpha-component [EC:1.8.1.2]</td>
+      <td>above_threshold</td>
+      <td>719.0</td>
+      <td>540.00</td>
+      <td>2.1e-216</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 43 annotation rows, 34 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd06199</td>
+      <td></td>
+      <td>SiR</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.20.990.10:FF:000004</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.360:FF:000018</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.80:FF:000001</td>
+      <td></td>
+      <td>NADPH--cytochrome P450 reductase 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.20.990.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:2.40.30.10</td>
+      <td></td>
+      <td>Translation factors</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.360</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.80</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0000103</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01541","interpro_accession":"IPR029758","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004783</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01541","interpro_accession":"IPR029758","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01931","interpro_accession":"IPR010199","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000207","interpro_accession":"IPR010199","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR19384","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0010181</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01541","interpro_accession":"IPR029758","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01931","interpro_accession":"IPR010199","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR19384","interpro_accession":"","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF00258","interpro_accession":"IPR008254","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000207","interpro_accession":"IPR010199","mapping_source":"InterPro"},{"analysis":"PRINTS","signature_accession":"PR00369","interpro_accession":"IPR001094","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS50902","interpro_accession":"IPR008254","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.20.990.10","interpro_accession":"IPR023173","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR19384","interpro_accession":"","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF00175","interpro_accession":"IPR001433","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00667","interpro_accession":"IPR003097","mapping_source":"InterPro"},{"analysis":"PRINTS","signature_accession":"PR00371","interpro_accession":"IPR001709","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51384","interpro_accession":"IPR017927","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0019344</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01541","interpro_accession":"IPR029758","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01931","interpro_accession":"IPR010199","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000207","interpro_accession":"IPR010199","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0050660</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01541","interpro_accession":"IPR029758","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01931","interpro_accession":"IPR010199","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR19384","interpro_accession":"","mapping_source":"PANTHER"},{"analysis":"PIRSF","signature_accession":"PIRSF000207","interpro_accession":"IPR010199","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_01541</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component [cysJ].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001094</td>
+      <td></td>
+      <td>Flavodoxin-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001433</td>
+      <td></td>
+      <td>Oxidoreductase FAD/NAD(P)-binding</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001709</td>
+      <td></td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003097</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component-like, FAD-binding</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR008254</td>
+      <td></td>
+      <td>Flavodoxin/nitric oxide synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR010199</td>
+      <td></td>
+      <td>Sulphite reductase [NADPH] flavoprotein, alpha chain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR017927</td>
+      <td></td>
+      <td>FAD-binding domain, ferredoxin reductase-type</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR017938</td>
+      <td></td>
+      <td>Riboflavin synthase-like beta-barrel</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023173</td>
+      <td></td>
+      <td>NADPH-cytochrome p450 reductase, FAD-binding, alpha-helical domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029039</td>
+      <td></td>
+      <td>Flavoprotein-like superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029758</td>
+      <td></td>
+      <td>Sulphite reductase [NADPH] flavoprotein, alpha chain, Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR039261</td>
+      <td></td>
+      <td>Ferredoxin-NADP reductase (FNR), nucleotide-binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF004859</td>
+      <td></td>
+      <td>sulfite reductase subunit alpha</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF008197</td>
+      <td></td>
+      <td>NADPH-dependent assimilatory sulfite reductase flavoprotein subunit</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01931</td>
+      <td></td>
+      <td>assimilatory sulfite reductase (NADPH) flavoprotein subunit</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR19384</td>
+      <td></td>
+      <td>NITRIC OXIDE SYNTHASE-RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00175</td>
+      <td></td>
+      <td>Oxidoreductase NAD-binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00258</td>
+      <td></td>
+      <td>Flavodoxin</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00667</td>
+      <td></td>
+      <td>FAD binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF000207</td>
+      <td></td>
+      <td>SiR-FP_CysJ</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00369</td>
+      <td></td>
+      <td>Flavodoxin signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00371</td>
+      <td></td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS50902</td>
+      <td></td>
+      <td>Flavodoxin-like domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS51384</td>
+      <td></td>
+      <td>Ferredoxin reductase-type FAD binding domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52218</td>
+      <td></td>
+      <td>Flavoproteins</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52343</td>
+      <td></td>
+      <td>Ferredoxin reductase-like, C-terminal NADP-linked domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF63380</td>
+      <td></td>
+      <td>Riboflavin synthase domain-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd06199</td>
+      <td>SiR</td>
+      <td>0.0</td>
+      <td>241</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.990.10:FF:000004</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>5.3E-58</td>
+      <td>280</td>
+      <td>384</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.360:FF:000018</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>2.8E-93</td>
+      <td>54</td>
+      <td>219</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.80:FF:000001</td>
+      <td>NADPH--cytochrome P450 reductase 1</td>
+      <td>5.4E-66</td>
+      <td>447</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.990.10</td>
+      <td></td>
+      <td>4.6E-80</td>
+      <td>280</td>
+      <td>384</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:2.40.30.10</td>
+      <td>Translation factors</td>
+      <td>4.6E-80</td>
+      <td>233</td>
+      <td>439</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.360</td>
+      <td></td>
+      <td>1.2E-48</td>
+      <td>53</td>
+      <td>219</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.80</td>
+      <td></td>
+      <td>8.4E-61</td>
+      <td>445</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_01541</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component [cysJ].</td>
+      <td>53.167519</td>
+      <td>2</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF004859</td>
+      <td>sulfite reductase subunit alpha</td>
+      <td>3.9E-129</td>
+      <td>211</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF008197</td>
+      <td>NADPH-dependent assimilatory sulfite reductase flavoprotein subunit</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01931</td>
+      <td>assimilatory sulfite reductase (NADPH) flavoprotein subunit</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR19384</td>
+      <td>NITRIC OXIDE SYNTHASE-RELATED</td>
+      <td>0.0</td>
+      <td>58</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF000207</td>
+      <td>SiR-FP_CysJ</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00369</td>
+      <td>Flavodoxin signature</td>
+      <td>5.0E-14</td>
+      <td>113</td>
+      <td>124</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00369</td>
+      <td>Flavodoxin signature</td>
+      <td>5.0E-14</td>
+      <td>145</td>
+      <td>155</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00369</td>
+      <td>Flavodoxin signature</td>
+      <td>5.0E-14</td>
+      <td>169</td>
+      <td>188</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00369</td>
+      <td>Flavodoxin signature</td>
+      <td>5.0E-14</td>
+      <td>65</td>
+      <td>78</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00371</td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase signature</td>
+      <td>2.8E-30</td>
+      <td>270</td>
+      <td>280</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00371</td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase signature</td>
+      <td>2.8E-30</td>
+      <td>386</td>
+      <td>393</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00371</td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase signature</td>
+      <td>2.8E-30</td>
+      <td>419</td>
+      <td>428</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00371</td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase signature</td>
+      <td>2.8E-30</td>
+      <td>456</td>
+      <td>475</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00371</td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase signature</td>
+      <td>2.8E-30</td>
+      <td>481</td>
+      <td>490</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00371</td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase signature</td>
+      <td>2.8E-30</td>
+      <td>494</td>
+      <td>505</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00371</td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase signature</td>
+      <td>2.8E-30</td>
+      <td>525</td>
+      <td>541</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00371</td>
+      <td>Flavoprotein pyridine nucleotide cytochrome reductase signature</td>
+      <td>2.8E-30</td>
+      <td>548</td>
+      <td>556</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00175</td>
+      <td>Oxidoreductase NAD-binding domain</td>
+      <td>7.3E-18</td>
+      <td>457</td>
+      <td>563</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00258</td>
+      <td>Flavodoxin</td>
+      <td>1.1E-29</td>
+      <td>66</td>
+      <td>197</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00667</td>
+      <td>FAD binding domain</td>
+      <td>9.8E-23</td>
+      <td>230</td>
+      <td>424</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS50902</td>
+      <td>Flavodoxin-like domain profile.</td>
+      <td>28.703396</td>
+      <td>64</td>
+      <td>202</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS51384</td>
+      <td>Ferredoxin reductase-type FAD binding domain profile.</td>
+      <td>14.285016</td>
+      <td>234</td>
+      <td>448</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52218</td>
+      <td>Flavoproteins</td>
+      <td>8.57E-44</td>
+      <td>60</td>
+      <td>208</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52343</td>
+      <td>Ferredoxin reductase-like, C-terminal NADP-linked domain</td>
+      <td>1.7E-52</td>
+      <td>444</td>
+      <td>599</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF63380</td>
+      <td>Riboflavin synthase domain-like</td>
+      <td>2.13E-64</td>
+      <td>227</td>
+      <td>446</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 39 annotation rows, 52 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00322</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06182</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06187</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06199</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06200</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06201</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06202</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06203</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06204</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06206</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06207</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06208</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06215</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06217</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN03115</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN03116</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05723</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06214</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06703</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07308</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08105</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09004</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10953</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0369</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0543</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0716</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1018</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5675</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1158</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1159</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1160</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01753</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01931</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03224</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00175</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00258</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00667</td>
+      <td></td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0369</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>782.4</td>
+      <td>6.1e-236</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0543</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>44.8</td>
+      <td>2.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0716</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>62.7</td>
+      <td>9.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1018</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>65.2</td>
+      <td>1.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5675</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>98.0</td>
+      <td>1.1e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1158</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>393.1</td>
+      <td>6.9e-118</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1159</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>314.1</td>
+      <td>3.9e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1160</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>54.3</td>
+      <td>1.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03115</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>75.6</td>
+      <td>9.7e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03116</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>110.6</td>
+      <td>2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05723</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>43.9</td>
+      <td>5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06214</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>446.2</td>
+      <td>3.8e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06703</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>46.3</td>
+      <td>1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07308</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>44.9</td>
+      <td>3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08105</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>79.7</td>
+      <td>4.5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09004</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>76.2</td>
+      <td>4.8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10953</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>1271.7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01753</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>52.3</td>
+      <td>1.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01931</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>966.9</td>
+      <td>9.1e-292</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03224</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>104.1</td>
+      <td>1.8e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00322</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>145.1</td>
+      <td>4.1e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06182</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>437.6</td>
+      <td>1e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06187</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>41.0</td>
+      <td>2.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06199</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>510.4</td>
+      <td>6e-154</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06200</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>193.2</td>
+      <td>1.5e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06201</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>128.6</td>
+      <td>5.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06202</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>224.8</td>
+      <td>3.5e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06203</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>226.7</td>
+      <td>9.4e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06204</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>293.1</td>
+      <td>7.2e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06206</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>230.9</td>
+      <td>5.1e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06207</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>285.9</td>
+      <td>1.1e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06208</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>148.9</td>
+      <td>4.3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06215</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>41.3</td>
+      <td>2.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06217</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>48.1</td>
+      <td>2.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00175</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>76.1</td>
+      <td>7.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00258</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>116.6</td>
+      <td>2.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00667</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>98.1</td>
+      <td>1.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0543</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>44.8</td>
+      <td>2.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0716</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>62.7</td>
+      <td>9.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1018</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>65.2</td>
+      <td>1.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1159</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>314.1</td>
+      <td>3.9e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00322</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>145.1</td>
+      <td>4.1e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06182</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>437.6</td>
+      <td>1e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06187</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>41.0</td>
+      <td>2.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06200</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>193.2</td>
+      <td>1.5e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06201</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>128.6</td>
+      <td>5.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06208</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>148.9</td>
+      <td>4.3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06215</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>41.3</td>
+      <td>2.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06217</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>48.1</td>
+      <td>2.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00175</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>76.1</td>
+      <td>7.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00258</td>
+      <td>Sulfite reductase [NADPH] flavoprotein alpha-component</td>
+      <td>116.6</td>
+      <td>2.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.99110097</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

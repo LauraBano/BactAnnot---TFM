@@ -1,0 +1,4078 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01311</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01311</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K04072</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K04072</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.1.1.1;EC:1.2.1.10</td></tr><tr><th>mf_proposal_ids</th><td>GO:0004022;GO:0008774</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K04072</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.1.1.1</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.2.1.10</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K04072</td>
+      <td>EC:1.1.1.1</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K04072</td>
+      <td>EC:1.2.1.10</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0004022</td>
+      <td>GO:0004022</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0008774</td>
+      <td>GO:0008774</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0016614</td>
+      <td>GO:0016614</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0016616</td>
+      <td>GO:0016616</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0016620</td>
+      <td>GO:0016620</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0016903</td>
+      <td>GO:0016903</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.1</td>
+      <td>GO:0046872</td>
+      <td>GO:0046872</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0004022</td>
+      <td>GO:0004022</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0008774</td>
+      <td>GO:0008774</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0016614</td>
+      <td>GO:0016614</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0016616</td>
+      <td>GO:0016616</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0016620</td>
+      <td>GO:0016620</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0016903</td>
+      <td>GO:0016903</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.10</td>
+      <td>GO:0046872</td>
+      <td>GO:0046872</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1295446|1298121|-</td></tr><tr><th>protein_id</th><td>KOIAIB_01311</td></tr><tr><th>gene</th><td>adhE</td></tr><tr><th>product</th><td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1295446</td></tr><tr><th>stop</th><td>1298121</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_1610</td></tr><tr><th>locus_tag</th><td>KOIAIB_01311</td></tr><tr><th>aa_md5</th><td>74428bf03d3c75c944ea0b2eb632701f</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>C</td></tr><tr><th>GO</th><td><details class="value-details"><summary>44 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004022</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006066</li><li>GO:0006067</li><li>GO:0006115</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008774</li><li>GO:0009058</li><li>GO:0009987</li><li>GO:0015976</li><li>GO:0016491</li><li>GO:0016614</li><li>GO:0016616</li><li>GO:0016620</li><li>GO:0016903</li><li>GO:0016999</li><li>GO:0017000</li><li>GO:0017144</li><li>GO:0034308</li><li>GO:0034309</li><li>GO:0042802</li><li>GO:0044237</li><li>GO:0044249</li><li>GO:0044281</li><li>GO:0044283</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046165</li><li>GO:0046872</li><li>GO:0055114</li><li>GO:0071704</li><li>GO:1901576</li><li>GO:1901615</li><li>GO:1901617</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.1.1.1; EC:1.2.1.10</td></tr><tr><th>KEGG_KO</th><td>KEGG:K04072</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>24 values</summary><ul class="value-list"><li>KEGG:ko00010</li><li>KEGG:ko00071</li><li>KEGG:ko00350</li><li>KEGG:ko00620</li><li>KEGG:ko00625</li><li>KEGG:ko00626</li><li>KEGG:ko00650</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01120</li><li>KEGG:ko01130</li><li>KEGG:ko01220</li><li>KEGG:map00010</li><li>KEGG:map00071</li><li>KEGG:map00350</li><li>KEGG:map00620</li><li>KEGG:map00625</li><li>KEGG:map00626</li><li>KEGG:map00650</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01120</li><li>KEGG:map01130</li><li>KEGG:map01220</li></ul></details></td></tr><tr><th>KEGG_REACTION</th><td><details class="value-details"><summary>9 values</summary><ul class="value-list"><li>KEGG:R00228</li><li>KEGG:R00623</li><li>KEGG:R00754</li><li>KEGG:R01172</li><li>KEGG:R04880</li><li>KEGG:R05233</li><li>KEGG:R05234</li><li>KEGG:R06917</li><li>KEGG:R06927</li></ul></details></td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>10 values</summary><ul class="value-list"><li>INTERPRO:IPR001670</li><li>INTERPRO:IPR012079</li><li>INTERPRO:IPR015590</li><li>INTERPRO:IPR016161</li><li>INTERPRO:IPR016162</li><li>INTERPRO:IPR016163</li><li>INTERPRO:IPR018211</li><li>INTERPRO:IPR034789</li><li>INTERPRO:IPR039697</li><li>INTERPRO:IPR056798</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00171; PFAM:PF00465; PFAM:PF13685; PFAM:PF25137</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd07081;CDD:cd08178</td>
+      <td>CDD:cd06534;CDD:cd07077;CDD:cd07078;CDD:cd07079;CDD:cd07081;CDD:cd07082;CDD:cd07085;CDD:cd07086;CDD:cd07088;CDD:cd07089;CDD:cd07090;CDD:cd07091;CDD:cd07092;CDD:cd07093;CDD:cd07094;CDD:cd07095;CDD:cd07097;CDD:cd07099;CDD:cd07100;CDD:cd07101;CDD:cd07102;CDD:cd07103;CDD:cd07104;CDD:cd07105;CDD:cd07106;CDD:cd07108;CDD:cd07109;CDD:cd07110;CDD:cd07112;CDD:cd07113;CDD:cd07114;CDD:cd07115;CDD:cd07117;CDD:cd07118;CDD:cd07119;CDD:cd07120;CDD:cd07121;CDD:cd07122;CDD:cd07124;CDD:cd07125;CDD:cd07130;CDD:cd07131;CDD:cd07138;CDD:cd07139;CDD:cd07141;CDD:cd07142;CDD:cd07144;CDD:cd07145;CDD:cd07146;CDD:cd07149;CDD:cd07150;CDD:cd07151;CDD:cd07152;CDD:cd07766;CDD:cd08176;CDD:cd08177;CDD:cd08178;CDD:cd08179;CDD:cd08180;CDD:cd08181;CDD:cd08182;CDD:cd08183;CDD:cd08184;CDD:cd08185;CDD:cd08186;CDD:cd08187;CDD:cd08188;CDD:cd08189;CDD:cd08190;CDD:cd08191;CDD:cd08192;CDD:cd08193;CDD:cd08194;CDD:cd08196;CDD:cd08550;CDD:cd08551;CDD:cd14860;CDD:cd14861;CDD:cd14862;CDD:cd14863;CDD:cd14864;CDD:cd14865;CDD:cd14866;CDD:cd17814</td>
+      <td>CDD:cd07081;CDD:cd08178</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1012;COG:COG1454</td>
+      <td>COG:COG0014;COG:COG0371;COG:COG1012;COG:COG1454;COG:COG1979</td>
+      <td>COG:COG1012;COG:COG1454</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.1.1.1;EC:1.2.1.10</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.1.1.1;EC:1.2.1.10</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.1.1.1;EC:1.2.1.10</td>
+      <td>EC:1.1.1.1;EC:1.2.1.10</td>
+      <td>EC:1.1.1.1;EC:1.2.1.10</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0004022;GO:0005488;GO:0005515;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006066;GO:0006067;GO:0006115;GO:0008150;GO:0008152;GO:0008774;GO:0009058;GO:0009987;GO:0016491;GO:0016614;GO:0016616;GO:0016620;GO:0016903;GO:0016999;GO:0017000;GO:0017144;GO:0034308;GO:0034309;GO:0042802;GO:0044237;GO:0044249;GO:0044281;GO:0044283;GO:0044424;GO:0044444;GO:0044464;GO:0046165;GO:0055114;GO:0071704;GO:1901576;GO:1901615;GO:1901617</td>
+      <td>GO:0004022;GO:0006066;GO:0008774;GO:0015976;GO:0016491;GO:0046872</td>
+      <td>GO:0004022;GO:0006066;GO:0008774;GO:0016491</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K04072</td>
+      <td>KEGG:K04072</td>
+      <td>KEGG:K04072</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF010378</td>
+      <td>NCBIFAM:NF040648;NCBIFAM:NF040792;NCBIFAM:TIGR01237;NCBIFAM:TIGR01780;NCBIFAM:TIGR01804;NCBIFAM:TIGR02299;NCBIFAM:TIGR02518;NCBIFAM:TIGR02638;NCBIFAM:TIGR03250;NCBIFAM:TIGR03405;NCBIFAM:TIGR04266</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF010378</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF040648;NCBIFAM:NF040792;NCBIFAM:TIGR01237;NCBIFAM:TIGR01780;NCBIFAM:TIGR01804;NCBIFAM:TIGR02299;NCBIFAM:TIGR02518;NCBIFAM:TIGR02638;NCBIFAM:TIGR03250;NCBIFAM:TIGR03405;NCBIFAM:TIGR04266</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00171;PFAM:PF00465;PFAM:PF25137</td>
+      <td>PFAM:PF00171;PFAM:PF00465;PFAM:PF13685</td>
+      <td>PFAM:PF00171;PFAM:PF00465</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00171;PFAM:PF00465;PFAM:PF25137</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00171;PFAM:PF00465;PFAM:PF13685</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 103 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcE24377_1341.EcE24377A_1389</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iYL1228.KPN_02199</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1012</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1454</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.1.1.1</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.2.1.10</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MVPH@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RNBH@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMER@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1012@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1012@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1454@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1454@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004022</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006066</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006067</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006115</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008774</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016614</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016616</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016903</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016999</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0017000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0017144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034308</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034309</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044283</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046165</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901615</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901617</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K04072</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00010</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00350</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00625</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00626</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00650</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01220</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00010</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00350</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00625</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00626</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00650</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01220</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00050</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00088</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00099</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00116</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00184</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00649</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC01195</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00228</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00754</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01172</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04880</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05233</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05234</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R06917</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R06927</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Aldedh</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Fe-ADH</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>155864.EDL933_1943</td>
+      <td>adhE</td>
+      <td>This enzyme has three activities ADH, ACDH, and PFL- deactivase. In aerobic conditions it acts as a hydrogen peroxide scavenger. The PFL deactivase activity catalyzes the quenching of the pyruvate-formate-lyase catalyst in an iron, NAD, and CoA dependent reaction</td>
+      <td>1725.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>891</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.1.1.1</td>
+      <td>KEGG:K04072</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.2.1.10</td>
+      <td>KEGG:K04072</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K04072</td>
+      <td></td>
+      <td>acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K04072</td>
+      <td>acetaldehyde dehydrogenase / alcohol dehydrogenase [EC:1.2.1.10 1.1.1.1]</td>
+      <td>above_threshold</td>
+      <td>1459.0</td>
+      <td>638.77</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 37 annotation rows, 21 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd07081</td>
+      <td></td>
+      <td>ALDH_F20_ACDH_EutE-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd08178</td>
+      <td></td>
+      <td>AAD_C</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>COILS</td>
+      <td>COILS:Coil</td>
+      <td></td>
+      <td>Coil</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.20.1090.10:FF:000001</td>
+      <td></td>
+      <td>Aldehyde-alcohol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.309.10:FF:000007</td>
+      <td></td>
+      <td>Aldehyde-alcohol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.1970:FF:000002</td>
+      <td></td>
+      <td>Aldehyde-alcohol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.605.10:FF:000008</td>
+      <td></td>
+      <td>Aldehyde-alcohol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.20.1090.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.309.10</td>
+      <td></td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.1970</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.605.10</td>
+      <td></td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004022</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd08178","interpro_accession":"IPR034789","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"NF010378","interpro_accession":"IPR012079","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR11496","interpro_accession":"IPR039697","mapping_source":"PANTHER"},{"analysis":"PIRSF","signature_accession":"PIRSF000111","interpro_accession":"IPR012079","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006066</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"NF010378","interpro_accession":"IPR012079","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000111","interpro_accession":"IPR012079","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008774</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"NF010378","interpro_accession":"IPR012079","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000111","interpro_accession":"IPR012079","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0015976</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"NF010378","interpro_accession":"IPR012079","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000111","interpro_accession":"IPR012079","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00171","interpro_accession":"IPR015590","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00465","interpro_accession":"IPR001670","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00060","interpro_accession":"IPR018211","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00913","interpro_accession":"IPR018211","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0046872</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00465","interpro_accession":"IPR001670","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00060","interpro_accession":"IPR018211","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00913","interpro_accession":"IPR018211","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001670</td>
+      <td></td>
+      <td>Alcohol dehydrogenase, iron-type/glycerol dehydrogenase GldA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR012079</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015590</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016161</td>
+      <td></td>
+      <td>Aldehyde/histidinol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016162</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016163</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR018211</td>
+      <td></td>
+      <td>Alcohol dehydrogenase, iron-type, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR034789</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR039697</td>
+      <td></td>
+      <td>Iron-type alcohol dehydrogenase-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR056798</td>
+      <td></td>
+      <td>Fe-containing alcohol dehydrogenase-like, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF010378</td>
+      <td></td>
+      <td>bifunctional acetaldehyde-CoA/alcohol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR11496</td>
+      <td></td>
+      <td>ALCOHOL DEHYDROGENASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase family</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00465</td>
+      <td></td>
+      <td>Iron-containing alcohol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF25137</td>
+      <td></td>
+      <td>Fe-containing alcohol dehydrogenase family, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF000111</td>
+      <td></td>
+      <td>ALDH_ADH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00060</td>
+      <td></td>
+      <td>Iron-containing alcohol dehydrogenases signature 2.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00913</td>
+      <td></td>
+      <td>Iron-containing alcohol dehydrogenases signature 1.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53720</td>
+      <td></td>
+      <td>ALDH-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56796</td>
+      <td></td>
+      <td>Dehydroquinate synthase-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd07081</td>
+      <td>ALDH_F20_ACDH_EutE-like</td>
+      <td>0.0</td>
+      <td>9</td>
+      <td>447</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd08178</td>
+      <td>AAD_C</td>
+      <td>0.0</td>
+      <td>455</td>
+      <td>859</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Coils</td>
+      <td>signature_match</td>
+      <td>Coil</td>
+      <td>Coil</td>
+      <td></td>
+      <td>9</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.1090.10:FF:000001</td>
+      <td>Aldehyde-alcohol dehydrogenase</td>
+      <td>1.6E-82</td>
+      <td>644</td>
+      <td>862</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.309.10:FF:000007</td>
+      <td>Aldehyde-alcohol dehydrogenase</td>
+      <td>5.9E-100</td>
+      <td>218</td>
+      <td>404</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.1970:FF:000002</td>
+      <td>Aldehyde-alcohol dehydrogenase</td>
+      <td>4.2E-109</td>
+      <td>450</td>
+      <td>643</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.605.10:FF:000008</td>
+      <td>Aldehyde-alcohol dehydrogenase</td>
+      <td>3.7E-121</td>
+      <td>10</td>
+      <td>224</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.1090.10</td>
+      <td></td>
+      <td>2.1E-69</td>
+      <td>645</td>
+      <td>865</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.309.10</td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 2</td>
+      <td>0.0</td>
+      <td>218</td>
+      <td>404</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.1970</td>
+      <td></td>
+      <td>2.3E-60</td>
+      <td>450</td>
+      <td>643</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.605.10</td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 1</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>445</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF010378</td>
+      <td>bifunctional acetaldehyde-CoA/alcohol dehydrogenase</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>868</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR11496</td>
+      <td>ALCOHOL DEHYDROGENASE</td>
+      <td>0.0</td>
+      <td>445</td>
+      <td>863</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF000111</td>
+      <td>ALDH_ADH</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>865</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00171</td>
+      <td>Aldehyde dehydrogenase family</td>
+      <td>3.3E-25</td>
+      <td>5</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00465</td>
+      <td>Iron-containing alcohol dehydrogenase</td>
+      <td>1.1E-43</td>
+      <td>457</td>
+      <td>635</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF25137</td>
+      <td>Fe-containing alcohol dehydrogenase family, C-terminal</td>
+      <td>1.8E-44</td>
+      <td>648</td>
+      <td>860</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00060</td>
+      <td>Iron-containing alcohol dehydrogenases signature 2.</td>
+      <td></td>
+      <td>720</td>
+      <td>740</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00913</td>
+      <td>Iron-containing alcohol dehydrogenases signature 1.</td>
+      <td></td>
+      <td>632</td>
+      <td>660</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53720</td>
+      <td>ALDH-like</td>
+      <td>2.62E-85</td>
+      <td>6</td>
+      <td>453</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56796</td>
+      <td>Dehydroquinate synthase-like</td>
+      <td>4.58E-119</td>
+      <td>449</td>
+      <td>867</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 123 annotation rows, 198 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06534</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07077</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07078</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07079</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07081</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07082</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07085</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07086</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07088</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07089</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07090</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07091</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07092</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07093</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07094</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07095</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07097</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07099</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07100</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07101</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07102</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07103</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07104</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07105</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07106</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07108</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07109</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07110</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07112</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07113</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07114</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07115</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07117</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07118</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07119</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07120</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07121</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07122</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07124</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07125</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07130</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07131</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07138</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07139</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07141</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07142</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07144</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07145</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07146</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07149</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07150</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07151</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07152</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07766</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08176</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08177</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08178</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08179</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08180</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08181</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08182</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08183</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08184</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08185</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08186</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08187</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08188</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08189</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08190</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08191</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08192</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08193</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08194</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08196</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08550</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08551</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd14860</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd14861</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd14862</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd14863</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd14864</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd14865</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd14866</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17814</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN00412</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02278</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02467</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02766</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00197</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03137</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09407</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09860</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10090</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10624</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13252</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13805</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15138</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15398</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15454</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0014</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0371</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1012</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1454</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1979</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2450</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2451</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG3857</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040648</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040792</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01237</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01780</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01804</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02299</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02518</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02638</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03250</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03405</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR04266</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00465</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13685</td>
+      <td></td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0014</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>53.0</td>
+      <td>5.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1012</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>105.2</td>
+      <td>6.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2450</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>58.6</td>
+      <td>8.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2451</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>49.5</td>
+      <td>5.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040648</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>62.3</td>
+      <td>9.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040792</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>52.2</td>
+      <td>1.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00412</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>40.0</td>
+      <td>4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02278</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>50.1</td>
+      <td>3.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02467</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.5</td>
+      <td>4.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02766</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>41.5</td>
+      <td>1.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00197</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.0</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03137</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.5</td>
+      <td>4.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09407</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>46.2</td>
+      <td>5.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10090</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>42.3</td>
+      <td>1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13252</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>61.7</td>
+      <td>9.7e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13805</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>1506.4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15398</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>275.7</td>
+      <td>1.3e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01237</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>48.5</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01780</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>53.0</td>
+      <td>5.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01804</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>66.3</td>
+      <td>4.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02299</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>47.1</td>
+      <td>2.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02518</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>527.3</td>
+      <td>9.1e-159</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03250</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>42.3</td>
+      <td>8.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06534</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>209.8</td>
+      <td>1.4e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07077</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>526.5</td>
+      <td>7e-159</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07078</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>89.1</td>
+      <td>5.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07079</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>51.4</td>
+      <td>1.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07081</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>822.9</td>
+      <td>1.3e-248</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07082</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>46.4</td>
+      <td>5.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07085</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>47.1</td>
+      <td>2.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07086</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>62.4</td>
+      <td>7.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07088</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>81.7</td>
+      <td>1.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07089</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.2</td>
+      <td>5.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07090</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>71.5</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07091</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>50.1</td>
+      <td>3.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07092</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>44.3</td>
+      <td>2.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07093</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>52.4</td>
+      <td>8.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07094</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>72.3</td>
+      <td>7.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07095</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.1</td>
+      <td>1.5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07097</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>65.7</td>
+      <td>6.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07099</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.5</td>
+      <td>9.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07100</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.6</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07101</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>53.9</td>
+      <td>2.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07102</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>46.8</td>
+      <td>3.4e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07103</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>74.3</td>
+      <td>1.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07104</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>75.6</td>
+      <td>8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07105</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>62.0</td>
+      <td>1.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07106</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>72.3</td>
+      <td>6.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07108</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>48.7</td>
+      <td>9.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07109</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>48.9</td>
+      <td>8.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07110</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>60.2</td>
+      <td>3.4e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07112</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>48.3</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07113</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>41.2</td>
+      <td>1.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07114</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>55.5</td>
+      <td>8.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07115</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>57.1</td>
+      <td>3.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07117</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>41.1</td>
+      <td>2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07118</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>40.4</td>
+      <td>3.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07119</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>56.0</td>
+      <td>6.3e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07120</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.4</td>
+      <td>3.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07121</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>276.7</td>
+      <td>6.6e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07122</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>663.0</td>
+      <td>4.8e-200</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07124</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>56.8</td>
+      <td>3.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07125</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>40.6</td>
+      <td>3.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07130</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.7</td>
+      <td>9.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07131</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>57.5</td>
+      <td>2.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07138</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.8</td>
+      <td>8.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07139</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.6</td>
+      <td>3.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07141</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.2</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07142</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>47.3</td>
+      <td>2.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07144</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>42.6</td>
+      <td>6.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07145</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>63.2</td>
+      <td>4.5e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07146</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>67.6</td>
+      <td>1.9e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07149</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>63.8</td>
+      <td>3.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07150</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>75.2</td>
+      <td>1.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07151</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>55.3</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07152</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>58.2</td>
+      <td>1.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00171</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>103.1</td>
+      <td>2.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0014</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>53.0</td>
+      <td>5.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0371</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>70.1</td>
+      <td>3.6e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1012</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>105.2</td>
+      <td>6.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1454</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>442.1</td>
+      <td>3e-133</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1979</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>152.1</td>
+      <td>4e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2450</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>58.6</td>
+      <td>8.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2451</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>49.5</td>
+      <td>5.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG3857</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>199.2</td>
+      <td>2.4e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040648</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>62.3</td>
+      <td>9.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040792</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>52.2</td>
+      <td>1.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00412</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>40.0</td>
+      <td>4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02278</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>50.1</td>
+      <td>3.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02467</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.5</td>
+      <td>4.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02766</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>41.5</td>
+      <td>1.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00197</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.0</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03137</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.5</td>
+      <td>4.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09407</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>46.2</td>
+      <td>5.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09860</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>201.2</td>
+      <td>6.3e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10090</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>42.3</td>
+      <td>1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10624</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>263.6</td>
+      <td>6e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13252</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>61.7</td>
+      <td>9.7e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13805</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>1506.4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15138</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>64.1</td>
+      <td>2.5e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15398</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>275.7</td>
+      <td>1.3e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15454</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>184.0</td>
+      <td>8e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01237</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>48.5</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01780</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>53.0</td>
+      <td>5.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01804</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>66.3</td>
+      <td>4.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02299</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>47.1</td>
+      <td>2.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02518</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>527.3</td>
+      <td>9.1e-159</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02638</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>289.3</td>
+      <td>8.5e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03250</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>42.3</td>
+      <td>8.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03405</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>161.0</td>
+      <td>7.2e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04266</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>116.0</td>
+      <td>3.9e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06534</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>209.8</td>
+      <td>1.4e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07077</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>526.5</td>
+      <td>7e-159</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07078</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>89.1</td>
+      <td>5.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07079</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>51.4</td>
+      <td>1.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07081</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>822.9</td>
+      <td>1.3e-248</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07082</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>46.4</td>
+      <td>5.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07085</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>47.1</td>
+      <td>2.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07086</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>62.4</td>
+      <td>7.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07088</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>81.7</td>
+      <td>1.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07089</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.2</td>
+      <td>5.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07090</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>71.5</td>
+      <td>1.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07091</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>50.1</td>
+      <td>3.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07092</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>44.3</td>
+      <td>2.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07093</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>52.4</td>
+      <td>8.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07094</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>72.3</td>
+      <td>7.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07095</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.1</td>
+      <td>1.5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07097</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>65.7</td>
+      <td>6.8e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07099</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.5</td>
+      <td>9.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07100</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.6</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07101</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>53.9</td>
+      <td>2.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07102</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>46.8</td>
+      <td>3.4e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07103</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>74.3</td>
+      <td>1.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07104</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>75.6</td>
+      <td>8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07105</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>62.0</td>
+      <td>1.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07106</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>72.3</td>
+      <td>6.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07108</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>48.7</td>
+      <td>9.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07109</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>48.9</td>
+      <td>8.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07110</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>60.2</td>
+      <td>3.4e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07112</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>48.3</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07113</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>41.2</td>
+      <td>1.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07114</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>55.5</td>
+      <td>8.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07115</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>57.1</td>
+      <td>3.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07117</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>41.1</td>
+      <td>2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07118</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>40.4</td>
+      <td>3.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07119</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>56.0</td>
+      <td>6.3e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07120</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.4</td>
+      <td>3.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07121</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>276.7</td>
+      <td>6.6e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07122</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>663.0</td>
+      <td>4.8e-200</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07124</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>56.8</td>
+      <td>3.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07125</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>40.6</td>
+      <td>3.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07130</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.7</td>
+      <td>9.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07131</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>57.5</td>
+      <td>2.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07138</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.8</td>
+      <td>8.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07139</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>43.6</td>
+      <td>3.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07141</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>45.2</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07142</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>47.3</td>
+      <td>2.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07144</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>42.6</td>
+      <td>6.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07145</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>63.2</td>
+      <td>4.5e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07146</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>67.6</td>
+      <td>1.9e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07149</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>63.8</td>
+      <td>3.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07150</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>75.2</td>
+      <td>1.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07151</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>55.3</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07152</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>58.2</td>
+      <td>1.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07766</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>174.5</td>
+      <td>8.2e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08176</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>334.0</td>
+      <td>2.3e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08177</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>133.6</td>
+      <td>2e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08178</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>635.4</td>
+      <td>7.5e-192</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08179</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>417.3</td>
+      <td>9.4e-126</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08180</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>364.3</td>
+      <td>1.4e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08181</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>211.0</td>
+      <td>6.2e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08182</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>234.8</td>
+      <td>3.7e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08183</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>259.2</td>
+      <td>1.3e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08184</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>95.3</td>
+      <td>9.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08185</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>266.3</td>
+      <td>8.8e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08186</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>169.8</td>
+      <td>1.8e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08187</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>181.4</td>
+      <td>5.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08188</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>322.5</td>
+      <td>7.1e-97</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08189</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>290.3</td>
+      <td>4.7e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08190</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>216.0</td>
+      <td>1.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08191</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>236.5</td>
+      <td>1.1e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08192</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>178.5</td>
+      <td>3.8e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08193</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>274.8</td>
+      <td>3.1e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08194</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>332.2</td>
+      <td>8.3e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08196</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>253.3</td>
+      <td>7.5e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08550</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>51.8</td>
+      <td>1.3e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08551</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>348.7</td>
+      <td>7.6e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd14860</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>140.5</td>
+      <td>1.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd14861</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>276.7</td>
+      <td>7e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd14862</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>354.7</td>
+      <td>1.2e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd14863</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>304.5</td>
+      <td>2.1e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd14864</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>149.7</td>
+      <td>2.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd14865</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>301.0</td>
+      <td>2.3e-90</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd14866</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>178.6</td>
+      <td>3.6e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17814</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>264.3</td>
+      <td>3.9e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00171</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>103.1</td>
+      <td>2.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00465</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>378.9</td>
+      <td>4.6e-114</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13685</td>
+      <td>Bifunctional aldehyde-alcohol dehydrogenase AdhE</td>
+      <td>62.4</td>
+      <td>1.3e-17</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

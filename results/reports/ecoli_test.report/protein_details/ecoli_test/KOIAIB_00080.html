@@ -1,0 +1,2206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00080</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00080</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>2-isopropylmalate synthase [EC:2.3.3.13]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K01649</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K01649</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.3.3.13</td></tr><tr><th>mf_proposal_ids</th><td>GO:0003852</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01649</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.3.3.13</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K01649</td>
+      <td>EC:2.3.3.13</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0003852</td>
+      <td>GO:0003852</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0003985</td>
+      <td>GO:0003985</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0003988</td>
+      <td>GO:0003988</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0016407</td>
+      <td>GO:0016407</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0016408</td>
+      <td>GO:0016747</td>
+      <td>replaced_by</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0016453</td>
+      <td>GO:0016453</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0016740</td>
+      <td>GO:0016740</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0016746</td>
+      <td>GO:0016746</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0016747</td>
+      <td>GO:0016747</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.3.3.13</td>
+      <td>GO:0046912</td>
+      <td>GO:0046912</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|81958|83529|-</td></tr><tr><th>protein_id</th><td>KOIAIB_00080</td></tr><tr><th>product</th><td>2-isopropylmalate synthase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>81958</td></tr><tr><th>stop</th><td>83529</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_474</td></tr><tr><th>locus_tag</th><td>KOIAIB_00080</td></tr><tr><th>aa_md5</th><td>2e7ad6989e4f507866d7138706f23ec1</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGA</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>E</td></tr><tr><th>GO</th><td><details class="value-details"><summary>47 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0003852</li><li>GO:0003985</li><li>GO:0003988</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0006082</li><li>GO:0006520</li><li>GO:0006551</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008652</li><li>GO:0009058</li><li>GO:0009081</li><li>GO:0009082</li><li>GO:0009098</li><li>GO:0009987</li><li>GO:0016053</li><li>GO:0016407</li><li>GO:0016408</li><li>GO:0016453</li><li>GO:0016740</li><li>GO:0016746</li><li>GO:0016747</li><li>GO:0019752</li><li>GO:0043436</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044249</li><li>GO:0044281</li><li>GO:0044283</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046394</li><li>GO:0046912</li><li>GO:0071704</li><li>GO:1901564</li><li>GO:1901566</li><li>GO:1901576</li><li>GO:1901605</li><li>GO:1901607</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.3.3.13</td></tr><tr><th>KEGG_KO</th><td>KEGG:K01649</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>12 values</summary><ul class="value-list"><li>KEGG:ko00290</li><li>KEGG:ko00620</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01210</li><li>KEGG:ko01230</li><li>KEGG:map00290</li><li>KEGG:map00620</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01210</li><li>KEGG:map01230</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00432</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R01213</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>8 values</summary><ul class="value-list"><li>INTERPRO:IPR000891</li><li>INTERPRO:IPR002034</li><li>INTERPRO:IPR005671</li><li>INTERPRO:IPR013709</li><li>INTERPRO:IPR013785</li><li>INTERPRO:IPR036230</li><li>INTERPRO:IPR050073</li><li>INTERPRO:IPR054691</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00682; PFAM:PF08502; PFAM:PF22617</td></tr><tr><th>SMART</th><td>SMART:SM00917</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>5</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd07940</td>
+      <td>CDD:cd03174;CDD:cd07937;CDD:cd07938;CDD:cd07939;CDD:cd07940;CDD:cd07941;CDD:cd07942;CDD:cd07943;CDD:cd07944;CDD:cd07945;CDD:cd07947;CDD:cd07948</td>
+      <td>CDD:cd07940</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0119</td>
+      <td>COG:COG0119;COG:COG5016</td>
+      <td>COG:COG0119</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:2.3.3.13</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:2.3.3.13</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.3.3.13</td>
+      <td>EC:2.3.3.13</td>
+      <td>EC:2.3.3.13</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0003852;GO:0003985;GO:0003988;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0006082;GO:0006520;GO:0006551;GO:0006807;GO:0008150;GO:0008152;GO:0008652;GO:0009058;GO:0009081;GO:0009082;GO:0009098;GO:0009987;GO:0016053;GO:0016407;GO:0016408;GO:0016453;GO:0016740;GO:0016746;GO:0016747;GO:0019752;GO:0043436;GO:0044237;GO:0044238;GO:0044249;GO:0044281;GO:0044283;GO:0044424;GO:0044444;GO:0044464;GO:0046394;GO:0046912;GO:0071704;GO:1901564;GO:1901566;GO:1901576;GO:1901605;GO:1901607</td>
+      <td>GO:0003824;GO:0003852;GO:0005829;GO:0009098;GO:0019752;GO:0046912</td>
+      <td>GO:0003824;GO:0003852;GO:0005829;GO:0009098;GO:0019752;GO:0046912</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K01649</td>
+      <td>KEGG:K01649</td>
+      <td>KEGG:K01649</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF002084;NCBIFAM:NF002086;NCBIFAM:TIGR00973</td>
+      <td>NCBIFAM:NF041069;NCBIFAM:TIGR00970;NCBIFAM:TIGR00973;NCBIFAM:TIGR00977;NCBIFAM:TIGR02090;NCBIFAM:TIGR02146;NCBIFAM:TIGR02660;NCBIFAM:TIGR03217</td>
+      <td>NCBIFAM:TIGR00973</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF002084;NCBIFAM:NF002086;NCBIFAM:TIGR00973</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041069;NCBIFAM:TIGR00970;NCBIFAM:TIGR00973;NCBIFAM:TIGR00977;NCBIFAM:TIGR02090;NCBIFAM:TIGR02146;NCBIFAM:TIGR02660;NCBIFAM:TIGR03217</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00682;PFAM:PF08502;PFAM:PF22617</td>
+      <td>PFAM:PF00682;PFAM:PF08502</td>
+      <td>PFAM:PF00682;PFAM:PF08502</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00682;PFAM:PF08502;PFAM:PF22617</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00682;PFAM:PF08502</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00917</td>
+      <td></td>
+      <td></td>
+      <td>only_source_1</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 81 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSFV_1184.SFV_0066</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0119</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.3.3.13</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MUNQ@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMWE@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XNCN@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0119@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0119@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003852</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003985</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003988</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006551</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008652</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009081</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009098</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016053</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016407</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016408</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016453</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016740</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016746</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016747</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044283</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046394</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046912</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901605</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901607</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:br01601</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01649</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00432</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00290</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01210</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00290</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01210</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00470</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC02754</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01213</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>HMGL-like</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>LeuA_dimer</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674317</td>
+      <td>leuA</td>
+      <td>Catalyzes the condensation of the acetyl group of acetyl-CoA with 3-methyl-2-oxobutanoate (2-oxoisovalerate) to form 3-carboxy-3-hydroxy-4-methylpentanoate (2-isopropylmalate)</td>
+      <td>1009.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>523</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.3.3.13</td>
+      <td>KEGG:K01649</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01649</td>
+      <td></td>
+      <td>2-isopropylmalate synthase [EC:2.3.3.13]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K01649</td>
+      <td>2-isopropylmalate synthase [EC:2.3.3.13]</td>
+      <td>above_threshold</td>
+      <td>599.0</td>
+      <td>467.30</td>
+      <td>4.4e-180</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 36 annotation rows, 22 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd07940</td>
+      <td></td>
+      <td>DRE_TIM_IPMS</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>COILS</td>
+      <td>COILS:Coil</td>
+      <td></td>
+      <td>Coil</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.238.260:FF:000001</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.20.20.70:FF:000010</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.160.270:FF:000001</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.238.260</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.20.20.70</td>
+      <td></td>
+      <td>Aldolase class I</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.160.270</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00682","interpro_accession":"IPR000891","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS50991","interpro_accession":"IPR000891","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003852</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01025","interpro_accession":"IPR005671","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00973","interpro_accession":"IPR005671","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR10277","interpro_accession":"IPR050073","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF08502","interpro_accession":"IPR013709","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00917","interpro_accession":"IPR013709","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR10277","interpro_accession":"IPR050073","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0009098</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01025","interpro_accession":"IPR005671","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00973","interpro_accession":"IPR005671","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR10277","interpro_accession":"IPR050073","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF08502","interpro_accession":"IPR013709","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00917","interpro_accession":"IPR013709","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00815","interpro_accession":"IPR002034","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00816","interpro_accession":"IPR002034","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0046912</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00815","interpro_accession":"IPR002034","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00816","interpro_accession":"IPR002034","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_01025</td>
+      <td></td>
+      <td>2-isopropylmalate synthase [leuA].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000891</td>
+      <td></td>
+      <td>Pyruvate carboxyltransferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR002034</td>
+      <td></td>
+      <td>Alpha-isopropylmalate/homocitrate synthase, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005671</td>
+      <td></td>
+      <td>2-isopropylmalate synthase, bacterial-type</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013709</td>
+      <td></td>
+      <td>2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013785</td>
+      <td></td>
+      <td>Aldolase-type TIM barrel</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036230</td>
+      <td></td>
+      <td>2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR050073</td>
+      <td></td>
+      <td>2-IPM synthase/homocitrate synthase-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR054691</td>
+      <td></td>
+      <td>2-isopropylmalate synthase/homocitrate synthase, post-catalytic domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF002084</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF002086</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00973</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR10277</td>
+      <td></td>
+      <td>HOMOCITRATE SYNTHASE-RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00682</td>
+      <td></td>
+      <td>HMGL-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF08502</td>
+      <td></td>
+      <td>LeuA allosteric (dimerisation) domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF22617</td>
+      <td></td>
+      <td>Homocitrate synthase post-HMGL domain-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00815</td>
+      <td></td>
+      <td>Alpha-isopropylmalate and homocitrate synthases signature 1.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00816</td>
+      <td></td>
+      <td>Alpha-isopropylmalate and homocitrate synthases signature 2.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS50991</td>
+      <td></td>
+      <td>Pyruvate carboxyltransferase domain.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00917</td>
+      <td></td>
+      <td>LeuA_dimer_2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF110921</td>
+      <td></td>
+      <td>2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF51569</td>
+      <td></td>
+      <td>Aldolase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd07940</td>
+      <td>DRE_TIM_IPMS</td>
+      <td>0.0</td>
+      <td>7</td>
+      <td>275</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Coils</td>
+      <td>signature_match</td>
+      <td>Coil</td>
+      <td>Coil</td>
+      <td></td>
+      <td>502</td>
+      <td>522</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.238.260:FF:000001</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>9.4E-49</td>
+      <td>280</td>
+      <td>393</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.70:FF:000010</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>279</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.160.270:FF:000001</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>1.9E-49</td>
+      <td>394</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.238.260</td>
+      <td></td>
+      <td>5.7E-32</td>
+      <td>280</td>
+      <td>392</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.70</td>
+      <td>Aldolase class I</td>
+      <td>7.8E-91</td>
+      <td>1</td>
+      <td>279</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.160.270</td>
+      <td></td>
+      <td>1.5E-22</td>
+      <td>393</td>
+      <td>501</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_01025</td>
+      <td>2-isopropylmalate synthase [leuA].</td>
+      <td>42.984497</td>
+      <td>2</td>
+      <td>509</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF002084</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>523</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF002086</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>508</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR00973</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>0.0</td>
+      <td>4</td>
+      <td>497</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR10277</td>
+      <td>HOMOCITRATE SYNTHASE-RELATED</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>499</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00682</td>
+      <td>HMGL-like</td>
+      <td>2.5E-104</td>
+      <td>5</td>
+      <td>273</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF08502</td>
+      <td>LeuA allosteric (dimerisation) domain</td>
+      <td>1.7E-35</td>
+      <td>369</td>
+      <td>499</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF22617</td>
+      <td>Homocitrate synthase post-HMGL domain-like</td>
+      <td>2.9E-19</td>
+      <td>287</td>
+      <td>367</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00815</td>
+      <td>Alpha-isopropylmalate and homocitrate synthases signature 1.</td>
+      <td></td>
+      <td>12</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00816</td>
+      <td>Alpha-isopropylmalate and homocitrate synthases signature 2.</td>
+      <td></td>
+      <td>199</td>
+      <td>212</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS50991</td>
+      <td>Pyruvate carboxyltransferase domain.</td>
+      <td>45.577618</td>
+      <td>5</td>
+      <td>267</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00917</td>
+      <td>LeuA_dimer_2</td>
+      <td>7.5E-37</td>
+      <td>369</td>
+      <td>500</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF110921</td>
+      <td>2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain</td>
+      <td>1.11E-25</td>
+      <td>391</td>
+      <td>499</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF51569</td>
+      <td>Aldolase</td>
+      <td>3.85E-97</td>
+      <td>1</td>
+      <td>290</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 40 annotation rows, 66 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd03174</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07937</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07938</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07939</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07940</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07941</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07942</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07943</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07944</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07945</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07947</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07948</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02321</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02746</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN03228</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00915</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03739</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05692</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08195</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09282</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09389</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11858</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12344</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK14847</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0119</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5016</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2367</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2368</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041069</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00970</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00973</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00977</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02090</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02146</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02660</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03217</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00682</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF08502</td>
+      <td></td>
+      <td>2-isopropylmalate synthase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0119</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>550.1</td>
+      <td>1.1e-165</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5016</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>51.7</td>
+      <td>1.3e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2367</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>444.7</td>
+      <td>9.9e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2368</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>44.1</td>
+      <td>3.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041069</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>343.0</td>
+      <td>5.4e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02746</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>45.9</td>
+      <td>9.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03228</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>402.1</td>
+      <td>7.2e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00915</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>795.4</td>
+      <td>4.8e-240</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05692</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>59.0</td>
+      <td>9.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08195</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>88.4</td>
+      <td>1e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09282</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>41.2</td>
+      <td>1.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09389</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>414.3</td>
+      <td>1.5e-124</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11858</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>359.7</td>
+      <td>3.8e-108</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12344</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>288.7</td>
+      <td>1.9e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00973</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>870.0</td>
+      <td>9.1e-263</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00977</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>227.2</td>
+      <td>6.4e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02090</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>369.9</td>
+      <td>3e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02146</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>197.4</td>
+      <td>8.1e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02660</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>282.0</td>
+      <td>1.9e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03217</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>73.3</td>
+      <td>4.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd03174</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>258.7</td>
+      <td>1.4e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07937</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>51.7</td>
+      <td>1.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07938</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>84.3</td>
+      <td>2e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07939</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>208.3</td>
+      <td>3.1e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07940</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>371.1</td>
+      <td>7.2e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07941</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>166.6</td>
+      <td>1.7e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07943</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>93.9</td>
+      <td>2.1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07944</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>72.9</td>
+      <td>7.3e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07945</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>139.9</td>
+      <td>2.1e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07947</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>91.8</td>
+      <td>1.1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07948</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>149.8</td>
+      <td>1.8e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00682</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>362.5</td>
+      <td>3.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0119</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>550.1</td>
+      <td>1.1e-165</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5016</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>51.7</td>
+      <td>1.3e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2367</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>444.7</td>
+      <td>9.9e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041069</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>343.0</td>
+      <td>5.4e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02321</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>527.0</td>
+      <td>1.3e-158</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03228</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>402.1</td>
+      <td>7.2e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00915</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>795.4</td>
+      <td>4.8e-240</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03739</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>170.8</td>
+      <td>1.1e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08195</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>88.4</td>
+      <td>1e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09282</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>41.2</td>
+      <td>1.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09389</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>414.3</td>
+      <td>1.5e-124</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11858</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>359.7</td>
+      <td>3.8e-108</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12344</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>288.7</td>
+      <td>1.9e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14847</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>71.8</td>
+      <td>1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00970</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>132.9</td>
+      <td>3.1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00973</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>870.0</td>
+      <td>9.1e-263</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00977</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>227.2</td>
+      <td>6.4e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02090</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>369.9</td>
+      <td>3e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02146</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>197.4</td>
+      <td>8.1e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02660</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>282.0</td>
+      <td>1.9e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03217</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>73.3</td>
+      <td>4.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd03174</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>258.7</td>
+      <td>1.4e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07937</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>51.7</td>
+      <td>1.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07938</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>84.3</td>
+      <td>2e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07939</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>208.3</td>
+      <td>3.1e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07940</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>371.1</td>
+      <td>7.2e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07941</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>166.6</td>
+      <td>1.7e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07942</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>125.3</td>
+      <td>5.4e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07943</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>93.9</td>
+      <td>2.1e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07945</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>139.9</td>
+      <td>2.1e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07947</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>91.8</td>
+      <td>1.1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07948</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>149.8</td>
+      <td>1.8e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00682</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>362.5</td>
+      <td>3.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam08502</td>
+      <td>2-isopropylmalate synthase</td>
+      <td>117.2</td>
+      <td>7.7e-35</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

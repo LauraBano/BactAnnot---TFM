@@ -1,0 +1,6351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01903</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01903</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K01897</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K01897</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:6.2.1.3</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01897</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:6.2.1.3</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K01897</td>
+      <td>EC:6.2.1.3</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0004467</td>
+      <td>GO:0004467</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0005504</td>
+      <td>GO:0005504</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0008289</td>
+      <td>GO:0008289</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0015645</td>
+      <td>GO:0015645</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0016405</td>
+      <td>GO:0016405</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0016874</td>
+      <td>GO:0016874</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0016877</td>
+      <td>GO:0016877</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0016878</td>
+      <td>GO:0016878</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0031406</td>
+      <td>GO:0031406</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0033293</td>
+      <td>GO:0033293</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0036041</td>
+      <td>GO:0036041</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0043177</td>
+      <td>GO:0043177</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:6.2.1.3</td>
+      <td>GO:0070538</td>
+      <td>GO:0070538</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1888061|1889812|-</td></tr><tr><th>protein_id</th><td>KOIAIB_01903</td></tr><tr><th>product</th><td>Long-chain-fatty-acid--CoA ligase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1888061</td></tr><tr><th>stop</th><td>1889812</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_2176</td></tr><tr><th>locus_tag</th><td>KOIAIB_01903</td></tr><tr><th>aa_md5</th><td>e6f6e79b8cc52b502130798eee308ebb</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>I; Q</td></tr><tr><th>GO</th><td><details class="value-details"><summary>105 values</summary><ul class="value-list"><li>GO:0001676</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004467</li><li>GO:0005488</li><li>GO:0005504</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0005886</li><li>GO:0006082</li><li>GO:0006139</li><li>GO:0006163</li><li>GO:0006629</li><li>GO:0006631</li><li>GO:0006635</li><li>GO:0006637</li><li>GO:0006644</li><li>GO:0006725</li><li>GO:0006732</li><li>GO:0006753</li><li>GO:0006790</li><li>GO:0006793</li><li>GO:0006796</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008289</li><li>GO:0008610</li><li>GO:0008654</li><li>GO:0009056</li><li>GO:0009058</li><li>GO:0009062</li><li>GO:0009117</li><li>GO:0009150</li><li>GO:0009259</li><li>GO:0009314</li><li>GO:0009411</li><li>GO:0009416</li><li>GO:0009628</li><li>GO:0009898</li><li>GO:0009987</li><li>GO:0015645</li><li>GO:0016020</li><li>GO:0016042</li><li>GO:0016054</li><li>GO:0016405</li><li>GO:0016874</li><li>GO:0016877</li><li>GO:0016878</li><li>GO:0019395</li><li>GO:0019637</li><li>GO:0019693</li><li>GO:0019752</li><li>GO:0030258</li><li>GO:0031406</li><li>GO:0032787</li><li>GO:0033293</li><li>GO:0033865</li><li>GO:0033875</li><li>GO:0034032</li><li>GO:0034440</li><li>GO:0034641</li><li>GO:0035383</li><li>GO:0036041</li><li>GO:0036094</li><li>GO:0043167</li><li>GO:0043168</li><li>GO:0043177</li><li>GO:0043436</li><li>GO:0043603</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044242</li><li>GO:0044248</li><li>GO:0044249</li><li>GO:0044255</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0044424</li><li>GO:0044425</li><li>GO:0044444</li><li>GO:0044459</li><li>GO:0044464</li><li>GO:0046395</li><li>GO:0046483</li><li>GO:0050896</li><li>GO:0051186</li><li>GO:0055086</li><li>GO:0055114</li><li>GO:0070538</li><li>GO:0071704</li><li>GO:0071944</li><li>GO:0072329</li><li>GO:0072521</li><li>GO:0090407</li><li>GO:0098552</li><li>GO:0098562</li><li>GO:1901135</li><li>GO:1901360</li><li>GO:1901564</li><li>GO:1901575</li><li>GO:1901576</li></ul></details></td></tr><tr><th>EC</th><td>EC:6.2.1.3</td></tr><tr><th>KEGG_KO</th><td>KEGG:K01897</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>20 values</summary><ul class="value-list"><li>KEGG:ko00061</li><li>KEGG:ko00071</li><li>KEGG:ko01100</li><li>KEGG:ko01212</li><li>KEGG:ko02024</li><li>KEGG:ko03320</li><li>KEGG:ko04146</li><li>KEGG:ko04216</li><li>KEGG:ko04714</li><li>KEGG:ko04920</li><li>KEGG:map00061</li><li>KEGG:map00071</li><li>KEGG:map01100</li><li>KEGG:map01212</li><li>KEGG:map02024</li><li>KEGG:map03320</li><li>KEGG:map04146</li><li>KEGG:map04216</li><li>KEGG:map04714</li><li>KEGG:map04920</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00086</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R01280</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR000873; INTERPRO:IPR020845; INTERPRO:IPR025110; INTERPRO:IPR042099; INTERPRO:IPR045851; INTERPRO:IPR050237</td></tr><tr><th>PFAM</th><td>PFAM:PF00501; PFAM:PF13193</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>3</td></tr><tr><th>concordance_partial</th><td>2</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd05936</td>
+      <td>CDD:cd04433;CDD:cd05903;CDD:cd05904;CDD:cd05905;CDD:cd05906;CDD:cd05907;CDD:cd05908;CDD:cd05909;CDD:cd05910;CDD:cd05911;CDD:cd05912;CDD:cd05914;CDD:cd05915;CDD:cd05917;CDD:cd05918;CDD:cd05919;CDD:cd05920;CDD:cd05921;CDD:cd05922;CDD:cd05923;CDD:cd05924;CDD:cd05926;CDD:cd05927;CDD:cd05928;CDD:cd05929;CDD:cd05930;CDD:cd05931;CDD:cd05932;CDD:cd05933;CDD:cd05934;CDD:cd05935;CDD:cd05936;CDD:cd05937;CDD:cd05938;CDD:cd05939;CDD:cd05940;CDD:cd05941;CDD:cd05943;CDD:cd05944;CDD:cd05945;CDD:cd05958;CDD:cd05959;CDD:cd05966;CDD:cd05967;CDD:cd05968;CDD:cd05969;CDD:cd05970;CDD:cd05971;CDD:cd05972;CDD:cd05973;CDD:cd05974;CDD:cd12114;CDD:cd12115;CDD:cd12116;CDD:cd12117;CDD:cd12118;CDD:cd12119;CDD:cd17630;CDD:cd17631;CDD:cd17632;CDD:cd17633;CDD:cd17634;CDD:cd17635;CDD:cd17636;CDD:cd17637;CDD:cd17638;CDD:cd17639;CDD:cd17640;CDD:cd17641;CDD:cd17642;CDD:cd17643;CDD:cd17644;CDD:cd17645;CDD:cd17646;CDD:cd17648;CDD:cd17649;CDD:cd17650;CDD:cd17651;CDD:cd17652;CDD:cd17653;CDD:cd17654;CDD:cd17655;CDD:cd17656</td>
+      <td>CDD:cd05936</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0318</td>
+      <td>COG:COG0318;COG:COG0365;COG:COG1020;COG:COG1021;COG:COG1022;COG:COG1541</td>
+      <td>COG:COG0318</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:6.2.1.3</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:6.2.1.3</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:6.2.1.3</td>
+      <td>EC:6.2.1.3</td>
+      <td>EC:6.2.1.3</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0001676;GO:0003674;GO:0003824;GO:0004467;GO:0005488;GO:0005504;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0005886;GO:0006082;GO:0006139;GO:0006163;GO:0006629;GO:0006631;GO:0006635;GO:0006637;GO:0006644;GO:0006725;GO:0006732;GO:0006753;GO:0006790;GO:0006793;GO:0006796;GO:0006807;GO:0008150;GO:0008152;GO:0008289;GO:0008610;GO:0008654;GO:0009056;GO:0009058;GO:0009062;GO:0009117;GO:0009150;GO:0009259;GO:0009314;GO:0009411;GO:0009416;GO:0009628;GO:0009898;GO:0009987;GO:0015645;GO:0016020;GO:0016042;GO:0016054;GO:0016405;GO:0016874;GO:0016877;GO:0016878;GO:0019395;GO:0019637;GO:0019693;GO:0019752;GO:0030258;GO:0031406;GO:0032787;GO:0033293;GO:0033865;GO:0033875;GO:0034032;GO:0034440;GO:0034641;GO:0035383;GO:0036041;GO:0036094;GO:0043167;GO:0043168;GO:0043177;GO:0043436;GO:0043603;GO:0044237;GO:0044238;GO:0044242;GO:0044248;GO:0044249;GO:0044255;GO:0044281;GO:0044282;GO:0044424;GO:0044425;GO:0044444;GO:0044459;GO:0044464;GO:0046395;GO:0046483;GO:0050896;GO:0051186;GO:0055086;GO:0055114;GO:0070538;GO:0071704;GO:0071944;GO:0072329;GO:0072521;GO:0090407;GO:0098552;GO:0098562;GO:1901135;GO:1901360;GO:1901564;GO:1901575;GO:1901576</td>
+      <td></td>
+      <td></td>
+      <td>only_source_1</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K01897</td>
+      <td>KEGG:K01897</td>
+      <td>KEGG:K01897</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF006523</td>
+      <td>NCBIFAM:NF038078;NCBIFAM:NF038337;NCBIFAM:NF038338;NCBIFAM:NF038339;NCBIFAM:NF038341;NCBIFAM:NF038342;NCBIFAM:NF038343;NCBIFAM:NF038344;NCBIFAM:NF040633;NCBIFAM:NF041592;NCBIFAM:TIGR01733;NCBIFAM:TIGR01734;NCBIFAM:TIGR01923;NCBIFAM:TIGR02188;NCBIFAM:TIGR02262;NCBIFAM:TIGR02275;NCBIFAM:TIGR02316;NCBIFAM:TIGR03098;NCBIFAM:TIGR03205;NCBIFAM:TIGR03208</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF006523</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF038078;NCBIFAM:NF038337;NCBIFAM:NF038338;NCBIFAM:NF038339;NCBIFAM:NF038341;NCBIFAM:NF038342;NCBIFAM:NF038343;NCBIFAM:NF038344;NCBIFAM:NF040633;NCBIFAM:NF041592;NCBIFAM:TIGR01733;NCBIFAM:TIGR01734;NCBIFAM:TIGR01923;NCBIFAM:TIGR02188;NCBIFAM:TIGR02262;NCBIFAM:TIGR02275;NCBIFAM:TIGR02316;NCBIFAM:TIGR03098;NCBIFAM:TIGR03205;NCBIFAM:TIGR03208</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00501;PFAM:PF13193</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 151 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSF_1195.SF1423</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSFxv_1172.SFxv_1611</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iS_1188.S1538</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0318</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>I</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>Q</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:6.2.1.3</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MU6G@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMQ4@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMU8@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0318@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0318@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001676</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004467</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005504</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006139</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006163</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006629</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006631</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006635</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006637</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006644</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006732</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006753</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006790</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008289</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008610</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008654</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009062</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009117</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009259</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009314</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009411</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009416</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009628</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009898</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015645</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016042</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016054</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016405</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016874</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016877</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016878</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019637</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019693</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030258</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031406</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033293</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033865</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033875</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034032</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034440</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0035383</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036041</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036094</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043167</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043177</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043603</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044242</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044255</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044425</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044459</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050896</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051186</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055086</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070538</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072329</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072521</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0090407</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098552</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098562</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901135</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko04147</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01897</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00086</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00061</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01212</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02024</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko03320</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko04146</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko04216</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko04714</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko04920</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00061</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01212</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02024</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map03320</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map04146</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map04216</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map04714</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map04920</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00014</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01280</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_TC</td>
+      <td>4.C.1.1</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>AMP-binding</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>AMP-binding_C</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>481805.EcolC_1828</td>
+      <td>fadD</td>
+      <td>Catalyzes the esterification, concomitant with transport, of exogenous long-chain fatty acids into metabolically active CoA thioesters for subsequent degradation or incorporation into phospholipids</td>
+      <td>1161.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>583</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:6.2.1.3</td>
+      <td>KEGG:K01897</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01897</td>
+      <td></td>
+      <td>long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K01897</td>
+      <td>long-chain-fatty-acid---CoA ligase [EC:6.2.1.3]</td>
+      <td>above_threshold</td>
+      <td>488.0</td>
+      <td>440.27</td>
+      <td>1.1e-146</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 17 annotation rows, 11 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd05936</td>
+      <td>FC-FACS_FadD_like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.300.30:FF:000006</td>
+      <td>Long-chain-fatty-acid--CoA ligase FadD</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.12780:FF:000003</td>
+      <td>Long-chain-fatty-acid--CoA ligase FadD</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.300.30</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.12780</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000873</td>
+      <td>AMP-dependent synthetase/ligase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020845</td>
+      <td>AMP-binding, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR025110</td>
+      <td>AMP-binding enzyme, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR042099</td>
+      <td>ANL, N-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR045851</td>
+      <td>AMP-binding enzyme domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR050237</td>
+      <td>ATP-dependent AMP-binding enzyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF006523</td>
+      <td>long-chain-fatty-acid--CoA ligase FadD</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43767</td>
+      <td>LONG-CHAIN-FATTY-ACID--COA LIGASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00501</td>
+      <td>AMP-binding enzyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13193</td>
+      <td>AMP-binding enzyme C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00455</td>
+      <td>Putative AMP-binding domain signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56801</td>
+      <td>Acetyl-CoA synthetase-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd05936</td>
+      <td>FC-FACS_FadD_like</td>
+      <td>0.0</td>
+      <td>47</td>
+      <td>572</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.300.30:FF:000006</td>
+      <td>Long-chain-fatty-acid--CoA ligase FadD</td>
+      <td>6.8E-56</td>
+      <td>477</td>
+      <td>578</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12780:FF:000003</td>
+      <td>Long-chain-fatty-acid--CoA ligase FadD</td>
+      <td>0.0</td>
+      <td>32</td>
+      <td>477</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.300.30</td>
+      <td></td>
+      <td>3.7E-29</td>
+      <td>478</td>
+      <td>579</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.12780</td>
+      <td></td>
+      <td>1.1E-119</td>
+      <td>33</td>
+      <td>477</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF006523</td>
+      <td>long-chain-fatty-acid--CoA ligase FadD</td>
+      <td>0.0</td>
+      <td>23</td>
+      <td>582</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43767</td>
+      <td>LONG-CHAIN-FATTY-ACID--COA LIGASE</td>
+      <td>0.0</td>
+      <td>37</td>
+      <td>571</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00501</td>
+      <td>AMP-binding enzyme</td>
+      <td>1.6E-97</td>
+      <td>51</td>
+      <td>441</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF13193</td>
+      <td>AMP-binding enzyme C-terminal domain</td>
+      <td>7.4E-15</td>
+      <td>491</td>
+      <td>565</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00455</td>
+      <td>Putative AMP-binding domain signature.</td>
+      <td></td>
+      <td>233</td>
+      <td>244</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56801</td>
+      <td>Acetyl-CoA synthetase-like</td>
+      <td>0.0</td>
+      <td>34</td>
+      <td>577</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 210 annotation rows, 417 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04433</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05903</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05904</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05905</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05906</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05907</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05908</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05909</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05910</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05911</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05912</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05914</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05915</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05917</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05918</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05919</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05920</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05921</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05922</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05923</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05924</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05926</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05927</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05928</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05929</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05930</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05931</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05932</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05933</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05934</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05935</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05936</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05937</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05938</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05939</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05940</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05941</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05943</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05944</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05945</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05958</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05959</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05966</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05967</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05968</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05969</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05970</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05971</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05972</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05973</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05974</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12114</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12115</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12116</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12117</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12118</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12119</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17630</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17631</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17632</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17633</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17634</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17635</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17636</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17637</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17638</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17639</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17640</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17641</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17642</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17643</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17644</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17645</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17646</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17648</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17649</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17650</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17651</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17652</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17653</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17654</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17655</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17656</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02246</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02330</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02387</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02430</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02479</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02574</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02614</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02654</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02736</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02860</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02861</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN03052</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN03102</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00174</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03584</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03640</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04319</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04813</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05605</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05620</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05677</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05691</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05850</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05851</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05852</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05857</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06018</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06060</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06087</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06145</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06155</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06164</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06178</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06187</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06188</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06334</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06710</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06814</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06839</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07008</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07059</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07445</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07470</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07514</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07529</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07638</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07656</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07768</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07769</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07786</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07787</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07788</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07798</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07824</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07867</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08008</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08043</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08162</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08180</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08276</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08279</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08308</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08314</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08315</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08316</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08633</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08751</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08974</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09029</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09088</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09192</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09274</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10252</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10524</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10946</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12316</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12406</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12467</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12476</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12492</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12582</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12583</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13295</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13382</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13383</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13388</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13390</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13391</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00216</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00237</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00342</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0318</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0365</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1020</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1021</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1022</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1541</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1175</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1176</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1177</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1179</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1180</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1256</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038078</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038337</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038338</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038339</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038341</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038342</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038343</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038344</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040633</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041592</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01733</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01734</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01923</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02188</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02262</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02275</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02316</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03098</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03205</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03208</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00501</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13193</td>
+      <td></td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0318</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>606.6</td>
+      <td>6.2e-183</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0365</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>331.1</td>
+      <td>2.3e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1020</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>230.0</td>
+      <td>1.8e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1021</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>283.1</td>
+      <td>6.3e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1022</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>291.5</td>
+      <td>2.4e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1541</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>57.2</td>
+      <td>2.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1175</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>210.2</td>
+      <td>1.2e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1176</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>426.6</td>
+      <td>2.9e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1177</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>331.7</td>
+      <td>1.6e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1179</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>142.2</td>
+      <td>4.4e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1180</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>140.2</td>
+      <td>1.7e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1256</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>220.5</td>
+      <td>7.5e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038078</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>113.1</td>
+      <td>1.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038337</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>107.5</td>
+      <td>1.4e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038338</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>84.7</td>
+      <td>1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038339</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>103.6</td>
+      <td>1.8e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038341</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>191.3</td>
+      <td>5.1e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038342</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>85.0</td>
+      <td>8.6e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038343</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>125.0</td>
+      <td>6.9e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038344</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>155.7</td>
+      <td>3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040633</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>100.5</td>
+      <td>1.6e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041592</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>79.2</td>
+      <td>3.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02246</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>289.0</td>
+      <td>1.5e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02330</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>223.2</td>
+      <td>1.2e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02387</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>104.7</td>
+      <td>1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02430</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>90.4</td>
+      <td>1.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02479</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>149.5</td>
+      <td>2.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02574</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>258.2</td>
+      <td>3.1e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02614</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>81.7</td>
+      <td>7.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02654</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>95.4</td>
+      <td>5e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02736</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>141.2</td>
+      <td>7e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02860</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>148.6</td>
+      <td>5.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02861</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>83.6</td>
+      <td>2.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03052</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>52.4</td>
+      <td>5.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03102</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>137.5</td>
+      <td>1.1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00174</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>144.0</td>
+      <td>1.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03584</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>50.0</td>
+      <td>3.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03640</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>256.6</td>
+      <td>8.5e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04319</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>201.5</td>
+      <td>4e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04813</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>86.7</td>
+      <td>2.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05605</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>494.9</td>
+      <td>5.7e-149</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05620</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>149.2</td>
+      <td>2.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05677</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>817.9</td>
+      <td>8.6e-247</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05691</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>129.0</td>
+      <td>1.1e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05850</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>127.8</td>
+      <td>8e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05851</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>79.7</td>
+      <td>2.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05852</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>182.0</td>
+      <td>3.9e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05857</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>97.5</td>
+      <td>1.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06018</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>159.2</td>
+      <td>3.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06060</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>133.3</td>
+      <td>1.9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06087</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>237.5</td>
+      <td>5.4e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06145</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>217.6</td>
+      <td>5.2e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06155</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>250.6</td>
+      <td>5.3e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06164</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>192.6</td>
+      <td>2.4e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06178</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>347.8</td>
+      <td>2.6e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06187</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>419.5</td>
+      <td>3.3e-126</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06188</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>320.6</td>
+      <td>3.8e-96</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06334</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>91.9</td>
+      <td>7.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06710</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>461.8</td>
+      <td>5e-139</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06814</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>160.3</td>
+      <td>1.2e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06839</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>336.1</td>
+      <td>7.6e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07008</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>169.5</td>
+      <td>2.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07059</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>850.5</td>
+      <td>1.1e-256</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07445</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>110.5</td>
+      <td>1.6e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07470</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>269.3</td>
+      <td>1.4e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07514</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>312.0</td>
+      <td>1.3e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07529</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>310.4</td>
+      <td>5.2e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07638</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>162.4</td>
+      <td>3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07656</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>451.1</td>
+      <td>8.6e-136</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07768</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>121.9</td>
+      <td>4.8e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07769</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>103.6</td>
+      <td>1.6e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07786</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>263.6</td>
+      <td>6.1e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07787</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>247.2</td>
+      <td>5.2e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07788</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>247.8</td>
+      <td>4.5e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07798</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>208.5</td>
+      <td>3.7e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07824</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>103.9</td>
+      <td>2.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07867</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>139.3</td>
+      <td>3.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08008</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>219.1</td>
+      <td>2.2e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08043</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>123.1</td>
+      <td>2.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08162</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>210.2</td>
+      <td>9.5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08180</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>92.1</td>
+      <td>5.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08276</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>270.7</td>
+      <td>4.4e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08279</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>149.3</td>
+      <td>3.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08308</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>104.9</td>
+      <td>9.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08314</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>403.2</td>
+      <td>3.2e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08315</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>362.2</td>
+      <td>9.6e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08316</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>367.6</td>
+      <td>2e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08633</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>215.3</td>
+      <td>2.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08751</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>802.1</td>
+      <td>5.1e-242</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08974</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>1164.5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09029</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>107.9</td>
+      <td>1.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09088</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>241.3</td>
+      <td>4e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09192</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>129.1</td>
+      <td>3.4e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09274</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>150.6</td>
+      <td>9.6e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10252</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>134.0</td>
+      <td>8.1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10524</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>108.1</td>
+      <td>9.7e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10946</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>157.1</td>
+      <td>1.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12316</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>130.0</td>
+      <td>4.9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12406</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>221.4</td>
+      <td>3.8e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12467</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>130.4</td>
+      <td>4.6e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12476</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>101.5</td>
+      <td>7.7e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12492</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>731.0</td>
+      <td>1.9e-220</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12582</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>77.9</td>
+      <td>1.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12583</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>332.0</td>
+      <td>1.3e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13295</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>225.6</td>
+      <td>2.6e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13382</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>195.5</td>
+      <td>3.2e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13383</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>101.4</td>
+      <td>1.1e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13388</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>114.3</td>
+      <td>1.2e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13390</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>166.2</td>
+      <td>2e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13391</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>231.5</td>
+      <td>2.8e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00216</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>126.9</td>
+      <td>1.4e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00237</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>57.8</td>
+      <td>1.7e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00342</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>61.1</td>
+      <td>1.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01733</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>189.9</td>
+      <td>1.5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01734</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>74.2</td>
+      <td>1.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01923</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>218.3</td>
+      <td>4e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02188</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>153.0</td>
+      <td>2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02262</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>237.5</td>
+      <td>6e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02275</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>179.9</td>
+      <td>1.4e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02316</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>92.1</td>
+      <td>7.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03098</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>252.8</td>
+      <td>1.2e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03205</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>313.1</td>
+      <td>6.6e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03208</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>188.6</td>
+      <td>4.3e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04433</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>350.0</td>
+      <td>2.5e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05903</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>284.0</td>
+      <td>4.7e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05904</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>350.3</td>
+      <td>3.6e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05905</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>67.3</td>
+      <td>1.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05906</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>154.9</td>
+      <td>5.9e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05907</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>258.9</td>
+      <td>1.8e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05908</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>134.8</td>
+      <td>6.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05909</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>232.4</td>
+      <td>1.6e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05910</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>115.2</td>
+      <td>6.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05911</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>385.7</td>
+      <td>6.1e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05912</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>270.7</td>
+      <td>4.5e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05914</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>231.0</td>
+      <td>5.4e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05915</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>199.1</td>
+      <td>2.7e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05917</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>271.5</td>
+      <td>2.2e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05918</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>172.9</td>
+      <td>1.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05919</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>286.0</td>
+      <td>1.1e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05920</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>216.0</td>
+      <td>1.6e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05921</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>85.5</td>
+      <td>6.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05922</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>241.2</td>
+      <td>3.8e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05923</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>211.6</td>
+      <td>4.3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05924</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>110.4</td>
+      <td>3e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05926</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>295.7</td>
+      <td>1.3e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05927</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>175.1</td>
+      <td>4.1e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05928</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>202.2</td>
+      <td>2.4e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05929</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>217.5</td>
+      <td>6.9e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05930</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>238.4</td>
+      <td>2.7e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05931</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>206.2</td>
+      <td>1.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05932</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>126.2</td>
+      <td>2.5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05933</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>134.1</td>
+      <td>1.3e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05934</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>331.9</td>
+      <td>1.1e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05935</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>382.4</td>
+      <td>6e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05936</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>706.0</td>
+      <td>4.5e-213</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05937</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>90.1</td>
+      <td>3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05938</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>110.0</td>
+      <td>2.3e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05939</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>104.7</td>
+      <td>1.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05940</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>129.6</td>
+      <td>3.1e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05941</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>305.9</td>
+      <td>9.8e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05943</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>54.6</td>
+      <td>1.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05944</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>212.2</td>
+      <td>2.1e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05945</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>190.7</td>
+      <td>7.7e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05958</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>264.3</td>
+      <td>3.9e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05959</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>290.8</td>
+      <td>4.7e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05966</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>161.9</td>
+      <td>4.9e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05967</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>136.4</td>
+      <td>2.4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05968</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>156.2</td>
+      <td>2.9e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05969</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>208.1</td>
+      <td>4.6e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05970</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>200.0</td>
+      <td>1.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05971</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>262.8</td>
+      <td>1.1e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05972</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>286.7</td>
+      <td>6.1e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05973</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>173.7</td>
+      <td>1.2e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05974</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>134.8</td>
+      <td>8.5e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12114</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>150.7</td>
+      <td>1.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12115</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>172.6</td>
+      <td>2.4e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12116</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>168.7</td>
+      <td>4.2e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12117</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>202.3</td>
+      <td>2.2e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12118</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>247.0</td>
+      <td>7e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12119</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>256.1</td>
+      <td>1.4e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17630</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>165.1</td>
+      <td>4.3e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17631</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>427.0</td>
+      <td>2e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17632</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>70.3</td>
+      <td>2.7e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17633</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>145.4</td>
+      <td>4.2e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17634</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>139.8</td>
+      <td>2.3e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17635</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>153.6</td>
+      <td>1.4e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17636</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>189.7</td>
+      <td>1.5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17637</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>228.2</td>
+      <td>2.6e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17638</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>225.1</td>
+      <td>2.4e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17639</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>169.1</td>
+      <td>3.1e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17640</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>220.2</td>
+      <td>1.1e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17641</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>115.9</td>
+      <td>3.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17642</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>243.1</td>
+      <td>1.1e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17643</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>169.0</td>
+      <td>3.3e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17644</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>133.6</td>
+      <td>1.8e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17645</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>156.4</td>
+      <td>2.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17646</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>198.0</td>
+      <td>5.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17648</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>126.2</td>
+      <td>2.7e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17649</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>148.6</td>
+      <td>5.4e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17650</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>127.4</td>
+      <td>1.5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17651</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>185.8</td>
+      <td>2.8e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17652</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>182.6</td>
+      <td>2.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17653</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>168.7</td>
+      <td>3.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17654</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>52.1</td>
+      <td>8.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17655</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>165.6</td>
+      <td>3.3e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17656</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>142.0</td>
+      <td>6.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00501</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>397.3</td>
+      <td>1.6e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13193</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>71.6</td>
+      <td>1.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0318</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>606.6</td>
+      <td>6.2e-183</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0365</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>331.1</td>
+      <td>2.3e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1020</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>230.0</td>
+      <td>1.8e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1021</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>283.1</td>
+      <td>6.3e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1022</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>291.5</td>
+      <td>2.4e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1541</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>57.2</td>
+      <td>2.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1175</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>210.2</td>
+      <td>1.2e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1176</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>426.6</td>
+      <td>2.9e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1177</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>331.7</td>
+      <td>1.6e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1179</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>142.2</td>
+      <td>4.4e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1180</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>140.2</td>
+      <td>1.7e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1256</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>220.5</td>
+      <td>7.5e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038078</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>113.1</td>
+      <td>1.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038337</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>107.5</td>
+      <td>1.4e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038338</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>84.7</td>
+      <td>1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038339</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>103.6</td>
+      <td>1.8e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038341</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>191.3</td>
+      <td>5.1e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038342</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>85.0</td>
+      <td>8.6e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038343</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>125.0</td>
+      <td>6.9e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038344</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>155.7</td>
+      <td>3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040633</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>100.5</td>
+      <td>1.6e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041592</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>79.2</td>
+      <td>3.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02246</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>289.0</td>
+      <td>1.5e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02330</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>223.2</td>
+      <td>1.2e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02387</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>104.7</td>
+      <td>1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02430</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>90.4</td>
+      <td>1.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02479</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>149.5</td>
+      <td>2.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02574</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>258.2</td>
+      <td>3.1e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02614</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>81.7</td>
+      <td>7.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02654</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>95.4</td>
+      <td>5e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02736</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>141.2</td>
+      <td>7e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02860</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>148.6</td>
+      <td>5.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02861</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>83.6</td>
+      <td>2.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03052</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>52.4</td>
+      <td>5.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03102</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>137.5</td>
+      <td>1.1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00174</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>144.0</td>
+      <td>1.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03584</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>50.0</td>
+      <td>3.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03640</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>256.6</td>
+      <td>8.5e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04319</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>201.5</td>
+      <td>4e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04813</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>86.7</td>
+      <td>2.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05605</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>494.9</td>
+      <td>5.7e-149</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05620</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>149.2</td>
+      <td>2.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05677</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>817.9</td>
+      <td>8.6e-247</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05691</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>129.0</td>
+      <td>1.1e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05850</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>127.8</td>
+      <td>8e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05851</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>79.7</td>
+      <td>2.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05852</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>182.0</td>
+      <td>3.9e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05857</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>97.5</td>
+      <td>1.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06018</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>159.2</td>
+      <td>3.3e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06060</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>133.3</td>
+      <td>1.9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06087</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>237.5</td>
+      <td>5.4e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06145</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>217.6</td>
+      <td>5.2e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06155</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>250.6</td>
+      <td>5.3e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06164</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>192.6</td>
+      <td>2.4e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06178</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>347.8</td>
+      <td>2.6e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06187</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>419.5</td>
+      <td>3.3e-126</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06188</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>320.6</td>
+      <td>3.8e-96</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06334</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>91.9</td>
+      <td>7.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06710</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>461.8</td>
+      <td>5e-139</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06814</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>160.3</td>
+      <td>1.2e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06839</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>336.1</td>
+      <td>7.6e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07008</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>169.5</td>
+      <td>2.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07059</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>850.5</td>
+      <td>1.1e-256</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07445</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>110.5</td>
+      <td>1.6e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07470</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>269.3</td>
+      <td>1.4e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07514</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>312.0</td>
+      <td>1.3e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07529</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>310.4</td>
+      <td>5.2e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07638</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>162.4</td>
+      <td>3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07656</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>451.1</td>
+      <td>8.6e-136</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07768</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>121.9</td>
+      <td>4.8e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07769</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>103.6</td>
+      <td>1.6e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07786</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>263.6</td>
+      <td>6.1e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07787</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>247.2</td>
+      <td>5.2e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07788</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>247.8</td>
+      <td>4.5e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07798</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>208.5</td>
+      <td>3.7e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07824</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>103.9</td>
+      <td>2.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07867</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>139.3</td>
+      <td>3.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08008</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>219.1</td>
+      <td>2.2e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08043</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>123.1</td>
+      <td>2.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08162</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>210.2</td>
+      <td>9.5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08180</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>92.1</td>
+      <td>5.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08276</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>270.7</td>
+      <td>4.4e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08279</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>149.3</td>
+      <td>3.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08308</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>104.9</td>
+      <td>9.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08314</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>403.2</td>
+      <td>3.2e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08315</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>362.2</td>
+      <td>9.6e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08316</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>367.6</td>
+      <td>2e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08633</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>215.3</td>
+      <td>2.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08751</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>802.1</td>
+      <td>5.1e-242</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08974</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>1164.5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09029</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>107.9</td>
+      <td>1.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09088</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>241.3</td>
+      <td>4e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09192</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>129.1</td>
+      <td>3.4e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09274</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>150.6</td>
+      <td>9.6e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10252</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>134.0</td>
+      <td>8.1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10524</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>108.1</td>
+      <td>9.7e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10946</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>157.1</td>
+      <td>1.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12316</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>130.0</td>
+      <td>4.9e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12406</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>221.4</td>
+      <td>3.8e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12467</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>130.4</td>
+      <td>4.6e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12476</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>101.5</td>
+      <td>7.7e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12492</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>731.0</td>
+      <td>1.9e-220</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12582</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>77.9</td>
+      <td>1.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12583</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>332.0</td>
+      <td>1.3e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13295</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>225.6</td>
+      <td>2.6e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13382</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>195.5</td>
+      <td>3.2e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13383</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>101.4</td>
+      <td>1.1e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13388</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>114.3</td>
+      <td>1.2e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13390</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>166.2</td>
+      <td>2e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13391</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>231.5</td>
+      <td>2.8e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00216</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>126.9</td>
+      <td>1.4e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00237</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>57.8</td>
+      <td>1.7e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00342</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>61.1</td>
+      <td>1.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01733</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>189.9</td>
+      <td>1.5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01734</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>74.2</td>
+      <td>1.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01923</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>218.3</td>
+      <td>4e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02188</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>153.0</td>
+      <td>2e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02262</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>237.5</td>
+      <td>6e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02275</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>179.9</td>
+      <td>1.4e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02316</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>92.1</td>
+      <td>7.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03098</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>252.8</td>
+      <td>1.2e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03205</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>313.1</td>
+      <td>6.6e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03208</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>188.6</td>
+      <td>4.3e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04433</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>350.0</td>
+      <td>2.5e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05903</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>284.0</td>
+      <td>4.7e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05904</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>350.3</td>
+      <td>3.6e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05905</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>67.3</td>
+      <td>1.7e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05906</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>154.9</td>
+      <td>5.9e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05907</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>258.9</td>
+      <td>1.8e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05908</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>134.8</td>
+      <td>6.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05909</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>232.4</td>
+      <td>1.6e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05910</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>115.2</td>
+      <td>6.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05911</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>385.7</td>
+      <td>6.1e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05912</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>270.7</td>
+      <td>4.5e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05914</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>231.0</td>
+      <td>5.4e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05915</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>199.1</td>
+      <td>2.7e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05917</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>271.5</td>
+      <td>2.2e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05918</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>172.9</td>
+      <td>1.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05919</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>286.0</td>
+      <td>1.1e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05920</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>216.0</td>
+      <td>1.6e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05921</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>85.5</td>
+      <td>6.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05922</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>241.2</td>
+      <td>3.8e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05923</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>211.6</td>
+      <td>4.3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05924</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>110.4</td>
+      <td>3e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05926</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>295.7</td>
+      <td>1.3e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05927</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>175.1</td>
+      <td>4.1e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05928</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>202.2</td>
+      <td>2.4e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05929</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>217.5</td>
+      <td>6.9e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05930</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>238.4</td>
+      <td>2.7e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05931</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>206.2</td>
+      <td>1.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05932</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>126.2</td>
+      <td>2.5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05933</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>134.1</td>
+      <td>1.3e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05934</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>331.9</td>
+      <td>1.1e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05935</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>382.4</td>
+      <td>6e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05936</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>706.0</td>
+      <td>4.5e-213</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05937</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>90.1</td>
+      <td>3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05938</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>110.0</td>
+      <td>2.3e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05939</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>104.7</td>
+      <td>1.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05940</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>129.6</td>
+      <td>3.1e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05941</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>305.9</td>
+      <td>9.8e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05943</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>54.6</td>
+      <td>1.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05944</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>212.2</td>
+      <td>2.1e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05945</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>190.7</td>
+      <td>7.7e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05958</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>264.3</td>
+      <td>3.9e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05959</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>290.8</td>
+      <td>4.7e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05966</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>161.9</td>
+      <td>4.9e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05967</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>136.4</td>
+      <td>2.4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05968</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>156.2</td>
+      <td>2.9e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05969</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>208.1</td>
+      <td>4.6e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05970</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>200.0</td>
+      <td>1.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05971</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>262.8</td>
+      <td>1.1e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05972</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>286.7</td>
+      <td>6.1e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05973</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>173.7</td>
+      <td>1.2e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05974</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>134.8</td>
+      <td>8.5e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12114</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>150.7</td>
+      <td>1.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12115</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>172.6</td>
+      <td>2.4e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12116</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>168.7</td>
+      <td>4.2e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12117</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>202.3</td>
+      <td>2.2e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12118</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>247.0</td>
+      <td>7e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12119</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>256.1</td>
+      <td>1.4e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17630</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>165.1</td>
+      <td>4.3e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17631</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>427.0</td>
+      <td>2e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17632</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>70.3</td>
+      <td>2.7e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17633</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>145.4</td>
+      <td>4.2e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17634</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>139.8</td>
+      <td>2.3e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17635</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>153.6</td>
+      <td>1.4e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17636</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>189.7</td>
+      <td>1.5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17637</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>228.2</td>
+      <td>2.6e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17638</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>225.1</td>
+      <td>2.4e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17639</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>169.1</td>
+      <td>3.1e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17640</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>220.2</td>
+      <td>1.1e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17641</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>115.9</td>
+      <td>3.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17642</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>243.1</td>
+      <td>1.1e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17643</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>169.0</td>
+      <td>3.3e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17644</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>133.6</td>
+      <td>1.8e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17645</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>156.4</td>
+      <td>2.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17646</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>198.0</td>
+      <td>5.2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17648</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>126.2</td>
+      <td>2.7e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17649</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>148.6</td>
+      <td>5.4e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17650</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>127.4</td>
+      <td>1.5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17651</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>185.8</td>
+      <td>2.8e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17652</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>182.6</td>
+      <td>2.3e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17653</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>168.7</td>
+      <td>3.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17654</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>52.1</td>
+      <td>8.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17655</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>165.6</td>
+      <td>3.3e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17656</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>142.0</td>
+      <td>6.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00501</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>397.3</td>
+      <td>1.6e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13193</td>
+      <td>Long-chain-fatty-acid--CoA ligase</td>
+      <td>71.6</td>
+      <td>1.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.87583715</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

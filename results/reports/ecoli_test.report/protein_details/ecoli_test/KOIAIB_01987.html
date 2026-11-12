@@ -1,0 +1,2960 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01987</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01987</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>two-component system, chemotaxis family, protein-glutamate methylesterase/glutaminase [EC:3.1.1.61 3.5.1.44]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K03412</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K03412</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:3.1.1.61;EC:3.5.1.44</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008984</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03412</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.1.1.61</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.5.1.44</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K03412</td>
+      <td>EC:3.1.1.61</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K03412</td>
+      <td>EC:3.5.1.44</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0000156</td>
+      <td>GO:0000156</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0008984</td>
+      <td>GO:0008984</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0016788</td>
+      <td>GO:0016788</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0019899</td>
+      <td>GO:0019899</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0051723</td>
+      <td>GO:0051723</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0052689</td>
+      <td>GO:0052689</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:0140096</td>
+      <td>GO:0140096</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.1.61</td>
+      <td>GO:1990827</td>
+      <td>GO:1990827</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0000156</td>
+      <td>GO:0000156</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0008984</td>
+      <td>GO:0008984</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0016788</td>
+      <td>GO:0016788</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0019899</td>
+      <td>GO:0019899</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0051723</td>
+      <td>GO:0051723</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0052689</td>
+      <td>GO:0052689</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:0140096</td>
+      <td>GO:0140096</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.5.1.44</td>
+      <td>GO:1990827</td>
+      <td>GO:1990827</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1967452|1968501|-</td></tr><tr><th>protein_id</th><td>KOIAIB_01987</td></tr><tr><th>gene</th><td>cheB</td></tr><tr><th>product</th><td>protein-glutamate methylesterase/protein glutamine deamidase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1967452</td></tr><tr><th>stop</th><td>1968501</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_2255</td></tr><tr><th>locus_tag</th><td>KOIAIB_01987</td></tr><tr><th>aa_md5</th><td>df128e8a2b34ea67f9c394b8f56f89dc</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGA</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>N; T</td></tr><tr><th>GO</th><td><details class="value-details"><summary>50 values</summary><ul class="value-list"><li>GO:0000156</li><li>GO:0000160</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0005886</li><li>GO:0006464</li><li>GO:0006482</li><li>GO:0006807</li><li>GO:0006935</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008214</li><li>GO:0008984</li><li>GO:0009605</li><li>GO:0009987</li><li>GO:0016020</li><li>GO:0016787</li><li>GO:0016788</li><li>GO:0018277</li><li>GO:0019538</li><li>GO:0019899</li><li>GO:0036211</li><li>GO:0040011</li><li>GO:0042221</li><li>GO:0042330</li><li>GO:0043170</li><li>GO:0043412</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044260</li><li>GO:0044267</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0050896</li><li>GO:0051723</li><li>GO:0052689</li><li>GO:0070988</li><li>GO:0071704</li><li>GO:0071944</li><li>GO:0140096</li><li>GO:1901564</li><li>GO:1990827</li></ul></details></td></tr><tr><th>EC</th><td>EC:3.1.1.61; EC:3.5.1.44</td></tr><tr><th>KEGG_KO</th><td>KEGG:K03412</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko02020; KEGG:ko02030; KEGG:map02020; KEGG:map02030</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00506</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR000673; INTERPRO:IPR001789; INTERPRO:IPR008248; INTERPRO:IPR011006; INTERPRO:IPR035909</td></tr><tr><th>PFAM</th><td>PFAM:PF00072; PFAM:PF01339</td></tr><tr><th>SMART</th><td>SMART:SM00448</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>6</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd16432;CDD:cd17541</td>
+      <td>CDD:cd00156;CDD:cd16351;CDD:cd16432;CDD:cd16433;CDD:cd16434;CDD:cd17532;CDD:cd17535;CDD:cd17536;CDD:cd17537;CDD:cd17538;CDD:cd17541;CDD:cd17542;CDD:cd17549;CDD:cd17550;CDD:cd17551;CDD:cd17552;CDD:cd17555;CDD:cd17561;CDD:cd17565;CDD:cd17572;CDD:cd17574;CDD:cd17580;CDD:cd17584;CDD:cd17593;CDD:cd17594;CDD:cd17614;CDD:cd17620;CDD:cd17622;CDD:cd17623;CDD:cd18159;CDD:cd19920;CDD:cd19923;CDD:cd19925;CDD:cd19930;CDD:cd19931;CDD:cd19932;CDD:cd19936</td>
+      <td>CDD:cd16432;CDD:cd17541</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG2201</td>
+      <td>COG:COG0745;COG:COG0784;COG:COG2197;COG:COG2201;COG:COG2204;COG:COG3279;COG:COG3437;COG:COG3706;COG:COG3707;COG:COG4565;COG:COG4566;COG:COG4567;COG:COG4753;COG:COG5801;COG:COG5803</td>
+      <td>COG:COG2201</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:3.1.1.61;EC:3.5.1.44</td>
+      <td>EC:3.1.1.61;EC:3.5.1.44</td>
+      <td>EC:3.1.1.61;EC:3.5.1.44</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:3.1.1.61;EC:3.5.1.44</td>
+      <td>EC:3.1.1.61;EC:3.5.1.44</td>
+      <td>EC:3.1.1.61;EC:3.5.1.44</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:3.1.1.61;EC:3.5.1.44</td>
+      <td>EC:3.1.1.61;EC:3.5.1.44</td>
+      <td>EC:3.1.1.61;EC:3.5.1.44</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005488;GO:0005515;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0005886;GO:0006464;GO:0006482;GO:0006807;GO:0006935;GO:0008150;GO:0008152;GO:0008214;GO:0008984;GO:0009605;GO:0009987;GO:0016020;GO:0016787;GO:0016788;GO:0018277;GO:0019538;GO:0019899;GO:0036211;GO:0040011;GO:0042221;GO:0042330;GO:0043170;GO:0043412;GO:0044237;GO:0044238;GO:0044260;GO:0044267;GO:0044424;GO:0044444;GO:0044464;GO:0050896;GO:0051723;GO:0052689;GO:0070988;GO:0071704;GO:0071944;GO:0140096;GO:1901564;GO:1990827</td>
+      <td>GO:0000156;GO:0000160;GO:0005737;GO:0006935;GO:0008984</td>
+      <td>GO:0005737;GO:0006935;GO:0008984</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K03412</td>
+      <td>KEGG:K03412</td>
+      <td>KEGG:K03412</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF001965;NCBIFAM:NF009206</td>
+      <td>NCBIFAM:NF040534;NCBIFAM:NF041367;NCBIFAM:TIGR02875</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF001965;NCBIFAM:NF009206</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF040534;NCBIFAM:NF041367;NCBIFAM:TIGR02875</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00072;PFAM:PF01339</td>
+      <td>PFAM:PF00072;PFAM:PF01339</td>
+      <td>PFAM:PF00072;PFAM:PF01339</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00072;PFAM:PF01339</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00072;PFAM:PF01339</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00448</td>
+      <td>SMART:SM00448</td>
+      <td>SMART:SM00448</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 2 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:3.1.1.61</td>
+      <td>WP_000036361</td>
+    </tr>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:3.5.1.44</td>
+      <td>WP_000036361</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 72 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG2201</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.1.1.61</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.5.1.44</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MWCN@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RN67@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XNVQ@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG2201@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG2201@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006482</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006935</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008214</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008984</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009605</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016788</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018277</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019538</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019899</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036211</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0040011</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042221</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042330</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043170</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043412</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044267</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050896</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051723</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0052689</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070988</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0140096</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1990827</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko02022</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko02035</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03412</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00506</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02030</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02030</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>CheB_methylest</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Response_reg</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.1736536</td>
+      <td>cheB</td>
+      <td>catalyzes the demethylation of specific methylglutamate residues introduced into the chemoreceptors (methyl-accepting chemotaxis proteins) by CheR</td>
+      <td>669.0</td>
+      <td>3.89e-243</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>349</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:3.1.1.61</td>
+      <td>KEGG:K03412</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:3.5.1.44</td>
+      <td>KEGG:K03412</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03412</td>
+      <td></td>
+      <td>two-component system, chemotaxis family, protein-glutamate methylesterase/glutaminase [EC:3.1.1.61 3.5.1.44]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K03412</td>
+      <td>two-component system, chemotaxis family, protein-glutamate methylesterase/glutaminase [EC:3.1.1.61 3.5.1.44]</td>
+      <td>above_threshold</td>
+      <td>469.7</td>
+      <td>206.90</td>
+      <td>4.1e-141</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 28 annotation rows, 18 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd16432</td>
+      <td></td>
+      <td>CheB_Rec</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd17541</td>
+      <td></td>
+      <td>REC_CheB-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.180:FF:000001</td>
+      <td></td>
+      <td>Protein-glutamate methylesterase/protein-glutamine glutaminase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.2300:FF:000060</td>
+      <td></td>
+      <td>Protein-glutamate methylesterase/protein-glutamine glutaminase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.180</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.2300</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0000156</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd16432","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00099","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01339","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000876","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS50122","interpro_accession":"IPR000673","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0000160</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd16432","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00099","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00072","interpro_accession":"IPR001789","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01339","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000876","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS50110","interpro_accession":"IPR001789","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS50122","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00448","interpro_accession":"IPR001789","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd16432","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00099","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01339","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000876","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS50122","interpro_accession":"IPR000673","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006935</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd16432","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00099","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01339","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000876","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS50122","interpro_accession":"IPR000673","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008984</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd16432","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00099","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01339","interpro_accession":"IPR000673","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000876","interpro_accession":"IPR008248","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS50122","interpro_accession":"IPR000673","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00099</td>
+      <td></td>
+      <td>Protein-glutamate methylesterase/protein-glutamine glutaminase [cheB].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000673</td>
+      <td></td>
+      <td>Signal transduction response regulator, chemotaxis, protein-glutamate methylesterase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001789</td>
+      <td></td>
+      <td>Signal transduction response regulator, receiver domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR008248</td>
+      <td></td>
+      <td>Protein-glutamate methylesterase/protein-glutamine glutaminase, CheB type</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR011006</td>
+      <td></td>
+      <td>CheY-like superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR035909</td>
+      <td></td>
+      <td>Methylesterase CheB, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF001965</td>
+      <td></td>
+      <td>chemotaxis-specific protein-glutamate methyltransferase CheB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF009206</td>
+      <td></td>
+      <td>chemotaxis-specific protein-glutamate methyltransferase CheB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR42872</td>
+      <td></td>
+      <td>PROTEIN-GLUTAMATE METHYLESTERASE/PROTEIN-GLUTAMINE GLUTAMINASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00072</td>
+      <td></td>
+      <td>Response regulator receiver domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01339</td>
+      <td></td>
+      <td>CheB methylesterase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF000876</td>
+      <td></td>
+      <td>RR_chemtxs_CheB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS50110</td>
+      <td></td>
+      <td>Response regulatory domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS50122</td>
+      <td></td>
+      <td>CheB-type methylesterase domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00448</td>
+      <td></td>
+      <td>REC_2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52172</td>
+      <td></td>
+      <td>CheY-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52738</td>
+      <td></td>
+      <td>Methylesterase CheB, C-terminal domain</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd16432</td>
+      <td>CheB_Rec</td>
+      <td>4.56333E-107</td>
+      <td>158</td>
+      <td>339</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd17541</td>
+      <td>REC_CheB-like</td>
+      <td>4.7012E-62</td>
+      <td>4</td>
+      <td>128</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.180:FF:000001</td>
+      <td>Protein-glutamate methylesterase/protein-glutamine glutaminase</td>
+      <td>1.1E-110</td>
+      <td>148</td>
+      <td>349</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.2300:FF:000060</td>
+      <td>Protein-glutamate methylesterase/protein-glutamine glutaminase</td>
+      <td>1.3E-83</td>
+      <td>1</td>
+      <td>133</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.180</td>
+      <td></td>
+      <td>4.1E-80</td>
+      <td>147</td>
+      <td>349</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.2300</td>
+      <td></td>
+      <td>9.8E-33</td>
+      <td>1</td>
+      <td>133</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00099</td>
+      <td>Protein-glutamate methylesterase/protein-glutamine glutaminase [cheB].</td>
+      <td>41.373856</td>
+      <td>4</td>
+      <td>342</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF001965</td>
+      <td>chemotaxis-specific protein-glutamate methyltransferase CheB</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>343</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF009206</td>
+      <td>chemotaxis-specific protein-glutamate methyltransferase CheB</td>
+      <td>1.2E-118</td>
+      <td>4</td>
+      <td>342</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR42872</td>
+      <td>PROTEIN-GLUTAMATE METHYLESTERASE/PROTEIN-GLUTAMINE GLUTAMINASE</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>344</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF000876</td>
+      <td>RR_chemtxs_CheB</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>342</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00072</td>
+      <td>Response regulator receiver domain</td>
+      <td>7.8E-19</td>
+      <td>6</td>
+      <td>108</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF01339</td>
+      <td>CheB methylesterase</td>
+      <td>4.2E-65</td>
+      <td>159</td>
+      <td>336</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS50110</td>
+      <td>Response regulatory domain profile.</td>
+      <td>37.780869</td>
+      <td>5</td>
+      <td>122</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS50122</td>
+      <td>CheB-type methylesterase domain profile.</td>
+      <td>78.542145</td>
+      <td>152</td>
+      <td>344</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00448</td>
+      <td>REC_2</td>
+      <td>8.4E-22</td>
+      <td>4</td>
+      <td>119</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52172</td>
+      <td>CheY-like</td>
+      <td>1.07E-27</td>
+      <td>1</td>
+      <td>108</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52738</td>
+      <td>Methylesterase CheB, C-terminal domain</td>
+      <td>8.63E-75</td>
+      <td>156</td>
+      <td>342</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 68 annotation rows, 133 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00156</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16351</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16432</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16433</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16434</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17532</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17535</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17536</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17537</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17538</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17541</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17542</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17549</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17550</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17551</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17552</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17555</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17561</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17565</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17572</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17574</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17580</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17584</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17593</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17594</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17614</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17620</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17622</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17623</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd18159</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19920</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19923</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19925</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19930</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19931</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19932</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19936</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00148</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00742</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09581</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10651</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11697</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12555</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13856</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15369</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0745</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0784</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2197</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2201</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2204</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3279</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3437</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3706</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3707</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4565</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4566</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4567</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4753</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5801</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5803</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040534</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041367</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02875</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00072</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01339</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00448</td>
+      <td></td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00148</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>46.2</td>
+      <td>1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0745</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>70.2</td>
+      <td>4.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0784</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>69.7</td>
+      <td>4.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2197</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>56.0</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2201</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>373.4</td>
+      <td>1.8e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2204</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>77.6</td>
+      <td>2.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3279</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>74.5</td>
+      <td>2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3437</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>79.2</td>
+      <td>6.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3706</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>80.5</td>
+      <td>3.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3707</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.4</td>
+      <td>1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4565</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>76.2</td>
+      <td>6.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4566</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>42.9</td>
+      <td>8.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4567</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>45.4</td>
+      <td>1.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4753</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>76.2</td>
+      <td>4.3e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5801</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>64.5</td>
+      <td>1.8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5803</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>56.6</td>
+      <td>6.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040534</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>44.6</td>
+      <td>2.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041367</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>45.1</td>
+      <td>2.5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00742</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>522.0</td>
+      <td>1.7e-157</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09581</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>41.4</td>
+      <td>1.8e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10651</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.8</td>
+      <td>3.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11697</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>52.3</td>
+      <td>1.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12555</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>399.9</td>
+      <td>1.7e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13856</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>40.6</td>
+      <td>5.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15369</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>45.0</td>
+      <td>2.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02875</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>66.8</td>
+      <td>3.9e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00156</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>76.8</td>
+      <td>2.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16351</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>288.5</td>
+      <td>4.4e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16432</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>253.5</td>
+      <td>2.6e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16433</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>166.5</td>
+      <td>1.1e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16434</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>135.8</td>
+      <td>3.1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17532</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>56.9</td>
+      <td>3.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17535</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>58.5</td>
+      <td>1.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17536</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>61.2</td>
+      <td>1.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17537</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>40.0</td>
+      <td>7.8e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17538</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>53.4</td>
+      <td>3.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17541</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>149.7</td>
+      <td>8e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17542</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>70.5</td>
+      <td>2.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17549</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>47.8</td>
+      <td>2.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17550</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>49.4</td>
+      <td>9.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17551</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>74.8</td>
+      <td>1.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17552</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>44.5</td>
+      <td>2.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17555</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>56.6</td>
+      <td>5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17561</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>70.1</td>
+      <td>3.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17565</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.7</td>
+      <td>6.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17572</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.2</td>
+      <td>8.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17574</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>49.1</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17580</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>40.2</td>
+      <td>7.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17584</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>44.1</td>
+      <td>3.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17593</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>53.8</td>
+      <td>3.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17594</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>47.7</td>
+      <td>3.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17614</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.1</td>
+      <td>8.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17620</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>45.2</td>
+      <td>1.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17622</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>42.3</td>
+      <td>1.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17623</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>46.4</td>
+      <td>9.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd18159</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>42.7</td>
+      <td>1.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19920</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>52.9</td>
+      <td>6.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19923</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>51.7</td>
+      <td>2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19925</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>49.9</td>
+      <td>7.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19930</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>49.9</td>
+      <td>7.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19931</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>41.4</td>
+      <td>2.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19932</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>55.0</td>
+      <td>1.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19936</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>40.6</td>
+      <td>6.1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00072</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>80.9</td>
+      <td>1.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01339</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>231.1</td>
+      <td>1.6e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00448</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>42.9</td>
+      <td>1.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00148</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>46.2</td>
+      <td>1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0745</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>70.2</td>
+      <td>4.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0784</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>69.7</td>
+      <td>4.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2197</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>56.0</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2201</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>373.4</td>
+      <td>1.8e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2204</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>77.6</td>
+      <td>2.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3279</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>74.5</td>
+      <td>2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3437</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>79.2</td>
+      <td>6.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3706</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>80.5</td>
+      <td>3.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3707</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.4</td>
+      <td>1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4565</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>76.2</td>
+      <td>6.1e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4566</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>42.9</td>
+      <td>8.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4567</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>45.4</td>
+      <td>1.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4753</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>76.2</td>
+      <td>4.3e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5801</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>64.5</td>
+      <td>1.8e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5803</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>56.6</td>
+      <td>6.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040534</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>44.6</td>
+      <td>2.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041367</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>45.1</td>
+      <td>2.5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00742</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>522.0</td>
+      <td>1.7e-157</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09581</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>41.4</td>
+      <td>1.8e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10651</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.8</td>
+      <td>3.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11697</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>52.3</td>
+      <td>1.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12555</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>399.9</td>
+      <td>1.7e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13856</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>40.6</td>
+      <td>5.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15369</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>45.0</td>
+      <td>2.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02875</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>66.8</td>
+      <td>3.9e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00156</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>76.8</td>
+      <td>2.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16351</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>288.5</td>
+      <td>4.4e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16432</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>253.5</td>
+      <td>2.6e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16433</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>166.5</td>
+      <td>1.1e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16434</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>135.8</td>
+      <td>3.1e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17532</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>56.9</td>
+      <td>3.8e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17535</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>58.5</td>
+      <td>1.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17536</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>61.2</td>
+      <td>1.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17537</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>40.0</td>
+      <td>7.8e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17538</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>53.4</td>
+      <td>3.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17541</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>149.7</td>
+      <td>8e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17542</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>70.5</td>
+      <td>2.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17549</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>47.8</td>
+      <td>2.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17550</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>49.4</td>
+      <td>9.9e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17551</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>74.8</td>
+      <td>1.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17552</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>44.5</td>
+      <td>2.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17555</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>56.6</td>
+      <td>5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17561</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>70.1</td>
+      <td>3.2e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17565</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.7</td>
+      <td>6.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17572</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.2</td>
+      <td>8.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17574</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>49.1</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17580</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>40.2</td>
+      <td>7.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17584</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>44.1</td>
+      <td>3.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17593</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>53.8</td>
+      <td>3.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17594</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>47.7</td>
+      <td>3.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17614</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>43.1</td>
+      <td>8.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17620</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>45.2</td>
+      <td>1.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17622</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>42.3</td>
+      <td>1.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17623</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>46.4</td>
+      <td>9.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd18159</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>42.7</td>
+      <td>1.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19920</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>52.9</td>
+      <td>6.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19923</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>51.7</td>
+      <td>2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19925</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>49.9</td>
+      <td>7.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19930</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>49.9</td>
+      <td>7.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19931</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>41.4</td>
+      <td>2.3e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19932</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>55.0</td>
+      <td>1.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19936</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>40.6</td>
+      <td>6.1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00072</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>80.9</td>
+      <td>1.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01339</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>231.1</td>
+      <td>1.6e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00448</td>
+      <td>protein-glutamate methylesterase/protein glutamine deamidase</td>
+      <td>42.9</td>
+      <td>1.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.99983144</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

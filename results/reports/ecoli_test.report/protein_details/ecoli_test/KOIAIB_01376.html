@@ -1,0 +1,4474 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01376</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01376</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>4-(gamma-glutamylamino)butanal dehydrogenase [EC:1.2.1.99]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K09472</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K09472</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.2.1.99</td></tr><tr><th>mf_proposal_ids</th><td>GO:0016491</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00128</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K09472</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.2.1.3</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.2.1.99</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00128</td>
+      <td>EC:1.2.1.3</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00128</td>
+      <td>EC:1.2.1.99</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K09472</td>
+      <td>EC:1.2.1.3</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K09472</td>
+      <td>EC:1.2.1.99</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.2.1.3</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.3</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.3</td>
+      <td>GO:0004030</td>
+      <td>GO:0004030</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.3</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.3</td>
+      <td>GO:0016620</td>
+      <td>GO:0016620</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.3</td>
+      <td>GO:0016903</td>
+      <td>GO:0016903</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.99</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.99</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.99</td>
+      <td>GO:0004030</td>
+      <td>GO:0004030</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.99</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.99</td>
+      <td>GO:0016620</td>
+      <td>GO:0016620</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.99</td>
+      <td>GO:0016903</td>
+      <td>GO:0016903</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1362743|1364230|+</td></tr><tr><th>protein_id</th><td>KOIAIB_01376</td></tr><tr><th>gene</th><td>puuC</td></tr><tr><th>product</th><td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1362743</td></tr><tr><th>stop</th><td>1364230</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_1673</td></tr><tr><th>locus_tag</th><td>KOIAIB_01376</td></tr><tr><th>aa_md5</th><td>f656e84af4843b2f7e5f55ee592a7e5b</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>C</td></tr><tr><th>GO</th><td><details class="value-details"><summary>28 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004030</li><li>GO:0006576</li><li>GO:0006595</li><li>GO:0006598</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009056</li><li>GO:0009308</li><li>GO:0009310</li><li>GO:0009445</li><li>GO:0009447</li><li>GO:0009987</li><li>GO:0016491</li><li>GO:0016620</li><li>GO:0016903</li><li>GO:0034641</li><li>GO:0042402</li><li>GO:0044106</li><li>GO:0044237</li><li>GO:0055114</li><li>GO:0071704</li><li>GO:0097164</li><li>GO:1901564</li><li>GO:1901565</li><li>GO:1901575</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.2.1.3; EC:1.2.1.99</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00128; KEGG:K09472</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>36 values</summary><ul class="value-list"><li>KEGG:ko00010</li><li>KEGG:ko00053</li><li>KEGG:ko00071</li><li>KEGG:ko00280</li><li>KEGG:ko00310</li><li>KEGG:ko00330</li><li>KEGG:ko00340</li><li>KEGG:ko00380</li><li>KEGG:ko00410</li><li>KEGG:ko00561</li><li>KEGG:ko00620</li><li>KEGG:ko00625</li><li>KEGG:ko00903</li><li>KEGG:ko00981</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01120</li><li>KEGG:ko01130</li><li>KEGG:map00010</li><li>KEGG:map00053</li><li>KEGG:map00071</li><li>KEGG:map00280</li><li>KEGG:map00310</li><li>KEGG:map00330</li><li>KEGG:map00340</li><li>KEGG:map00380</li><li>KEGG:map00410</li><li>KEGG:map00561</li><li>KEGG:map00620</li><li>KEGG:map00625</li><li>KEGG:map00903</li><li>KEGG:map00981</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01120</li><li>KEGG:map01130</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00135; KEGG:M00136</td></tr><tr><th>KEGG_REACTION</th><td><details class="value-details"><summary>23 values</summary><ul class="value-list"><li>KEGG:R00264</li><li>KEGG:R00631</li><li>KEGG:R00710</li><li>KEGG:R00904</li><li>KEGG:R01752</li><li>KEGG:R01986</li><li>KEGG:R02549</li><li>KEGG:R02678</li><li>KEGG:R02940</li><li>KEGG:R02957</li><li>KEGG:R03283</li><li>KEGG:R03869</li><li>KEGG:R04065</li><li>KEGG:R04506</li><li>KEGG:R04903</li><li>KEGG:R05050</li><li>KEGG:R05237</li><li>KEGG:R05238</li><li>KEGG:R05286</li><li>KEGG:R06366</li><li>KEGG:R07417</li><li>KEGG:R07418</li><li>KEGG:R08146</li></ul></details></td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR015590; INTERPRO:IPR016160; INTERPRO:IPR016161; INTERPRO:IPR016162; INTERPRO:IPR016163; INTERPRO:IPR029510</td></tr><tr><th>PFAM</th><td>PFAM:PF00171</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>1</td></tr><tr><th>concordance_partial</th><td>5</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd07112</td>
+      <td>CDD:cd06534;CDD:cd07077;CDD:cd07078;CDD:cd07081;CDD:cd07082;CDD:cd07083;CDD:cd07084;CDD:cd07085;CDD:cd07086;CDD:cd07087;CDD:cd07088;CDD:cd07089;CDD:cd07090;CDD:cd07091;CDD:cd07092;CDD:cd07093;CDD:cd07094;CDD:cd07095;CDD:cd07097;CDD:cd07098;CDD:cd07099;CDD:cd07100;CDD:cd07101;CDD:cd07102;CDD:cd07103;CDD:cd07104;CDD:cd07105;CDD:cd07106;CDD:cd07107;CDD:cd07108;CDD:cd07109;CDD:cd07110;CDD:cd07111;CDD:cd07112;CDD:cd07113;CDD:cd07114;CDD:cd07115;CDD:cd07116;CDD:cd07117;CDD:cd07118;CDD:cd07119;CDD:cd07120;CDD:cd07121;CDD:cd07122;CDD:cd07123;CDD:cd07124;CDD:cd07125;CDD:cd07126;CDD:cd07127;CDD:cd07128;CDD:cd07129;CDD:cd07130;CDD:cd07131;CDD:cd07132;CDD:cd07133;CDD:cd07134;CDD:cd07135;CDD:cd07136;CDD:cd07137;CDD:cd07138;CDD:cd07139;CDD:cd07140;CDD:cd07141;CDD:cd07142;CDD:cd07143;CDD:cd07144;CDD:cd07145;CDD:cd07146;CDD:cd07147;CDD:cd07148;CDD:cd07149;CDD:cd07150;CDD:cd07151;CDD:cd07152;CDD:cd07559</td>
+      <td>CDD:cd07112</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1012</td>
+      <td>COG:COG0506;COG:COG1012;COG:COG4230</td>
+      <td>COG:COG1012</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.2.1.99</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.2.1.3;EC:1.2.1.99</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.2.1.3;EC:1.2.1.99</td>
+      <td>EC:1.2.1.99</td>
+      <td>EC:1.2.1.99</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0004030;GO:0006576;GO:0006595;GO:0006598;GO:0006807;GO:0008150;GO:0008152;GO:0009056;GO:0009308;GO:0009310;GO:0009445;GO:0009447;GO:0009987;GO:0016491;GO:0016620;GO:0016903;GO:0034641;GO:0042402;GO:0044106;GO:0044237;GO:0055114;GO:0071704;GO:0097164;GO:1901564;GO:1901565;GO:1901575</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00128;KEGG:K09472</td>
+      <td>KEGG:K09472</td>
+      <td>KEGG:K09472</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF007352</td>
+      <td>NCBIFAM:NF040648;NCBIFAM:NF040792;NCBIFAM:NF040869;NCBIFAM:TIGR01236;NCBIFAM:TIGR01237;NCBIFAM:TIGR01238;NCBIFAM:TIGR01722;NCBIFAM:TIGR01780;NCBIFAM:TIGR01804;NCBIFAM:TIGR02278;NCBIFAM:TIGR02299;NCBIFAM:TIGR02518;NCBIFAM:TIGR03216;NCBIFAM:TIGR03240;NCBIFAM:TIGR03250;NCBIFAM:TIGR03374;NCBIFAM:TIGR04284</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF007352</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF040648;NCBIFAM:NF040792;NCBIFAM:NF040869;NCBIFAM:TIGR01236;NCBIFAM:TIGR01237;NCBIFAM:TIGR01238;NCBIFAM:TIGR01722;NCBIFAM:TIGR01780;NCBIFAM:TIGR01804;NCBIFAM:TIGR02278;NCBIFAM:TIGR02299;NCBIFAM:TIGR02518;NCBIFAM:TIGR03216;NCBIFAM:TIGR03240;NCBIFAM:TIGR03250;NCBIFAM:TIGR03374;NCBIFAM:TIGR04284</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00171</td>
+      <td>PFAM:PF00171</td>
+      <td>PFAM:PF00171</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 131 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iAF1260.b1300</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iB21_1397.B21_01288</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iBWG_1329.BWG_1132</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECBD_1354.ECBD_2317</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECB_1328.ECB_01277</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECDH10B_1368.ECDH10B_1417</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECDH1ME8569_1439.ECDH1ME8569_1242</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECD_1391.ECD_01277</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECW_1372.ECW_m1396</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEKO11_1354.EKO11_2550</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iETEC_1333.ETEC_1404</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcDH1_1363.EcDH1_2346</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcHS_1320.EcHS_A1415</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJO1366.b1300</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJR904.b1300</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iUMNK88_1353.UMNK88_1636</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iWFL_1372.ECW_m1396</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iY75_1357.Y75_RS06830</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1012</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.2.1.3</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.2.1.99</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MU1V@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMBQ@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XQCS@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1012@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1012@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004030</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006595</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006598</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009308</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009310</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009445</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009447</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016903</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042402</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044106</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097164</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901565</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00128</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K09472</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00135</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00136</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00010</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00053</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00280</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00310</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00330</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00340</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00380</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00410</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00561</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00625</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00903</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00981</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00010</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00053</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00280</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00310</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00330</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00340</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00380</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00410</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00561</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00625</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00903</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00981</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00047</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00080</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00186</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00218</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00242</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00816</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC01500</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00264</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00631</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00710</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00904</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01986</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02549</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02678</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02940</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02957</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R03283</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R03869</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04065</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04506</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04903</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05050</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05286</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R06366</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R07417</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R07418</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R08146</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Aldedh</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.1742130</td>
+      <td>puuC</td>
+      <td>Involved in the biosynthesis of the osmoprotectant glycine betaine. Catalyzes the reversible oxidation of betaine aldehyde to the corresponding acid</td>
+      <td>976.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>495</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.2.1.99</td>
+      <td>KEGG:K09472</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K09472</td>
+      <td></td>
+      <td>4-(gamma-glutamylamino)butanal dehydrogenase [EC:1.2.1.99]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K09472</td>
+      <td>4-(gamma-glutamylamino)butanal dehydrogenase [EC:1.2.1.99]</td>
+      <td>above_threshold</td>
+      <td>760.3</td>
+      <td>653.23</td>
+      <td>1.7e-229</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 19 annotation rows, 12 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd07112</td>
+      <td></td>
+      <td>ALDH_GABALDH-PuuC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>COILS</td>
+      <td>COILS:Coil</td>
+      <td></td>
+      <td>Coil</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.309.10:FF:000012</td>
+      <td></td>
+      <td>Betaine aldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.605.10:FF:000001</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.309.10</td>
+      <td></td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.605.10</td>
+      <td></td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00171","interpro_accession":"IPR015590","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00070","interpro_accession":"IPR016160","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00687","interpro_accession":"IPR029510","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015590</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016160</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, cysteine active site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016161</td>
+      <td></td>
+      <td>Aldehyde/histidinol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016162</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016163</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029510</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, glutamic acid active site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF007352</td>
+      <td></td>
+      <td>aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR11699</td>
+      <td></td>
+      <td>ALDEHYDE DEHYDROGENASE-RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase family</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00070</td>
+      <td></td>
+      <td>Aldehyde dehydrogenases cysteine active site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00687</td>
+      <td></td>
+      <td>Aldehyde dehydrogenases glutamic acid active site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53720</td>
+      <td></td>
+      <td>ALDH-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd07112</td>
+      <td>ALDH_GABALDH-PuuC</td>
+      <td>0.0</td>
+      <td>34</td>
+      <td>491</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Coils</td>
+      <td>signature_match</td>
+      <td>Coil</td>
+      <td>Coil</td>
+      <td></td>
+      <td>87</td>
+      <td>107</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.309.10:FF:000012</td>
+      <td>Betaine aldehyde dehydrogenase</td>
+      <td>4.2E-72</td>
+      <td>270</td>
+      <td>458</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.605.10:FF:000001</td>
+      <td>Aldehyde dehydrogenase 1</td>
+      <td>1.6E-95</td>
+      <td>32</td>
+      <td>277</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.309.10</td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 2</td>
+      <td>0.0</td>
+      <td>270</td>
+      <td>458</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.605.10</td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 1</td>
+      <td>0.0</td>
+      <td>23</td>
+      <td>488</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF007352</td>
+      <td>aldehyde dehydrogenase PuuC</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>495</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR11699</td>
+      <td>ALDEHYDE DEHYDROGENASE-RELATED</td>
+      <td>0.0</td>
+      <td>20</td>
+      <td>490</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00171</td>
+      <td>Aldehyde dehydrogenase family</td>
+      <td>0.0</td>
+      <td>31</td>
+      <td>489</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00070</td>
+      <td>Aldehyde dehydrogenases cysteine active site.</td>
+      <td></td>
+      <td>295</td>
+      <td>306</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00687</td>
+      <td>Aldehyde dehydrogenases glutamic acid active site.</td>
+      <td></td>
+      <td>266</td>
+      <td>273</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53720</td>
+      <td>ALDH-like</td>
+      <td>0.0</td>
+      <td>7</td>
+      <td>492</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 132 annotation rows, 260 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06534</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07077</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07078</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07081</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07082</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07083</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07084</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07085</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07086</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07087</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07088</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07089</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07090</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07091</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07092</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07093</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07094</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07095</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07097</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07098</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07099</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07100</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07101</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07102</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07103</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07104</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07105</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07106</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07107</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07108</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07109</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07110</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07111</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07112</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07113</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07114</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07115</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07116</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07117</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07118</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07119</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07120</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07121</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07122</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07123</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07124</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07125</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07126</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07127</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07128</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07129</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07130</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07131</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07132</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07133</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07134</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07135</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07136</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07137</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07138</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07139</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07140</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07141</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07142</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07143</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07144</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07145</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07146</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07147</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07148</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07149</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07150</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07151</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07152</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07559</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN00412</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02174</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02203</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02278</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02315</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02419</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02466</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02467</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02766</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03137</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09406</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09407</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09457</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09847</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10090</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11241</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11809</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11903</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11904</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11905</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13252</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13473</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13805</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13968</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15398</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00381</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0506</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1012</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4230</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2449</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2450</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2451</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2452</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2453</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2454</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2455</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2456</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040648</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040792</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040869</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01236</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01237</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01238</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01722</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01780</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01804</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02278</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02299</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02518</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03216</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03240</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03250</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03374</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR04284</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0506</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>50.9</td>
+      <td>2.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1012</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>594.2</td>
+      <td>3.5e-179</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4230</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>234.9</td>
+      <td>5.3e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2449</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>45.0</td>
+      <td>3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2450</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>557.1</td>
+      <td>7.1e-168</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2451</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>392.8</td>
+      <td>4.4e-118</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2452</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>356.3</td>
+      <td>6.5e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2453</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>149.5</td>
+      <td>3.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2454</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>214.6</td>
+      <td>4.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2455</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>167.1</td>
+      <td>1.2e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2456</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>198.7</td>
+      <td>3.4e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040648</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>356.6</td>
+      <td>5e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040792</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>271.4</td>
+      <td>3.6e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040869</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>270.4</td>
+      <td>6.4e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00412</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>220.8</td>
+      <td>6.3e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02174</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>129.3</td>
+      <td>4e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02203</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>141.6</td>
+      <td>6.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02278</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>400.9</td>
+      <td>1.8e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02315</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>147.8</td>
+      <td>9.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02419</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>177.6</td>
+      <td>8.7e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02466</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>459.8</td>
+      <td>2.5e-138</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02467</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>404.6</td>
+      <td>1.5e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02766</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>476.4</td>
+      <td>2.2e-143</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03137</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>293.6</td>
+      <td>6.5e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09406</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>273.8</td>
+      <td>5.8e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09407</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>345.0</td>
+      <td>1.5e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09457</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>261.0</td>
+      <td>4.3e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09847</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>1110.1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10090</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>263.1</td>
+      <td>9.4e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11241</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>310.7</td>
+      <td>3.7e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11809</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>168.5</td>
+      <td>3.6e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11903</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>111.4</td>
+      <td>1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11904</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>233.1</td>
+      <td>1.2e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11905</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>210.5</td>
+      <td>7.7e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13252</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>466.0</td>
+      <td>2.5e-140</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13473</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>450.3</td>
+      <td>1.5e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13805</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>53.6</td>
+      <td>1.9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13968</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>269.0</td>
+      <td>2e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15398</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>78.4</td>
+      <td>9.5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00381</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>205.7</td>
+      <td>2.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01236</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>175.9</td>
+      <td>2.8e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01237</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>267.1</td>
+      <td>6.8e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01238</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>206.7</td>
+      <td>1.2e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01722</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>260.9</td>
+      <td>4.7e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01780</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>354.7</td>
+      <td>1.6e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01804</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>477.1</td>
+      <td>1.1e-143</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02278</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>81.8</td>
+      <td>7.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02299</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>485.2</td>
+      <td>4.2e-146</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02518</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>41.0</td>
+      <td>2.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03216</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>420.9</td>
+      <td>1.4e-126</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03240</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>245.6</td>
+      <td>2.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03250</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>274.8</td>
+      <td>2.7e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03374</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>345.0</td>
+      <td>1.5e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04284</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>338.0</td>
+      <td>2.4e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06534</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>523.2</td>
+      <td>1.1e-157</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07077</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>66.0</td>
+      <td>5.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07078</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>535.8</td>
+      <td>1.5e-161</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07081</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>56.1</td>
+      <td>5.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07082</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>336.5</td>
+      <td>5.4e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07083</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>266.6</td>
+      <td>8.5e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07084</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>157.5</td>
+      <td>1.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07085</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>324.9</td>
+      <td>1.6e-97</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07086</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>311.7</td>
+      <td>1.9e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07087</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>229.6</td>
+      <td>1.5e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07088</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>385.4</td>
+      <td>8.1e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07089</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>454.3</td>
+      <td>1e-136</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07090</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>439.9</td>
+      <td>2.1e-132</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07091</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>567.4</td>
+      <td>4.8e-171</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07092</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>438.8</td>
+      <td>4.3e-132</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07093</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>510.2</td>
+      <td>1.1e-153</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07094</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>369.4</td>
+      <td>5.7e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07095</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>271.7</td>
+      <td>2.7e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07097</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>388.8</td>
+      <td>7e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07098</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>271.8</td>
+      <td>2.4e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07099</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>346.8</td>
+      <td>3.8e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07100</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>351.3</td>
+      <td>1.9e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07101</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>315.1</td>
+      <td>1.7e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07102</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>317.2</td>
+      <td>3.1e-95</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07103</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>430.9</td>
+      <td>1.1e-129</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07104</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>383.3</td>
+      <td>3.4e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07105</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>343.4</td>
+      <td>4.7e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07106</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>391.2</td>
+      <td>1.1e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07107</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>435.0</td>
+      <td>7.4e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07108</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>408.3</td>
+      <td>7.6e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07109</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>497.3</td>
+      <td>8.2e-150</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07110</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>431.0</td>
+      <td>1.1e-129</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07111</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>417.4</td>
+      <td>1.4e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07112</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>722.9</td>
+      <td>2.8e-218</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07113</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>422.0</td>
+      <td>5.8e-127</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07114</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>511.9</td>
+      <td>3e-154</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07115</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>555.8</td>
+      <td>1.5e-167</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07116</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>410.0</td>
+      <td>3e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07117</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>459.6</td>
+      <td>2.5e-138</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07118</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>477.8</td>
+      <td>7e-144</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07119</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>518.7</td>
+      <td>3.1e-156</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07120</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>409.0</td>
+      <td>4.6e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07121</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>74.2</td>
+      <td>1.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07122</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>68.6</td>
+      <td>1.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07123</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>193.4</td>
+      <td>1.3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07124</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>358.6</td>
+      <td>1.2e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07125</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>262.2</td>
+      <td>2.5e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07126</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>60.6</td>
+      <td>2.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07127</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>42.4</td>
+      <td>6.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07128</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>107.4</td>
+      <td>1.8e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07129</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>111.9</td>
+      <td>8.4e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07130</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>203.3</td>
+      <td>1.5e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07131</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>377.0</td>
+      <td>3.2e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07132</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>176.1</td>
+      <td>2.9e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07133</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>200.5</td>
+      <td>8.7e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07134</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>212.3</td>
+      <td>2.5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07135</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>221.8</td>
+      <td>3.3e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07136</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>192.5</td>
+      <td>2.5e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07137</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>163.2</td>
+      <td>2.3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07138</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>466.6</td>
+      <td>2.1e-140</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07139</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>461.9</td>
+      <td>4.5e-139</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07140</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>426.4</td>
+      <td>2.3e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07141</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>488.8</td>
+      <td>3.5e-147</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07142</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>496.9</td>
+      <td>1.2e-149</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07143</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>503.0</td>
+      <td>1.8e-151</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07144</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>516.9</td>
+      <td>1e-155</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07145</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>386.9</td>
+      <td>2.8e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07146</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>337.6</td>
+      <td>2.3e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07147</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>329.2</td>
+      <td>9.5e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07148</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>242.9</td>
+      <td>1.6e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07149</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>381.2</td>
+      <td>1.7e-114</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07150</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>394.9</td>
+      <td>1.2e-118</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07151</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>356.0</td>
+      <td>7e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07152</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>350.8</td>
+      <td>2.3e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07559</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>479.5</td>
+      <td>2.4e-144</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00171</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>570.4</td>
+      <td>5.6e-172</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0506</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>50.9</td>
+      <td>2.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1012</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>594.2</td>
+      <td>3.5e-179</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4230</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>234.9</td>
+      <td>5.3e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2449</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>45.0</td>
+      <td>3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2450</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>557.1</td>
+      <td>7.1e-168</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2451</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>392.8</td>
+      <td>4.4e-118</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2452</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>356.3</td>
+      <td>6.5e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2453</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>149.5</td>
+      <td>3.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2454</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>214.6</td>
+      <td>4.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2455</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>167.1</td>
+      <td>1.2e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2456</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>198.7</td>
+      <td>3.4e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040648</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>356.6</td>
+      <td>5e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040792</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>271.4</td>
+      <td>3.6e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040869</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>270.4</td>
+      <td>6.4e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00412</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>220.8</td>
+      <td>6.3e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02174</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>129.3</td>
+      <td>4e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02203</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>141.6</td>
+      <td>6.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02278</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>400.9</td>
+      <td>1.8e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02315</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>147.8</td>
+      <td>9.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02419</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>177.6</td>
+      <td>8.7e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02466</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>459.8</td>
+      <td>2.5e-138</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02467</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>404.6</td>
+      <td>1.5e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02766</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>476.4</td>
+      <td>2.2e-143</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03137</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>293.6</td>
+      <td>6.5e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09406</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>273.8</td>
+      <td>5.8e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09407</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>345.0</td>
+      <td>1.5e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09457</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>261.0</td>
+      <td>4.3e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09847</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>1110.1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10090</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>263.1</td>
+      <td>9.4e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11241</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>310.7</td>
+      <td>3.7e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11809</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>168.5</td>
+      <td>3.6e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11903</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>111.4</td>
+      <td>1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11904</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>233.1</td>
+      <td>1.2e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11905</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>210.5</td>
+      <td>7.7e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13252</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>466.0</td>
+      <td>2.5e-140</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13473</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>450.3</td>
+      <td>1.5e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13805</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>53.6</td>
+      <td>1.9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13968</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>269.0</td>
+      <td>2e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15398</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>78.4</td>
+      <td>9.5e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00381</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>205.7</td>
+      <td>2.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01236</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>175.9</td>
+      <td>2.8e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01237</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>267.1</td>
+      <td>6.8e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01238</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>206.7</td>
+      <td>1.2e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01722</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>260.9</td>
+      <td>4.7e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01780</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>354.7</td>
+      <td>1.6e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01804</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>477.1</td>
+      <td>1.1e-143</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02278</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>81.8</td>
+      <td>7.5e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02299</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>485.2</td>
+      <td>4.2e-146</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02518</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>41.0</td>
+      <td>2.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03216</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>420.9</td>
+      <td>1.4e-126</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03240</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>245.6</td>
+      <td>2.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03250</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>274.8</td>
+      <td>2.7e-82</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03374</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>345.0</td>
+      <td>1.5e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04284</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>338.0</td>
+      <td>2.4e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06534</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>523.2</td>
+      <td>1.1e-157</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07077</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>66.0</td>
+      <td>5.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07078</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>535.8</td>
+      <td>1.5e-161</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07081</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>56.1</td>
+      <td>5.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07082</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>336.5</td>
+      <td>5.4e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07083</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>266.6</td>
+      <td>8.5e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07084</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>157.5</td>
+      <td>1.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07085</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>324.9</td>
+      <td>1.6e-97</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07086</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>311.7</td>
+      <td>1.9e-93</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07087</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>229.6</td>
+      <td>1.5e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07088</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>385.4</td>
+      <td>8.1e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07089</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>454.3</td>
+      <td>1e-136</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07090</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>439.9</td>
+      <td>2.1e-132</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07091</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>567.4</td>
+      <td>4.8e-171</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07092</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>438.8</td>
+      <td>4.3e-132</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07093</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>510.2</td>
+      <td>1.1e-153</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07094</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>369.4</td>
+      <td>5.7e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07095</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>271.7</td>
+      <td>2.7e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07097</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>388.8</td>
+      <td>7e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07098</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>271.8</td>
+      <td>2.4e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07099</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>346.8</td>
+      <td>3.8e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07100</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>351.3</td>
+      <td>1.9e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07101</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>315.1</td>
+      <td>1.7e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07102</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>317.2</td>
+      <td>3.1e-95</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07103</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>430.9</td>
+      <td>1.1e-129</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07104</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>383.3</td>
+      <td>3.4e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07105</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>343.4</td>
+      <td>4.7e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07106</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>391.2</td>
+      <td>1.1e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07107</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>435.0</td>
+      <td>7.4e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07108</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>408.3</td>
+      <td>7.6e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07109</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>497.3</td>
+      <td>8.2e-150</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07110</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>431.0</td>
+      <td>1.1e-129</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07111</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>417.4</td>
+      <td>1.4e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07112</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>722.9</td>
+      <td>2.8e-218</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07113</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>422.0</td>
+      <td>5.8e-127</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07114</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>511.9</td>
+      <td>3e-154</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07115</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>555.8</td>
+      <td>1.5e-167</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07116</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>410.0</td>
+      <td>3e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07117</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>459.6</td>
+      <td>2.5e-138</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07118</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>477.8</td>
+      <td>7e-144</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07119</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>518.7</td>
+      <td>3.1e-156</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07120</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>409.0</td>
+      <td>4.6e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07121</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>74.2</td>
+      <td>1.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07122</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>68.6</td>
+      <td>1.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07123</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>193.4</td>
+      <td>1.3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07124</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>358.6</td>
+      <td>1.2e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07125</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>262.2</td>
+      <td>2.5e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07126</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>60.6</td>
+      <td>2.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07127</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>42.4</td>
+      <td>6.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07128</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>107.4</td>
+      <td>1.8e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07129</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>111.9</td>
+      <td>8.4e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07130</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>203.3</td>
+      <td>1.5e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07131</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>377.0</td>
+      <td>3.2e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07132</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>176.1</td>
+      <td>2.9e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07133</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>200.5</td>
+      <td>8.7e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07134</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>212.3</td>
+      <td>2.5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07135</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>221.8</td>
+      <td>3.3e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07136</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>192.5</td>
+      <td>2.5e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07137</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>163.2</td>
+      <td>2.3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07138</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>466.6</td>
+      <td>2.1e-140</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07139</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>461.9</td>
+      <td>4.5e-139</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07140</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>426.4</td>
+      <td>2.3e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07141</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>488.8</td>
+      <td>3.5e-147</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07142</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>496.9</td>
+      <td>1.2e-149</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07143</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>503.0</td>
+      <td>1.8e-151</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07144</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>516.9</td>
+      <td>1e-155</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07145</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>386.9</td>
+      <td>2.8e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07146</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>337.6</td>
+      <td>2.3e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07147</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>329.2</td>
+      <td>9.5e-99</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07148</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>242.9</td>
+      <td>1.6e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07149</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>381.2</td>
+      <td>1.7e-114</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07150</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>394.9</td>
+      <td>1.2e-118</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07151</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>356.0</td>
+      <td>7e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07152</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>350.8</td>
+      <td>2.3e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07559</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>479.5</td>
+      <td>2.4e-144</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00171</td>
+      <td>NADP/NAD-dependent aldehyde dehydrogenase PuuC</td>
+      <td>570.4</td>
+      <td>5.6e-172</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

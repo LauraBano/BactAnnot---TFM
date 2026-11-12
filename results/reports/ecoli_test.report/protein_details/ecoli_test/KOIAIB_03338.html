@@ -1,0 +1,3204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_03338</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_03338</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>cell division protease FtsH [EC:3.4.24.-]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K03798</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K03798</td></tr><tr><th>mf_proposal_ids</th><td>GO:0004176;GO:0004222;GO:0005524;GO:0008270;GO:0016887</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03798</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.4.24.-</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td>derived_from_ko</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K03798</td>
+      <td>EC:3.4.24.-</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0004175</td>
+      <td>GO:0004175</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0004176</td>
+      <td>GO:0004176</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0004222</td>
+      <td>GO:0004222</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0005524</td>
+      <td>GO:0005524</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0008144</td>
+      <td>GO:0008144</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0008233</td>
+      <td>GO:0008233</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0008237</td>
+      <td>GO:0008237</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0008270</td>
+      <td>GO:0008270</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0016462</td>
+      <td>GO:0016462</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0016817</td>
+      <td>GO:0016817</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0016818</td>
+      <td>GO:0016818</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0016887</td>
+      <td>GO:0016887</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0017076</td>
+      <td>GO:0017076</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0017111</td>
+      <td>GO:0017111</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0030145</td>
+      <td>GO:0030145</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0030554</td>
+      <td>GO:0030554</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0032553</td>
+      <td>GO:0032553</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0032555</td>
+      <td>GO:0032555</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0032559</td>
+      <td>GO:0032559</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0035639</td>
+      <td>GO:0035639</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0042623</td>
+      <td>GO:0016887</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0043169</td>
+      <td>GO:0043169</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0043273</td>
+      <td>GO:0043273</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0046872</td>
+      <td>GO:0046872</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0046914</td>
+      <td>GO:0046914</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0070011</td>
+      <td>GO:0008233</td>
+      <td>alt_id</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0097367</td>
+      <td>GO:0097367</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:0140096</td>
+      <td>GO:0140096</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:1901265</td>
+      <td>GO:1901265</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.4.24.-</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|3325001|3326944|-</td></tr><tr><th>protein_id</th><td>KOIAIB_03338</td></tr><tr><th>gene</th><td>ftsH</td></tr><tr><th>product</th><td>ATP-dependent zinc metalloprotease FtsH</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>3325001</td></tr><tr><th>stop</th><td>3326944</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_3499</td></tr><tr><th>locus_tag</th><td>KOIAIB_03338</td></tr><tr><th>aa_md5</th><td>e32a665ea7b12782fd208609bb338eb7</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>TTG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>O</td></tr><tr><th>GO</th><td><details class="value-details"><summary>67 values</summary><ul class="value-list"><li>GO:0000166</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004175</li><li>GO:0004176</li><li>GO:0004222</li><li>GO:0005488</li><li>GO:0005524</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0005887</li><li>GO:0006508</li><li>GO:0006807</li><li>GO:0008144</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008233</li><li>GO:0008237</li><li>GO:0008270</li><li>GO:0009056</li><li>GO:0009057</li><li>GO:0016020</li><li>GO:0016021</li><li>GO:0016462</li><li>GO:0016787</li><li>GO:0016817</li><li>GO:0016818</li><li>GO:0016887</li><li>GO:0017076</li><li>GO:0017111</li><li>GO:0019538</li><li>GO:0030145</li><li>GO:0030163</li><li>GO:0030554</li><li>GO:0031224</li><li>GO:0031226</li><li>GO:0032553</li><li>GO:0032555</li><li>GO:0032559</li><li>GO:0032991</li><li>GO:0035639</li><li>GO:0036094</li><li>GO:0042623</li><li>GO:0043167</li><li>GO:0043168</li><li>GO:0043169</li><li>GO:0043170</li><li>GO:0043273</li><li>GO:0044238</li><li>GO:0044425</li><li>GO:0044459</li><li>GO:0044464</li><li>GO:0046872</li><li>GO:0046914</li><li>GO:0070011</li><li>GO:0071704</li><li>GO:0071944</li><li>GO:0097159</li><li>GO:0097367</li><li>GO:0098796</li><li>GO:0140096</li><li>GO:1901265</li><li>GO:1901363</li><li>GO:1901564</li><li>GO:1901565</li><li>GO:1901575</li></ul></details></td></tr><tr><th>EC</th><td>EC:3.4.24.-</td></tr><tr><th>KEGG_KO</th><td>KEGG:K03798</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00742</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>9 values</summary><ul class="value-list"><li>INTERPRO:IPR000642</li><li>INTERPRO:IPR003593</li><li>INTERPRO:IPR003959</li><li>INTERPRO:IPR003960</li><li>INTERPRO:IPR005936</li><li>INTERPRO:IPR011546</li><li>INTERPRO:IPR027417</li><li>INTERPRO:IPR037219</li><li>INTERPRO:IPR041569</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00004; PFAM:PF01434; PFAM:PF06480; PFAM:PF17862</td></tr><tr><th>SMART</th><td>SMART:SM00382</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>3</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd19501</td>
+      <td>CDD:cd00009;CDD:cd01120;CDD:cd19481;CDD:cd19501;CDD:cd19502;CDD:cd19503;CDD:cd19504;CDD:cd19505;CDD:cd19507;CDD:cd19509;CDD:cd19510;CDD:cd19511;CDD:cd19512;CDD:cd19517;CDD:cd19518;CDD:cd19519;CDD:cd19520;CDD:cd19521;CDD:cd19522;CDD:cd19523;CDD:cd19524;CDD:cd19525;CDD:cd19526;CDD:cd19527;CDD:cd19528;CDD:cd19529;CDD:cd19530</td>
+      <td>CDD:cd19501</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0465</td>
+      <td>COG:COG0464;COG:COG0465;COG:COG1222;COG:COG1223</td>
+      <td>COG:COG0465</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:3.4.24.-</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:3.4.24.-</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000166;GO:0003674;GO:0003824;GO:0004175;GO:0004176;GO:0004222;GO:0005488;GO:0005524;GO:0005575;GO:0005623;GO:0005886;GO:0005887;GO:0006508;GO:0006807;GO:0008144;GO:0008150;GO:0008152;GO:0008233;GO:0008237;GO:0008270;GO:0009056;GO:0009057;GO:0016020;GO:0016021;GO:0016462;GO:0016787;GO:0016817;GO:0016818;GO:0016887;GO:0017076;GO:0017111;GO:0019538;GO:0030145;GO:0030163;GO:0030554;GO:0031224;GO:0031226;GO:0032553;GO:0032555;GO:0032559;GO:0032991;GO:0035639;GO:0036094;GO:0042623;GO:0043167;GO:0043168;GO:0043169;GO:0043170;GO:0043273;GO:0044238;GO:0044425;GO:0044459;GO:0044464;GO:0046872;GO:0046914;GO:0070011;GO:0071704;GO:0071944;GO:0097159;GO:0097367;GO:0098796;GO:0140096;GO:1901265;GO:1901363;GO:1901564;GO:1901565;GO:1901575</td>
+      <td>GO:0004176;GO:0004222;GO:0005524;GO:0005886;GO:0006508;GO:0008270;GO:0016020;GO:0016887;GO:0030163</td>
+      <td>GO:0004176;GO:0004222;GO:0005524;GO:0005886;GO:0006508;GO:0008270;GO:0016020;GO:0016887;GO:0030163</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K03798</td>
+      <td>KEGG:K03798</td>
+      <td>KEGG:K03798</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF008004;NCBIFAM:TIGR01241</td>
+      <td>NCBIFAM:NF041006;NCBIFAM:TIGR01241;NCBIFAM:TIGR01242;NCBIFAM:TIGR01243;NCBIFAM:TIGR03689</td>
+      <td>NCBIFAM:TIGR01241</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF008004;NCBIFAM:TIGR01241</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041006;NCBIFAM:TIGR01241;NCBIFAM:TIGR01242;NCBIFAM:TIGR01243;NCBIFAM:TIGR03689</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00004;PFAM:PF01434;PFAM:PF06480;PFAM:PF17862</td>
+      <td>PFAM:PF00004;PFAM:PF01434;PFAM:PF06480;PFAM:PF17862</td>
+      <td>PFAM:PF00004;PFAM:PF01434;PFAM:PF06480;PFAM:PF17862</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00004;PFAM:PF01434;PFAM:PF06480;PFAM:PF17862</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00004;PFAM:PF01434;PFAM:PF06480;PFAM:PF17862</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00382</td>
+      <td>SMART:SM00382</td>
+      <td>SMART:SM00382</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 84 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0465</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MU6J@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RME8@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMUM@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0465@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0465@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000166</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004175</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004176</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004222</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005524</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005887</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006508</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008233</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008270</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009057</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016021</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016462</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016817</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016818</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016887</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0017076</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0017111</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019538</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030145</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030163</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030554</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031224</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031226</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032553</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032555</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032559</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032991</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0035639</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036094</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043167</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043169</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043170</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043273</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044425</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044459</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046872</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046914</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070011</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097367</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0140096</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901265</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901565</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko03110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03798</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00742</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>AAA</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>FtsH_ext</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Peptidase_M41</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>502347.ESCAB7627_0547</td>
+      <td>ftsH</td>
+      <td>Acts as a processive, ATP-dependent zinc metallopeptidase for both cytoplasmic and membrane proteins. Plays a role in the quality control of integral membrane proteins</td>
+      <td>1255.0</td>
+      <td>0.0</td>
+      <td>99.4</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>647</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:3.4.24.-</td>
+      <td>KEGG:K03798</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03798</td>
+      <td></td>
+      <td>cell division protease FtsH [EC:3.4.24.-]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K03798</td>
+      <td>cell division protease FtsH [EC:3.4.24.-]</td>
+      <td>above_threshold</td>
+      <td>951.7</td>
+      <td>767.47</td>
+      <td>1.1e-286</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 40 annotation rows, 23 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd19501</td>
+      <td></td>
+      <td>RecA-like_FtsH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.8.60:FF:000001</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.20.58.760:FF:000001</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.720.210:FF:000001</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.300:FF:000001</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.8.60</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.20.58.760</td>
+      <td></td>
+      <td>Peptidase M41</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.720.210</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.300</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004176</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.20.58.760","interpro_accession":"IPR037219","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_01458","interpro_accession":"IPR005936","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01241","interpro_accession":"IPR005936","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR23076","interpro_accession":"","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF01434","interpro_accession":"IPR000642","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF06480","interpro_accession":"IPR011546","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF140990","interpro_accession":"IPR037219","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004222</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.20.58.760","interpro_accession":"IPR037219","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_01458","interpro_accession":"IPR005936","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01241","interpro_accession":"IPR005936","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01434","interpro_accession":"IPR000642","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF06480","interpro_accession":"IPR011546","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF140990","interpro_accession":"IPR037219","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005524</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.20.58.760","interpro_accession":"IPR037219","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00004","interpro_accession":"IPR003959","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF01434","interpro_accession":"IPR000642","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF06480","interpro_accession":"IPR011546","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00674","interpro_accession":"IPR003960","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF140990","interpro_accession":"IPR037219","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR23076","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006508</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.20.58.760","interpro_accession":"IPR037219","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR23076","interpro_accession":"","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF01434","interpro_accession":"IPR000642","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF140990","interpro_accession":"IPR037219","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008270</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF06480","interpro_accession":"IPR011546","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01458","interpro_accession":"IPR005936","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01241","interpro_accession":"IPR005936","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF06480","interpro_accession":"IPR011546","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016887</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00004","interpro_accession":"IPR003959","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00674","interpro_accession":"IPR003960","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0030163</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR23076","interpro_accession":"","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_01458</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH [ftsH].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR000642</td>
+      <td></td>
+      <td>Peptidase M41</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003593</td>
+      <td></td>
+      <td>AAA+ ATPase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003959</td>
+      <td></td>
+      <td>ATPase, AAA-type, core</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003960</td>
+      <td></td>
+      <td>ATPase, AAA-type, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005936</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease, FtsH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR011546</td>
+      <td></td>
+      <td>Peptidase M41, FtsH extracellular</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR027417</td>
+      <td></td>
+      <td>P-loop containing nucleoside triphosphate hydrolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR037219</td>
+      <td></td>
+      <td>Peptidase M41-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR041569</td>
+      <td></td>
+      <td>AAA ATPase, AAA+ lid domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>MOBIDBLITE</td>
+      <td>MOBIDBLITE:mobidb-lite</td>
+      <td></td>
+      <td>consensus disorder prediction</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF008004</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01241</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR23076</td>
+      <td></td>
+      <td>METALLOPROTEASE M41 FTSH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00004</td>
+      <td></td>
+      <td>ATPase family associated with various cellular activities (AAA)</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01434</td>
+      <td></td>
+      <td>Peptidase family M41</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF06480</td>
+      <td></td>
+      <td>FtsH Extracellular</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF17862</td>
+      <td></td>
+      <td>AAA+ lid domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00674</td>
+      <td></td>
+      <td>AAA-protein family signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00382</td>
+      <td></td>
+      <td>AAA_5</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF140990</td>
+      <td></td>
+      <td>FtsH protease domain-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52540</td>
+      <td></td>
+      <td>P-loop containing nucleoside triphosphate hydrolases</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd19501</td>
+      <td>RecA-like_FtsH</td>
+      <td>2.63095E-128</td>
+      <td>152</td>
+      <td>322</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.8.60:FF:000001</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>1.4E-34</td>
+      <td>325</td>
+      <td>399</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.58.760:FF:000001</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>2.0E-90</td>
+      <td>400</td>
+      <td>601</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.720.210:FF:000001</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>3.5E-47</td>
+      <td>27</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.300:FF:000001</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>2.4E-102</td>
+      <td>141</td>
+      <td>323</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.8.60</td>
+      <td></td>
+      <td>1.3E-27</td>
+      <td>325</td>
+      <td>398</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.58.760</td>
+      <td>Peptidase M41</td>
+      <td>2.3E-74</td>
+      <td>399</td>
+      <td>602</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.720.210</td>
+      <td></td>
+      <td>2.6E-26</td>
+      <td>27</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.300</td>
+      <td></td>
+      <td>2.2E-72</td>
+      <td>144</td>
+      <td>323</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_01458</td>
+      <td>ATP-dependent zinc metalloprotease FtsH [ftsH].</td>
+      <td>37.489616</td>
+      <td>6</td>
+      <td>615</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>601</td>
+      <td>647</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>635</td>
+      <td>647</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF008004</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>0.0</td>
+      <td>4</td>
+      <td>647</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01241</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>0.0</td>
+      <td>12</td>
+      <td>592</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR23076</td>
+      <td>METALLOPROTEASE M41 FTSH</td>
+      <td>0.0</td>
+      <td>42</td>
+      <td>596</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00004</td>
+      <td>ATPase family associated with various cellular activities (AAA)</td>
+      <td>5.7E-44</td>
+      <td>191</td>
+      <td>323</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF01434</td>
+      <td>Peptidase family M41</td>
+      <td>6.2E-70</td>
+      <td>404</td>
+      <td>594</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF06480</td>
+      <td>FtsH Extracellular</td>
+      <td>8.8E-17</td>
+      <td>8</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF17862</td>
+      <td>AAA+ lid domain</td>
+      <td>2.8E-8</td>
+      <td>346</td>
+      <td>390</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00674</td>
+      <td>AAA-protein family signature.</td>
+      <td></td>
+      <td>294</td>
+      <td>312</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00382</td>
+      <td>AAA_5</td>
+      <td>1.9E-26</td>
+      <td>187</td>
+      <td>326</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF140990</td>
+      <td>FtsH protease domain-like</td>
+      <td>3.79E-73</td>
+      <td>405</td>
+      <td>605</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52540</td>
+      <td>P-loop containing nucleoside triphosphate hydrolases</td>
+      <td>7.38E-73</td>
+      <td>144</td>
+      <td>394</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 69 annotation rows, 133 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00009</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01120</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19481</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19501</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19502</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19503</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19504</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19505</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19507</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19509</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19510</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19511</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19512</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19517</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19518</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19519</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19520</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19521</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19522</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19523</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19524</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19525</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19526</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19527</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19528</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19529</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd19530</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00176</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00195</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03992</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10733</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00361</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00454</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0464</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0465</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1222</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1223</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0651</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0652</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0726</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0727</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0728</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0729</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0730</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0731</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0732</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0733</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0734</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0735</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0736</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0737</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0738</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0739</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0740</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0741</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0742</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0743</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041006</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01241</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01242</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01243</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03689</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00004</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01434</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF06480</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF17862</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00382</td>
+      <td></td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00176</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>657.0</td>
+      <td>6.3e-198</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00195</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>110.4</td>
+      <td>2.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0464</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>302.6</td>
+      <td>2.1e-90</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0465</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>903.5</td>
+      <td>1.5e-272</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1222</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>348.1</td>
+      <td>1.8e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1223</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>193.8</td>
+      <td>7.9e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0651</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>186.1</td>
+      <td>2e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0652</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>224.1</td>
+      <td>8e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0726</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>225.2</td>
+      <td>3.9e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0727</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>209.5</td>
+      <td>1.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0728</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>213.4</td>
+      <td>1.3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0729</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>235.1</td>
+      <td>3.5e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0730</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>290.8</td>
+      <td>5.4e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0731</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>703.5</td>
+      <td>1e-211</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0732</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>125.0</td>
+      <td>6.4e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0733</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>258.9</td>
+      <td>2.4e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0734</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>705.2</td>
+      <td>3.1e-212</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0735</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>216.4</td>
+      <td>1.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0736</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>210.4</td>
+      <td>1.4e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0737</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>176.5</td>
+      <td>2.2e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0738</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>191.9</td>
+      <td>5.8e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0739</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>153.6</td>
+      <td>1.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0740</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>145.6</td>
+      <td>4.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0741</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>149.2</td>
+      <td>3.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0742</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>66.3</td>
+      <td>4.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0743</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>55.3</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041006</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>134.6</td>
+      <td>8.9e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03992</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>308.9</td>
+      <td>1.2e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10733</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>1510.4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00361</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>211.7</td>
+      <td>4.2e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00454</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>216.8</td>
+      <td>9.4e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01241</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>824.2</td>
+      <td>8.3e-249</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01242</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>278.3</td>
+      <td>2.1e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01243</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>249.5</td>
+      <td>1.5e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03689</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>145.5</td>
+      <td>4.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00009</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>119.4</td>
+      <td>2.3e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01120</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>45.3</td>
+      <td>2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19481</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>190.3</td>
+      <td>4.8e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19501</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>312.2</td>
+      <td>1.7e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19502</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>195.8</td>
+      <td>1.3e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19503</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>171.7</td>
+      <td>2.3e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19504</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>95.0</td>
+      <td>8.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19505</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>56.2</td>
+      <td>9.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19507</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>82.0</td>
+      <td>1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19509</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>129.1</td>
+      <td>3.5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19510</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>56.6</td>
+      <td>6.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19511</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>181.6</td>
+      <td>2.2e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19512</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>54.8</td>
+      <td>1.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19517</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>118.6</td>
+      <td>4.8e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19518</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>150.9</td>
+      <td>5.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19519</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>165.0</td>
+      <td>2.6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19520</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>107.5</td>
+      <td>1.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19521</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>112.0</td>
+      <td>6.8e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19522</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>97.4</td>
+      <td>1.6e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19523</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>64.2</td>
+      <td>2.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19524</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>107.9</td>
+      <td>9.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19525</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>109.8</td>
+      <td>2.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19526</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>142.4</td>
+      <td>2.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19527</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>148.2</td>
+      <td>3.8e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19528</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>171.1</td>
+      <td>3.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19529</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>174.4</td>
+      <td>3.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19530</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>167.6</td>
+      <td>4.2e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00004</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>161.4</td>
+      <td>3.2e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01434</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>248.7</td>
+      <td>8.9e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam06480</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>74.5</td>
+      <td>1.5e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam17862</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>45.7</td>
+      <td>8.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00382</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>98.5</td>
+      <td>7.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00176</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>657.0</td>
+      <td>6.3e-198</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00195</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>110.4</td>
+      <td>2.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0464</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>302.6</td>
+      <td>2.1e-90</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0465</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>903.5</td>
+      <td>1.5e-272</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1222</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>348.1</td>
+      <td>1.8e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1223</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>193.8</td>
+      <td>7.9e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0651</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>186.1</td>
+      <td>2e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0652</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>224.1</td>
+      <td>8e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0726</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>225.2</td>
+      <td>3.9e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0727</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>209.5</td>
+      <td>1.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0728</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>213.4</td>
+      <td>1.3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0729</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>235.1</td>
+      <td>3.5e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0730</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>290.8</td>
+      <td>5.4e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0731</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>703.5</td>
+      <td>1e-211</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0732</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>125.0</td>
+      <td>6.4e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0733</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>258.9</td>
+      <td>2.4e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0734</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>705.2</td>
+      <td>3.1e-212</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0735</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>216.4</td>
+      <td>1.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0736</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>210.4</td>
+      <td>1.4e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0737</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>176.5</td>
+      <td>2.2e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0738</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>191.9</td>
+      <td>5.8e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0739</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>153.6</td>
+      <td>1.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0740</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>145.6</td>
+      <td>4.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0741</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>149.2</td>
+      <td>3.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0742</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>66.3</td>
+      <td>4.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0743</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>55.3</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041006</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>134.6</td>
+      <td>8.9e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03992</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>308.9</td>
+      <td>1.2e-92</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10733</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>1510.4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00361</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>211.7</td>
+      <td>4.2e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00454</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>216.8</td>
+      <td>9.4e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01241</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>824.2</td>
+      <td>8.3e-249</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01242</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>278.3</td>
+      <td>2.1e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01243</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>249.5</td>
+      <td>1.5e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03689</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>145.5</td>
+      <td>4.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00009</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>119.4</td>
+      <td>2.3e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01120</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>45.3</td>
+      <td>2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19481</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>190.3</td>
+      <td>4.8e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19501</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>312.2</td>
+      <td>1.7e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19502</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>195.8</td>
+      <td>1.3e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19503</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>171.7</td>
+      <td>2.3e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19504</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>95.0</td>
+      <td>8.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19505</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>56.2</td>
+      <td>9.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19507</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>82.0</td>
+      <td>1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19509</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>129.1</td>
+      <td>3.5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19510</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>56.6</td>
+      <td>6.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19511</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>181.6</td>
+      <td>2.2e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19512</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>54.8</td>
+      <td>1.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19517</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>118.6</td>
+      <td>4.8e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19518</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>150.9</td>
+      <td>5.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19519</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>165.0</td>
+      <td>2.6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19520</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>107.5</td>
+      <td>1.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19521</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>112.0</td>
+      <td>6.8e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19522</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>97.4</td>
+      <td>1.6e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19523</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>64.2</td>
+      <td>2.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19524</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>107.9</td>
+      <td>9.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19525</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>109.8</td>
+      <td>2.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19526</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>142.4</td>
+      <td>2.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19527</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>148.2</td>
+      <td>3.8e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19528</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>171.1</td>
+      <td>3.8e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19529</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>174.4</td>
+      <td>3.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd19530</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>167.6</td>
+      <td>4.2e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00004</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>161.4</td>
+      <td>3.2e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam17862</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>45.7</td>
+      <td>8.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00382</td>
+      <td>ATP-dependent zinc metalloprotease FtsH</td>
+      <td>98.5</td>
+      <td>7.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.6247695</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

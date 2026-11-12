@@ -1,0 +1,2222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00041</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00041</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>crotonobetainyl-CoA dehydrogenase [EC:1.3.8.13]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K08297</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K08297</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.3.8.13</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00249</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K04117</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K08297</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K11731</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.3.8.13</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.3.8.7</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00249</td>
+      <td>EC:1.3.8.13</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00249</td>
+      <td>EC:1.3.8.7</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K04117</td>
+      <td>EC:1.3.8.13</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K04117</td>
+      <td>EC:1.3.8.7</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K08297</td>
+      <td>EC:1.3.8.13</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K08297</td>
+      <td>EC:1.3.8.7</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K11731</td>
+      <td>EC:1.3.8.13</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K11731</td>
+      <td>EC:1.3.8.7</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.3.8.13</td>
+      <td>GO:0003995</td>
+      <td>GO:0003995</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.3.8.13</td>
+      <td>GO:0016627</td>
+      <td>GO:0016627</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.3.8.13</td>
+      <td>GO:0050660</td>
+      <td>GO:0050660</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.3.8.7</td>
+      <td>GO:0003995</td>
+      <td>GO:0003995</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.3.8.7</td>
+      <td>GO:0016627</td>
+      <td>GO:0016627</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.3.8.7</td>
+      <td>GO:0050660</td>
+      <td>GO:0050660</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|39244|40386|-</td></tr><tr><th>protein_id</th><td>KOIAIB_00041</td></tr><tr><th>product</th><td>Crotonobetainyl-CoA reductase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>39244</td></tr><tr><th>stop</th><td>40386</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_438</td></tr><tr><th>locus_tag</th><td>KOIAIB_00041</td></tr><tr><th>aa_md5</th><td>fa68e48e0f4f5f7e3a1b394e6ac0e47f</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>I</td></tr><tr><th>GO</th><td>GO:0003995; GO:0009437; GO:0016627; GO:0050660</td></tr><tr><th>EC</th><td>EC:1.3.8.13; EC:1.3.8.7</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00249; KEGG:K04117; KEGG:K08297; KEGG:K11731</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>26 values</summary><ul class="value-list"><li>KEGG:ko00071</li><li>KEGG:ko00280</li><li>KEGG:ko00281</li><li>KEGG:ko00362</li><li>KEGG:ko00410</li><li>KEGG:ko00640</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01120</li><li>KEGG:ko01130</li><li>KEGG:ko01200</li><li>KEGG:ko01212</li><li>KEGG:ko03320</li><li>KEGG:map00071</li><li>KEGG:map00280</li><li>KEGG:map00281</li><li>KEGG:map00362</li><li>KEGG:map00410</li><li>KEGG:map00640</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01120</li><li>KEGG:map01130</li><li>KEGG:map01200</li><li>KEGG:map01212</li><li>KEGG:map03320</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00013; KEGG:M00036; KEGG:M00087; KEGG:M00540</td></tr><tr><th>KEGG_REACTION</th><td><details class="value-details"><summary>14 values</summary><ul class="value-list"><li>KEGG:R00924</li><li>KEGG:R01175</li><li>KEGG:R01279</li><li>KEGG:R02661</li><li>KEGG:R03172</li><li>KEGG:R03777</li><li>KEGG:R03857</li><li>KEGG:R03990</li><li>KEGG:R04095</li><li>KEGG:R04432</li><li>KEGG:R04751</li><li>KEGG:R04754</li><li>KEGG:R05619</li><li>KEGG:R08089</li></ul></details></td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>9 values</summary><ul class="value-list"><li>INTERPRO:IPR006089</li><li>INTERPRO:IPR006091</li><li>INTERPRO:IPR009075</li><li>INTERPRO:IPR009100</li><li>INTERPRO:IPR013786</li><li>INTERPRO:IPR023450</li><li>INTERPRO:IPR036250</li><li>INTERPRO:IPR037069</li><li>INTERPRO:IPR046373</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00441; PFAM:PF02770; PFAM:PF02771; PFAM:PF08028</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>1</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd00567</td>
+      <td>CDD:cd00567;CDD:cd01151;CDD:cd01152;CDD:cd01153;CDD:cd01154;CDD:cd01155;CDD:cd01156;CDD:cd01157;CDD:cd01158;CDD:cd01159;CDD:cd01160;CDD:cd01161;CDD:cd01162;CDD:cd01163</td>
+      <td>CDD:cd00567</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1960</td>
+      <td>COG:COG1960</td>
+      <td>COG:COG1960</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.3.8.13</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.3.8.13;EC:1.3.8.7</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.3.8.13;EC:1.3.8.7</td>
+      <td>EC:1.3.8.13</td>
+      <td>EC:1.3.8.13</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>GO:0003995;GO:0009437;GO:0016627;GO:0050660</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00249;KEGG:K04117;KEGG:K08297;KEGG:K11731</td>
+      <td>KEGG:K08297</td>
+      <td>KEGG:K08297</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF002885</td>
+      <td>NCBIFAM:NF037942;NCBIFAM:TIGR03203;NCBIFAM:TIGR03204;NCBIFAM:TIGR03207;NCBIFAM:TIGR04022</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF002885</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF037942;NCBIFAM:TIGR03203;NCBIFAM:TIGR03204;NCBIFAM:TIGR03207;NCBIFAM:TIGR04022</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00441;PFAM:PF02770;PFAM:PF02771</td>
+      <td>PFAM:PF00441;PFAM:PF02770;PFAM:PF02771;PFAM:PF08028</td>
+      <td>PFAM:PF00441;PFAM:PF02770;PFAM:PF02771</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00441;PFAM:PF02770;PFAM:PF02771</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00441;PFAM:PF02770;PFAM:PF02771;PFAM:PF08028</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 72 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1960</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>I</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.3.8.13</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.3.8.7</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MUDR@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMMJ@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XPD4@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1960@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1960@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K04117</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K08297</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K11731</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00013</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00036</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00087</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00540</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00280</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00410</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00640</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01200</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01212</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko03320</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00071</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00280</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00410</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00640</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01200</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01212</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map03320</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00052</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00068</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00076</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00095</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00148</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00246</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC01893</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC02035</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00924</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01175</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01279</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02661</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R03172</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R03777</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R03857</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R03990</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04095</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04432</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04751</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04754</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05619</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R08089</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Acyl-CoA_dh_1</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Acyl-CoA_dh_M</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Acyl-CoA_dh_N</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>155864.EDL933_0040</td>
+      <td>caiA</td>
+      <td>Catalyzes the reduction of crotonobetainyl-CoA to gamma- butyrobetainyl-CoA</td>
+      <td>769.0</td>
+      <td>5.06e-282</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>380</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.3.8.13</td>
+      <td>KEGG:K08297</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K08297</td>
+      <td></td>
+      <td>crotonobetainyl-CoA dehydrogenase [EC:1.3.8.13]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K08297</td>
+      <td>crotonobetainyl-CoA dehydrogenase [EC:1.3.8.13]</td>
+      <td>above_threshold</td>
+      <td>753.1</td>
+      <td>547.63</td>
+      <td>1.2e-227</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 31 annotation rows, 18 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd00567</td>
+      <td></td>
+      <td>ACAD</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.540.10:FF:000005</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.20.140.10:FF:000001</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:2.40.110.10:FF:000002</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase fadE12</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.540.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.20.140.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:2.40.110.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003995</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43884","interpro_accession":"","mapping_source":"PANTHER"},{"analysis":"ProSitePatterns","signature_accession":"PS00072","interpro_accession":"IPR006089","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00073","interpro_accession":"IPR006089","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0009437</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_01052","interpro_accession":"IPR023450","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016627</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.10.540.10","interpro_accession":"IPR037069","mapping_source":"InterPro"},{"analysis":"Gene3D","signature_accession":"G3DSA:2.40.110.10","interpro_accession":"IPR046373","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_01052","interpro_accession":"IPR023450","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00441","interpro_accession":"IPR009075","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF02770","interpro_accession":"IPR006091","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF02771","interpro_accession":"IPR013786","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF47203","interpro_accession":"IPR036250","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF56645","interpro_accession":"IPR009100","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0050660</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.10.540.10","interpro_accession":"IPR037069","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF02771","interpro_accession":"IPR013786","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_01052</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase [caiA].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006089</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006091</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase/oxidase, middle domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR009075</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase/oxidase, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR009100</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase/oxidase, N-terminal and middle domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013786</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase/oxidase, N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023450</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase CaiA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036250</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase-like, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR037069</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase/oxidase, N-terminal domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR046373</td>
+      <td></td>
+      <td>Acyl-CoA oxidase/dehydrogenase, middle domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF002885</td>
+      <td></td>
+      <td>crotonobetainyl-CoA dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43884</td>
+      <td></td>
+      <td>ACYL-COA DEHYDROGENASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00441</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02770</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase, middle domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02771</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase, N-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF016578</td>
+      <td></td>
+      <td>PIGM</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00072</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenases signature 1.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00073</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenases signature 2.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF47203</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase C-terminal domain-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56645</td>
+      <td></td>
+      <td>Acyl-CoA dehydrogenase NM domain-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd00567</td>
+      <td>ACAD</td>
+      <td>1.17634E-103</td>
+      <td>7</td>
+      <td>373</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.540.10:FF:000005</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>8.2E-79</td>
+      <td>1</td>
+      <td>117</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.140.10:FF:000001</td>
+      <td>Acyl-CoA dehydrogenase</td>
+      <td>5.3E-50</td>
+      <td>232</td>
+      <td>376</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:2.40.110.10:FF:000002</td>
+      <td>Acyl-CoA dehydrogenase fadE12</td>
+      <td>4.2E-37</td>
+      <td>121</td>
+      <td>231</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.540.10</td>
+      <td></td>
+      <td>5.2E-19</td>
+      <td>1</td>
+      <td>117</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.140.10</td>
+      <td></td>
+      <td>4.2E-41</td>
+      <td>234</td>
+      <td>379</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:2.40.110.10</td>
+      <td></td>
+      <td>8.9E-27</td>
+      <td>122</td>
+      <td>233</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_01052</td>
+      <td>Crotonobetainyl-CoA reductase [caiA].</td>
+      <td>89.541122</td>
+      <td>1</td>
+      <td>380</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF002885</td>
+      <td>crotonobetainyl-CoA dehydrogenase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>380</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43884</td>
+      <td>ACYL-COA DEHYDROGENASE</td>
+      <td>8.1E-81</td>
+      <td>3</td>
+      <td>378</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF016578</td>
+      <td>PIGM</td>
+      <td>1.8E-16</td>
+      <td>29</td>
+      <td>358</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00441</td>
+      <td>Acyl-CoA dehydrogenase, C-terminal domain</td>
+      <td>3.0E-44</td>
+      <td>227</td>
+      <td>376</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF02770</td>
+      <td>Acyl-CoA dehydrogenase, middle domain</td>
+      <td>4.8E-21</td>
+      <td>123</td>
+      <td>215</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF02771</td>
+      <td>Acyl-CoA dehydrogenase, N-terminal domain</td>
+      <td>9.9E-12</td>
+      <td>6</td>
+      <td>109</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00072</td>
+      <td>Acyl-CoA dehydrogenases signature 1.</td>
+      <td></td>
+      <td>123</td>
+      <td>135</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00073</td>
+      <td>Acyl-CoA dehydrogenases signature 2.</td>
+      <td></td>
+      <td>334</td>
+      <td>353</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF47203</td>
+      <td>Acyl-CoA dehydrogenase C-terminal domain-like</td>
+      <td>1.93E-45</td>
+      <td>226</td>
+      <td>379</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56645</td>
+      <td>Acyl-CoA dehydrogenase NM domain-like</td>
+      <td>3.27E-52</td>
+      <td>1</td>
+      <td>227</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 41 annotation rows, 78 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00567</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01151</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01152</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01153</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01154</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01155</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01156</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01157</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01158</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01159</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01160</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01161</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01162</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01163</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02519</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02526</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02876</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03354</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09463</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11561</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12341</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13026</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00461</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1960</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0137</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0138</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0139</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0140</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0141</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1469</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF037942</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03203</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03204</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03207</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR04022</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00441</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02770</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02771</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF08028</td>
+      <td></td>
+      <td>Crotonobetainyl-CoA reductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1960</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>350.6</td>
+      <td>2.1e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0137</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>161.0</td>
+      <td>8.4e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0138</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>128.9</td>
+      <td>4.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0139</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>218.1</td>
+      <td>4.3e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0140</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>209.2</td>
+      <td>1.9e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0141</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>224.8</td>
+      <td>3.8e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1469</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>83.7</td>
+      <td>2.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF037942</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>59.0</td>
+      <td>7.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02519</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>177.4</td>
+      <td>1e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02526</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>129.2</td>
+      <td>3.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02876</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>90.9</td>
+      <td>1.3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03354</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>843.4</td>
+      <td>4.2e-255</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09463</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>59.6</td>
+      <td>3.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11561</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>69.3</td>
+      <td>4.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12341</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>463.8</td>
+      <td>9.6e-140</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13026</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>48.3</td>
+      <td>1.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00461</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>138.9</td>
+      <td>5.1e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03203</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>60.0</td>
+      <td>4.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03204</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>53.7</td>
+      <td>3.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03207</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>132.9</td>
+      <td>2.6e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04022</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>65.2</td>
+      <td>1.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00567</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>358.5</td>
+      <td>7.5e-108</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01151</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>155.4</td>
+      <td>4.9e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01152</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>144.5</td>
+      <td>8.3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01153</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>144.1</td>
+      <td>1.4e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01154</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>96.0</td>
+      <td>4.5e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01155</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>94.8</td>
+      <td>1.2e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01156</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>228.3</td>
+      <td>2.5e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01157</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>165.9</td>
+      <td>2.9e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01158</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>255.0</td>
+      <td>2.5e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01159</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>51.0</td>
+      <td>2.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01160</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>210.4</td>
+      <td>9.9e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01161</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>192.2</td>
+      <td>3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01162</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>189.5</td>
+      <td>1.8e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01163</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>95.4</td>
+      <td>7.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00441</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>161.2</td>
+      <td>4.3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02770</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>84.9</td>
+      <td>7.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02771</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>57.7</td>
+      <td>3.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam08028</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>58.4</td>
+      <td>2.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1960</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>350.6</td>
+      <td>2.1e-105</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0137</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>161.0</td>
+      <td>8.4e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0138</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>128.9</td>
+      <td>4.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0139</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>218.1</td>
+      <td>4.3e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0140</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>209.2</td>
+      <td>1.9e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0141</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>224.8</td>
+      <td>3.8e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1469</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>83.7</td>
+      <td>2.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF037942</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>59.0</td>
+      <td>7.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02519</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>177.4</td>
+      <td>1e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02526</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>129.2</td>
+      <td>3.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02876</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>90.9</td>
+      <td>1.3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03354</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>843.4</td>
+      <td>4.2e-255</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09463</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>59.6</td>
+      <td>3.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11561</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>69.3</td>
+      <td>4.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12341</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>463.8</td>
+      <td>9.6e-140</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13026</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>48.3</td>
+      <td>1.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00461</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>138.9</td>
+      <td>5.1e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03203</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>60.0</td>
+      <td>4.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03204</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>53.7</td>
+      <td>3.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03207</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>132.9</td>
+      <td>2.6e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04022</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>65.2</td>
+      <td>1.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00567</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>358.5</td>
+      <td>7.5e-108</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01151</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>155.4</td>
+      <td>4.9e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01152</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>144.5</td>
+      <td>8.3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01153</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>144.1</td>
+      <td>1.4e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01154</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>96.0</td>
+      <td>4.5e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01155</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>94.8</td>
+      <td>1.2e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01156</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>228.3</td>
+      <td>2.5e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01157</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>165.9</td>
+      <td>2.9e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01158</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>255.0</td>
+      <td>2.5e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01159</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>51.0</td>
+      <td>2.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01160</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>210.4</td>
+      <td>9.9e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01161</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>192.2</td>
+      <td>3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01162</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>189.5</td>
+      <td>1.8e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01163</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>95.4</td>
+      <td>7.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00441</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>161.2</td>
+      <td>4.3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02770</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>84.9</td>
+      <td>7.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02771</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>57.7</td>
+      <td>3.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam08028</td>
+      <td>Crotonobetainyl-CoA reductase</td>
+      <td>58.4</td>
+      <td>2.1e-16</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

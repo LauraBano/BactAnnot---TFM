@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00155</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00155</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>ATP-dependent RNA helicase HrpB [EC:5.6.2.6]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K03579</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K03579</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03579</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.6.4.13</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:5.6.2.6</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td>derived_from_ko</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K03579</td>
+      <td>EC:3.6.4.13</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K03579</td>
+      <td>EC:5.6.2.6</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:3.6.4.13</td>
+      <td>GO:0003676</td>
+      <td>GO:0003676</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.4.13</td>
+      <td>GO:0004386</td>
+      <td>GO:0004386</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.4.13</td>
+      <td>GO:0005524</td>
+      <td>GO:0005524</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.6.2.6</td>
+      <td>GO:0003676</td>
+      <td>GO:0003676</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.6.2.6</td>
+      <td>GO:0004386</td>
+      <td>GO:0004386</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.6.2.6</td>
+      <td>GO:0005524</td>
+      <td>GO:0005524</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|162105|164534|+</td></tr><tr><th>protein_id</th><td>KOIAIB_00155</td></tr><tr><th>gene</th><td>hrpB</td></tr><tr><th>product</th><td>ATP-dependent RNA helicase HrpB</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>162105</td></tr><tr><th>stop</th><td>164534</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_544</td></tr><tr><th>locus_tag</th><td>KOIAIB_00155</td></tr><tr><th>aa_md5</th><td>8f8db7ee930adc1f95897e626122641e</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>GTG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>L</td></tr><tr><th>GO</th><td>GO:0003676; GO:0004386; GO:0005524</td></tr><tr><th>EC</th><td>EC:3.6.4.13; EC:5.6.2.6</td></tr><tr><th>KEGG_KO</th><td>KEGG:K03579</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>9 values</summary><ul class="value-list"><li>INTERPRO:IPR001650</li><li>INTERPRO:IPR007502</li><li>INTERPRO:IPR010225</li><li>INTERPRO:IPR011545</li><li>INTERPRO:IPR013689</li><li>INTERPRO:IPR014001</li><li>INTERPRO:IPR027417</li><li>INTERPRO:IPR049614</li><li>INTERPRO:IPR056329</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00270; PFAM:PF00271; PFAM:PF08482; PFAM:PF24473</td></tr><tr><th>SMART</th><td>SMART:SM00487; SMART:SM00490; SMART:SM00847</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>3</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd17990;CDD:cd18791</td>
+      <td>CDD:cd00046;CDD:cd17917;CDD:cd17921;CDD:cd17971;CDD:cd17972;CDD:cd17973;CDD:cd17974;CDD:cd17975;CDD:cd17976;CDD:cd17977;CDD:cd17978;CDD:cd17979;CDD:cd17980;CDD:cd17981;CDD:cd17982;CDD:cd17983;CDD:cd17984;CDD:cd17985;CDD:cd17986;CDD:cd17987;CDD:cd17988;CDD:cd17989;CDD:cd17990;CDD:cd18791</td>
+      <td>CDD:cd17990;CDD:cd18791</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1643</td>
+      <td>COG:COG1643</td>
+      <td>COG:COG1643</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:5.6.2.6</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:3.6.4.13</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:3.6.4.13</td>
+      <td>EC:5.6.2.6</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>GO:0003676;GO:0004386;GO:0005524</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K03579</td>
+      <td>KEGG:K03579</td>
+      <td>KEGG:K03579</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF008662;NCBIFAM:TIGR01970</td>
+      <td>NCBIFAM:TIGR01967;NCBIFAM:TIGR01970</td>
+      <td>NCBIFAM:TIGR01970</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF008662;NCBIFAM:TIGR01970</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01967;NCBIFAM:TIGR01970</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00270;PFAM:PF00271;PFAM:PF08482;PFAM:PF24473</td>
+      <td>PFAM:PF00270</td>
+      <td>PFAM:PF00270</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00270;PFAM:PF00271;PFAM:PF08482;PFAM:PF24473</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00270</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00487;SMART:SM00490;SMART:SM00847</td>
+      <td>SMART:SM00487;SMART:SM00490;SMART:SM00847</td>
+      <td>SMART:SM00487;SMART:SM00490;SMART:SM00847</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 15 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1643</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.6.4.13</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MUEQ@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RR1B@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XN52@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1643@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1643@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03579</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>DEAD</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>HA2</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Helicase_C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>HrpB_C</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674354</td>
+      <td>hrpB</td>
+      <td>ATP-dependent helicase activity</td>
+      <td>1562.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>809</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:5.6.2.6</td>
+      <td>KEGG:K03579</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K03579</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB [EC:5.6.2.6]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K03579</td>
+      <td>ATP-dependent RNA helicase HrpB [EC:5.6.2.6]</td>
+      <td>above_threshold</td>
+      <td>1030.2</td>
+      <td>586.00</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 32 annotation rows, 21 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd17990</td>
+      <td></td>
+      <td>DEXHc_HrpB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd18791</td>
+      <td></td>
+      <td>SF2_C_RHA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.300:FF:002125</td>
+      <td></td>
+      <td>ATP-dependent helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.20.120.1080</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.300</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003676</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00270","interpro_accession":"IPR011545","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004386</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR01970","interpro_accession":"IPR010225","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF005496","interpro_accession":"IPR010225","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005524</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00270","interpro_accession":"IPR011545","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001650</td>
+      <td></td>
+      <td>Helicase, C-terminal domain-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR007502</td>
+      <td></td>
+      <td>Helicase-associated domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR010225</td>
+      <td></td>
+      <td>ATP-dependent helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR011545</td>
+      <td></td>
+      <td>DEAD/DEAH-box helicase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013689</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR014001</td>
+      <td></td>
+      <td>Helicase superfamily 1/2, ATP-binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR027417</td>
+      <td></td>
+      <td>P-loop containing nucleoside triphosphate hydrolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR049614</td>
+      <td></td>
+      <td>HrpB, DEXH-box helicase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR056329</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB, connector region</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>MOBIDBLITE</td>
+      <td>MOBIDBLITE:mobidb-lite</td>
+      <td></td>
+      <td>consensus disorder prediction</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF008662</td>
+      <td></td>
+      <td>ATP-dependent helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01970</td>
+      <td></td>
+      <td>ATP-dependent helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43519</td>
+      <td></td>
+      <td>ATP-DEPENDENT RNA HELICASE HRPB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00270</td>
+      <td></td>
+      <td>DEAD/DEAH box helicase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00271</td>
+      <td></td>
+      <td>Helicase conserved C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF08482</td>
+      <td></td>
+      <td>ATP-dependent helicase C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF24473</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB, connector region</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF005496</td>
+      <td></td>
+      <td>ATP_hel_HrpB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS51192</td>
+      <td></td>
+      <td>Superfamilies 1 and 2 helicase ATP-binding type-1 domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS51194</td>
+      <td></td>
+      <td>Superfamilies 1 and 2 helicase C-terminal domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00487</td>
+      <td></td>
+      <td>ultradead3</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00490</td>
+      <td></td>
+      <td>helicmild6</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00847</td>
+      <td></td>
+      <td>ha2_5</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF52540</td>
+      <td></td>
+      <td>P-loop containing nucleoside triphosphate hydrolases</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd17990</td>
+      <td>DEXHc_HrpB</td>
+      <td>4.61664E-78</td>
+      <td>4</td>
+      <td>176</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd18791</td>
+      <td>SF2_C_RHA</td>
+      <td>3.86757E-61</td>
+      <td>181</td>
+      <td>335</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.300:FF:002125</td>
+      <td>ATP-dependent helicase HrpB</td>
+      <td>1.2E-65</td>
+      <td>1</td>
+      <td>179</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.120.1080</td>
+      <td></td>
+      <td>1.4E-9</td>
+      <td>371</td>
+      <td>482</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.300</td>
+      <td></td>
+      <td>2.5E-54</td>
+      <td>1</td>
+      <td>179</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.300</td>
+      <td></td>
+      <td>4.1E-49</td>
+      <td>180</td>
+      <td>347</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>788</td>
+      <td>809</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF008662</td>
+      <td>ATP-dependent helicase HrpB</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>809</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01970</td>
+      <td>ATP-dependent helicase HrpB</td>
+      <td>0.0</td>
+      <td>4</td>
+      <td>808</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43519</td>
+      <td>ATP-DEPENDENT RNA HELICASE HRPB</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>808</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF005496</td>
+      <td>ATP_hel_HrpB</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>808</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00270</td>
+      <td>DEAD/DEAH box helicase</td>
+      <td>1.7E-8</td>
+      <td>21</td>
+      <td>164</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00271</td>
+      <td>Helicase conserved C-terminal domain</td>
+      <td>5.9E-6</td>
+      <td>208</td>
+      <td>327</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF08482</td>
+      <td>ATP-dependent helicase C-terminal</td>
+      <td>1.3E-50</td>
+      <td>664</td>
+      <td>796</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF24473</td>
+      <td>ATP-dependent RNA helicase HrpB, connector region</td>
+      <td>1.6E-10</td>
+      <td>566</td>
+      <td>600</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS51192</td>
+      <td>Superfamilies 1 and 2 helicase ATP-binding type-1 domain profile.</td>
+      <td>20.88958</td>
+      <td>14</td>
+      <td>177</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS51194</td>
+      <td>Superfamilies 1 and 2 helicase C-terminal domain profile.</td>
+      <td>13.566281</td>
+      <td>195</td>
+      <td>368</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00487</td>
+      <td>ultradead3</td>
+      <td>6.4E-21</td>
+      <td>5</td>
+      <td>186</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00490</td>
+      <td>helicmild6</td>
+      <td>6.1E-13</td>
+      <td>230</td>
+      <td>328</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00847</td>
+      <td>ha2_5</td>
+      <td>7.2E-12</td>
+      <td>388</td>
+      <td>476</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF52540</td>
+      <td>P-loop containing nucleoside triphosphate hydrolases</td>
+      <td>2.72E-51</td>
+      <td>12</td>
+      <td>431</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 43 annotation rows, 48 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00046</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17917</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17921</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17971</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17972</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17973</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17974</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17975</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17976</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17977</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17978</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17979</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17980</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17981</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17982</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17983</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17984</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17985</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17986</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17987</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17988</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17989</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd17990</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd18791</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PHA02653</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11131</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11664</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1643</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0920</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0921</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0922</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0923</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0924</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0925</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0926</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01967</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01970</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00270</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00487</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00490</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00847</td>
+      <td></td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00046</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>46.1</td>
+      <td>9.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17917</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>146.2</td>
+      <td>1.5e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17921</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>41.4</td>
+      <td>2.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00270</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>47.1</td>
+      <td>4.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00487</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>86.1</td>
+      <td>4.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00490</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>45.0</td>
+      <td>1.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1643</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>992.9</td>
+      <td>3.5e-299</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0920</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>299.0</td>
+      <td>1.7e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0921</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>99.5</td>
+      <td>2.6e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0922</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>380.7</td>
+      <td>2.9e-114</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0923</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>344.9</td>
+      <td>2.5e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0924</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>319.6</td>
+      <td>1.2e-95</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0925</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>257.1</td>
+      <td>6.3e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0926</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>217.6</td>
+      <td>5.4e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PHA02653</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>47.5</td>
+      <td>1.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11131</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>284.4</td>
+      <td>2.8e-85</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11664</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>1518.0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01967</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>317.1</td>
+      <td>4.9e-95</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01970</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>1300.2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00046</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>46.1</td>
+      <td>9.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17917</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>146.2</td>
+      <td>1.5e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17921</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>41.4</td>
+      <td>2.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17971</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>101.8</td>
+      <td>7.7e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17972</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>84.2</td>
+      <td>2e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17973</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>106.7</td>
+      <td>2.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17974</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>109.3</td>
+      <td>3.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17975</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>85.5</td>
+      <td>9e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17976</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>97.3</td>
+      <td>1.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17977</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>61.5</td>
+      <td>1.5e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17978</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>112.7</td>
+      <td>3.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17979</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>98.0</td>
+      <td>1.1e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17980</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>104.1</td>
+      <td>1.4e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17981</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>82.0</td>
+      <td>9.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17982</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>83.1</td>
+      <td>4.6e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17983</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>101.0</td>
+      <td>1.3e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17984</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>101.2</td>
+      <td>1.4e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17985</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>99.5</td>
+      <td>4.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17986</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>73.9</td>
+      <td>2.8e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17987</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>94.7</td>
+      <td>1.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17988</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>67.2</td>
+      <td>3.5e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17989</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>111.1</td>
+      <td>1.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd17990</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>260.3</td>
+      <td>1.9e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd18791</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>158.5</td>
+      <td>2.8e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00270</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>47.1</td>
+      <td>4.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00487</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>86.1</td>
+      <td>4.4e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00490</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>45.0</td>
+      <td>1.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00847</td>
+      <td>ATP-dependent RNA helicase HrpB</td>
+      <td>47.3</td>
+      <td>4.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.9999999</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

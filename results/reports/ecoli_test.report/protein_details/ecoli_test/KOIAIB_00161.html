@@ -1,0 +1,2916 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00161</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00161</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K01845</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K01845</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:5.4.3.8</td></tr><tr><th>mf_proposal_ids</th><td>GO:0042286</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01845</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:5.4.3.8</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K01845</td>
+      <td>EC:5.4.3.8</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0016853</td>
+      <td>GO:0016853</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0016866</td>
+      <td>GO:0016866</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0016869</td>
+      <td>GO:0016869</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0030170</td>
+      <td>GO:0030170</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0042286</td>
+      <td>GO:0042286</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:5.4.3.8</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|173602|174882|-</td></tr><tr><th>protein_id</th><td>KOIAIB_00161</td></tr><tr><th>product</th><td>Glutamate-1-semialdehyde 2,1-aminomutase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>173602</td></tr><tr><th>stop</th><td>174882</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_550</td></tr><tr><th>locus_tag</th><td>KOIAIB_00161</td></tr><tr><th>aa_md5</th><td>c93a72a28bd021655bc2221b16efd538</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGA</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>H</td></tr><tr><th>GO</th><td><details class="value-details"><summary>41 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0006725</li><li>GO:0006778</li><li>GO:0006779</li><li>GO:0006782</li><li>GO:0006783</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009058</li><li>GO:0009987</li><li>GO:0016853</li><li>GO:0016866</li><li>GO:0016869</li><li>GO:0018130</li><li>GO:0019438</li><li>GO:0030170</li><li>GO:0033013</li><li>GO:0033014</li><li>GO:0034641</li><li>GO:0042168</li><li>GO:0042286</li><li>GO:0042440</li><li>GO:0042802</li><li>GO:0044237</li><li>GO:0044249</li><li>GO:0044271</li><li>GO:0046148</li><li>GO:0046483</li><li>GO:0046501</li><li>GO:0051186</li><li>GO:0051188</li><li>GO:0071704</li><li>GO:1901360</li><li>GO:1901362</li><li>GO:1901564</li><li>GO:1901566</li><li>GO:1901576</li></ul></details></td></tr><tr><th>EC</th><td>EC:5.4.3.8</td></tr><tr><th>KEGG_KO</th><td>KEGG:K01845</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>8 values</summary><ul class="value-list"><li>KEGG:ko00860</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01120</li><li>KEGG:map00860</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01120</li></ul></details></td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00121</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R02272</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR004639; INTERPRO:IPR005814; INTERPRO:IPR015421; INTERPRO:IPR015422; INTERPRO:IPR015424; INTERPRO:IPR049704</td></tr><tr><th>PFAM</th><td>PFAM:PF00202</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>4</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd00610</td>
+      <td>CDD:cd00610</td>
+      <td>CDD:cd00610</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0001</td>
+      <td>COG:COG0001;COG:COG0160;COG:COG0161;COG:COG4992</td>
+      <td>COG:COG0001</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:5.4.3.8</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:5.4.3.8</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:5.4.3.8</td>
+      <td>EC:5.4.3.8</td>
+      <td>EC:5.4.3.8</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005488;GO:0005515;GO:0006725;GO:0006778;GO:0006779;GO:0006782;GO:0006783;GO:0006807;GO:0008150;GO:0008152;GO:0009058;GO:0009987;GO:0016853;GO:0016866;GO:0016869;GO:0018130;GO:0019438;GO:0033013;GO:0033014;GO:0034641;GO:0042168;GO:0042286;GO:0042440;GO:0042802;GO:0044237;GO:0044249;GO:0044271;GO:0046148;GO:0046483;GO:0046501;GO:0051186;GO:0051188;GO:0071704;GO:1901360;GO:1901362;GO:1901564;GO:1901566;GO:1901576</td>
+      <td>GO:0030170;GO:0033014;GO:0042286</td>
+      <td>GO:0033014;GO:0042286</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K01845</td>
+      <td>KEGG:K01845</td>
+      <td>KEGG:K01845</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF000818;NCBIFAM:TIGR00713</td>
+      <td>NCBIFAM:NF041362;NCBIFAM:TIGR00508;NCBIFAM:TIGR00700;NCBIFAM:TIGR00707;NCBIFAM:TIGR00709;NCBIFAM:TIGR00713;NCBIFAM:TIGR01885;NCBIFAM:TIGR02407;NCBIFAM:TIGR03246;NCBIFAM:TIGR03251;NCBIFAM:TIGR03372</td>
+      <td>NCBIFAM:TIGR00713</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF000818;NCBIFAM:TIGR00713</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041362;NCBIFAM:TIGR00508;NCBIFAM:TIGR00700;NCBIFAM:TIGR00707;NCBIFAM:TIGR00709;NCBIFAM:TIGR00713;NCBIFAM:TIGR01885;NCBIFAM:TIGR02407;NCBIFAM:TIGR03246;NCBIFAM:TIGR03251;NCBIFAM:TIGR03372</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00202</td>
+      <td>PFAM:PF00202</td>
+      <td>PFAM:PF00202</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00202</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00202</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 67 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iUMNK88_1353.UMNK88_158</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>H</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:5.4.3.8</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MUY5@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RM7N@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XNJF@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0001@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0001@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006778</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006779</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006782</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006783</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009058</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016853</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016866</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016869</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0018130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019438</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033013</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033014</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042286</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042440</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044249</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044271</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046148</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046501</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051186</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051188</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901362</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901566</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901576</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01007</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01845</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00121</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00860</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00860</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00677</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02272</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Aminotran_3</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674360</td>
+      <td>hemL</td>
+      <td>glutamate-1-semialdehyde 2,1-aminomutase activity</td>
+      <td>855.0</td>
+      <td>2.68e-314</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>426</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:5.4.3.8</td>
+      <td>KEGG:K01845</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01845</td>
+      <td></td>
+      <td>glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K01845</td>
+      <td>glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]</td>
+      <td>above_threshold</td>
+      <td>715.3</td>
+      <td>312.00</td>
+      <td>1.6e-215</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 21 annotation rows, 12 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd00610</td>
+      <td></td>
+      <td>OAT_like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.640.10:FF:000021</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.90.1150.10:FF:000012</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.640.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.90.1150.10</td>
+      <td></td>
+      <td>Aspartate Aminotransferase, domain 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0030170</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00610","interpro_accession":"IPR005814","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00202","interpro_accession":"IPR005814","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0033014</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00375","interpro_accession":"IPR004639","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"NF000818","interpro_accession":"IPR004639","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00713","interpro_accession":"IPR004639","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0042286</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00375","interpro_accession":"IPR004639","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"NF000818","interpro_accession":"IPR004639","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR00713","interpro_accession":"IPR004639","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00375</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase [hemL].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR004639</td>
+      <td></td>
+      <td>Tetrapyrrole biosynthesis, glutamate-1-semialdehyde aminotransferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005814</td>
+      <td></td>
+      <td>Aminotransferase class-III</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015421</td>
+      <td></td>
+      <td>Pyridoxal phosphate-dependent transferase, major domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015422</td>
+      <td></td>
+      <td>Pyridoxal phosphate-dependent transferase, small domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015424</td>
+      <td></td>
+      <td>Pyridoxal phosphate-dependent transferase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR049704</td>
+      <td></td>
+      <td>Aminotransferases class-III pyridoxal-phosphate attachment site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF000818</td>
+      <td></td>
+      <td>glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00713</td>
+      <td></td>
+      <td>glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43713</td>
+      <td></td>
+      <td>GLUTAMATE-1-SEMIALDEHYDE 2,1-AMINOMUTASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00202</td>
+      <td></td>
+      <td>Aminotransferase class-III</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00600</td>
+      <td></td>
+      <td>Aminotransferases class-III pyridoxal-phosphate attachment site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53383</td>
+      <td></td>
+      <td>PLP-dependent transferases</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd00610</td>
+      <td>OAT_like</td>
+      <td>0.0</td>
+      <td>7</td>
+      <td>423</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.640.10:FF:000021</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>0.0</td>
+      <td>69</td>
+      <td>317</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.90.1150.10:FF:000012</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>8.4E-44</td>
+      <td>308</td>
+      <td>419</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.640.10</td>
+      <td></td>
+      <td>0.0</td>
+      <td>69</td>
+      <td>317</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.90.1150.10</td>
+      <td>Aspartate Aminotransferase, domain 1</td>
+      <td>0.0</td>
+      <td>6</td>
+      <td>419</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00375</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase [hemL].</td>
+      <td>108.555756</td>
+      <td>3</td>
+      <td>426</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF000818</td>
+      <td>glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>425</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR00713</td>
+      <td>glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>0.0</td>
+      <td>3</td>
+      <td>425</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43713</td>
+      <td>GLUTAMATE-1-SEMIALDEHYDE 2,1-AMINOMUTASE</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>425</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00202</td>
+      <td>Aminotransferase class-III</td>
+      <td>6.1E-77</td>
+      <td>32</td>
+      <td>395</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00600</td>
+      <td>Aminotransferases class-III pyridoxal-phosphate attachment site.</td>
+      <td></td>
+      <td>234</td>
+      <td>270</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53383</td>
+      <td>PLP-dependent transferases</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>425</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 80 annotation rows, 156 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00610</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN00144</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02482</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02624</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02760</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00062</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00615</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK00854</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK01278</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK02627</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK02936</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03244</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03715</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04013</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04073</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04260</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK04612</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05093</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05639</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05769</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05964</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05965</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06058</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06062</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06082</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06105</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06148</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06149</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06209</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06541</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06777</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06917</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06918</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06931</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06938</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07030</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07036</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07046</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07480</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07481</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07482</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07483</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07495</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07678</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07986</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08088</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08117</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08360</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08593</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09221</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09264</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09792</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11522</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12381</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12389</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12403</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13360</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00125</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0001</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0160</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0161</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4992</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1401</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1402</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1403</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1404</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041362</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00508</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00700</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00707</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00709</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00713</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01885</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02407</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03246</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03251</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03372</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00202</td>
+      <td></td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0001</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>689.7</td>
+      <td>3e-208</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0160</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>236.3</td>
+      <td>1.1e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0161</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>182.6</td>
+      <td>2e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4992</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>227.3</td>
+      <td>5.3e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1401</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>356.5</td>
+      <td>4.5e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1402</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>148.6</td>
+      <td>5e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1403</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>106.1</td>
+      <td>4.3e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1404</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>158.5</td>
+      <td>6e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041362</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>373.3</td>
+      <td>2.9e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00144</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>121.8</td>
+      <td>6.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02482</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>622.5</td>
+      <td>8.3e-188</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02624</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>122.3</td>
+      <td>4.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02760</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>79.0</td>
+      <td>6.4e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00062</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>724.1</td>
+      <td>9.6e-219</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00615</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>392.9</td>
+      <td>3.3e-118</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00854</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>94.7</td>
+      <td>9.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK01278</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>142.6</td>
+      <td>2.9e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02627</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>162.6</td>
+      <td>2.3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02936</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>148.8</td>
+      <td>3.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03244</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>163.0</td>
+      <td>2.1e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03715</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>159.9</td>
+      <td>1.6e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04013</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>125.2</td>
+      <td>7.2e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04073</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>102.4</td>
+      <td>4.4e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04260</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>131.5</td>
+      <td>6.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04612</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>112.0</td>
+      <td>6.8e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05093</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>135.9</td>
+      <td>3.3e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05639</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>81.5</td>
+      <td>1.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05769</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>169.9</td>
+      <td>1.8e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05964</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>130.6</td>
+      <td>1.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05965</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>59.1</td>
+      <td>7.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06058</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>141.5</td>
+      <td>7e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06062</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>145.9</td>
+      <td>2.9e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06082</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>93.2</td>
+      <td>2.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06105</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>76.7</td>
+      <td>2.9e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06148</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>86.0</td>
+      <td>3.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06149</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>95.7</td>
+      <td>4.2e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06209</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>240.5</td>
+      <td>5.8e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06541</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>103.6</td>
+      <td>2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06777</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>156.5</td>
+      <td>1.7e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06917</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>89.4</td>
+      <td>4.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06918</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>145.1</td>
+      <td>4.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06931</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>127.2</td>
+      <td>1.5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06938</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>123.7</td>
+      <td>1.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07030</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>79.6</td>
+      <td>3.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07036</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>82.2</td>
+      <td>7.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07046</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>212.6</td>
+      <td>1.8e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07480</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>84.2</td>
+      <td>1.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07481</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>115.0</td>
+      <td>9.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07482</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>56.5</td>
+      <td>3.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07483</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>113.4</td>
+      <td>2.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07495</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>157.4</td>
+      <td>1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07678</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>75.9</td>
+      <td>5.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07986</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>98.5</td>
+      <td>6.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08088</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>157.8</td>
+      <td>7.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08117</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>188.0</td>
+      <td>5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08360</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>145.9</td>
+      <td>3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08593</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>141.4</td>
+      <td>7.3e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09221</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>122.7</td>
+      <td>3.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09264</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>111.0</td>
+      <td>1.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09792</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>142.9</td>
+      <td>2.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11522</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>136.2</td>
+      <td>2.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12381</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>146.2</td>
+      <td>2.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12389</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>547.7</td>
+      <td>3.4e-165</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12403</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>54.8</td>
+      <td>1.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13360</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>104.5</td>
+      <td>1.2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00125</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>143.2</td>
+      <td>2.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00508</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>139.6</td>
+      <td>2.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00700</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>161.5</td>
+      <td>5.5e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00707</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>179.5</td>
+      <td>1.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00709</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>121.1</td>
+      <td>1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00713</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>706.0</td>
+      <td>3.1e-213</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01885</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>138.6</td>
+      <td>5e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02407</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>92.2</td>
+      <td>5.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03246</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>143.0</td>
+      <td>2.7e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03251</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>71.4</td>
+      <td>1.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03372</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>119.2</td>
+      <td>4.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00610</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>397.1</td>
+      <td>1.7e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00202</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>270.7</td>
+      <td>3.9e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0001</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>689.7</td>
+      <td>3e-208</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0160</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>236.3</td>
+      <td>1.1e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0161</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>182.6</td>
+      <td>2e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4992</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>227.3</td>
+      <td>5.3e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1401</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>356.5</td>
+      <td>4.5e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1402</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>148.6</td>
+      <td>5e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1403</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>106.1</td>
+      <td>4.3e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1404</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>158.5</td>
+      <td>6e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041362</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>373.3</td>
+      <td>2.9e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00144</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>121.8</td>
+      <td>6.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02482</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>622.5</td>
+      <td>8.3e-188</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02624</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>122.3</td>
+      <td>4.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02760</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>79.0</td>
+      <td>6.4e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00062</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>724.1</td>
+      <td>9.6e-219</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00615</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>392.9</td>
+      <td>3.3e-118</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK00854</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>94.7</td>
+      <td>9.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK01278</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>142.6</td>
+      <td>2.9e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02627</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>162.6</td>
+      <td>2.3e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02936</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>148.8</td>
+      <td>3.9e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03244</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>163.0</td>
+      <td>2.1e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03715</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>159.9</td>
+      <td>1.6e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04013</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>125.2</td>
+      <td>7.2e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04073</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>102.4</td>
+      <td>4.4e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04260</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>131.5</td>
+      <td>6.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK04612</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>112.0</td>
+      <td>6.8e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05093</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>135.9</td>
+      <td>3.3e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05639</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>81.5</td>
+      <td>1.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05769</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>169.9</td>
+      <td>1.8e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05964</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>130.6</td>
+      <td>1.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05965</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>59.1</td>
+      <td>7.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06058</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>141.5</td>
+      <td>7e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06062</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>145.9</td>
+      <td>2.9e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06082</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>93.2</td>
+      <td>2.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06105</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>76.7</td>
+      <td>2.9e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06148</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>86.0</td>
+      <td>3.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06149</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>95.7</td>
+      <td>4.2e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06209</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>240.5</td>
+      <td>5.8e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06541</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>103.6</td>
+      <td>2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06777</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>156.5</td>
+      <td>1.7e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06917</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>89.4</td>
+      <td>4.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06918</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>145.1</td>
+      <td>4.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06931</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>127.2</td>
+      <td>1.5e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06938</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>123.7</td>
+      <td>1.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07030</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>79.6</td>
+      <td>3.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07036</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>82.2</td>
+      <td>7.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07046</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>212.6</td>
+      <td>1.8e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07480</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>84.2</td>
+      <td>1.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07481</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>115.0</td>
+      <td>9.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07482</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>56.5</td>
+      <td>3.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07483</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>113.4</td>
+      <td>2.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07495</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>157.4</td>
+      <td>1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07678</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>75.9</td>
+      <td>5.4e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07986</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>98.5</td>
+      <td>6.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08088</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>157.8</td>
+      <td>7.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08117</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>188.0</td>
+      <td>5e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08360</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>145.9</td>
+      <td>3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08593</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>141.4</td>
+      <td>7.3e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09221</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>122.7</td>
+      <td>3.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09264</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>111.0</td>
+      <td>1.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09792</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>142.9</td>
+      <td>2.8e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11522</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>136.2</td>
+      <td>2.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12381</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>146.2</td>
+      <td>2.6e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12389</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>547.7</td>
+      <td>3.4e-165</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12403</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>54.8</td>
+      <td>1.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13360</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>104.5</td>
+      <td>1.2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00125</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>143.2</td>
+      <td>2.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00508</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>139.6</td>
+      <td>2.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00700</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>161.5</td>
+      <td>5.5e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00707</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>179.5</td>
+      <td>1.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00709</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>121.1</td>
+      <td>1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00713</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>706.0</td>
+      <td>3.1e-213</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01885</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>138.6</td>
+      <td>5e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02407</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>92.2</td>
+      <td>5.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03246</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>143.0</td>
+      <td>2.7e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03251</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>71.4</td>
+      <td>1.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03372</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>119.2</td>
+      <td>4.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00610</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>397.1</td>
+      <td>1.7e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00202</td>
+      <td>Glutamate-1-semialdehyde 2,1-aminomutase</td>
+      <td>270.7</td>
+      <td>3.9e-81</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

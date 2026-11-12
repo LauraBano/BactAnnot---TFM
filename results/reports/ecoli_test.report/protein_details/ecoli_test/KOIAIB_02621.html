@@ -1,0 +1,2109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_02621</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_02621</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>hydrogenase-4 component B [EC:1.-.-.-]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K12137</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K12137</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K05568</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K12137</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K15828</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.-.-.-</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td>derived_from_ko</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K05568</td>
+      <td>EC:1.-.-.-</td>
+      <td>unmapped_ko</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K12137</td>
+      <td>EC:1.-.-.-</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K15828</td>
+      <td>EC:1.-.-.-</td>
+      <td>unmapped_ko</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.-.-.-</td>
+      <td>GO:0008137</td>
+      <td>GO:0008137</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|2601818|2603836|+</td></tr><tr><th>protein_id</th><td>KOIAIB_02621</td></tr><tr><th>product</th><td>Hydrogenase-4 component B</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>2601818</td></tr><tr><th>stop</th><td>2603836</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_2842</td></tr><tr><th>locus_tag</th><td>KOIAIB_02621</td></tr><tr><th>aa_md5</th><td>1c593f34546633d48b8d40c359272f83</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>C; P</td></tr><tr><th>GO</th><td><details class="value-details"><summary>8 values</summary><ul class="value-list"><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0008137</li><li>GO:0016020</li><li>GO:0042773</li><li>GO:0044464</li><li>GO:0071944</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.-.-.-</td></tr><tr><th>KEGG_KO</th><td>KEGG:K05568; KEGG:K12137; KEGG:K15828</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR001750; INTERPRO:IPR003918; INTERPRO:IPR052175</td></tr><tr><th>PFAM</th><td>PFAM:PF00361</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>1</td></tr><tr><th>concordance_partial</th><td>2</td></tr><tr><th>concordance_disjoint</th><td>2</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0651</td>
+      <td>COG:COG0651;COG:COG1007;COG:COG1008;COG:COG1009</td>
+      <td>COG:COG0651</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.-.-.-</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.-.-.-</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0005575;GO:0005623;GO:0005886;GO:0016020;GO:0044464;GO:0071944</td>
+      <td>GO:0008137;GO:0042773</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K05568;KEGG:K12137;KEGG:K15828</td>
+      <td>KEGG:K12137</td>
+      <td>KEGG:K12137</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF005086</td>
+      <td>NCBIFAM:NF040617;NCBIFAM:TIGR00940;NCBIFAM:TIGR00944;NCBIFAM:TIGR01770;NCBIFAM:TIGR01960;NCBIFAM:TIGR01972;NCBIFAM:TIGR01974</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF005086</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF040617;NCBIFAM:TIGR00940;NCBIFAM:TIGR00944;NCBIFAM:TIGR01770;NCBIFAM:TIGR01960;NCBIFAM:TIGR01972;NCBIFAM:TIGR01974</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00361</td>
+      <td>PFAM:PF00361</td>
+      <td>PFAM:PF00361</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00361</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00361</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 27 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECO111_1330.ECO111_3443</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECO26_1355.ECO26_3788</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEKO11_1354.EKO11_1252</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0651</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MXRW@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RM9Q@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMXV@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0651@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0651@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko02000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K05568</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K12137</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K15828</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_TC</td>
+      <td>2.A.63.1</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_TC</td>
+      <td>2.A.63.2</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Proton_antipo_M</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Proton_antipo_N</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.1799910</td>
+      <td>hyfB</td>
+      <td>Formate hydrogenlyase, subunit</td>
+      <td>1249.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>672</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.-.-.-</td>
+      <td>KEGG:K12137</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K12137</td>
+      <td></td>
+      <td>hydrogenase-4 component B [EC:1.-.-.-]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K12137</td>
+      <td>hydrogenase-4 component B [EC:1.-.-.-]</td>
+      <td>above_threshold</td>
+      <td>695.0</td>
+      <td>499.90</td>
+      <td>2.7e-209</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 9 annotation rows, 6 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008137</td>
+      <td>[{"analysis":"PRINTS","signature_accession":"PR01437","interpro_accession":"IPR003918","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0042773</td>
+      <td>[{"analysis":"PRINTS","signature_accession":"PR01437","interpro_accession":"IPR003918","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001750</td>
+      <td></td>
+      <td>NADH:quinone oxidoreductase/Mrp antiporter, transmembrane domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003918</td>
+      <td></td>
+      <td>NADH:ubiquinone oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR052175</td>
+      <td></td>
+      <td>Complex I-like Hydrogenase Component</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF005086</td>
+      <td></td>
+      <td>hydrogenase 4 subunit B</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR42682</td>
+      <td></td>
+      <td>HYDROGENASE-4 COMPONENT F</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00361</td>
+      <td></td>
+      <td>NADH:quinone oxidoreductase/Mrp antiporter, TM</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR01437</td>
+      <td></td>
+      <td>NADH-ubiquinone oxidoreductase subunit 4 signature</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF005086</td>
+      <td>hydrogenase 4 subunit B</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>671</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR42682</td>
+      <td>HYDROGENASE-4 COMPONENT F</td>
+      <td>0.0</td>
+      <td>9</td>
+      <td>670</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR01437</td>
+      <td>NADH-ubiquinone oxidoreductase subunit 4 signature</td>
+      <td>3.4E-11</td>
+      <td>167</td>
+      <td>191</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR01437</td>
+      <td>NADH-ubiquinone oxidoreductase subunit 4 signature</td>
+      <td>3.4E-11</td>
+      <td>236</td>
+      <td>260</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR01437</td>
+      <td>NADH-ubiquinone oxidoreductase subunit 4 signature</td>
+      <td>3.4E-11</td>
+      <td>389</td>
+      <td>415</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00361</td>
+      <td>NADH:quinone oxidoreductase/Mrp antiporter, TM</td>
+      <td>4.5E-50</td>
+      <td>136</td>
+      <td>425</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 93 annotation rows, 93 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00011</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00025</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00049</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00004</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00014</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00020</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00032</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00044</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00062</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00066</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00068</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00094</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00095</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00108</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00110</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00112</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00124</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00127</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00137</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00144</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00150</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00151</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00163</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00165</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00196</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00199</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00200</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00204</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00205</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00206</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00207</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00208</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00209</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00210</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00211</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00217</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00226</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK02504</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK02546</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05777</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05846</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06277</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06458</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06459</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06473</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06521</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06525</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06589</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06590</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06591</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07234</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07363</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07376</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07390</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07691</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08042</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08168</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08375</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08376</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08377</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08667</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08668</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08676</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12561</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12644</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12645</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12646</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12647</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12648</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12649</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12650</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12662</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12663</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12664</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12665</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12666</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12667</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12668</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0651</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1007</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1008</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1009</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG4668</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG4845</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040617</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00940</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00944</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01770</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01960</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01972</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01974</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00361</td>
+      <td></td>
+      <td>Hydrogenase-4 component B</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00011</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>83.2</td>
+      <td>4.1e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00025</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>103.0</td>
+      <td>3e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00049</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>58.9</td>
+      <td>7.1e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0651</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>447.1</td>
+      <td>1.6e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1007</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>140.4</td>
+      <td>1.9e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1008</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>241.3</td>
+      <td>3.4e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1009</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>300.0</td>
+      <td>1e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG4668</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>117.1</td>
+      <td>1.7e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG4845</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>120.3</td>
+      <td>2.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00004</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>108.4</td>
+      <td>8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00014</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>44.2</td>
+      <td>3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00020</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>115.7</td>
+      <td>5.6e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00032</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>95.5</td>
+      <td>6.2e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00044</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>52.8</td>
+      <td>5.9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00062</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>60.2</td>
+      <td>3.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00066</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>98.6</td>
+      <td>7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00068</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>74.4</td>
+      <td>1.6e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00094</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>56.6</td>
+      <td>5e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00095</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>91.2</td>
+      <td>1.5e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00108</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>100.0</td>
+      <td>3e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00110</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>68.8</td>
+      <td>8.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00112</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>41.0</td>
+      <td>2.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00124</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>69.9</td>
+      <td>3.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00127</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>60.8</td>
+      <td>2.3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00137</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>89.7</td>
+      <td>3.3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00144</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>60.8</td>
+      <td>2.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00150</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>92.7</td>
+      <td>5.5e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00151</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>115.4</td>
+      <td>8e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00163</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>100.9</td>
+      <td>1.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00165</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>134.5</td>
+      <td>1.1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00196</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>53.3</td>
+      <td>5.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00199</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>40.7</td>
+      <td>3.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00200</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>41.5</td>
+      <td>1.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00204</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>112.8</td>
+      <td>4.1e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00205</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>58.7</td>
+      <td>1.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00206</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>87.5</td>
+      <td>1.8e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00207</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>97.8</td>
+      <td>1.3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00208</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>95.4</td>
+      <td>6.6e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00209</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>125.4</td>
+      <td>6.9e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00210</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>123.0</td>
+      <td>3.4e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00211</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>106.6</td>
+      <td>3.5e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00217</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>112.7</td>
+      <td>4.7e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00226</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>90.1</td>
+      <td>3.3e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040617</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>119.7</td>
+      <td>3.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02504</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>43.4</td>
+      <td>3.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02546</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>79.9</td>
+      <td>3.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05777</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>124.0</td>
+      <td>1.7e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05846</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>193.2</td>
+      <td>1.4e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06277</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>124.1</td>
+      <td>1.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06458</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>190.0</td>
+      <td>2.1e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06459</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>180.8</td>
+      <td>9.8e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06473</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>99.8</td>
+      <td>3.3e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06521</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>993.2</td>
+      <td>1.4e-299</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06525</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>203.2</td>
+      <td>1.4e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06589</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>152.1</td>
+      <td>4.9e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06590</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>195.3</td>
+      <td>5.1e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06591</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>47.2</td>
+      <td>4e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07234</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>192.1</td>
+      <td>4.5e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07363</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>121.1</td>
+      <td>1.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07376</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>129.7</td>
+      <td>2.5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07390</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>114.9</td>
+      <td>9e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07691</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>161.7</td>
+      <td>7e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08042</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>401.3</td>
+      <td>1.9e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08168</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>50.2</td>
+      <td>4.8e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08375</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>255.8</td>
+      <td>1.6e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08376</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>247.6</td>
+      <td>6.2e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08377</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>139.4</td>
+      <td>4.1e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08667</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>435.2</td>
+      <td>9.7e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08668</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>216.0</td>
+      <td>2.5e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08676</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>148.7</td>
+      <td>5.5e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12561</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>114.5</td>
+      <td>1.2e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12644</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>139.3</td>
+      <td>3e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12645</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>166.3</td>
+      <td>2.2e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12646</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>149.4</td>
+      <td>3.4e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12647</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>179.5</td>
+      <td>2.7e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12648</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>167.2</td>
+      <td>1.1e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12649</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>144.3</td>
+      <td>1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12650</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>145.7</td>
+      <td>3.1e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12662</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>148.8</td>
+      <td>4.8e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12663</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>150.6</td>
+      <td>1.4e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12664</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>79.5</td>
+      <td>5.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12665</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>133.8</td>
+      <td>1.5e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12666</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>96.7</td>
+      <td>3e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12667</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>240.1</td>
+      <td>1.1e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12668</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>211.9</td>
+      <td>4.2e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00940</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>155.8</td>
+      <td>3.7e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00944</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>134.5</td>
+      <td>1.4e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01770</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>114.3</td>
+      <td>1.6e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01960</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>109.1</td>
+      <td>4.6e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01972</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>199.8</td>
+      <td>1.6e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01974</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>179.4</td>
+      <td>3.1e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00361</td>
+      <td>Hydrogenase-4 component B</td>
+      <td>182.0</td>
+      <td>3.5e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>toxin-associated protein</td>
+      <td>0.52</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

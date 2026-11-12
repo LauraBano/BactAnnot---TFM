@@ -1,0 +1,3246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_00744</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_00744</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>potassium-transporting ATPase ATP-binding subunit [EC:7.2.2.6]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K01547</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K01547</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008556;GO:0016887</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01547</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.6.3.12</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:7.2.2.6</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td>derived_from_ko</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K01547</td>
+      <td>EC:3.6.3.12</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K01547</td>
+      <td>EC:7.2.2.6</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0005215</td>
+      <td>GO:0005215</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0005524</td>
+      <td>GO:0005524</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0008324</td>
+      <td>GO:0008324</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0008556</td>
+      <td>GO:0008556</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0015075</td>
+      <td>GO:0015075</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0015077</td>
+      <td>GO:0022857</td>
+      <td>alt_replaced_by</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0015079</td>
+      <td>GO:0015079</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0015318</td>
+      <td>GO:0022857</td>
+      <td>replaced_by</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0015399</td>
+      <td>GO:0015399</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0015405</td>
+      <td>GO:0042626</td>
+      <td>alt_id</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0015662</td>
+      <td>GO:0015662</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0016462</td>
+      <td>GO:0016462</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0016817</td>
+      <td>GO:0016817</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0016818</td>
+      <td>GO:0016818</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0016887</td>
+      <td>GO:0016887</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0017111</td>
+      <td>GO:0017111</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0019829</td>
+      <td>GO:0019829</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0022804</td>
+      <td>GO:0022804</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0022853</td>
+      <td>GO:0022853</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0022857</td>
+      <td>GO:0022857</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0022890</td>
+      <td>GO:0022857</td>
+      <td>replaced_by</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0042623</td>
+      <td>GO:0016887</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0042625</td>
+      <td>GO:0042625</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0042626</td>
+      <td>GO:0042626</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0043492</td>
+      <td>GO:0042626</td>
+      <td>alt_id</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.6.3.12</td>
+      <td>GO:0046873</td>
+      <td>GO:0046873</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0005215</td>
+      <td>GO:0005215</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0005524</td>
+      <td>GO:0005524</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0008324</td>
+      <td>GO:0008324</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0008556</td>
+      <td>GO:0008556</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0015075</td>
+      <td>GO:0015075</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0015077</td>
+      <td>GO:0022857</td>
+      <td>alt_replaced_by</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0015079</td>
+      <td>GO:0015079</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0015318</td>
+      <td>GO:0022857</td>
+      <td>replaced_by</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0015399</td>
+      <td>GO:0015399</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0015405</td>
+      <td>GO:0042626</td>
+      <td>alt_id</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0015662</td>
+      <td>GO:0015662</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0016462</td>
+      <td>GO:0016462</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0016817</td>
+      <td>GO:0016817</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0016818</td>
+      <td>GO:0016818</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0016887</td>
+      <td>GO:0016887</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0017111</td>
+      <td>GO:0017111</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0019829</td>
+      <td>GO:0019829</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0022804</td>
+      <td>GO:0022804</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0022853</td>
+      <td>GO:0022853</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0022857</td>
+      <td>GO:0022857</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0022890</td>
+      <td>GO:0022857</td>
+      <td>replaced_by</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0042623</td>
+      <td>GO:0016887</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0042625</td>
+      <td>GO:0042625</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0042626</td>
+      <td>GO:0042626</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0043492</td>
+      <td>GO:0042626</td>
+      <td>alt_id</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.2.2.6</td>
+      <td>GO:0046873</td>
+      <td>GO:0046873</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|724988|727036|-</td></tr><tr><th>protein_id</th><td>KOIAIB_00744</td></tr><tr><th>product</th><td>Potassium-transporting ATPase ATP-binding subunit</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>724988</td></tr><tr><th>stop</th><td>727036</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_1078</td></tr><tr><th>locus_tag</th><td>KOIAIB_00744</td></tr><tr><th>aa_md5</th><td>4926094861e21986559455693c9fac74</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>P</td></tr><tr><th>GO</th><td><details class="value-details"><summary>71 values</summary><ul class="value-list"><li>GO:0000166</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005215</li><li>GO:0005524</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0005887</li><li>GO:0006810</li><li>GO:0006811</li><li>GO:0006812</li><li>GO:0006813</li><li>GO:0008150</li><li>GO:0008324</li><li>GO:0008556</li><li>GO:0009987</li><li>GO:0015075</li><li>GO:0015077</li><li>GO:0015079</li><li>GO:0015318</li><li>GO:0015399</li><li>GO:0015405</li><li>GO:0015662</li><li>GO:0015672</li><li>GO:0016020</li><li>GO:0016021</li><li>GO:0016462</li><li>GO:0016787</li><li>GO:0016817</li><li>GO:0016818</li><li>GO:0016887</li><li>GO:0017111</li><li>GO:0019829</li><li>GO:0022804</li><li>GO:0022853</li><li>GO:0022857</li><li>GO:0022890</li><li>GO:0030001</li><li>GO:0031004</li><li>GO:0031224</li><li>GO:0031226</li><li>GO:0032991</li><li>GO:0034220</li><li>GO:0042623</li><li>GO:0042625</li><li>GO:0042626</li><li>GO:0043492</li><li>GO:0044425</li><li>GO:0044459</li><li>GO:0044464</li><li>GO:0046873</li><li>GO:0051179</li><li>GO:0051234</li><li>GO:0055085</li><li>GO:0071804</li><li>GO:0071805</li><li>GO:0071944</li><li>GO:0090533</li><li>GO:0090662</li><li>GO:0098533</li><li>GO:0098655</li><li>GO:0098660</li><li>GO:0098662</li><li>GO:0098796</li><li>GO:0099131</li><li>GO:0099132</li><li>GO:1902494</li><li>GO:1902495</li><li>GO:1904949</li><li>GO:1990351</li></ul></details></td></tr><tr><th>EC</th><td>EC:3.6.3.12; EC:7.2.2.6</td></tr><tr><th>KEGG_KO</th><td>KEGG:K01547</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko02020; KEGG:map02020</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>10 values</summary><ul class="value-list"><li>INTERPRO:IPR001757</li><li>INTERPRO:IPR006391</li><li>INTERPRO:IPR008250</li><li>INTERPRO:IPR018303</li><li>INTERPRO:IPR023214</li><li>INTERPRO:IPR023298</li><li>INTERPRO:IPR023299</li><li>INTERPRO:IPR036412</li><li>INTERPRO:IPR044492</li><li>INTERPRO:IPR059000</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00122; PFAM:PF00702</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd02078</td>
+      <td>CDD:cd01431;CDD:cd02076;CDD:cd02077;CDD:cd02078;CDD:cd02079;CDD:cd02080;CDD:cd02081;CDD:cd02082;CDD:cd02083;CDD:cd02085;CDD:cd02086;CDD:cd02089;CDD:cd02092;CDD:cd02094;CDD:cd02608;CDD:cd02609;CDD:cd07538;CDD:cd07539;CDD:cd07542;CDD:cd07543;CDD:cd07544;CDD:cd07545;CDD:cd07546;CDD:cd07548;CDD:cd07550;CDD:cd07551;CDD:cd07552;CDD:cd07553</td>
+      <td>CDD:cd02078</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG2216</td>
+      <td>COG:COG0474;COG:COG2216;COG:COG2217</td>
+      <td>COG:COG2216</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:7.2.2.6</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:3.6.3.12</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:3.6.3.12</td>
+      <td>EC:7.2.2.6</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005215;GO:0005575;GO:0005623;GO:0005886;GO:0005887;GO:0006810;GO:0006811;GO:0006812;GO:0006813;GO:0008150;GO:0008324;GO:0008556;GO:0009987;GO:0015075;GO:0015077;GO:0015079;GO:0015318;GO:0015399;GO:0015405;GO:0015662;GO:0015672;GO:0016020;GO:0016021;GO:0016462;GO:0016787;GO:0016817;GO:0016818;GO:0016887;GO:0017111;GO:0019829;GO:0022804;GO:0022853;GO:0022857;GO:0022890;GO:0030001;GO:0031004;GO:0031224;GO:0031226;GO:0032991;GO:0034220;GO:0042623;GO:0042625;GO:0042626;GO:0043492;GO:0044425;GO:0044459;GO:0044464;GO:0046873;GO:0051179;GO:0051234;GO:0055085;GO:0071804;GO:0071805;GO:0071944;GO:0090533;GO:0090662;GO:0098533;GO:0098655;GO:0098660;GO:0098662;GO:0098796;GO:0099131;GO:0099132;GO:1902494;GO:1902495;GO:1904949;GO:1990351</td>
+      <td>GO:0000166;GO:0005215;GO:0005524;GO:0006813;GO:0008556;GO:0016020;GO:0016887</td>
+      <td>GO:0005215;GO:0006813;GO:0008556;GO:0016020;GO:0016887</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K01547</td>
+      <td>KEGG:K01547</td>
+      <td>KEGG:K01547</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:TIGR01494;NCBIFAM:TIGR01497</td>
+      <td>NCBIFAM:NF033775;NCBIFAM:TIGR01106;NCBIFAM:TIGR01116;NCBIFAM:TIGR01494;NCBIFAM:TIGR01497;NCBIFAM:TIGR01511;NCBIFAM:TIGR01512;NCBIFAM:TIGR01517;NCBIFAM:TIGR01522;NCBIFAM:TIGR01523;NCBIFAM:TIGR01524;NCBIFAM:TIGR01525;NCBIFAM:TIGR01647;NCBIFAM:TIGR01657</td>
+      <td>NCBIFAM:TIGR01494;NCBIFAM:TIGR01497</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01494;NCBIFAM:TIGR01497</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF033775;NCBIFAM:TIGR01106;NCBIFAM:TIGR01116;NCBIFAM:TIGR01494;NCBIFAM:TIGR01497;NCBIFAM:TIGR01511;NCBIFAM:TIGR01512;NCBIFAM:TIGR01517;NCBIFAM:TIGR01522;NCBIFAM:TIGR01523;NCBIFAM:TIGR01524;NCBIFAM:TIGR01525;NCBIFAM:TIGR01647;NCBIFAM:TIGR01657</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00122;PFAM:PF00702</td>
+      <td>PFAM:PF00122;PFAM:PF00702</td>
+      <td>PFAM:PF00122;PFAM:PF00702</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00122;PFAM:PF00702</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00122;PFAM:PF00702</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 88 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECNA114_1301.ECNA114_0634</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECSF_1327.ECSF_0632</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG2216</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>P</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.6.3.12</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MU7D@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RPPF@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMHA@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG2216@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG2216@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005215</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005887</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006810</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006811</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006812</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006813</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008324</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008556</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015075</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015077</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015079</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015318</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015399</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015405</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015672</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016021</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016462</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016817</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016818</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016887</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0017111</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022804</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022853</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022857</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022890</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031224</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031226</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032991</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034220</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042625</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042626</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043492</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044425</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044459</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046873</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051179</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051234</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055085</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071804</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071805</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0090533</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0090662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098533</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098655</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098660</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0099131</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0099132</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1902494</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1902495</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1904949</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1990351</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01547</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_TC</td>
+      <td>3.A.3.7</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>E1-E2_ATPase</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Hydrolase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85674743</td>
+      <td>kdpB</td>
+      <td>Part of the high-affinity ATP-driven potassium transport (or Kdp) system, which catalyzes the hydrolysis of ATP coupled with the electrogenic transport of potassium into the cytoplasm. This subunit is responsible for energy coupling to the transport system</td>
+      <td>1274.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>682</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:7.2.2.6</td>
+      <td>KEGG:K01547</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01547</td>
+      <td></td>
+      <td>potassium-transporting ATPase ATP-binding subunit [EC:7.2.2.6]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K01547</td>
+      <td>potassium-transporting ATPase ATP-binding subunit [EC:7.2.2.6]</td>
+      <td>above_threshold</td>
+      <td>1213.3</td>
+      <td>374.40</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 38 annotation rows, 26 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd02078</td>
+      <td></td>
+      <td>P-type_ATPase_K</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:2.70.150.10:FF:000010</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.1110.10:FF:000007</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:2.70.150.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.1110.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.1000</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0000166</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:3.40.1110.10","interpro_accession":"IPR023299","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF81660","interpro_accession":"IPR023299","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005215</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR01494","interpro_accession":"IPR001757","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005524</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd02078","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00285","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01494","interpro_accession":"IPR001757","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01497","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43743","interpro_accession":"IPR006391","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006813</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd02078","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00285","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01497","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43743","interpro_accession":"IPR006391","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008556</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd02078","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00285","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01497","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43743","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43743","interpro_accession":"IPR006391","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd02078","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"Hamap","signature_accession":"MF_00285","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01494","interpro_accession":"IPR001757","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01497","interpro_accession":"IPR006391","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43743","interpro_accession":"IPR006391","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016887</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR01494","interpro_accession":"IPR001757","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00285</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit [kdpB].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001757</td>
+      <td></td>
+      <td>P-type ATPase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006391</td>
+      <td></td>
+      <td>P-type ATPase, B chain, subfamily IA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR008250</td>
+      <td></td>
+      <td>P-type ATPase, A domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR018303</td>
+      <td></td>
+      <td>P-type ATPase, phosphorylation site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023214</td>
+      <td></td>
+      <td>HAD superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023298</td>
+      <td></td>
+      <td>P-type ATPase, transmembrane domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023299</td>
+      <td></td>
+      <td>P-type ATPase, cytoplasmic domain N</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036412</td>
+      <td></td>
+      <td>HAD-like superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR044492</td>
+      <td></td>
+      <td>P-type ATPase, haloacid dehalogenase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR059000</td>
+      <td></td>
+      <td>P-type ATPase, A domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01494</td>
+      <td></td>
+      <td>HAD-IC family P-type ATPase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01497</td>
+      <td></td>
+      <td>potassium-transporting ATPase subunit KdpB</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43743</td>
+      <td></td>
+      <td>POTASSIUM-TRANSPORTING ATPASE ATP-BINDING SUBUNIT</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00122</td>
+      <td></td>
+      <td>P-type ATPase actuator domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00702</td>
+      <td></td>
+      <td>haloacid dehalogenase-like hydrolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00119</td>
+      <td></td>
+      <td>P-type cation-transporting ATPase superfamily signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00154</td>
+      <td></td>
+      <td>E1-E2 ATPases phosphorylation site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SFLD</td>
+      <td>SFLD:SFLDF00027</td>
+      <td></td>
+      <td>p-type atpase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SFLD</td>
+      <td>SFLD:SFLDG00002</td>
+      <td></td>
+      <td>C1.7: P-type atpase like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SFLD</td>
+      <td>SFLD:SFLDS00003</td>
+      <td></td>
+      <td>Haloacid Dehalogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56784</td>
+      <td></td>
+      <td>HAD-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF81653</td>
+      <td></td>
+      <td>Calcium ATPase, transduction domain A</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF81660</td>
+      <td></td>
+      <td>Metal cation-transporting ATPase, ATP-binding domain N</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF81665</td>
+      <td></td>
+      <td>Calcium ATPase, transmembrane domain M</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd02078</td>
+      <td>P-type_ATPase_K</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>679</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:2.70.150.10:FF:000010</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>2.8E-65</td>
+      <td>89</td>
+      <td>211</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.1110.10:FF:000007</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>1.4E-66</td>
+      <td>316</td>
+      <td>449</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:2.70.150.10</td>
+      <td></td>
+      <td>2.1E-25</td>
+      <td>89</td>
+      <td>211</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.1110.10</td>
+      <td></td>
+      <td>2.8E-59</td>
+      <td>316</td>
+      <td>449</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.1000</td>
+      <td></td>
+      <td>1.3E-43</td>
+      <td>273</td>
+      <td>571</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00285</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit [kdpB].</td>
+      <td>41.535789</td>
+      <td>8</td>
+      <td>680</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01494</td>
+      <td>HAD-IC family P-type ATPase</td>
+      <td>2.8E-45</td>
+      <td>372</td>
+      <td>604</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01494</td>
+      <td>HAD-IC family P-type ATPase</td>
+      <td>8.0E-34</td>
+      <td>72</td>
+      <td>337</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01497</td>
+      <td>potassium-transporting ATPase subunit KdpB</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>677</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43743</td>
+      <td>POTASSIUM-TRANSPORTING ATPASE ATP-BINDING SUBUNIT</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>681</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00119</td>
+      <td>P-type cation-transporting ATPase superfamily signature</td>
+      <td>3.7E-24</td>
+      <td>154</td>
+      <td>168</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00119</td>
+      <td>P-type cation-transporting ATPase superfamily signature</td>
+      <td>3.7E-24</td>
+      <td>305</td>
+      <td>319</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00119</td>
+      <td>P-type cation-transporting ATPase superfamily signature</td>
+      <td>3.7E-24</td>
+      <td>463</td>
+      <td>473</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00119</td>
+      <td>P-type cation-transporting ATPase superfamily signature</td>
+      <td>3.7E-24</td>
+      <td>516</td>
+      <td>535</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00119</td>
+      <td>P-type cation-transporting ATPase superfamily signature</td>
+      <td>3.7E-24</td>
+      <td>539</td>
+      <td>551</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00122</td>
+      <td>P-type ATPase actuator domain</td>
+      <td>1.5E-16</td>
+      <td>118</td>
+      <td>208</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00702</td>
+      <td>haloacid dehalogenase-like hydrolase</td>
+      <td>2.5E-26</td>
+      <td>301</td>
+      <td>530</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00154</td>
+      <td>E1-E2 ATPases phosphorylation site.</td>
+      <td></td>
+      <td>307</td>
+      <td>313</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SFLD</td>
+      <td>signature_match</td>
+      <td>SFLDF00027</td>
+      <td>p-type atpase</td>
+      <td>0.0</td>
+      <td>286</td>
+      <td>567</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SFLD</td>
+      <td>signature_match</td>
+      <td>SFLDG00002</td>
+      <td>C1.7: P-type atpase like</td>
+      <td>0.0</td>
+      <td>286</td>
+      <td>567</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SFLD</td>
+      <td>signature_match</td>
+      <td>SFLDS00003</td>
+      <td>Haloacid Dehalogenase</td>
+      <td>0.0</td>
+      <td>286</td>
+      <td>567</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56784</td>
+      <td>HAD-like</td>
+      <td>6.28E-39</td>
+      <td>293</td>
+      <td>559</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF81653</td>
+      <td>Calcium ATPase, transduction domain A</td>
+      <td>1.44E-20</td>
+      <td>120</td>
+      <td>207</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF81660</td>
+      <td>Metal cation-transporting ATPase, ATP-binding domain N</td>
+      <td>1.57E-38</td>
+      <td>316</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF81665</td>
+      <td>Calcium ATPase, transmembrane domain M</td>
+      <td>1.7E-12</td>
+      <td>29</td>
+      <td>661</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 61 annotation rows, 118 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01431</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02076</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02077</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02078</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02079</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02080</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02081</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02082</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02083</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02085</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02086</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02089</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02092</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02094</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02608</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02609</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07538</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07539</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07542</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07543</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07544</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07545</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07546</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07548</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07550</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07551</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07552</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07553</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10517</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10671</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11033</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK14010</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15122</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0474</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2216</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2217</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0202</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0203</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0204</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0205</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0207</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0208</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0209</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF033775</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01106</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01116</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01494</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01497</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01511</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01512</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01517</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01522</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01523</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01524</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01525</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01647</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01657</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00122</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00702</td>
+      <td></td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0474</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>242.7</td>
+      <td>1.5e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2216</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>1165.2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2217</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>337.0</td>
+      <td>6.1e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0202</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>147.0</td>
+      <td>1.4e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0203</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>100.0</td>
+      <td>2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0204</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>114.9</td>
+      <td>6e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0205</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>105.1</td>
+      <td>5.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0207</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>244.8</td>
+      <td>4.3e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0208</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>81.6</td>
+      <td>6.9e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0209</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>66.4</td>
+      <td>2.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033775</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>177.9</td>
+      <td>6.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10517</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>82.4</td>
+      <td>3.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10671</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>179.9</td>
+      <td>1.6e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11033</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>190.7</td>
+      <td>9.7e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14010</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>854.5</td>
+      <td>1.1e-257</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15122</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>90.0</td>
+      <td>2.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01106</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>102.3</td>
+      <td>4.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01116</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>108.9</td>
+      <td>4.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01494</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>367.2</td>
+      <td>3.2e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01497</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>1302.2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01511</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>255.5</td>
+      <td>2.9e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01512</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>270.3</td>
+      <td>8.2e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01517</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>98.4</td>
+      <td>7.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01522</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>104.0</td>
+      <td>1.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01523</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>91.3</td>
+      <td>6.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01524</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>98.9</td>
+      <td>4.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01525</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>296.0</td>
+      <td>1.5e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01647</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>167.4</td>
+      <td>9.3e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01657</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>97.5</td>
+      <td>9.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01431</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>281.7</td>
+      <td>2.1e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02076</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>209.7</td>
+      <td>1.3e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02077</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>134.5</td>
+      <td>7.9e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02078</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>1133.9</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02079</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>298.3</td>
+      <td>2.8e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02080</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>157.2</td>
+      <td>1.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02081</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>141.6</td>
+      <td>5.7e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02082</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>87.9</td>
+      <td>9.1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02083</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>121.1</td>
+      <td>8.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02085</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>104.4</td>
+      <td>8.5e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02086</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>114.2</td>
+      <td>1e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02089</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>169.4</td>
+      <td>2.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02092</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>179.8</td>
+      <td>1.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02094</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>290.1</td>
+      <td>1.1e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02608</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>109.8</td>
+      <td>2.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02609</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>185.3</td>
+      <td>3.3e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07538</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>150.6</td>
+      <td>1.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07539</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>154.9</td>
+      <td>6.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07542</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>87.7</td>
+      <td>1e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07543</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>74.3</td>
+      <td>1.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07544</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>207.0</td>
+      <td>1.1e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07545</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>215.5</td>
+      <td>3e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07546</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>209.1</td>
+      <td>2.9e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07548</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>180.1</td>
+      <td>1.5e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07550</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>237.4</td>
+      <td>7.1e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07551</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>254.1</td>
+      <td>6e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07552</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>237.1</td>
+      <td>8.9e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07553</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>157.6</td>
+      <td>9.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00122</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>110.2</td>
+      <td>1.9e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00702</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>106.8</td>
+      <td>4.4e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0474</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>242.7</td>
+      <td>1.5e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2216</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>1165.2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2217</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>337.0</td>
+      <td>6.1e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0202</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>147.0</td>
+      <td>1.4e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0203</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>100.0</td>
+      <td>2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0204</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>114.9</td>
+      <td>6e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0205</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>105.1</td>
+      <td>5.6e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0207</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>244.8</td>
+      <td>4.3e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0208</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>81.6</td>
+      <td>6.9e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0209</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>66.4</td>
+      <td>2.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033775</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>177.9</td>
+      <td>6.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10517</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>82.4</td>
+      <td>3.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10671</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>179.9</td>
+      <td>1.6e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11033</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>190.7</td>
+      <td>9.7e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK14010</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>854.5</td>
+      <td>1.1e-257</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15122</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>90.0</td>
+      <td>2.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01106</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>102.3</td>
+      <td>4.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01116</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>108.9</td>
+      <td>4.8e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01494</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>367.2</td>
+      <td>3.2e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01497</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>1302.2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01511</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>255.5</td>
+      <td>2.9e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01512</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>270.3</td>
+      <td>8.2e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01517</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>98.4</td>
+      <td>7.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01522</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>104.0</td>
+      <td>1.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01523</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>91.3</td>
+      <td>6.4e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01524</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>98.9</td>
+      <td>4.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01525</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>296.0</td>
+      <td>1.5e-88</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01647</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>167.4</td>
+      <td>9.3e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01657</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>97.5</td>
+      <td>9.5e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01431</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>281.7</td>
+      <td>2.1e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02076</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>209.7</td>
+      <td>1.3e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02077</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>134.5</td>
+      <td>7.9e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02078</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>1133.9</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02079</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>298.3</td>
+      <td>2.8e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02080</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>157.2</td>
+      <td>1.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02081</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>141.6</td>
+      <td>5.7e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02082</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>87.9</td>
+      <td>9.1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02083</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>121.1</td>
+      <td>8.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02085</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>104.4</td>
+      <td>8.5e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02086</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>114.2</td>
+      <td>1e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02089</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>169.4</td>
+      <td>2.5e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02092</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>179.8</td>
+      <td>1.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02094</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>290.1</td>
+      <td>1.1e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02608</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>109.8</td>
+      <td>2.4e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02609</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>185.3</td>
+      <td>3.3e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07538</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>150.6</td>
+      <td>1.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07539</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>154.9</td>
+      <td>6.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07542</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>87.7</td>
+      <td>1e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07543</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>74.3</td>
+      <td>1.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07544</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>207.0</td>
+      <td>1.1e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07545</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>215.5</td>
+      <td>3e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07546</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>209.1</td>
+      <td>2.9e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07548</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>180.1</td>
+      <td>1.5e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07550</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>237.4</td>
+      <td>7.1e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07551</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>254.1</td>
+      <td>6e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07552</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>237.1</td>
+      <td>8.9e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07553</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>157.6</td>
+      <td>9.7e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00122</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>110.2</td>
+      <td>1.9e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00702</td>
+      <td>Potassium-transporting ATPase ATP-binding subunit</td>
+      <td>106.8</td>
+      <td>4.4e-31</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

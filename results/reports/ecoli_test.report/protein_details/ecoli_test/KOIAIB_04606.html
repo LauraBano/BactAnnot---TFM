@@ -1,0 +1,3536 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_04606</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_04606</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>EC:1.1.1.414</td></tr><tr><th>Scope</th><td>Enzyme activity</td></tr><tr><th>Interpretation</th><td>Enzyme activity proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>EC</td></tr><tr><th>primary_claim_id</th><td>EC:1.1.1.414</td></tr><tr><th>primary_selection_rule</th><td>ec_ko_derived_and_transferred</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.1.1.414</td></tr><tr><th>mf_proposal_ids</th><td>GO:0016491</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K23007</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.1.1.414</td>
+      <td>Primary proposal</td>
+      <td>bakta;KofamScan</td>
+      <td>BlastRules;KofamScan</td>
+      <td>profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K23007</td>
+      <td>EC:1.1.1.414</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.1.1.414</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.414</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.414</td>
+      <td>GO:0008270</td>
+      <td>GO:0008270</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.414</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.414</td>
+      <td>GO:0016614</td>
+      <td>GO:0016614</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.1.1.414</td>
+      <td>GO:0016616</td>
+      <td>GO:0016616</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|4595990|4597012|+</td></tr><tr><th>protein_id</th><td>KOIAIB_04606</td></tr><tr><th>gene</th><td>lgoD</td></tr><tr><th>product</th><td>L-galactonate oxidoreductase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>4595990</td></tr><tr><th>stop</th><td>4597012</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_4649</td></tr><tr><th>locus_tag</th><td>KOIAIB_04606</td></tr><tr><th>aa_md5</th><td>b22520d4f94fd62d19b36ddd2670e02b</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGAG/GAGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>C</td></tr><tr><th>GO</th><td><details class="value-details"><summary>35 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005975</li><li>GO:0006082</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008270</li><li>GO:0009056</li><li>GO:0009987</li><li>GO:0016052</li><li>GO:0016054</li><li>GO:0016491</li><li>GO:0016614</li><li>GO:0016616</li><li>GO:0019520</li><li>GO:0019583</li><li>GO:0019584</li><li>GO:0019752</li><li>GO:0032787</li><li>GO:0034193</li><li>GO:0034195</li><li>GO:0043436</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044248</li><li>GO:0044262</li><li>GO:0044275</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0046176</li><li>GO:0046395</li><li>GO:0055114</li><li>GO:0071704</li><li>GO:0072329</li><li>GO:1901575</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.1.1.414</td></tr><tr><th>KEGG_KO</th><td>KEGG:K23007</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>7 values</summary><ul class="value-list"><li>INTERPRO:IPR002328</li><li>INTERPRO:IPR011032</li><li>INTERPRO:IPR013149</li><li>INTERPRO:IPR013154</li><li>INTERPRO:IPR020843</li><li>INTERPRO:IPR036291</li><li>INTERPRO:IPR050129</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00107; PFAM:PF08240; PFAM:PF16912</td></tr><tr><th>SMART</th><td>SMART:SM00829</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd08261</td>
+      <td>CDD:cd05188;CDD:cd05195;CDD:cd05276;CDD:cd05278;CDD:cd05279;CDD:cd05281;CDD:cd05282;CDD:cd05283;CDD:cd05284;CDD:cd05285;CDD:cd05286;CDD:cd05289;CDD:cd08230;CDD:cd08231;CDD:cd08232;CDD:cd08233;CDD:cd08234;CDD:cd08235;CDD:cd08236;CDD:cd08237;CDD:cd08238;CDD:cd08239;CDD:cd08240;CDD:cd08241;CDD:cd08242;CDD:cd08243;CDD:cd08244;CDD:cd08245;CDD:cd08246;CDD:cd08249;CDD:cd08250;CDD:cd08251;CDD:cd08253;CDD:cd08254;CDD:cd08255;CDD:cd08256;CDD:cd08258;CDD:cd08259;CDD:cd08260;CDD:cd08261;CDD:cd08262;CDD:cd08263;CDD:cd08264;CDD:cd08265;CDD:cd08266;CDD:cd08267;CDD:cd08268;CDD:cd08269;CDD:cd08270;CDD:cd08271;CDD:cd08272;CDD:cd08273;CDD:cd08274;CDD:cd08275;CDD:cd08276;CDD:cd08277;CDD:cd08278;CDD:cd08279;CDD:cd08281;CDD:cd08282;CDD:cd08283;CDD:cd08284;CDD:cd08285;CDD:cd08286;CDD:cd08287;CDD:cd08291;CDD:cd08292;CDD:cd08296;CDD:cd08297;CDD:cd08298;CDD:cd08299;CDD:cd08300;CDD:cd08301</td>
+      <td>CDD:cd08261</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1063</td>
+      <td>COG:COG0604;COG:COG1062;COG:COG1063;COG:COG1064</td>
+      <td>COG:COG1063</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:1.1.1.414</td>
+      <td>EC:1.1.1.414</td>
+      <td>EC:1.1.1.414</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:1.1.1.414</td>
+      <td></td>
+      <td></td>
+      <td>only_source_1</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.1.1.414</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0005975;GO:0006082;GO:0008150;GO:0008152;GO:0009056;GO:0009987;GO:0016052;GO:0016054;GO:0016491;GO:0016614;GO:0016616;GO:0019520;GO:0019583;GO:0019584;GO:0019752;GO:0032787;GO:0034193;GO:0034195;GO:0043436;GO:0044237;GO:0044238;GO:0044248;GO:0044262;GO:0044275;GO:0044281;GO:0044282;GO:0046176;GO:0046395;GO:0055114;GO:0071704;GO:0072329;GO:1901575</td>
+      <td>GO:0008270;GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>KEGG:K23007</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041097;NCBIFAM:NF041172;NCBIFAM:TIGR00692;NCBIFAM:TIGR01202;NCBIFAM:TIGR01751;NCBIFAM:TIGR02818;NCBIFAM:TIGR02819;NCBIFAM:TIGR02822;NCBIFAM:TIGR02824;NCBIFAM:TIGR03201;NCBIFAM:TIGR03366;NCBIFAM:TIGR03451;NCBIFAM:TIGR03989</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF041097;NCBIFAM:NF041172;NCBIFAM:TIGR00692;NCBIFAM:TIGR01202;NCBIFAM:TIGR01751;NCBIFAM:TIGR02818;NCBIFAM:TIGR02819;NCBIFAM:TIGR02822;NCBIFAM:TIGR02824;NCBIFAM:TIGR03201;NCBIFAM:TIGR03366;NCBIFAM:TIGR03451;NCBIFAM:TIGR03989</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00107;PFAM:PF08240</td>
+      <td>PFAM:PF00107;PFAM:PF08240;PFAM:PF16912</td>
+      <td>PFAM:PF00107;PFAM:PF08240</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00107;PFAM:PF08240</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00107;PFAM:PF08240;PFAM:PF16912</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00829</td>
+      <td>SMART:SM00829</td>
+      <td>SMART:SM00829</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 1 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:1.1.1.414</td>
+      <td>WP_000106030</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 44 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSSON_1240.SSON_4504</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1063</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MWX0@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RR1W@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XQDT@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1063@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1063@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005975</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016052</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016054</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016614</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016616</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019583</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019584</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034193</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034195</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044262</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044275</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046176</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072329</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>ADH_N</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>ADH_zinc_N</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85677098</td>
+      <td>yjjN</td>
+      <td>Catalyzes the oxidation of L-galactonate to D- tagaturonate. Required for growth on L-galactonate as the sole carbon source. In vitro, can also use L-gulonate</td>
+      <td>679.0</td>
+      <td>2.1e-247</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>340</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.1.1.414</td>
+      <td>KEGG:K23007</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K23007</td>
+      <td></td>
+      <td>L-galactonate 5-dehydrogenase [EC:1.1.1.414]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K23007</td>
+      <td>L-galactonate 5-dehydrogenase [EC:1.1.1.414]</td>
+      <td>above_threshold</td>
+      <td>606.7</td>
+      <td>327.70</td>
+      <td>2.4e-183</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 20 annotation rows, 11 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd08261</td>
+      <td></td>
+      <td>Zn_ADH7</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.720:FF:000379</td>
+      <td></td>
+      <td>Oxidoreductase, zinc-binding dehydrogenase family</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.720</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.90.180.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008270</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00059","interpro_accession":"IPR002328","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"ProSitePatterns","signature_accession":"PS00059","interpro_accession":"IPR002328","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00829","interpro_accession":"IPR020843","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR002328</td>
+      <td></td>
+      <td>Alcohol dehydrogenase, zinc-type, conserved site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR011032</td>
+      <td></td>
+      <td>GroES-like superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013149</td>
+      <td></td>
+      <td>Alcohol dehydrogenase-like, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013154</td>
+      <td></td>
+      <td>Alcohol dehydrogenase-like, N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR020843</td>
+      <td></td>
+      <td>Enoylreductase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036291</td>
+      <td></td>
+      <td>NAD(P)-binding domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR050129</td>
+      <td></td>
+      <td>Zinc-containing alcohol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43401</td>
+      <td></td>
+      <td>L-THREONINE 3-DEHYDROGENASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00107</td>
+      <td></td>
+      <td>Zinc-binding dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF08240</td>
+      <td></td>
+      <td>Alcohol dehydrogenase GroES-like domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00059</td>
+      <td></td>
+      <td>Zinc-containing alcohol dehydrogenases signature.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00829</td>
+      <td></td>
+      <td>PKS_ER_names_mod</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF50129</td>
+      <td></td>
+      <td>GroES-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF51735</td>
+      <td></td>
+      <td>NAD(P)-binding Rossmann-fold domains</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd08261</td>
+      <td>Zn_ADH7</td>
+      <td>0.0</td>
+      <td>4</td>
+      <td>340</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.720:FF:000379</td>
+      <td>Oxidoreductase, zinc-binding dehydrogenase family</td>
+      <td>4.9E-90</td>
+      <td>151</td>
+      <td>284</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.720</td>
+      <td></td>
+      <td>8.9E-90</td>
+      <td>151</td>
+      <td>284</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.90.180.10</td>
+      <td></td>
+      <td>8.9E-90</td>
+      <td>20</td>
+      <td>324</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43401</td>
+      <td>L-THREONINE 3-DEHYDROGENASE</td>
+      <td>8.5E-91</td>
+      <td>4</td>
+      <td>340</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00107</td>
+      <td>Zinc-binding dehydrogenase</td>
+      <td>4.9E-22</td>
+      <td>173</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF08240</td>
+      <td>Alcohol dehydrogenase GroES-like domain</td>
+      <td>6.6E-25</td>
+      <td>26</td>
+      <td>134</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00059</td>
+      <td>Zinc-containing alcohol dehydrogenases signature.</td>
+      <td></td>
+      <td>61</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00829</td>
+      <td>PKS_ER_names_mod</td>
+      <td>0.0013</td>
+      <td>10</td>
+      <td>310</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF50129</td>
+      <td>GroES-like</td>
+      <td>6.54E-51</td>
+      <td>3</td>
+      <td>172</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF51735</td>
+      <td>NAD(P)-binding Rossmann-fold domains</td>
+      <td>2.51E-34</td>
+      <td>139</td>
+      <td>304</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 114 annotation rows, 222 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05188</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05195</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05276</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05278</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05279</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05281</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05282</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05283</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05284</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05285</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05286</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd05289</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08230</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08231</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08232</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08233</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08234</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08235</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08236</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08237</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08238</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08239</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08240</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08241</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08242</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08243</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08244</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08245</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08246</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08249</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08250</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08251</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08253</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08254</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08255</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08256</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08258</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08259</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08260</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08261</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08262</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08263</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08264</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08265</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08266</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08267</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08268</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08269</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08270</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08271</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08272</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08273</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08274</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08275</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08276</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08277</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08278</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08279</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08281</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08282</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08283</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08284</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08285</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08286</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08287</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08291</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08292</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08296</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08297</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08298</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08299</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08300</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd08301</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02178</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02514</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02586</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02702</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02740</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02827</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05396</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09422</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09880</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10083</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10309</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13771</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00354</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0604</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1062</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1063</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1064</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0022</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0023</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG0024</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1197</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG1198</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041097</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041172</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00692</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01202</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01751</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02818</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02819</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02822</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02824</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03201</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03366</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03451</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03989</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00107</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF08240</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF16912</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00829</td>
+      <td></td>
+      <td>L-galactonate oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0604</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>151.7</td>
+      <td>6.1e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1062</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>163.3</td>
+      <td>1.9e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1063</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>365.5</td>
+      <td>4.9e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1064</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>264.3</td>
+      <td>2.9e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0022</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>129.9</td>
+      <td>2.5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0023</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>144.6</td>
+      <td>7.3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0024</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>235.6</td>
+      <td>1.7e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1197</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>54.8</td>
+      <td>1.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1198</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>44.0</td>
+      <td>3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041097</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>194.3</td>
+      <td>5.6e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041172</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>118.6</td>
+      <td>5.9e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02178</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>63.9</td>
+      <td>2.5e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02514</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>78.7</td>
+      <td>7.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02586</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>78.3</td>
+      <td>1.2e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02702</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>136.2</td>
+      <td>2.6e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02740</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>64.2</td>
+      <td>2.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02827</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>60.0</td>
+      <td>4.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05396</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>191.3</td>
+      <td>4.5e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09422</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>117.5</td>
+      <td>1.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09880</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>150.8</td>
+      <td>8.7e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10083</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>205.7</td>
+      <td>2e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10309</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>132.6</td>
+      <td>4.2e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13771</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>151.5</td>
+      <td>6e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00354</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>53.6</td>
+      <td>3.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00692</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>185.1</td>
+      <td>3.7e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01202</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>106.6</td>
+      <td>2.8e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01751</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>43.2</td>
+      <td>4.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02818</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>63.7</td>
+      <td>3.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02819</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>65.2</td>
+      <td>9.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02822</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>91.1</td>
+      <td>1.5e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02824</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>85.1</td>
+      <td>9.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03201</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>109.2</td>
+      <td>5e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03366</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>82.0</td>
+      <td>9.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03451</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>85.5</td>
+      <td>6.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03989</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>121.7</td>
+      <td>9.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05188</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>240.4</td>
+      <td>4.5e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05195</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>56.3</td>
+      <td>6.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05276</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>91.8</td>
+      <td>9.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05278</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>206.7</td>
+      <td>9.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05279</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>105.2</td>
+      <td>8e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05281</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>198.2</td>
+      <td>3.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05282</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>64.3</td>
+      <td>2.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05283</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>133.0</td>
+      <td>3e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05284</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>178.9</td>
+      <td>2.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05285</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>234.6</td>
+      <td>3.4e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05286</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>79.2</td>
+      <td>6.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05289</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>93.9</td>
+      <td>3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08230</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>109.9</td>
+      <td>2.7e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08231</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>196.0</td>
+      <td>1.8e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08232</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>192.2</td>
+      <td>2.3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08233</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>257.0</td>
+      <td>6.5e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08234</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>245.8</td>
+      <td>1.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08235</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>265.1</td>
+      <td>1.7e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08236</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>277.0</td>
+      <td>3.6e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08239</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>220.8</td>
+      <td>5.5e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08240</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>184.8</td>
+      <td>4.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08241</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>98.6</td>
+      <td>7.3e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08242</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>179.0</td>
+      <td>2.3e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08243</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>72.9</td>
+      <td>5.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08244</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>70.6</td>
+      <td>3.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08245</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>180.5</td>
+      <td>9.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08246</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>40.1</td>
+      <td>3.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08249</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>63.4</td>
+      <td>5.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08250</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>54.3</td>
+      <td>2.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08251</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>46.0</td>
+      <td>9.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08253</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>69.7</td>
+      <td>5.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08254</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>216.9</td>
+      <td>7.5e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08255</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>132.0</td>
+      <td>5.1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08256</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>154.9</td>
+      <td>6.2e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08258</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>231.5</td>
+      <td>2.2e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08259</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>196.9</td>
+      <td>8.8e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08260</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>199.4</td>
+      <td>2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08261</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>425.2</td>
+      <td>3.6e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08262</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>207.4</td>
+      <td>5.8e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08263</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>150.4</td>
+      <td>1.5e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08264</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>99.8</td>
+      <td>3.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08265</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>159.2</td>
+      <td>2.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08266</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>164.4</td>
+      <td>6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08267</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>87.6</td>
+      <td>2.3e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08268</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>89.8</td>
+      <td>4.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08269</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>154.0</td>
+      <td>1.1e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08270</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>54.6</td>
+      <td>2.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08271</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>73.9</td>
+      <td>2.5e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08272</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>61.9</td>
+      <td>1.3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08273</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>76.3</td>
+      <td>5.8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08274</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>97.0</td>
+      <td>2.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08275</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>59.9</td>
+      <td>4.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08276</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>83.5</td>
+      <td>2.9e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08277</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>111.8</td>
+      <td>8.4e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08278</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>123.0</td>
+      <td>3.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08279</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>157.6</td>
+      <td>9.9e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08281</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>107.9</td>
+      <td>1.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08282</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>121.5</td>
+      <td>8.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08283</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>143.3</td>
+      <td>2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08284</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>195.1</td>
+      <td>2.9e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08285</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>151.8</td>
+      <td>4.3e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08286</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>140.6</td>
+      <td>1.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08287</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>143.0</td>
+      <td>2.5e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08291</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>41.7</td>
+      <td>1.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08292</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>49.3</td>
+      <td>8.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08296</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>141.2</td>
+      <td>8.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08297</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>178.4</td>
+      <td>3.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08298</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>135.9</td>
+      <td>3.4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08299</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>73.8</td>
+      <td>2.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08300</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>93.5</td>
+      <td>3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08301</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>95.5</td>
+      <td>7.9e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00107</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>89.2</td>
+      <td>4.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam08240</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>115.4</td>
+      <td>2.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00829</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>50.7</td>
+      <td>3.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0604</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>151.7</td>
+      <td>6.1e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1062</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>163.3</td>
+      <td>1.9e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1063</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>365.5</td>
+      <td>4.9e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1064</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>264.3</td>
+      <td>2.9e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0022</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>129.9</td>
+      <td>2.5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0023</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>144.6</td>
+      <td>7.3e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG0024</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>235.6</td>
+      <td>1.7e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1197</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>54.8</td>
+      <td>1.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG1198</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>44.0</td>
+      <td>3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041097</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>194.3</td>
+      <td>5.6e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041172</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>118.6</td>
+      <td>5.9e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02178</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>63.9</td>
+      <td>2.5e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02514</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>78.7</td>
+      <td>7.7e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02586</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>78.3</td>
+      <td>1.2e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02702</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>136.2</td>
+      <td>2.6e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02740</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>64.2</td>
+      <td>2.4e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02827</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>60.0</td>
+      <td>4.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05396</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>191.3</td>
+      <td>4.5e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09422</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>117.5</td>
+      <td>1.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09880</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>150.8</td>
+      <td>8.7e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10083</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>205.7</td>
+      <td>2e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10309</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>132.6</td>
+      <td>4.2e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13771</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>151.5</td>
+      <td>6e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00354</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>53.6</td>
+      <td>3.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00692</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>185.1</td>
+      <td>3.7e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01202</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>106.6</td>
+      <td>2.8e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01751</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>43.2</td>
+      <td>4.7e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02818</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>63.7</td>
+      <td>3.6e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02819</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>65.2</td>
+      <td>9.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02822</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>91.1</td>
+      <td>1.5e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02824</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>85.1</td>
+      <td>9.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03201</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>109.2</td>
+      <td>5e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03366</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>82.0</td>
+      <td>9.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03451</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>85.5</td>
+      <td>6.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03989</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>121.7</td>
+      <td>9.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05188</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>240.4</td>
+      <td>4.5e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05195</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>56.3</td>
+      <td>6.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05276</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>91.8</td>
+      <td>9.9e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05278</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>206.7</td>
+      <td>9.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05279</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>105.2</td>
+      <td>8e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05281</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>198.2</td>
+      <td>3.5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05282</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>64.3</td>
+      <td>2.3e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05283</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>133.0</td>
+      <td>3e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05284</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>178.9</td>
+      <td>2.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05285</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>234.6</td>
+      <td>3.4e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05286</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>79.2</td>
+      <td>6.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd05289</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>93.9</td>
+      <td>3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08230</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>109.9</td>
+      <td>2.7e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08231</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>196.0</td>
+      <td>1.8e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08232</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>192.2</td>
+      <td>2.3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08233</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>257.0</td>
+      <td>6.5e-77</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08234</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>245.8</td>
+      <td>1.1e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08235</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>265.1</td>
+      <td>1.7e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08236</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>277.0</td>
+      <td>3.6e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08237</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>44.8</td>
+      <td>1.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08238</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>43.3</td>
+      <td>4.6e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08239</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>220.8</td>
+      <td>5.5e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08240</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>184.8</td>
+      <td>4.4e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08241</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>98.6</td>
+      <td>7.3e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08242</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>179.0</td>
+      <td>2.3e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08243</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>72.9</td>
+      <td>5.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08244</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>70.6</td>
+      <td>3.1e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08245</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>180.5</td>
+      <td>9.4e-54</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08246</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>40.1</td>
+      <td>3.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08249</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>63.4</td>
+      <td>5.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08250</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>54.3</td>
+      <td>2.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08251</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>46.0</td>
+      <td>9.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08253</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>69.7</td>
+      <td>5.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08254</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>216.9</td>
+      <td>7.5e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08255</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>132.0</td>
+      <td>5.1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08256</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>154.9</td>
+      <td>6.2e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08258</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>231.5</td>
+      <td>2.2e-69</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08259</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>196.9</td>
+      <td>8.8e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08260</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>199.4</td>
+      <td>2e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08261</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>425.2</td>
+      <td>3.6e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08262</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>207.4</td>
+      <td>5.8e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08263</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>150.4</td>
+      <td>1.5e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08264</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>99.8</td>
+      <td>3.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08265</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>159.2</td>
+      <td>2.4e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08266</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>164.4</td>
+      <td>6e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08267</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>87.6</td>
+      <td>2.3e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08268</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>89.8</td>
+      <td>4.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08269</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>154.0</td>
+      <td>1.1e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08270</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>54.6</td>
+      <td>2.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08271</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>73.9</td>
+      <td>2.5e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08272</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>61.9</td>
+      <td>1.3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08273</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>76.3</td>
+      <td>5.8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08274</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>97.0</td>
+      <td>2.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08275</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>59.9</td>
+      <td>4.6e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08276</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>83.5</td>
+      <td>2.9e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08277</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>111.8</td>
+      <td>8.4e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08278</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>123.0</td>
+      <td>3.3e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08279</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>157.6</td>
+      <td>9.9e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08281</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>107.9</td>
+      <td>1.2e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08282</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>121.5</td>
+      <td>8.5e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08283</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>143.3</td>
+      <td>2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08284</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>195.1</td>
+      <td>2.9e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08285</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>151.8</td>
+      <td>4.3e-45</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08286</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>140.6</td>
+      <td>1.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08287</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>143.0</td>
+      <td>2.5e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08291</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>41.7</td>
+      <td>1.4e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08292</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>49.3</td>
+      <td>8.5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08296</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>141.2</td>
+      <td>8.2e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08297</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>178.4</td>
+      <td>3.9e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08298</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>135.9</td>
+      <td>3.4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08299</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>73.8</td>
+      <td>2.9e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08300</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>93.5</td>
+      <td>3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd08301</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>95.5</td>
+      <td>7.9e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00107</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>89.2</td>
+      <td>4.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam08240</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>115.4</td>
+      <td>2.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam16912</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>40.0</td>
+      <td>6.5e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00829</td>
+      <td>L-galactonate oxidoreductase</td>
+      <td>50.7</td>
+      <td>3.1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.60327613</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

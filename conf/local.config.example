@@ -1,0 +1,55 @@
+/*
+ * Local development configuration.
+ *
+ * Copy this file to:
+ *
+ *     conf/local.config
+ *
+ * and replace the example paths with paths available on your system.
+ */
+
+params {
+    bakta_db   = '/absolute/path/to/bakta/database'
+    bakta_env  = '/absolute/path/to/bakta/conda/environment'
+
+    eggnog_db  = '/absolute/path/to/eggnog/database'
+    eggnog_env = '/absolute/path/to/eggnog/conda/environment'
+
+    interproscan_path = '/absolute/path/to/interproscan.sh'
+    interproscan_env = '/absolute/path/to/interproscan/conda/environment'
+
+    kofam_db = '/absolute/path/to/kofam/database'
+    kofamscan_env = '/absolute/path/to/kofamscan/conda/environment'
+
+    pathofact_path = '/absolute/path/to/pathofact2'
+    pathofact_db = '/absolute/path/to/pathofact/databases'
+    pathofact_env = '/absolute/path/to/pathofact/conda/environment'
+    pathofact_conda_prefix = '/absolute/path/to/pathofact/snakemake/conda'
+}
+
+conda.enabled = true
+
+process {
+
+    withName: BAKTA {
+        conda = params.bakta_env
+    }
+
+    withName: EGGNOG {
+        conda = params.eggnog_env
+    }
+
+    withName: INTERPROSCAN {
+        conda = params.interproscan_env
+        maxForks = 1
+    }
+
+    withName: KOFAMSCAN {
+        conda = params.kofamscan_env
+    }
+
+    withName: PATHOFACT {
+        conda = params.pathofact_env
+        maxForks = 1
+    }
+}

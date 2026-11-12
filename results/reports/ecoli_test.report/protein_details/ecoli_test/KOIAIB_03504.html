@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_03504</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_03504</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>bifunctional chitinase/lysozyme [EC:3.2.1.14 3.2.1.17]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K13381</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K13381</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:3.2.1.14;EC:3.2.1.17</td></tr><tr><th>mf_proposal_ids</th><td>GO:0004553</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K13381</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.2.1.14</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.2.1.17</td>
+      <td>Additional proposal</td>
+      <td>bakta;eggNOG-mapper;KofamScan</td>
+      <td>BlastRules;eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam;sequence_homology@BlastRules</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>3</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K13381</td>
+      <td>EC:3.2.1.14</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K13381</td>
+      <td>EC:3.2.1.17</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:3.2.1.14</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.14</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.14</td>
+      <td>GO:0004553</td>
+      <td>GO:0004553</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.14</td>
+      <td>GO:0004568</td>
+      <td>GO:0004568</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.14</td>
+      <td>GO:0008843</td>
+      <td>GO:0008843</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.14</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.14</td>
+      <td>GO:0016798</td>
+      <td>GO:0016798</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.14</td>
+      <td>GO:0030246</td>
+      <td>GO:0030246</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0004553</td>
+      <td>GO:0004553</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0004568</td>
+      <td>GO:0004568</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0008843</td>
+      <td>GO:0008843</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0016798</td>
+      <td>GO:0016798</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.2.1.17</td>
+      <td>GO:0030246</td>
+      <td>GO:0030246</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|3467160|3469853|-</td></tr><tr><th>protein_id</th><td>KOIAIB_03504</td></tr><tr><th>gene</th><td>chiA</td></tr><tr><th>product</th><td>bifunctional chitinase/lysozyme</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>3467160</td></tr><tr><th>stop</th><td>3469853</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_3653</td></tr><tr><th>locus_tag</th><td>KOIAIB_03504</td></tr><tr><th>aa_md5</th><td>f70fafe912a9c7b1d8b014bc14d588e1</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;bakta;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>G</td></tr><tr><th>GO</th><td><details class="value-details"><summary>17 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004553</li><li>GO:0004568</li><li>GO:0005575</li><li>GO:0005576</li><li>GO:0005623</li><li>GO:0005975</li><li>GO:0008843</li><li>GO:0016787</li><li>GO:0016798</li><li>GO:0030246</li><li>GO:0030288</li><li>GO:0030313</li><li>GO:0031975</li><li>GO:0042597</li><li>GO:0044464</li></ul></details></td></tr><tr><th>EC</th><td>EC:3.2.1.14; EC:3.2.1.17</td></tr><tr><th>KEGG_KO</th><td>KEGG:K13381</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00520; KEGG:ko01100; KEGG:map00520; KEGG:map01100</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R01206; KEGG:R02334</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR001223; INTERPRO:IPR003610; INTERPRO:IPR017853; INTERPRO:IPR036573; INTERPRO:IPR052750</td></tr><tr><th>PFAM</th><td>PFAM:PF00704; PFAM:PF02839</td></tr><tr><th>SMART</th><td>SMART:SM00495</td></tr><tr><th>CAZY</th><td>CBM15; GH18</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>6</td></tr><tr><th>concordance_partial</th><td>1</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd06543;CDD:cd12215</td>
+      <td>CDD:cd06543;CDD:cd12215</td>
+      <td>CDD:cd06543;CDD:cd12215</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG3979</td>
+      <td></td>
+      <td></td>
+      <td>only_source_1</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td>EC:3.2.1.14;EC:3.2.1.17</td>
+      <td>EC:3.2.1.14;EC:3.2.1.17</td>
+      <td>EC:3.2.1.14;EC:3.2.1.17</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td>EC:3.2.1.14;EC:3.2.1.17</td>
+      <td>EC:3.2.1.14;EC:3.2.1.17</td>
+      <td>EC:3.2.1.14;EC:3.2.1.17</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:3.2.1.14;EC:3.2.1.17</td>
+      <td>EC:3.2.1.14;EC:3.2.1.17</td>
+      <td>EC:3.2.1.14;EC:3.2.1.17</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0004553;GO:0004568;GO:0005575;GO:0005623;GO:0008843;GO:0016787;GO:0016798;GO:0030288;GO:0030313;GO:0031975;GO:0042597;GO:0044464</td>
+      <td>GO:0004553;GO:0005576;GO:0005975;GO:0030246</td>
+      <td>GO:0004553</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K13381</td>
+      <td>KEGG:K13381</td>
+      <td>KEGG:K13381</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00704;PFAM:PF02839</td>
+      <td></td>
+      <td></td>
+      <td>only_source_1</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00704;PFAM:PF02839</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00495</td>
+      <td>SMART:SM00495</td>
+      <td>SMART:SM00495</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 2 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:3.2.1.14</td>
+      <td>WP_000773156</td>
+    </tr>
+    <tr>
+      <td>bakta</td>
+      <td>EC</td>
+      <td>EC:3.2.1.17</td>
+      <td>WP_000773156</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 37 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>CAZY</td>
+      <td>CBM15</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>CAZY</td>
+      <td>GH18</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG3979</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>G</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.2.1.14</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.2.1.17</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1R5T0@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RQXW@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG3979@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG3979@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004553</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004568</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008843</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016798</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030288</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030313</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031975</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042597</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K13381</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00467</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01206</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R02334</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>CBM_5_12</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Glyco_hydro_18</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85676703</td>
+      <td>chiA</td>
+      <td>endochitinase activity</td>
+      <td>1760.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>897</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:3.2.1.14</td>
+      <td>KEGG:K13381</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:3.2.1.17</td>
+      <td>KEGG:K13381</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K13381</td>
+      <td></td>
+      <td>bifunctional chitinase/lysozyme [EC:3.2.1.14 3.2.1.17]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K13381</td>
+      <td>bifunctional chitinase/lysozyme [EC:3.2.1.14 3.2.1.17]</td>
+      <td>above_threshold</td>
+      <td>963.6</td>
+      <td>310.83</td>
+      <td>1.2e-290</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 22 annotation rows, 27 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd06543</td>
+      <td></td>
+      <td>GH18_PF-ChiA-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd12215</td>
+      <td></td>
+      <td>ChiC_BD</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.20.20.80:FF:000118</td>
+      <td></td>
+      <td>Probable bifunctional chitinase/lysozyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:2.10.10.20</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.20.20.80</td>
+      <td></td>
+      <td>Glycosidases</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004553</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF02839","interpro_accession":"IPR003610","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00495","interpro_accession":"IPR003610","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF51055","interpro_accession":"IPR036573","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005576</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF02839","interpro_accession":"IPR003610","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00495","interpro_accession":"IPR003610","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF51055","interpro_accession":"IPR036573","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005975</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00704","interpro_accession":"IPR001223","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF02839","interpro_accession":"IPR003610","mapping_source":"InterPro"},{"analysis":"ProSiteProfiles","signature_accession":"PS51910","interpro_accession":"IPR001223","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00495","interpro_accession":"IPR003610","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF51055","interpro_accession":"IPR036573","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0030246</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF02839","interpro_accession":"IPR003610","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00495","interpro_accession":"IPR003610","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF51055","interpro_accession":"IPR036573","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001223</td>
+      <td></td>
+      <td>Glycoside hydrolase family 18, catalytic domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003610</td>
+      <td></td>
+      <td>Carbohydrate binding module family 5/12</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR017853</td>
+      <td></td>
+      <td>Glycoside hydrolase superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036573</td>
+      <td></td>
+      <td>Carbohydrate-binding module superfamily 5/12</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR052750</td>
+      <td></td>
+      <td>Glycosyl Hydrolase 18 Chitinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>MOBIDBLITE</td>
+      <td>MOBIDBLITE:mobidb-lite</td>
+      <td></td>
+      <td>consensus disorder prediction</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR42976</td>
+      <td></td>
+      <td>BIFUNCTIONAL CHITINASE/LYSOZYME-RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00704</td>
+      <td></td>
+      <td>Glycosyl hydrolases family 18</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02839</td>
+      <td></td>
+      <td>Carbohydrate-binding module family 5/12</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS51910</td>
+      <td></td>
+      <td>Glycosyl hydrolases family 18 (GH18) domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00495</td>
+      <td></td>
+      <td>chi_5</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF51055</td>
+      <td></td>
+      <td>Carbohydrate binding domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF51445</td>
+      <td></td>
+      <td>(Trans)glycosidases</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd06543</td>
+      <td>GH18_PF-ChiA-like</td>
+      <td>4.56072E-122</td>
+      <td>587</td>
+      <td>892</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd12215</td>
+      <td>ChiC_BD</td>
+      <td>3.76255E-10</td>
+      <td>461</td>
+      <td>509</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.80:FF:000118</td>
+      <td>Probable bifunctional chitinase/lysozyme</td>
+      <td>0.0</td>
+      <td>579</td>
+      <td>897</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:2.10.10.20</td>
+      <td></td>
+      <td>5.6E-13</td>
+      <td>455</td>
+      <td>516</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.80</td>
+      <td>Glycosidases</td>
+      <td>1.8E-92</td>
+      <td>579</td>
+      <td>897</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>113</td>
+      <td>127</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>182</td>
+      <td>197</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>182</td>
+      <td>222</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>198</td>
+      <td>216</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>287</td>
+      <td>333</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>309</td>
+      <td>318</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>322</td>
+      <td>333</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>90</td>
+      <td>127</td>
+    </tr>
+    <tr>
+      <td>InterProScan:MobiDBLite</td>
+      <td>signature_match</td>
+      <td>mobidb-lite</td>
+      <td>consensus disorder prediction</td>
+      <td></td>
+      <td>95</td>
+      <td>111</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR42976</td>
+      <td>BIFUNCTIONAL CHITINASE/LYSOZYME-RELATED</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>897</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00704</td>
+      <td>Glycosyl hydrolases family 18</td>
+      <td>3.1E-6</td>
+      <td>609</td>
+      <td>805</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF02839</td>
+      <td>Carbohydrate-binding module family 5/12</td>
+      <td>3.4E-4</td>
+      <td>461</td>
+      <td>494</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS51910</td>
+      <td>Glycosyl hydrolases family 18 (GH18) domain profile.</td>
+      <td>21.798168</td>
+      <td>586</td>
+      <td>877</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00495</td>
+      <td>chi_5</td>
+      <td>1.5E-6</td>
+      <td>412</td>
+      <td>456</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00495</td>
+      <td>chi_5</td>
+      <td>1.7E-8</td>
+      <td>25</td>
+      <td>73</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00495</td>
+      <td>chi_5</td>
+      <td>2.5E-8</td>
+      <td>337</td>
+      <td>385</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00495</td>
+      <td>chi_5</td>
+      <td>22.0</td>
+      <td>525</td>
+      <td>567</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00495</td>
+      <td>chi_5</td>
+      <td>5.7E-13</td>
+      <td>459</td>
+      <td>511</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00495</td>
+      <td>chi_5</td>
+      <td>5.7E-6</td>
+      <td>128</td>
+      <td>176</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00495</td>
+      <td>chi_5</td>
+      <td>8.4E-7</td>
+      <td>229</td>
+      <td>277</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF51055</td>
+      <td>Carbohydrate binding domain</td>
+      <td>3.66E-10</td>
+      <td>456</td>
+      <td>513</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF51445</td>
+      <td>(Trans)glycosidases</td>
+      <td>9.21E-27</td>
+      <td>606</td>
+      <td>877</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 5 annotation rows, 8 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06543</td>
+      <td></td>
+      <td>bifunctional chitinase/lysozyme</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd12215</td>
+      <td></td>
+      <td>bifunctional chitinase/lysozyme</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00495</td>
+      <td></td>
+      <td>bifunctional chitinase/lysozyme</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06543</td>
+      <td>bifunctional chitinase/lysozyme</td>
+      <td>342.9</td>
+      <td>2.7e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12215</td>
+      <td>bifunctional chitinase/lysozyme</td>
+      <td>102.3</td>
+      <td>1.8e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00495</td>
+      <td>bifunctional chitinase/lysozyme</td>
+      <td>164.3</td>
+      <td>9.2e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06543</td>
+      <td>bifunctional chitinase/lysozyme</td>
+      <td>342.9</td>
+      <td>2.7e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd12215</td>
+      <td>bifunctional chitinase/lysozyme</td>
+      <td>102.3</td>
+      <td>1.8e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00495</td>
+      <td>bifunctional chitinase/lysozyme</td>
+      <td>164.3</td>
+      <td>9.2e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>toxin-associated protein</td>
+      <td>0.59</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>1.0</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

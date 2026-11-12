@@ -1,0 +1,2294 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_02406</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_02406</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>NADH-quinone oxidoreductase subunit N [EC:7.1.1.2]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K00343</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K00343</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008137</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00343</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.6.5.3</td>
+      <td>Other observed claim</td>
+      <td>eggNOG-mapper</td>
+      <td>eggNOG-mapper</td>
+      <td>orthology_transfer@eggNOG</td>
+      <td>transferred_annotation</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:7.1.1.2</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td>derived_from_ko</td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K00343</td>
+      <td>EC:1.6.5.3</td>
+      <td>not_documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K00343</td>
+      <td>EC:7.1.1.2</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.6.5.3</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.6.5.3</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.6.5.3</td>
+      <td>GO:0003954</td>
+      <td>GO:0003954</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.6.5.3</td>
+      <td>GO:0008137</td>
+      <td>GO:0008137</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.6.5.3</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.6.5.3</td>
+      <td>GO:0016651</td>
+      <td>GO:0016651</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.6.5.3</td>
+      <td>GO:0016655</td>
+      <td>GO:0016655</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.6.5.3</td>
+      <td>GO:0050136</td>
+      <td>GO:0050136</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.1.1.2</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.1.1.2</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.1.1.2</td>
+      <td>GO:0003954</td>
+      <td>GO:0003954</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.1.1.2</td>
+      <td>GO:0008137</td>
+      <td>GO:0008137</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.1.1.2</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.1.1.2</td>
+      <td>GO:0016651</td>
+      <td>GO:0016651</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.1.1.2</td>
+      <td>GO:0016655</td>
+      <td>GO:0016655</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:7.1.1.2</td>
+      <td>GO:0050136</td>
+      <td>GO:0050136</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|2390048|2391505|-</td></tr><tr><th>protein_id</th><td>KOIAIB_02406</td></tr><tr><th>product</th><td>NADH-quinone oxidoreductase subunit N</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>2390048</td></tr><tr><th>stop</th><td>2391505</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_2639</td></tr><tr><th>locus_tag</th><td>KOIAIB_02406</td></tr><tr><th>aa_md5</th><td>4e61f4990888ff483eea44f8c378b922</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>C</td></tr><tr><th>GO</th><td><details class="value-details"><summary>55 values</summary><ul class="value-list"><li>GO:0003674</li><li>GO:0003824</li><li>GO:0003954</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0005887</li><li>GO:0006091</li><li>GO:0006810</li><li>GO:0006811</li><li>GO:0006812</li><li>GO:0008137</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009060</li><li>GO:0009987</li><li>GO:0015672</li><li>GO:0015980</li><li>GO:0015988</li><li>GO:0015990</li><li>GO:0016020</li><li>GO:0016021</li><li>GO:0016491</li><li>GO:0016651</li><li>GO:0016655</li><li>GO:0030964</li><li>GO:0031224</li><li>GO:0031226</li><li>GO:0032991</li><li>GO:0034220</li><li>GO:0042773</li><li>GO:0044237</li><li>GO:0044425</li><li>GO:0044459</li><li>GO:0044464</li><li>GO:0045271</li><li>GO:0045272</li><li>GO:0045333</li><li>GO:0050136</li><li>GO:0051179</li><li>GO:0051234</li><li>GO:0055085</li><li>GO:0055114</li><li>GO:0070469</li><li>GO:0070470</li><li>GO:0071944</li><li>GO:0098655</li><li>GO:0098660</li><li>GO:0098662</li><li>GO:0098796</li><li>GO:0098797</li><li>GO:0098803</li><li>GO:1902494</li><li>GO:1902600</li><li>GO:1990204</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.6.5.3; EC:7.1.1.2</td></tr><tr><th>KEGG_KO</th><td>KEGG:K00343</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00190; KEGG:ko01100; KEGG:map00190; KEGG:map01100</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00144</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R11945</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR001750; INTERPRO:IPR010096</td></tr><tr><th>PFAM</th><td>PFAM:PF00361</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1007</td>
+      <td>COG:COG0651;COG:COG1007;COG:COG1008;COG:COG1009</td>
+      <td>COG:COG1007</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:7.1.1.2</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.6.5.3</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.6.5.3</td>
+      <td>EC:7.1.1.2</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0003674;GO:0003824;GO:0003954;GO:0005575;GO:0005623;GO:0005886;GO:0005887;GO:0006091;GO:0006810;GO:0006811;GO:0006812;GO:0008137;GO:0008150;GO:0008152;GO:0009060;GO:0009987;GO:0015672;GO:0015980;GO:0015988;GO:0015990;GO:0016020;GO:0016021;GO:0016491;GO:0016651;GO:0016655;GO:0030964;GO:0031224;GO:0031226;GO:0032991;GO:0034220;GO:0044237;GO:0044425;GO:0044459;GO:0044464;GO:0045271;GO:0045272;GO:0045333;GO:0050136;GO:0051179;GO:0051234;GO:0055085;GO:0055114;GO:0070469;GO:0070470;GO:0071944;GO:0098655;GO:0098660;GO:0098662;GO:0098796;GO:0098797;GO:0098803;GO:1902494;GO:1902600;GO:1990204</td>
+      <td>GO:0008137;GO:0042773</td>
+      <td>GO:0008137</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K00343</td>
+      <td>KEGG:K00343</td>
+      <td>KEGG:K00343</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF004439;NCBIFAM:TIGR01770</td>
+      <td>NCBIFAM:TIGR00940;NCBIFAM:TIGR00944;NCBIFAM:TIGR01770;NCBIFAM:TIGR01972;NCBIFAM:TIGR01974</td>
+      <td>NCBIFAM:TIGR01770</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF004439;NCBIFAM:TIGR01770</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR00940;NCBIFAM:TIGR00944;NCBIFAM:TIGR01770;NCBIFAM:TIGR01972;NCBIFAM:TIGR01974</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00361</td>
+      <td>PFAM:PF00361</td>
+      <td>PFAM:PF00361</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00361</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00361</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 78 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEC042_1314.EC042_2517</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSbBS512_1146.SbBS512_E2652</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1007</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.6.5.3</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MV56@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RPJB@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XN8H@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1007@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1007@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003954</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005887</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006091</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006810</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006811</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006812</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008137</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009060</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015672</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015980</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015988</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0015990</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016021</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016651</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016655</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0030964</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031224</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031226</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032991</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034220</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044425</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044459</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0045271</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0045272</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0045333</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050136</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051179</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051234</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055085</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070469</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0070470</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098655</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098660</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098797</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098803</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1902494</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1902600</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1990204</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00343</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00190</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00190</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00061</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R11945</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_TC</td>
+      <td>3.D.1</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Proton_antipo_M</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>155864.EDL933_3439</td>
+      <td>nuoN</td>
+      <td>NDH-1 shuttles electrons from NADH, via FMN and iron- sulfur (Fe-S) centers, to quinones in the respiratory chain. The immediate electron acceptor for the enzyme in this species is believed to be ubiquinone. Couples the redox reaction to proton translocation (for every two electrons transferred, four hydrogen ions are translocated across the cytoplasmic membrane), and thus conserves the redox energy in a proton gradient</td>
+      <td>914.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>485</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:7.1.1.2</td>
+      <td>KEGG:K00343</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K00343</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N [EC:7.1.1.2]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K00343</td>
+      <td>NADH-quinone oxidoreductase subunit N [EC:7.1.1.2]</td>
+      <td>above_threshold</td>
+      <td>525.3</td>
+      <td>325.77</td>
+      <td>6.2e-158</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 9 annotation rows, 5 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008137</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00445","interpro_accession":"IPR010096","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01770","interpro_accession":"IPR010096","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0042773</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00445","interpro_accession":"IPR010096","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01770","interpro_accession":"IPR010096","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00445</td>
+      <td></td>
+      <td>NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic [ndhB].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR001750</td>
+      <td></td>
+      <td>NADH:quinone oxidoreductase/Mrp antiporter, transmembrane domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR010096</td>
+      <td></td>
+      <td>NAD(P)H-quinone oxidoreductase, subunit N/subunit 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF004439</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit NuoN</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01770</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit NuoN</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR22773</td>
+      <td></td>
+      <td>NADH DEHYDROGENASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00361</td>
+      <td></td>
+      <td>NADH:quinone oxidoreductase/Mrp antiporter, TM</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00445</td>
+      <td>NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic [ndhB].</td>
+      <td>17.865299</td>
+      <td>6</td>
+      <td>475</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF004439</td>
+      <td>NADH-quinone oxidoreductase subunit NuoN</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>485</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01770</td>
+      <td>NADH-quinone oxidoreductase subunit NuoN</td>
+      <td>0.0</td>
+      <td>9</td>
+      <td>475</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR22773</td>
+      <td>NADH DEHYDROGENASE</td>
+      <td>6.9E-105</td>
+      <td>21</td>
+      <td>478</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00361</td>
+      <td>NADH:quinone oxidoreductase/Mrp antiporter, TM</td>
+      <td>1.9E-88</td>
+      <td>122</td>
+      <td>420</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 82 annotation rows, 81 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00011</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00025</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:CHL00049</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00004</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00011</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00020</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00041</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00044</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00066</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00068</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00070</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00105</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00108</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00112</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00124</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00135</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00137</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00144</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00150</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00160</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00163</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00196</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00197</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00198</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00199</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00200</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00204</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00206</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00209</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00217</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:MTH00226</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK02504</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK02546</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05777</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK05846</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06277</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06458</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06459</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06473</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06521</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06525</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06589</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06590</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK06591</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07234</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07363</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07376</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK07691</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08168</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08375</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08376</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08377</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08667</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08668</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK08676</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12561</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12644</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12645</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12646</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12647</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12648</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12649</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12650</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12662</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12663</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12665</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12666</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12667</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK12668</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0651</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1007</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1008</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1009</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG4668</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG4845</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00940</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR00944</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01770</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01972</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01974</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00361</td>
+      <td></td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00011</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>48.0</td>
+      <td>1.9e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00025</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>41.9</td>
+      <td>9.3e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>CHL00049</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>280.1</td>
+      <td>6.4e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0651</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>261.7</td>
+      <td>2.8e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1007</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>512.5</td>
+      <td>2.7e-154</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1008</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>177.9</td>
+      <td>5.7e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1009</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>151.2</td>
+      <td>1.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG4668</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>159.0</td>
+      <td>3.2e-47</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG4845</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>93.0</td>
+      <td>4.2e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00004</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>45.2</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00011</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>87.8</td>
+      <td>2e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00020</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>46.5</td>
+      <td>4.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00041</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>131.3</td>
+      <td>1.1e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00044</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>47.1</td>
+      <td>3.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00066</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>44.3</td>
+      <td>2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00068</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>48.2</td>
+      <td>1.4e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00070</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>112.6</td>
+      <td>4.3e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00105</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>110.1</td>
+      <td>3e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00108</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>47.3</td>
+      <td>2.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00112</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>133.1</td>
+      <td>2.7e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00124</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>46.7</td>
+      <td>4.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00135</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>105.1</td>
+      <td>1.1e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00137</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>46.8</td>
+      <td>3.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00144</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>149.8</td>
+      <td>2.2e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00150</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>55.0</td>
+      <td>1.5e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00160</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>119.5</td>
+      <td>3.2e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00163</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>61.6</td>
+      <td>1.4e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00196</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>194.9</td>
+      <td>4.9e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00197</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>96.1</td>
+      <td>5.7e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00198</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>115.8</td>
+      <td>4.4e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00199</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>188.1</td>
+      <td>6e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00200</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>138.8</td>
+      <td>4.9e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00204</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>85.1</td>
+      <td>9.7e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00206</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>53.3</td>
+      <td>4.4e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00209</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>49.9</td>
+      <td>5.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00217</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>82.6</td>
+      <td>6.3e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>MTH00226</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>47.3</td>
+      <td>3.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02504</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>260.0</td>
+      <td>8.3e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK02546</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>59.5</td>
+      <td>4.8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05777</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>583.1</td>
+      <td>1e-175</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK05846</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>128.7</td>
+      <td>5.3e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06277</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>97.4</td>
+      <td>1.8e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06458</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>126.9</td>
+      <td>2.7e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06459</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>53.9</td>
+      <td>2.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06473</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>84.5</td>
+      <td>1.4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06521</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>75.3</td>
+      <td>8e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06525</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>97.1</td>
+      <td>2.2e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06589</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>96.3</td>
+      <td>4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06590</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>91.2</td>
+      <td>1.7e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK06591</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>72.7</td>
+      <td>7.4e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07234</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>108.8</td>
+      <td>8.1e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07363</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>88.8</td>
+      <td>6.5e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07376</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>53.5</td>
+      <td>2.8e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK07691</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>103.4</td>
+      <td>3.2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08168</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>55.7</td>
+      <td>9.9e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08375</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>204.6</td>
+      <td>5.2e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08376</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>139.4</td>
+      <td>3.8e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08377</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>150.9</td>
+      <td>1.3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08667</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>58.4</td>
+      <td>1.1e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08668</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>130.1</td>
+      <td>2.5e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK08676</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>61.3</td>
+      <td>1.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12561</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>74.1</td>
+      <td>2.1e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12644</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>76.3</td>
+      <td>3.3e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12645</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>73.7</td>
+      <td>2.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12646</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>87.7</td>
+      <td>1.5e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12647</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>97.8</td>
+      <td>1.4e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12648</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>92.4</td>
+      <td>4.6e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12649</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>58.6</td>
+      <td>8.8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12650</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>88.3</td>
+      <td>6.9e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12662</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>131.0</td>
+      <td>1.2e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12663</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>114.5</td>
+      <td>1.2e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12665</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>112.1</td>
+      <td>5.8e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12666</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>77.1</td>
+      <td>2.6e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12667</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>137.5</td>
+      <td>1.4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK12668</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>76.2</td>
+      <td>5.3e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00940</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>74.3</td>
+      <td>1.6e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR00944</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>92.8</td>
+      <td>6.2e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01770</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>526.9</td>
+      <td>1.1e-158</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01972</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>149.4</td>
+      <td>3e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01974</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>98.4</td>
+      <td>1e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00361</td>
+      <td>NADH-quinone oxidoreductase subunit N</td>
+      <td>325.7</td>
+      <td>5.5e-98</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

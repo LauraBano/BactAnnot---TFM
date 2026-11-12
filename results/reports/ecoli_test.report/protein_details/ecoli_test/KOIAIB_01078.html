@@ -1,0 +1,5437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01078</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01078</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K13821</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K13821</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.2.1.88;EC:1.5.5.2</td></tr><tr><th>mf_proposal_ids</th><td>GO:0003700;GO:0003842;GO:0004657</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K13821</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.2.1.88</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.5.5.2</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K13821</td>
+      <td>EC:1.2.1.88</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K13821</td>
+      <td>EC:1.5.5.2</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0000976</td>
+      <td>GO:0000976</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0000984</td>
+      <td>GO:0000976</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0000986</td>
+      <td>GO:0000987</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0000987</td>
+      <td>GO:0000987</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0001017</td>
+      <td>GO:0000976</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0001067</td>
+      <td>GO:0001067</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0001130</td>
+      <td>GO:0003700</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0001131</td>
+      <td>GO:0003700</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0001141</td>
+      <td>GO:0001217</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0001217</td>
+      <td>GO:0001217</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0003676</td>
+      <td>GO:0003676</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0003677</td>
+      <td>GO:0003677</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0003690</td>
+      <td>GO:0003690</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0003700</td>
+      <td>GO:0003700</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0003842</td>
+      <td>GO:0003842</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0004657</td>
+      <td>GO:0004657</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0016645</td>
+      <td>GO:0016645</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0016646</td>
+      <td>GO:0016646</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0043565</td>
+      <td>GO:0043565</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0044212</td>
+      <td>GO:0000976</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0050660</td>
+      <td>GO:0050660</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:0140110</td>
+      <td>GO:0140110</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:1901265</td>
+      <td>GO:1901265</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.88</td>
+      <td>GO:1990837</td>
+      <td>GO:1990837</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0000976</td>
+      <td>GO:0000976</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0000984</td>
+      <td>GO:0000976</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0000986</td>
+      <td>GO:0000987</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0000987</td>
+      <td>GO:0000987</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0001017</td>
+      <td>GO:0000976</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0001067</td>
+      <td>GO:0001067</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0001130</td>
+      <td>GO:0003700</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0001131</td>
+      <td>GO:0003700</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0001141</td>
+      <td>GO:0001217</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0001217</td>
+      <td>GO:0001217</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0003676</td>
+      <td>GO:0003676</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0003677</td>
+      <td>GO:0003677</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0003690</td>
+      <td>GO:0003690</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0003700</td>
+      <td>GO:0003700</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0003842</td>
+      <td>GO:0003842</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0004657</td>
+      <td>GO:0004657</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0016645</td>
+      <td>GO:0016645</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0016646</td>
+      <td>GO:0016646</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0043565</td>
+      <td>GO:0043565</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0044212</td>
+      <td>GO:0000976</td>
+      <td>alt_id</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0050660</td>
+      <td>GO:0050660</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:0140110</td>
+      <td>GO:0140110</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:1901265</td>
+      <td>GO:1901265</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.5.5.2</td>
+      <td>GO:1990837</td>
+      <td>GO:1990837</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1074920|1078882|-</td></tr><tr><th>protein_id</th><td>KOIAIB_01078</td></tr><tr><th>gene</th><td>putA</td></tr><tr><th>product</th><td>Bifunctional protein PutA</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1074920</td></tr><tr><th>stop</th><td>1078882</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_1388</td></tr><tr><th>locus_tag</th><td>KOIAIB_01078</td></tr><tr><th>aa_md5</th><td>cb099d7af9dc78d3084ecfdafd86c2f0</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>K</td></tr><tr><th>GO</th><td><details class="value-details"><summary>119 values</summary><ul class="value-list"><li>GO:0000166</li><li>GO:0000976</li><li>GO:0000984</li><li>GO:0000986</li><li>GO:0000987</li><li>GO:0001017</li><li>GO:0001067</li><li>GO:0001130</li><li>GO:0001131</li><li>GO:0001141</li><li>GO:0001217</li><li>GO:0003674</li><li>GO:0003676</li><li>GO:0003677</li><li>GO:0003690</li><li>GO:0003700</li><li>GO:0003824</li><li>GO:0003842</li><li>GO:0004657</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0006082</li><li>GO:0006355</li><li>GO:0006520</li><li>GO:0006536</li><li>GO:0006560</li><li>GO:0006562</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0009056</li><li>GO:0009063</li><li>GO:0009064</li><li>GO:0009065</li><li>GO:0009889</li><li>GO:0009890</li><li>GO:0009892</li><li>GO:0009898</li><li>GO:0009987</li><li>GO:0010133</li><li>GO:0010468</li><li>GO:0010556</li><li>GO:0010558</li><li>GO:0010605</li><li>GO:0010629</li><li>GO:0016020</li><li>GO:0016054</li><li>GO:0016491</li><li>GO:0016645</li><li>GO:0016646</li><li>GO:0019219</li><li>GO:0019222</li><li>GO:0019752</li><li>GO:0031323</li><li>GO:0031324</li><li>GO:0031326</li><li>GO:0031327</li><li>GO:0036094</li><li>GO:0042802</li><li>GO:0043167</li><li>GO:0043168</li><li>GO:0043436</li><li>GO:0043565</li><li>GO:0043648</li><li>GO:0044212</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044248</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0044425</li><li>GO:0044459</li><li>GO:0044464</li><li>GO:0045892</li><li>GO:0045934</li><li>GO:0046395</li><li>GO:0046483</li><li>GO:0046700</li><li>GO:0048037</li><li>GO:0048519</li><li>GO:0048523</li><li>GO:0050660</li><li>GO:0050662</li><li>GO:0050789</li><li>GO:0050794</li><li>GO:0051171</li><li>GO:0051172</li><li>GO:0051252</li><li>GO:0051253</li><li>GO:0055114</li><li>GO:0055129</li><li>GO:0060255</li><li>GO:0065007</li><li>GO:0071704</li><li>GO:0071944</li><li>GO:0080090</li><li>GO:0097159</li><li>GO:0098552</li><li>GO:0098562</li><li>GO:0140110</li><li>GO:1901265</li><li>GO:1901360</li><li>GO:1901361</li><li>GO:1901363</li><li>GO:1901564</li><li>GO:1901565</li><li>GO:1901575</li><li>GO:1901605</li><li>GO:1901606</li><li>GO:1902679</li><li>GO:1903506</li><li>GO:1903507</li><li>GO:1990837</li><li>GO:2000112</li><li>GO:2000113</li><li>GO:2001141</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.2.1.88; EC:1.5.5.2</td></tr><tr><th>KEGG_KO</th><td>KEGG:K13821</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>10 values</summary><ul class="value-list"><li>KEGG:ko00250</li><li>KEGG:ko00330</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01130</li><li>KEGG:map00250</li><li>KEGG:map00330</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01130</li></ul></details></td></tr><tr><th>KEGG_REACTION</th><td><details class="value-details"><summary>7 values</summary><ul class="value-list"><li>KEGG:R00245</li><li>KEGG:R00707</li><li>KEGG:R00708</li><li>KEGG:R01253</li><li>KEGG:R04444</li><li>KEGG:R04445</li><li>KEGG:R05051</li></ul></details></td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>18 values</summary><ul class="value-list"><li>INTERPRO:IPR002872</li><li>INTERPRO:IPR005933</li><li>INTERPRO:IPR010985</li><li>INTERPRO:IPR013321</li><li>INTERPRO:IPR015590</li><li>INTERPRO:IPR016160</li><li>INTERPRO:IPR016161</li><li>INTERPRO:IPR016162</li><li>INTERPRO:IPR016163</li><li>INTERPRO:IPR024082</li><li>INTERPRO:IPR024089</li><li>INTERPRO:IPR024090</li><li>INTERPRO:IPR025703</li><li>INTERPRO:IPR029041</li><li>INTERPRO:IPR029510</li><li>INTERPRO:IPR041349</li><li>INTERPRO:IPR048798</li><li>INTERPRO:IPR050485</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00171; PFAM:PF01619; PFAM:PF14850; PFAM:PF18327; PFAM:PF21775</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>2</td></tr><tr><th>concordance_partial</th><td>5</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd07125;CDD:cd22233</td>
+      <td>CDD:cd06534;CDD:cd07078;CDD:cd07082;CDD:cd07083;CDD:cd07084;CDD:cd07085;CDD:cd07086;CDD:cd07087;CDD:cd07088;CDD:cd07089;CDD:cd07090;CDD:cd07091;CDD:cd07092;CDD:cd07093;CDD:cd07094;CDD:cd07095;CDD:cd07097;CDD:cd07098;CDD:cd07099;CDD:cd07100;CDD:cd07101;CDD:cd07102;CDD:cd07103;CDD:cd07104;CDD:cd07105;CDD:cd07106;CDD:cd07107;CDD:cd07108;CDD:cd07109;CDD:cd07110;CDD:cd07111;CDD:cd07112;CDD:cd07113;CDD:cd07114;CDD:cd07115;CDD:cd07116;CDD:cd07117;CDD:cd07118;CDD:cd07119;CDD:cd07120;CDD:cd07123;CDD:cd07124;CDD:cd07125;CDD:cd07126;CDD:cd07127;CDD:cd07128;CDD:cd07129;CDD:cd07130;CDD:cd07131;CDD:cd07132;CDD:cd07133;CDD:cd07134;CDD:cd07135;CDD:cd07136;CDD:cd07137;CDD:cd07138;CDD:cd07139;CDD:cd07140;CDD:cd07141;CDD:cd07142;CDD:cd07143;CDD:cd07144;CDD:cd07145;CDD:cd07146;CDD:cd07147;CDD:cd07148;CDD:cd07149;CDD:cd07150;CDD:cd07151;CDD:cd07152;CDD:cd07559</td>
+      <td>CDD:cd07125</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0506;COG:COG3905;COG:COG4230</td>
+      <td>COG:COG0506;COG:COG1012;COG:COG4230</td>
+      <td>COG:COG0506;COG:COG4230</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.2.1.88;EC:1.5.5.2</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.2.1.88;EC:1.5.5.2</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.2.1.88;EC:1.5.5.2</td>
+      <td>EC:1.2.1.88;EC:1.5.5.2</td>
+      <td>EC:1.2.1.88;EC:1.5.5.2</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000166;GO:0000976;GO:0000984;GO:0000986;GO:0000987;GO:0001017;GO:0001067;GO:0001130;GO:0001131;GO:0001141;GO:0001217;GO:0003674;GO:0003676;GO:0003677;GO:0003690;GO:0003700;GO:0003824;GO:0003842;GO:0004657;GO:0005488;GO:0005515;GO:0005575;GO:0005623;GO:0005886;GO:0006082;GO:0006355;GO:0006520;GO:0006536;GO:0006560;GO:0006562;GO:0006807;GO:0008150;GO:0008152;GO:0009056;GO:0009063;GO:0009064;GO:0009065;GO:0009889;GO:0009890;GO:0009892;GO:0009898;GO:0009987;GO:0010133;GO:0010468;GO:0010556;GO:0010558;GO:0010605;GO:0010629;GO:0016020;GO:0016054;GO:0016491;GO:0016645;GO:0016646;GO:0019219;GO:0019222;GO:0019752;GO:0031323;GO:0031324;GO:0031326;GO:0031327;GO:0036094;GO:0042802;GO:0043167;GO:0043168;GO:0043436;GO:0043565;GO:0043648;GO:0044212;GO:0044237;GO:0044238;GO:0044248;GO:0044281;GO:0044282;GO:0044425;GO:0044459;GO:0044464;GO:0045892;GO:0045934;GO:0046395;GO:0046483;GO:0046700;GO:0048037;GO:0048519;GO:0048523;GO:0050660;GO:0050662;GO:0050789;GO:0050794;GO:0051171;GO:0051172;GO:0051252;GO:0051253;GO:0055114;GO:0060255;GO:0065007;GO:0071704;GO:0071944;GO:0080090;GO:0097159;GO:0098552;GO:0098562;GO:0140110;GO:1901265;GO:1901360;GO:1901361;GO:1901363;GO:1901564;GO:1901565;GO:1901575;GO:1901605;GO:1901606;GO:1902679;GO:1903506;GO:1903507;GO:1990837;GO:2000112;GO:2000113;GO:2001141</td>
+      <td>GO:0003700;GO:0003842;GO:0004657;GO:0006355;GO:0006562;GO:0009898;GO:0010133;GO:0016491;GO:0055129</td>
+      <td>GO:0003700;GO:0003842;GO:0004657;GO:0006355;GO:0006562;GO:0009898;GO:0010133;GO:0016491</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K13821</td>
+      <td>KEGG:K13821</td>
+      <td>KEGG:K13821</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF008772;NCBIFAM:NF008869;NCBIFAM:TIGR01238</td>
+      <td>NCBIFAM:NF040648;NCBIFAM:NF040792;NCBIFAM:NF040869;NCBIFAM:TIGR01236;NCBIFAM:TIGR01237;NCBIFAM:TIGR01238;NCBIFAM:TIGR01722;NCBIFAM:TIGR01780;NCBIFAM:TIGR01804;NCBIFAM:TIGR02278;NCBIFAM:TIGR02288;NCBIFAM:TIGR02299;NCBIFAM:TIGR03216;NCBIFAM:TIGR03240;NCBIFAM:TIGR03250;NCBIFAM:TIGR03374;NCBIFAM:TIGR04284</td>
+      <td>NCBIFAM:TIGR01238</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF008772;NCBIFAM:NF008869;NCBIFAM:TIGR01238</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF040648;NCBIFAM:NF040792;NCBIFAM:NF040869;NCBIFAM:TIGR01236;NCBIFAM:TIGR01237;NCBIFAM:TIGR01238;NCBIFAM:TIGR01722;NCBIFAM:TIGR01780;NCBIFAM:TIGR01804;NCBIFAM:TIGR02278;NCBIFAM:TIGR02288;NCBIFAM:TIGR02299;NCBIFAM:TIGR03216;NCBIFAM:TIGR03240;NCBIFAM:TIGR03250;NCBIFAM:TIGR03374;NCBIFAM:TIGR04284</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00171;PFAM:PF01619;PFAM:PF14850;PFAM:PF18327;PFAM:PF21775</td>
+      <td>PFAM:PF00171;PFAM:PF01619</td>
+      <td>PFAM:PF00171;PFAM:PF01619</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00171;PFAM:PF01619;PFAM:PF14850;PFAM:PF18327;PFAM:PF21775</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00171;PFAM:PF01619</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 165 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iPC815.YPO1851</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSbBS512_1146.SbBS512_E2304</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0506</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG3905</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG4230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>K</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.2.1.88</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.5.5.2</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MV93@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RN48@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMSS@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0506@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0506@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG3905@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG3905@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG4230@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG4230@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000166</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000976</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000984</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000986</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001017</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001067</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001131</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001141</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001217</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003676</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003677</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003690</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003700</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003842</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004657</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006355</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006536</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006560</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006562</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009063</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009064</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009065</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009889</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009890</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009892</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009898</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0010133</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0010468</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0010556</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0010558</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0010605</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0010629</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016054</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016645</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016646</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019219</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019222</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031323</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031324</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031326</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031327</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036094</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043167</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043565</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043648</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044212</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044425</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044459</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0045892</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0045934</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046700</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048037</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048519</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048523</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050660</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050789</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050794</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051171</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051172</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051252</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051253</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0060255</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0065007</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0080090</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098552</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0098562</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0140110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901265</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901361</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901565</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901605</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901606</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1902679</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1903506</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1903507</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1990837</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:2000112</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:2000113</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:2001141</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko03000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K13821</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00250</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00330</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00250</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00330</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00080</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00083</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00216</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00242</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00255</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00245</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00707</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00708</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01253</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R04445</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R05051</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Aldedh</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Pro_dh</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Pro_dh-DNA_bdg</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.1651503</td>
+      <td>putA</td>
+      <td>Oxidizes proline to glutamate for use as a carbon and nitrogen source</td>
+      <td>2563.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>1320</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.2.1.88</td>
+      <td>KEGG:K13821</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.5.5.2</td>
+      <td>KEGG:K13821</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K13821</td>
+      <td></td>
+      <td>RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K13821</td>
+      <td>RHH-type transcriptional regulator, proline utilization regulon repressor / proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88]</td>
+      <td>above_threshold</td>
+      <td>1483.7</td>
+      <td>611.00</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 56 annotation rows, 29 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd07125</td>
+      <td></td>
+      <td>ALDH_PutA-P5CDH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd22233</td>
+      <td></td>
+      <td>RHH_CopAso-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.20.5.460:FF:000001</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.20.5.550:FF:000001</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.20.20.220:FF:000004</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.309.10:FF:000005</td>
+      <td></td>
+      <td>1-pyrroline-5-carboxylate dehydrogenase 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.605.10:FF:000017</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.1220.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.20.5.460</td>
+      <td></td>
+      <td>Single helix bin</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.20.5.550</td>
+      <td></td>
+      <td>Single Helix bin</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.20.20.220</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.309.10</td>
+      <td></td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.605.10</td>
+      <td></td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003700</td>
+      <td>[{"analysis":"PIRSF","signature_accession":"PIRSF000197","interpro_accession":"IPR025703","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0003842</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.20.5.550","interpro_accession":"IPR024090","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01238","interpro_accession":"IPR005933","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR42862","interpro_accession":"IPR050485","mapping_source":"PANTHER"},{"analysis":"Pfam","signature_accession":"PF14850","interpro_accession":"IPR024082","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000197","interpro_accession":"IPR025703","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF81935","interpro_accession":"IPR024089","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004657</td>
+      <td>[{"analysis":"PIRSF","signature_accession":"PIRSF000197","interpro_accession":"IPR025703","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006355</td>
+      <td>[{"analysis":"Gene3D","signature_accession":"G3DSA:1.10.1220.10","interpro_accession":"IPR013321","mapping_source":"InterPro"},{"analysis":"PIRSF","signature_accession":"PIRSF000197","interpro_accession":"IPR025703","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF47598","interpro_accession":"IPR010985","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006562</td>
+      <td>[{"analysis":"PIRSF","signature_accession":"PIRSF000197","interpro_accession":"IPR025703","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0009898</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR42862","interpro_accession":"IPR050485","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0010133</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR42862","interpro_accession":"IPR050485","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00171","interpro_accession":"IPR015590","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00070","interpro_accession":"IPR016160","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00687","interpro_accession":"IPR029510","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0055129</td>
+      <td>[{"analysis":"NCBIfam","signature_accession":"TIGR01238","interpro_accession":"IPR005933","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR002872</td>
+      <td></td>
+      <td>Proline dehydrogenase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005933</td>
+      <td></td>
+      <td>Bifunctional protein PutA, C-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR010985</td>
+      <td></td>
+      <td>Ribbon-helix-helix</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013321</td>
+      <td></td>
+      <td>Arc-type ribbon-helix-helix</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015590</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016160</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, cysteine active site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016161</td>
+      <td></td>
+      <td>Aldehyde/histidinol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016162</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016163</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR024082</td>
+      <td></td>
+      <td>Proline dehydrogenase PutA, domain II</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR024089</td>
+      <td></td>
+      <td>Proline dehydrogenase PutA, domain I/II</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR024090</td>
+      <td></td>
+      <td>Proline dehydrogenase PutA, domain I</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR025703</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029041</td>
+      <td></td>
+      <td>FAD-linked oxidoreductase-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029510</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, glutamic acid active site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR041349</td>
+      <td></td>
+      <td>Proline utilization A proline dehydrogenase N-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR048798</td>
+      <td></td>
+      <td>PutA, RHH domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR050485</td>
+      <td></td>
+      <td>Proline metabolism enzyme</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF008772</td>
+      <td></td>
+      <td>trifunctional transcriptional regulator/proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF008869</td>
+      <td></td>
+      <td>bifunctional proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase PutA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01238</td>
+      <td></td>
+      <td>L-glutamate gamma-semialdehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR42862</td>
+      <td></td>
+      <td>DELTA-1-PYRROLINE-5-CARBOXYLATE DEHYDROGENASE 1, ISOFORM A-RELATED</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase family</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01619</td>
+      <td></td>
+      <td>Proline dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF14850</td>
+      <td></td>
+      <td>DNA-binding domain of Proline dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF18327</td>
+      <td></td>
+      <td>Proline utilization A proline dehydrogenase N-terminal domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF21775</td>
+      <td></td>
+      <td>PutA, RHH domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PIRSF</td>
+      <td>PIRSF:PIRSF000197</td>
+      <td></td>
+      <td>Bifunct_PutA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00070</td>
+      <td></td>
+      <td>Aldehyde dehydrogenases cysteine active site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00687</td>
+      <td></td>
+      <td>Aldehyde dehydrogenases glutamic acid active site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF47598</td>
+      <td></td>
+      <td>Ribbon-helix-helix</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF51730</td>
+      <td></td>
+      <td>FAD-linked oxidoreductase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53720</td>
+      <td></td>
+      <td>ALDH-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF81935</td>
+      <td></td>
+      <td>N-terminal domain of bifunctional PutA protein</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd07125</td>
+      <td>ALDH_PutA-P5CDH</td>
+      <td>0.0</td>
+      <td>627</td>
+      <td>1109</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd22233</td>
+      <td>RHH_CopAso-like</td>
+      <td>2.62869E-10</td>
+      <td>4</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.5.460:FF:000001</td>
+      <td>Bifunctional protein PutA</td>
+      <td>1.8E-16</td>
+      <td>162</td>
+      <td>187</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.5.550:FF:000001</td>
+      <td>Bifunctional protein PutA</td>
+      <td>6.8E-31</td>
+      <td>87</td>
+      <td>138</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.220:FF:000004</td>
+      <td>Bifunctional protein PutA</td>
+      <td>0.0</td>
+      <td>218</td>
+      <td>610</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.309.10:FF:000005</td>
+      <td>1-pyrroline-5-carboxylate dehydrogenase 1</td>
+      <td>1.7E-60</td>
+      <td>885</td>
+      <td>1082</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.605.10:FF:000017</td>
+      <td>Bifunctional protein PutA</td>
+      <td>6.0E-116</td>
+      <td>652</td>
+      <td>891</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.1220.10</td>
+      <td></td>
+      <td>1.5E-23</td>
+      <td>11</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.5.460</td>
+      <td>Single helix bin</td>
+      <td>4.5E-16</td>
+      <td>162</td>
+      <td>187</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.5.550</td>
+      <td>Single Helix bin</td>
+      <td>3.5E-23</td>
+      <td>87</td>
+      <td>138</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.20.20.220</td>
+      <td></td>
+      <td>0.0</td>
+      <td>219</td>
+      <td>610</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.309.10</td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 2</td>
+      <td>0.0</td>
+      <td>885</td>
+      <td>1082</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.605.10</td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 1</td>
+      <td>0.0</td>
+      <td>654</td>
+      <td>1113</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF008772</td>
+      <td>trifunctional transcriptional regulator/proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>1320</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF008869</td>
+      <td>bifunctional proline dehydrogenase/L-glutamate gamma-semialdehyde dehydrogenase PutA</td>
+      <td>0.0</td>
+      <td>88</td>
+      <td>1114</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01238</td>
+      <td>L-glutamate gamma-semialdehyde dehydrogenase</td>
+      <td>0.0</td>
+      <td>610</td>
+      <td>1112</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR42862</td>
+      <td>DELTA-1-PYRROLINE-5-CARBOXYLATE DEHYDROGENASE 1, ISOFORM A-RELATED</td>
+      <td>0.0</td>
+      <td>237</td>
+      <td>1318</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PIRSF</td>
+      <td>signature_match</td>
+      <td>PIRSF000197</td>
+      <td>Bifunct_PutA</td>
+      <td>0.0</td>
+      <td>76</td>
+      <td>1318</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00171</td>
+      <td>Aldehyde dehydrogenase family</td>
+      <td>6.1E-106</td>
+      <td>659</td>
+      <td>1103</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF01619</td>
+      <td>Proline dehydrogenase</td>
+      <td>5.2E-103</td>
+      <td>268</td>
+      <td>569</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF14850</td>
+      <td>DNA-binding domain of Proline dehydrogenase</td>
+      <td>1.3E-41</td>
+      <td>148</td>
+      <td>259</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF18327</td>
+      <td>Proline utilization A proline dehydrogenase N-terminal domain</td>
+      <td>2.2E-14</td>
+      <td>89</td>
+      <td>136</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF21775</td>
+      <td>PutA, RHH domain</td>
+      <td>9.3E-18</td>
+      <td>11</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00070</td>
+      <td>Aldehyde dehydrogenases cysteine active site.</td>
+      <td></td>
+      <td>910</td>
+      <td>921</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00687</td>
+      <td>Aldehyde dehydrogenases glutamic acid active site.</td>
+      <td></td>
+      <td>882</td>
+      <td>889</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF47598</td>
+      <td>Ribbon-helix-helix</td>
+      <td>3.11E-10</td>
+      <td>3</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF51730</td>
+      <td>FAD-linked oxidoreductase</td>
+      <td>9.42E-124</td>
+      <td>262</td>
+      <td>618</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53720</td>
+      <td>ALDH-like</td>
+      <td>7.33E-125</td>
+      <td>657</td>
+      <td>1110</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF81935</td>
+      <td>N-terminal domain of bifunctional PutA protein</td>
+      <td>5.1E-67</td>
+      <td>88</td>
+      <td>261</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 127 annotation rows, 250 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06534</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07078</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07082</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07083</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07084</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07085</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07086</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07087</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07088</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07089</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07090</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07091</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07092</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07093</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07094</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07095</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07097</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07098</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07099</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07100</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07101</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07102</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07103</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07104</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07105</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07106</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07107</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07108</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07109</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07110</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07111</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07112</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07113</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07114</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07115</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07116</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07117</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07118</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07119</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07120</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07123</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07124</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07125</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07126</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07127</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07128</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07129</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07130</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07131</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07132</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07133</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07134</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07135</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07136</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07137</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07138</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07139</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07140</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07141</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07142</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07143</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07144</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07145</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07146</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07147</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07148</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07149</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07150</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07151</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07152</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07559</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN00412</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02174</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02203</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02278</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02315</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02419</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02466</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02467</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02681</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02766</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03137</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09406</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09407</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09457</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09847</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10090</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11241</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11809</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11903</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11904</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11905</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13252</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13473</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13968</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00381</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0506</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1012</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4230</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2450</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2451</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2452</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2453</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2454</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2455</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2456</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040648</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040792</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040869</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01236</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01237</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01238</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01722</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01780</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01804</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02278</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02288</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02299</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03216</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03240</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03250</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03374</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR04284</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF01619</td>
+      <td></td>
+      <td>Bifunctional protein PutA</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0506</td>
+      <td>Bifunctional protein PutA</td>
+      <td>1026.7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1012</td>
+      <td>Bifunctional protein PutA</td>
+      <td>379.8</td>
+      <td>3.5e-114</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4230</td>
+      <td>Bifunctional protein PutA</td>
+      <td>1440.7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2450</td>
+      <td>Bifunctional protein PutA</td>
+      <td>262.5</td>
+      <td>1.4e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2451</td>
+      <td>Bifunctional protein PutA</td>
+      <td>218.3</td>
+      <td>3.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2452</td>
+      <td>Bifunctional protein PutA</td>
+      <td>114.0</td>
+      <td>1.1e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2453</td>
+      <td>Bifunctional protein PutA</td>
+      <td>161.7</td>
+      <td>6.4e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2454</td>
+      <td>Bifunctional protein PutA</td>
+      <td>117.9</td>
+      <td>9.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2455</td>
+      <td>Bifunctional protein PutA</td>
+      <td>238.9</td>
+      <td>2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2456</td>
+      <td>Bifunctional protein PutA</td>
+      <td>109.4</td>
+      <td>4.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040648</td>
+      <td>Bifunctional protein PutA</td>
+      <td>188.6</td>
+      <td>4.8e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040792</td>
+      <td>Bifunctional protein PutA</td>
+      <td>187.6</td>
+      <td>9.4e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040869</td>
+      <td>Bifunctional protein PutA</td>
+      <td>175.3</td>
+      <td>4.4e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00412</td>
+      <td>Bifunctional protein PutA</td>
+      <td>170.2</td>
+      <td>1.4e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02174</td>
+      <td>Bifunctional protein PutA</td>
+      <td>55.4</td>
+      <td>1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02203</td>
+      <td>Bifunctional protein PutA</td>
+      <td>84.2</td>
+      <td>1.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02278</td>
+      <td>Bifunctional protein PutA</td>
+      <td>218.4</td>
+      <td>3.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02315</td>
+      <td>Bifunctional protein PutA</td>
+      <td>176.1</td>
+      <td>2.7e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02419</td>
+      <td>Bifunctional protein PutA</td>
+      <td>110.8</td>
+      <td>1.5e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02466</td>
+      <td>Bifunctional protein PutA</td>
+      <td>176.6</td>
+      <td>1.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02467</td>
+      <td>Bifunctional protein PutA</td>
+      <td>172.1</td>
+      <td>4.5e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02681</td>
+      <td>Bifunctional protein PutA</td>
+      <td>47.3</td>
+      <td>3.1e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02766</td>
+      <td>Bifunctional protein PutA</td>
+      <td>163.4</td>
+      <td>1.7e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03137</td>
+      <td>Bifunctional protein PutA</td>
+      <td>356.8</td>
+      <td>4.7e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09406</td>
+      <td>Bifunctional protein PutA</td>
+      <td>144.4</td>
+      <td>1.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09407</td>
+      <td>Bifunctional protein PutA</td>
+      <td>225.0</td>
+      <td>3.6e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09457</td>
+      <td>Bifunctional protein PutA</td>
+      <td>216.7</td>
+      <td>1.2e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09847</td>
+      <td>Bifunctional protein PutA</td>
+      <td>155.7</td>
+      <td>3.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10090</td>
+      <td>Bifunctional protein PutA</td>
+      <td>156.5</td>
+      <td>2.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11241</td>
+      <td>Bifunctional protein PutA</td>
+      <td>174.9</td>
+      <td>5.5e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11809</td>
+      <td>Bifunctional protein PutA</td>
+      <td>2666.9</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11903</td>
+      <td>Bifunctional protein PutA</td>
+      <td>91.8</td>
+      <td>8.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11904</td>
+      <td>Bifunctional protein PutA</td>
+      <td>1419.6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11905</td>
+      <td>Bifunctional protein PutA</td>
+      <td>1840.8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13252</td>
+      <td>Bifunctional protein PutA</td>
+      <td>212.5</td>
+      <td>1.8e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13473</td>
+      <td>Bifunctional protein PutA</td>
+      <td>220.8</td>
+      <td>6.5e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13968</td>
+      <td>Bifunctional protein PutA</td>
+      <td>111.8</td>
+      <td>9.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00381</td>
+      <td>Bifunctional protein PutA</td>
+      <td>133.5</td>
+      <td>2.1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01236</td>
+      <td>Bifunctional protein PutA</td>
+      <td>235.2</td>
+      <td>2.9e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01237</td>
+      <td>Bifunctional protein PutA</td>
+      <td>346.4</td>
+      <td>6.3e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01238</td>
+      <td>Bifunctional protein PutA</td>
+      <td>865.0</td>
+      <td>3.1e-261</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01722</td>
+      <td>Bifunctional protein PutA</td>
+      <td>172.1</td>
+      <td>4e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01780</td>
+      <td>Bifunctional protein PutA</td>
+      <td>218.7</td>
+      <td>2.9e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01804</td>
+      <td>Bifunctional protein PutA</td>
+      <td>227.7</td>
+      <td>4.5e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02278</td>
+      <td>Bifunctional protein PutA</td>
+      <td>89.9</td>
+      <td>2.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02288</td>
+      <td>Bifunctional protein PutA</td>
+      <td>51.3</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02299</td>
+      <td>Bifunctional protein PutA</td>
+      <td>214.0</td>
+      <td>7.2e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03216</td>
+      <td>Bifunctional protein PutA</td>
+      <td>174.5</td>
+      <td>6.8e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03240</td>
+      <td>Bifunctional protein PutA</td>
+      <td>194.7</td>
+      <td>5.8e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03250</td>
+      <td>Bifunctional protein PutA</td>
+      <td>150.7</td>
+      <td>1.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03374</td>
+      <td>Bifunctional protein PutA</td>
+      <td>180.7</td>
+      <td>1.1e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04284</td>
+      <td>Bifunctional protein PutA</td>
+      <td>150.5</td>
+      <td>1.6e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06534</td>
+      <td>Bifunctional protein PutA</td>
+      <td>328.8</td>
+      <td>1.1e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07078</td>
+      <td>Bifunctional protein PutA</td>
+      <td>340.7</td>
+      <td>2.5e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07082</td>
+      <td>Bifunctional protein PutA</td>
+      <td>241.3</td>
+      <td>4.1e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07083</td>
+      <td>Bifunctional protein PutA</td>
+      <td>481.8</td>
+      <td>5.2e-145</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07084</td>
+      <td>Bifunctional protein PutA</td>
+      <td>139.4</td>
+      <td>3.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07085</td>
+      <td>Bifunctional protein PutA</td>
+      <td>236.8</td>
+      <td>8.3e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07086</td>
+      <td>Bifunctional protein PutA</td>
+      <td>282.6</td>
+      <td>1.3e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07087</td>
+      <td>Bifunctional protein PutA</td>
+      <td>156.0</td>
+      <td>3.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07088</td>
+      <td>Bifunctional protein PutA</td>
+      <td>246.2</td>
+      <td>1.4e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07089</td>
+      <td>Bifunctional protein PutA</td>
+      <td>228.7</td>
+      <td>2.6e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07090</td>
+      <td>Bifunctional protein PutA</td>
+      <td>221.3</td>
+      <td>4.2e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07091</td>
+      <td>Bifunctional protein PutA</td>
+      <td>237.4</td>
+      <td>5.5e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07092</td>
+      <td>Bifunctional protein PutA</td>
+      <td>214.0</td>
+      <td>7.1e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07093</td>
+      <td>Bifunctional protein PutA</td>
+      <td>260.7</td>
+      <td>5.6e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07094</td>
+      <td>Bifunctional protein PutA</td>
+      <td>225.4</td>
+      <td>2.8e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07095</td>
+      <td>Bifunctional protein PutA</td>
+      <td>250.3</td>
+      <td>8.5e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07097</td>
+      <td>Bifunctional protein PutA</td>
+      <td>290.8</td>
+      <td>3.8e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07098</td>
+      <td>Bifunctional protein PutA</td>
+      <td>166.5</td>
+      <td>2.1e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07099</td>
+      <td>Bifunctional protein PutA</td>
+      <td>227.9</td>
+      <td>4.2e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07100</td>
+      <td>Bifunctional protein PutA</td>
+      <td>197.8</td>
+      <td>7.6e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07101</td>
+      <td>Bifunctional protein PutA</td>
+      <td>204.8</td>
+      <td>5e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07102</td>
+      <td>Bifunctional protein PutA</td>
+      <td>201.3</td>
+      <td>4.5e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07103</td>
+      <td>Bifunctional protein PutA</td>
+      <td>278.0</td>
+      <td>2.6e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07104</td>
+      <td>Bifunctional protein PutA</td>
+      <td>235.5</td>
+      <td>2.4e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07105</td>
+      <td>Bifunctional protein PutA</td>
+      <td>184.6</td>
+      <td>7.3e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07106</td>
+      <td>Bifunctional protein PutA</td>
+      <td>245.6</td>
+      <td>1.6e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07107</td>
+      <td>Bifunctional protein PutA</td>
+      <td>213.5</td>
+      <td>1.1e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07108</td>
+      <td>Bifunctional protein PutA</td>
+      <td>222.4</td>
+      <td>1.9e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07109</td>
+      <td>Bifunctional protein PutA</td>
+      <td>248.6</td>
+      <td>2.3e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07110</td>
+      <td>Bifunctional protein PutA</td>
+      <td>214.4</td>
+      <td>5.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07111</td>
+      <td>Bifunctional protein PutA</td>
+      <td>203.3</td>
+      <td>1.2e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07112</td>
+      <td>Bifunctional protein PutA</td>
+      <td>236.9</td>
+      <td>7.5e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07113</td>
+      <td>Bifunctional protein PutA</td>
+      <td>192.8</td>
+      <td>1.9e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07114</td>
+      <td>Bifunctional protein PutA</td>
+      <td>267.4</td>
+      <td>4.5e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07115</td>
+      <td>Bifunctional protein PutA</td>
+      <td>227.0</td>
+      <td>8.8e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07116</td>
+      <td>Bifunctional protein PutA</td>
+      <td>164.1</td>
+      <td>1.1e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07117</td>
+      <td>Bifunctional protein PutA</td>
+      <td>176.3</td>
+      <td>2.2e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07118</td>
+      <td>Bifunctional protein PutA</td>
+      <td>209.2</td>
+      <td>2.1e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07119</td>
+      <td>Bifunctional protein PutA</td>
+      <td>226.6</td>
+      <td>1.2e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07120</td>
+      <td>Bifunctional protein PutA</td>
+      <td>205.7</td>
+      <td>2.2e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07123</td>
+      <td>Bifunctional protein PutA</td>
+      <td>263.4</td>
+      <td>7.7e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07124</td>
+      <td>Bifunctional protein PutA</td>
+      <td>408.8</td>
+      <td>7.6e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07125</td>
+      <td>Bifunctional protein PutA</td>
+      <td>643.6</td>
+      <td>7.2e-194</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07126</td>
+      <td>Bifunctional protein PutA</td>
+      <td>78.9</td>
+      <td>7.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07127</td>
+      <td>Bifunctional protein PutA</td>
+      <td>50.0</td>
+      <td>3.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07128</td>
+      <td>Bifunctional protein PutA</td>
+      <td>118.2</td>
+      <td>9.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07129</td>
+      <td>Bifunctional protein PutA</td>
+      <td>122.1</td>
+      <td>6.7e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07130</td>
+      <td>Bifunctional protein PutA</td>
+      <td>211.5</td>
+      <td>5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07131</td>
+      <td>Bifunctional protein PutA</td>
+      <td>297.9</td>
+      <td>3e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07132</td>
+      <td>Bifunctional protein PutA</td>
+      <td>104.8</td>
+      <td>1.2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07133</td>
+      <td>Bifunctional protein PutA</td>
+      <td>139.3</td>
+      <td>3.5e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07134</td>
+      <td>Bifunctional protein PutA</td>
+      <td>131.9</td>
+      <td>6.2e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07135</td>
+      <td>Bifunctional protein PutA</td>
+      <td>129.7</td>
+      <td>2.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07136</td>
+      <td>Bifunctional protein PutA</td>
+      <td>111.2</td>
+      <td>1.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07137</td>
+      <td>Bifunctional protein PutA</td>
+      <td>91.4</td>
+      <td>1.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07138</td>
+      <td>Bifunctional protein PutA</td>
+      <td>239.1</td>
+      <td>2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07139</td>
+      <td>Bifunctional protein PutA</td>
+      <td>211.4</td>
+      <td>4.3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07140</td>
+      <td>Bifunctional protein PutA</td>
+      <td>161.8</td>
+      <td>4e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07141</td>
+      <td>Bifunctional protein PutA</td>
+      <td>202.9</td>
+      <td>1.7e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07142</td>
+      <td>Bifunctional protein PutA</td>
+      <td>192.2</td>
+      <td>3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07143</td>
+      <td>Bifunctional protein PutA</td>
+      <td>194.2</td>
+      <td>7.8e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07144</td>
+      <td>Bifunctional protein PutA</td>
+      <td>195.1</td>
+      <td>4.1e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07145</td>
+      <td>Bifunctional protein PutA</td>
+      <td>245.0</td>
+      <td>3.3e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07146</td>
+      <td>Bifunctional protein PutA</td>
+      <td>202.3</td>
+      <td>2.4e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07147</td>
+      <td>Bifunctional protein PutA</td>
+      <td>208.8</td>
+      <td>3.3e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07148</td>
+      <td>Bifunctional protein PutA</td>
+      <td>157.2</td>
+      <td>1.6e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07149</td>
+      <td>Bifunctional protein PutA</td>
+      <td>248.3</td>
+      <td>3.4e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07150</td>
+      <td>Bifunctional protein PutA</td>
+      <td>229.2</td>
+      <td>2.2e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07151</td>
+      <td>Bifunctional protein PutA</td>
+      <td>198.3</td>
+      <td>5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07152</td>
+      <td>Bifunctional protein PutA</td>
+      <td>217.4</td>
+      <td>7e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07559</td>
+      <td>Bifunctional protein PutA</td>
+      <td>195.1</td>
+      <td>4.4e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00171</td>
+      <td>Bifunctional protein PutA</td>
+      <td>364.9</td>
+      <td>1.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam01619</td>
+      <td>Bifunctional protein PutA</td>
+      <td>395.4</td>
+      <td>4.3e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0506</td>
+      <td>Bifunctional protein PutA</td>
+      <td>1026.7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1012</td>
+      <td>Bifunctional protein PutA</td>
+      <td>379.8</td>
+      <td>3.5e-114</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4230</td>
+      <td>Bifunctional protein PutA</td>
+      <td>1440.7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2450</td>
+      <td>Bifunctional protein PutA</td>
+      <td>262.5</td>
+      <td>1.4e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2451</td>
+      <td>Bifunctional protein PutA</td>
+      <td>218.3</td>
+      <td>3.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2452</td>
+      <td>Bifunctional protein PutA</td>
+      <td>114.0</td>
+      <td>1.1e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2453</td>
+      <td>Bifunctional protein PutA</td>
+      <td>161.7</td>
+      <td>6.4e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2454</td>
+      <td>Bifunctional protein PutA</td>
+      <td>117.9</td>
+      <td>9.1e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2455</td>
+      <td>Bifunctional protein PutA</td>
+      <td>238.9</td>
+      <td>2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2456</td>
+      <td>Bifunctional protein PutA</td>
+      <td>109.4</td>
+      <td>4.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040648</td>
+      <td>Bifunctional protein PutA</td>
+      <td>188.6</td>
+      <td>4.8e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040792</td>
+      <td>Bifunctional protein PutA</td>
+      <td>187.6</td>
+      <td>9.4e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040869</td>
+      <td>Bifunctional protein PutA</td>
+      <td>175.3</td>
+      <td>4.4e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00412</td>
+      <td>Bifunctional protein PutA</td>
+      <td>170.2</td>
+      <td>1.4e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02174</td>
+      <td>Bifunctional protein PutA</td>
+      <td>55.4</td>
+      <td>1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02203</td>
+      <td>Bifunctional protein PutA</td>
+      <td>84.2</td>
+      <td>1.8e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02278</td>
+      <td>Bifunctional protein PutA</td>
+      <td>218.4</td>
+      <td>3.6e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02315</td>
+      <td>Bifunctional protein PutA</td>
+      <td>176.1</td>
+      <td>2.7e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02419</td>
+      <td>Bifunctional protein PutA</td>
+      <td>110.8</td>
+      <td>1.5e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02466</td>
+      <td>Bifunctional protein PutA</td>
+      <td>176.6</td>
+      <td>1.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02467</td>
+      <td>Bifunctional protein PutA</td>
+      <td>172.1</td>
+      <td>4.5e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02766</td>
+      <td>Bifunctional protein PutA</td>
+      <td>163.4</td>
+      <td>1.7e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03137</td>
+      <td>Bifunctional protein PutA</td>
+      <td>356.8</td>
+      <td>4.7e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09406</td>
+      <td>Bifunctional protein PutA</td>
+      <td>144.4</td>
+      <td>1.1e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09407</td>
+      <td>Bifunctional protein PutA</td>
+      <td>225.0</td>
+      <td>3.6e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09457</td>
+      <td>Bifunctional protein PutA</td>
+      <td>216.7</td>
+      <td>1.2e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09847</td>
+      <td>Bifunctional protein PutA</td>
+      <td>155.7</td>
+      <td>3.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10090</td>
+      <td>Bifunctional protein PutA</td>
+      <td>156.5</td>
+      <td>2.3e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11241</td>
+      <td>Bifunctional protein PutA</td>
+      <td>174.9</td>
+      <td>5.5e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11809</td>
+      <td>Bifunctional protein PutA</td>
+      <td>2666.9</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11903</td>
+      <td>Bifunctional protein PutA</td>
+      <td>91.8</td>
+      <td>8.7e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11904</td>
+      <td>Bifunctional protein PutA</td>
+      <td>1419.6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11905</td>
+      <td>Bifunctional protein PutA</td>
+      <td>1840.8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13252</td>
+      <td>Bifunctional protein PutA</td>
+      <td>212.5</td>
+      <td>1.8e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13473</td>
+      <td>Bifunctional protein PutA</td>
+      <td>220.8</td>
+      <td>6.5e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13968</td>
+      <td>Bifunctional protein PutA</td>
+      <td>111.8</td>
+      <td>9.5e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00381</td>
+      <td>Bifunctional protein PutA</td>
+      <td>133.5</td>
+      <td>2.1e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01236</td>
+      <td>Bifunctional protein PutA</td>
+      <td>235.2</td>
+      <td>2.9e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01237</td>
+      <td>Bifunctional protein PutA</td>
+      <td>346.4</td>
+      <td>6.3e-104</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01238</td>
+      <td>Bifunctional protein PutA</td>
+      <td>865.0</td>
+      <td>3.1e-261</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01722</td>
+      <td>Bifunctional protein PutA</td>
+      <td>172.1</td>
+      <td>4e-51</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01780</td>
+      <td>Bifunctional protein PutA</td>
+      <td>218.7</td>
+      <td>2.9e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01804</td>
+      <td>Bifunctional protein PutA</td>
+      <td>227.7</td>
+      <td>4.5e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02278</td>
+      <td>Bifunctional protein PutA</td>
+      <td>89.9</td>
+      <td>2.6e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02288</td>
+      <td>Bifunctional protein PutA</td>
+      <td>51.3</td>
+      <td>1.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02299</td>
+      <td>Bifunctional protein PutA</td>
+      <td>214.0</td>
+      <td>7.2e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03216</td>
+      <td>Bifunctional protein PutA</td>
+      <td>174.5</td>
+      <td>6.8e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03240</td>
+      <td>Bifunctional protein PutA</td>
+      <td>194.7</td>
+      <td>5.8e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03250</td>
+      <td>Bifunctional protein PutA</td>
+      <td>150.7</td>
+      <td>1.1e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03374</td>
+      <td>Bifunctional protein PutA</td>
+      <td>180.7</td>
+      <td>1.1e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04284</td>
+      <td>Bifunctional protein PutA</td>
+      <td>150.5</td>
+      <td>1.6e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06534</td>
+      <td>Bifunctional protein PutA</td>
+      <td>328.8</td>
+      <td>1.1e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07078</td>
+      <td>Bifunctional protein PutA</td>
+      <td>340.7</td>
+      <td>2.5e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07082</td>
+      <td>Bifunctional protein PutA</td>
+      <td>241.3</td>
+      <td>4.1e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07083</td>
+      <td>Bifunctional protein PutA</td>
+      <td>481.8</td>
+      <td>5.2e-145</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07084</td>
+      <td>Bifunctional protein PutA</td>
+      <td>139.4</td>
+      <td>3.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07085</td>
+      <td>Bifunctional protein PutA</td>
+      <td>236.8</td>
+      <td>8.3e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07086</td>
+      <td>Bifunctional protein PutA</td>
+      <td>282.6</td>
+      <td>1.3e-84</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07087</td>
+      <td>Bifunctional protein PutA</td>
+      <td>156.0</td>
+      <td>3.1e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07088</td>
+      <td>Bifunctional protein PutA</td>
+      <td>246.2</td>
+      <td>1.4e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07089</td>
+      <td>Bifunctional protein PutA</td>
+      <td>228.7</td>
+      <td>2.6e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07090</td>
+      <td>Bifunctional protein PutA</td>
+      <td>221.3</td>
+      <td>4.2e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07091</td>
+      <td>Bifunctional protein PutA</td>
+      <td>237.4</td>
+      <td>5.5e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07092</td>
+      <td>Bifunctional protein PutA</td>
+      <td>214.0</td>
+      <td>7.1e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07093</td>
+      <td>Bifunctional protein PutA</td>
+      <td>260.7</td>
+      <td>5.6e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07094</td>
+      <td>Bifunctional protein PutA</td>
+      <td>225.4</td>
+      <td>2.8e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07095</td>
+      <td>Bifunctional protein PutA</td>
+      <td>250.3</td>
+      <td>8.5e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07097</td>
+      <td>Bifunctional protein PutA</td>
+      <td>290.8</td>
+      <td>3.8e-87</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07098</td>
+      <td>Bifunctional protein PutA</td>
+      <td>166.5</td>
+      <td>2.1e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07099</td>
+      <td>Bifunctional protein PutA</td>
+      <td>227.9</td>
+      <td>4.2e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07100</td>
+      <td>Bifunctional protein PutA</td>
+      <td>197.8</td>
+      <td>7.6e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07101</td>
+      <td>Bifunctional protein PutA</td>
+      <td>204.8</td>
+      <td>5e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07102</td>
+      <td>Bifunctional protein PutA</td>
+      <td>201.3</td>
+      <td>4.5e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07103</td>
+      <td>Bifunctional protein PutA</td>
+      <td>278.0</td>
+      <td>2.6e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07104</td>
+      <td>Bifunctional protein PutA</td>
+      <td>235.5</td>
+      <td>2.4e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07105</td>
+      <td>Bifunctional protein PutA</td>
+      <td>184.6</td>
+      <td>7.3e-55</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07106</td>
+      <td>Bifunctional protein PutA</td>
+      <td>245.6</td>
+      <td>1.6e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07107</td>
+      <td>Bifunctional protein PutA</td>
+      <td>213.5</td>
+      <td>1.1e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07108</td>
+      <td>Bifunctional protein PutA</td>
+      <td>222.4</td>
+      <td>1.9e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07109</td>
+      <td>Bifunctional protein PutA</td>
+      <td>248.6</td>
+      <td>2.3e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07110</td>
+      <td>Bifunctional protein PutA</td>
+      <td>214.4</td>
+      <td>5.7e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07111</td>
+      <td>Bifunctional protein PutA</td>
+      <td>203.3</td>
+      <td>1.2e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07112</td>
+      <td>Bifunctional protein PutA</td>
+      <td>236.9</td>
+      <td>7.5e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07113</td>
+      <td>Bifunctional protein PutA</td>
+      <td>192.8</td>
+      <td>1.9e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07114</td>
+      <td>Bifunctional protein PutA</td>
+      <td>267.4</td>
+      <td>4.5e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07115</td>
+      <td>Bifunctional protein PutA</td>
+      <td>227.0</td>
+      <td>8.8e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07116</td>
+      <td>Bifunctional protein PutA</td>
+      <td>164.1</td>
+      <td>1.1e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07117</td>
+      <td>Bifunctional protein PutA</td>
+      <td>176.3</td>
+      <td>2.2e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07118</td>
+      <td>Bifunctional protein PutA</td>
+      <td>209.2</td>
+      <td>2.1e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07119</td>
+      <td>Bifunctional protein PutA</td>
+      <td>226.6</td>
+      <td>1.2e-67</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07120</td>
+      <td>Bifunctional protein PutA</td>
+      <td>205.7</td>
+      <td>2.2e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07123</td>
+      <td>Bifunctional protein PutA</td>
+      <td>263.4</td>
+      <td>7.7e-79</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07124</td>
+      <td>Bifunctional protein PutA</td>
+      <td>408.8</td>
+      <td>7.6e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07125</td>
+      <td>Bifunctional protein PutA</td>
+      <td>643.6</td>
+      <td>7.2e-194</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07126</td>
+      <td>Bifunctional protein PutA</td>
+      <td>78.9</td>
+      <td>7.2e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07127</td>
+      <td>Bifunctional protein PutA</td>
+      <td>50.0</td>
+      <td>3.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07128</td>
+      <td>Bifunctional protein PutA</td>
+      <td>118.2</td>
+      <td>9.6e-35</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07129</td>
+      <td>Bifunctional protein PutA</td>
+      <td>122.1</td>
+      <td>6.7e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07130</td>
+      <td>Bifunctional protein PutA</td>
+      <td>211.5</td>
+      <td>5e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07131</td>
+      <td>Bifunctional protein PutA</td>
+      <td>297.9</td>
+      <td>3e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07132</td>
+      <td>Bifunctional protein PutA</td>
+      <td>104.8</td>
+      <td>1.2e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07133</td>
+      <td>Bifunctional protein PutA</td>
+      <td>139.3</td>
+      <td>3.5e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07134</td>
+      <td>Bifunctional protein PutA</td>
+      <td>131.9</td>
+      <td>6.2e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07135</td>
+      <td>Bifunctional protein PutA</td>
+      <td>129.7</td>
+      <td>2.9e-38</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07136</td>
+      <td>Bifunctional protein PutA</td>
+      <td>111.2</td>
+      <td>1.2e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07137</td>
+      <td>Bifunctional protein PutA</td>
+      <td>91.4</td>
+      <td>1.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07138</td>
+      <td>Bifunctional protein PutA</td>
+      <td>239.1</td>
+      <td>2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07139</td>
+      <td>Bifunctional protein PutA</td>
+      <td>211.4</td>
+      <td>4.3e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07140</td>
+      <td>Bifunctional protein PutA</td>
+      <td>161.8</td>
+      <td>4e-48</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07141</td>
+      <td>Bifunctional protein PutA</td>
+      <td>202.9</td>
+      <td>1.7e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07142</td>
+      <td>Bifunctional protein PutA</td>
+      <td>192.2</td>
+      <td>3e-57</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07143</td>
+      <td>Bifunctional protein PutA</td>
+      <td>194.2</td>
+      <td>7.8e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07144</td>
+      <td>Bifunctional protein PutA</td>
+      <td>195.1</td>
+      <td>4.1e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07145</td>
+      <td>Bifunctional protein PutA</td>
+      <td>245.0</td>
+      <td>3.3e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07146</td>
+      <td>Bifunctional protein PutA</td>
+      <td>202.3</td>
+      <td>2.4e-60</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07147</td>
+      <td>Bifunctional protein PutA</td>
+      <td>208.8</td>
+      <td>3.3e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07148</td>
+      <td>Bifunctional protein PutA</td>
+      <td>157.2</td>
+      <td>1.6e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07149</td>
+      <td>Bifunctional protein PutA</td>
+      <td>248.3</td>
+      <td>3.4e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07150</td>
+      <td>Bifunctional protein PutA</td>
+      <td>229.2</td>
+      <td>2.2e-68</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07151</td>
+      <td>Bifunctional protein PutA</td>
+      <td>198.3</td>
+      <td>5e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07152</td>
+      <td>Bifunctional protein PutA</td>
+      <td>217.4</td>
+      <td>7e-65</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07559</td>
+      <td>Bifunctional protein PutA</td>
+      <td>195.1</td>
+      <td>4.4e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00171</td>
+      <td>Bifunctional protein PutA</td>
+      <td>364.9</td>
+      <td>1.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>toxin-associated protein</td>
+      <td>0.65</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.99841523</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

@@ -1,0 +1,2655 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_03551</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_03551</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>phosphoglycolate phosphatase [EC:3.1.3.18]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K01091</td></tr><tr><th>primary_selection_rule</th><td>single_convergent_ko_with_alternatives</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K01091</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:3.1.3.18</td></tr><tr><th>mf_proposal_ids</th><td>GO:0008967</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01091</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07025</td>
+      <td>Other observed claim</td>
+      <td>KofamScan</td>
+      <td>KofamScan</td>
+      <td>profile_hmm@KOfam</td>
+      <td></td>
+      <td>1</td>
+      <td>single_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:3.1.3.18</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K01091</td>
+      <td>EC:3.1.3.18</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K07025</td>
+      <td>EC:3.1.3.18</td>
+      <td>unmapped_ko</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0000287</td>
+      <td>GO:0000287</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0008967</td>
+      <td>GO:0008967</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0016787</td>
+      <td>GO:0016787</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0016788</td>
+      <td>GO:0016788</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0016791</td>
+      <td>GO:0016791</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0031404</td>
+      <td>GO:0031404</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0042578</td>
+      <td>GO:0042578</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0043167</td>
+      <td>GO:0043167</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0043168</td>
+      <td>GO:0043168</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0043169</td>
+      <td>GO:0043169</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:3.1.3.18</td>
+      <td>GO:0046872</td>
+      <td>GO:0046872</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|3513631|3514389|-</td></tr><tr><th>protein_id</th><td>KOIAIB_03551</td></tr><tr><th>product</th><td>Phosphoglycolate phosphatase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>3513631</td></tr><tr><th>stop</th><td>3514389</td></tr><tr><th>strand</th><td>-</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_3700</td></tr><tr><th>locus_tag</th><td>KOIAIB_03551</td></tr><tr><th>aa_md5</th><td>ef67ea99c525d497a3fe15ec7457e0af</td></tr><tr><th>frame</th><td>2</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>F</td></tr><tr><th>GO</th><td><details class="value-details"><summary>48 values</summary><ul class="value-list"><li>GO:0000287</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0005488</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0005975</li><li>GO:0006139</li><li>GO:0006259</li><li>GO:0006281</li><li>GO:0006725</li><li>GO:0006793</li><li>GO:0006796</li><li>GO:0006807</li><li>GO:0006950</li><li>GO:0006974</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008967</li><li>GO:0009987</li><li>GO:0016311</li><li>GO:0016787</li><li>GO:0016788</li><li>GO:0016791</li><li>GO:0031404</li><li>GO:0033554</li><li>GO:0034641</li><li>GO:0042578</li><li>GO:0043167</li><li>GO:0043168</li><li>GO:0043169</li><li>GO:0043170</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044260</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046483</li><li>GO:0046872</li><li>GO:0050896</li><li>GO:0051716</li><li>GO:0071704</li><li>GO:0090304</li><li>GO:1901360</li></ul></details></td></tr><tr><th>EC</th><td>EC:3.1.3.18</td></tr><tr><th>KEGG_KO</th><td>KEGG:K01091; KEGG:K07025</td></tr><tr><th>KEGG_PATHWAY</th><td><details class="value-details"><summary>8 values</summary><ul class="value-list"><li>KEGG:ko00630</li><li>KEGG:ko01100</li><li>KEGG:ko01110</li><li>KEGG:ko01130</li><li>KEGG:map00630</li><li>KEGG:map01100</li><li>KEGG:map01110</li><li>KEGG:map01130</li></ul></details></td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R01334</td></tr><tr><th>INTERPRO</th><td>INTERPRO:IPR006439; INTERPRO:IPR023198; INTERPRO:IPR023214; INTERPRO:IPR036412; INTERPRO:IPR037512; INTERPRO:IPR050155</td></tr><tr><th>PFAM</th><td>PFAM:PF00702; PFAM:PF12710; PFAM:PF13242; PFAM:PF13419</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>1</td></tr><tr><th>concordance_partial</th><td>6</td></tr><tr><th>concordance_disjoint</th><td>0</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd16417</td>
+      <td>CDD:cd01427;CDD:cd02586;CDD:cd02588;CDD:cd02598;CDD:cd02603;CDD:cd02616;CDD:cd04302;CDD:cd04303;CDD:cd04305;CDD:cd07505;CDD:cd07512;CDD:cd07523;CDD:cd07526;CDD:cd07527;CDD:cd07528;CDD:cd07533;CDD:cd16415;CDD:cd16417;CDD:cd16421;CDD:cd16423</td>
+      <td>CDD:cd16417</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0546</td>
+      <td>COG:COG0241;COG:COG0546;COG:COG0560;COG:COG0561;COG:COG0637;COG:COG0647;COG:COG1011</td>
+      <td>COG:COG0546</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:3.1.3.18</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:3.1.3.18</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:3.1.3.18</td>
+      <td>EC:3.1.3.18</td>
+      <td>EC:3.1.3.18</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000287;GO:0003674;GO:0003824;GO:0005488;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0005975;GO:0006139;GO:0006259;GO:0006281;GO:0006725;GO:0006793;GO:0006796;GO:0006807;GO:0006950;GO:0006974;GO:0008150;GO:0008152;GO:0008967;GO:0009987;GO:0016311;GO:0016787;GO:0016788;GO:0016791;GO:0031404;GO:0033554;GO:0034641;GO:0042578;GO:0043167;GO:0043168;GO:0043169;GO:0043170;GO:0044237;GO:0044238;GO:0044260;GO:0044424;GO:0044444;GO:0044464;GO:0046483;GO:0046872;GO:0050896;GO:0051716;GO:0071704;GO:0090304;GO:1901360</td>
+      <td>GO:0005829;GO:0005975;GO:0006281;GO:0008967;GO:0016311</td>
+      <td>GO:0005829;GO:0005975;GO:0006281;GO:0008967;GO:0016311</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K01091</td>
+      <td>KEGG:K01091;KEGG:K07025</td>
+      <td>KEGG:K01091</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF009694;NCBIFAM:NF009695;NCBIFAM:NF009697;NCBIFAM:TIGR01449;NCBIFAM:TIGR01509;NCBIFAM:TIGR01549</td>
+      <td>NCBIFAM:TIGR01428;NCBIFAM:TIGR01449;NCBIFAM:TIGR01454;NCBIFAM:TIGR01509;NCBIFAM:TIGR01549;NCBIFAM:TIGR01662;NCBIFAM:TIGR01990;NCBIFAM:TIGR02009;NCBIFAM:TIGR02252;NCBIFAM:TIGR02253;NCBIFAM:TIGR03351</td>
+      <td>NCBIFAM:TIGR01449;NCBIFAM:TIGR01509;NCBIFAM:TIGR01549</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF009694;NCBIFAM:NF009695;NCBIFAM:NF009697;NCBIFAM:TIGR01449;NCBIFAM:TIGR01509;NCBIFAM:TIGR01549</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:TIGR01428;NCBIFAM:TIGR01449;NCBIFAM:TIGR01454;NCBIFAM:TIGR01509;NCBIFAM:TIGR01549;NCBIFAM:TIGR01662;NCBIFAM:TIGR01990;NCBIFAM:TIGR02009;NCBIFAM:TIGR02252;NCBIFAM:TIGR02253;NCBIFAM:TIGR03351</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00702</td>
+      <td>PFAM:PF00702;PFAM:PF12710;PFAM:PF13242;PFAM:PF13419</td>
+      <td>PFAM:PF00702</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00702</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00702;PFAM:PF12710;PFAM:PF13242;PFAM:PF13419</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 74 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSBO_1134.SBO_3372</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iSbBS512_1146.SbBS512_E3762</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iYL1228.KPN_03756</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0546</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:3.1.3.18</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RDDY@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1S3QD@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMWS@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0546@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0546@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000287</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005975</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006139</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006259</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006725</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006793</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006796</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006950</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006974</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008967</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016311</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016788</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016791</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0031404</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0033554</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0034641</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042578</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043167</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043168</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043169</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043170</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046483</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046872</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050896</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051716</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0090304</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901360</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01091</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00630</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00630</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01100</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01110</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01130</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00017</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01334</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>HAD_2</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85676656</td>
+      <td>gph</td>
+      <td>Is involved in the dissimilation of the intracellular 2-phosphoglycolate formed during the DNA repair of 3'-phosphoglycolate ends, a major class of DNA lesions induced by oxidative stress</td>
+      <td>504.0</td>
+      <td>3.69e-181</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>252</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 2 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:3.1.3.18</td>
+      <td>KEGG:K01091</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K01091</td>
+      <td></td>
+      <td>phosphoglycolate phosphatase [EC:3.1.3.18]</td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07025</td>
+      <td></td>
+      <td>putative hydrolase of the HAD superfamily</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K01091</td>
+      <td>phosphoglycolate phosphatase [EC:3.1.3.18]</td>
+      <td>above_threshold</td>
+      <td>218.6</td>
+      <td>113.50</td>
+      <td>4.1e-65</td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K07025</td>
+      <td>putative hydrolase of the HAD superfamily</td>
+      <td>above_threshold</td>
+      <td>115.8</td>
+      <td>115.43</td>
+      <td>6.8e-34</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 30 annotation rows, 22 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd16417</td>
+      <td></td>
+      <td>HAD_PGPase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.150.240:FF:000003</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.50.1000:FF:000022</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.10.150.240</td>
+      <td></td>
+      <td>Putative phosphatase; domain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.50.1000</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43434","interpro_accession":"IPR050155","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005975</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00495","interpro_accession":"IPR037512","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01449","interpro_accession":"IPR037512","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006281</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43434","interpro_accession":"IPR050155","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0008967</td>
+      <td>[{"analysis":"Hamap","signature_accession":"MF_00495","interpro_accession":"IPR037512","mapping_source":"InterPro"},{"analysis":"NCBIfam","signature_accession":"TIGR01449","interpro_accession":"IPR037512","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR43434","interpro_accession":"IPR050155","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016311</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43434","interpro_accession":"IPR050155","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>HAMAP</td>
+      <td>HAMAP:MF_00495</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase [gph].</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR006439</td>
+      <td></td>
+      <td>HAD hydrolase, subfamily IA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023198</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase-like, domain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR023214</td>
+      <td></td>
+      <td>HAD superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036412</td>
+      <td></td>
+      <td>HAD-like superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR037512</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase, prokaryotic</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR050155</td>
+      <td></td>
+      <td>HAD-like hydrolase superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF009694</td>
+      <td></td>
+      <td>phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF009695</td>
+      <td></td>
+      <td>phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF009697</td>
+      <td></td>
+      <td>phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01449</td>
+      <td></td>
+      <td>phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01509</td>
+      <td></td>
+      <td>HAD-IA family hydrolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01549</td>
+      <td></td>
+      <td>HAD-IA family hydrolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43434</td>
+      <td></td>
+      <td>PHOSPHOGLYCOLATE PHOSPHATASE</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00702</td>
+      <td></td>
+      <td>haloacid dehalogenase-like hydrolase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00413</td>
+      <td></td>
+      <td>Haloacid dehalogenase/epoxide hydrolase family signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SFLD</td>
+      <td>SFLD:SFLDG01129</td>
+      <td></td>
+      <td>C1.5: HAD, Beta-PGM, Phosphatase Like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SFLD</td>
+      <td>SFLD:SFLDG01135</td>
+      <td></td>
+      <td>C1.5.6: HAD, Beta-PGM, Phosphatase Like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SFLD</td>
+      <td>SFLD:SFLDS00003</td>
+      <td></td>
+      <td>Haloacid Dehalogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF56784</td>
+      <td></td>
+      <td>HAD-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd16417</td>
+      <td>HAD_PGPase</td>
+      <td>5.34705E-122</td>
+      <td>9</td>
+      <td>236</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.150.240:FF:000003</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>1.4E-56</td>
+      <td>22</td>
+      <td>109</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.1000:FF:000022</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>2.7E-43</td>
+      <td>102</td>
+      <td>230</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.150.240</td>
+      <td>Putative phosphatase; domain 2</td>
+      <td>2.1E-66</td>
+      <td>22</td>
+      <td>109</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.50.1000</td>
+      <td></td>
+      <td>2.1E-66</td>
+      <td>10</td>
+      <td>229</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Hamap</td>
+      <td>signature_match</td>
+      <td>MF_00495</td>
+      <td>Phosphoglycolate phosphatase [gph].</td>
+      <td>39.479912</td>
+      <td>7</td>
+      <td>240</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF009694</td>
+      <td>phosphoglycolate phosphatase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>252</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF009695</td>
+      <td>phosphoglycolate phosphatase</td>
+      <td>4.9E-74</td>
+      <td>4</td>
+      <td>238</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF009697</td>
+      <td>phosphoglycolate phosphatase</td>
+      <td>8.3E-102</td>
+      <td>1</td>
+      <td>248</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01449</td>
+      <td>phosphoglycolate phosphatase</td>
+      <td>3.3E-99</td>
+      <td>10</td>
+      <td>239</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01509</td>
+      <td>HAD-IA family hydrolase</td>
+      <td>6.6E-11</td>
+      <td>95</td>
+      <td>209</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>TIGR01549</td>
+      <td>HAD-IA family hydrolase</td>
+      <td>2.3E-8</td>
+      <td>116</td>
+      <td>204</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43434</td>
+      <td>PHOSPHOGLYCOLATE PHOSPHATASE</td>
+      <td>1.1E-56</td>
+      <td>4</td>
+      <td>239</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00413</td>
+      <td>Haloacid dehalogenase/epoxide hydrolase family signature</td>
+      <td>1.8E-13</td>
+      <td>123</td>
+      <td>136</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00413</td>
+      <td>Haloacid dehalogenase/epoxide hydrolase family signature</td>
+      <td>1.8E-13</td>
+      <td>154</td>
+      <td>170</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00413</td>
+      <td>Haloacid dehalogenase/epoxide hydrolase family signature</td>
+      <td>1.8E-13</td>
+      <td>172</td>
+      <td>192</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00413</td>
+      <td>Haloacid dehalogenase/epoxide hydrolase family signature</td>
+      <td>1.8E-13</td>
+      <td>7</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00702</td>
+      <td>haloacid dehalogenase-like hydrolase</td>
+      <td>7.0E-36</td>
+      <td>7</td>
+      <td>204</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SFLD</td>
+      <td>signature_match</td>
+      <td>SFLDG01129</td>
+      <td>C1.5: HAD, Beta-PGM, Phosphatase Like</td>
+      <td>0.0</td>
+      <td>7</td>
+      <td>239</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SFLD</td>
+      <td>signature_match</td>
+      <td>SFLDG01135</td>
+      <td>C1.5.6: HAD, Beta-PGM, Phosphatase Like</td>
+      <td>0.0</td>
+      <td>7</td>
+      <td>239</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SFLD</td>
+      <td>signature_match</td>
+      <td>SFLDS00003</td>
+      <td>Haloacid Dehalogenase</td>
+      <td>0.0</td>
+      <td>7</td>
+      <td>239</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF56784</td>
+      <td>HAD-like</td>
+      <td>1.06E-59</td>
+      <td>2</td>
+      <td>239</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 59 annotation rows, 110 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd01427</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02586</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02588</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02598</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02603</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd02616</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04302</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04303</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd04305</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07505</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07512</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07523</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07526</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07527</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07528</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07533</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16415</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16417</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16421</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16423</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02770</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02779</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02940</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN03243</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10725</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10826</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11587</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13222</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13223</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13225</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13226</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13288</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13478</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0241</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0546</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0560</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0561</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0637</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0647</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1011</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2914</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG3085</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01428</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01449</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01454</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01509</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01549</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01662</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01990</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02009</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02252</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02253</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03351</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00702</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF12710</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13242</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF13419</td>
+      <td></td>
+      <td>Phosphoglycolate phosphatase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0241</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>48.0</td>
+      <td>2.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0546</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>220.5</td>
+      <td>6.4e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0560</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>42.3</td>
+      <td>1.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0561</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>46.2</td>
+      <td>1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0637</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>146.8</td>
+      <td>2.2e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0647</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>57.7</td>
+      <td>2.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1011</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>117.5</td>
+      <td>2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2914</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>62.9</td>
+      <td>6.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG3085</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>67.7</td>
+      <td>3.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02770</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>54.8</td>
+      <td>1.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02779</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>53.2</td>
+      <td>4.9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02940</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>47.7</td>
+      <td>2.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN03243</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>43.2</td>
+      <td>6.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10725</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>60.6</td>
+      <td>4.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10826</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>73.3</td>
+      <td>4.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11587</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>55.3</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13222</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>327.2</td>
+      <td>1.1e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13223</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>198.8</td>
+      <td>2.1e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13226</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>116.1</td>
+      <td>4.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13288</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>101.3</td>
+      <td>1.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13478</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>41.1</td>
+      <td>2.9e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01428</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>52.8</td>
+      <td>1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01449</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>330.4</td>
+      <td>9.1e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01454</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>81.9</td>
+      <td>1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01509</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>92.1</td>
+      <td>1.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01549</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>84.1</td>
+      <td>4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01662</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>51.8</td>
+      <td>2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01990</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>50.4</td>
+      <td>5.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02009</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>80.9</td>
+      <td>2.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02252</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>52.7</td>
+      <td>1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02253</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>81.5</td>
+      <td>1.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03351</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>60.7</td>
+      <td>4.3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01427</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>139.5</td>
+      <td>2.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02586</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>40.4</td>
+      <td>4.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02588</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>73.0</td>
+      <td>7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02598</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>56.8</td>
+      <td>7.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02603</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>56.9</td>
+      <td>7e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02616</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>155.0</td>
+      <td>5.4e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04302</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>106.1</td>
+      <td>4.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04305</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>70.5</td>
+      <td>4.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07505</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>117.1</td>
+      <td>2.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07512</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>169.4</td>
+      <td>1.8e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07523</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>48.4</td>
+      <td>2.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07526</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>65.7</td>
+      <td>1.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07527</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>68.5</td>
+      <td>1.4e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07528</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>64.0</td>
+      <td>3.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07533</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>103.3</td>
+      <td>3.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16415</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>65.2</td>
+      <td>1.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16417</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>286.0</td>
+      <td>3.7e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16421</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>105.6</td>
+      <td>6.9e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16423</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>92.5</td>
+      <td>6.8e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00702</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>137.6</td>
+      <td>1.6e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam12710</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>55.5</td>
+      <td>2.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13242</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>43.6</td>
+      <td>4.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13419</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>131.8</td>
+      <td>6.6e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0241</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>48.0</td>
+      <td>2.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0546</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>220.5</td>
+      <td>6.4e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0560</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>42.3</td>
+      <td>1.6e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0561</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>46.2</td>
+      <td>1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0637</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>146.8</td>
+      <td>2.2e-43</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0647</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>57.7</td>
+      <td>2.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1011</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>117.5</td>
+      <td>2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2914</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>62.9</td>
+      <td>6.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG3085</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>67.7</td>
+      <td>3.2e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02770</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>54.8</td>
+      <td>1.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02779</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>53.2</td>
+      <td>4.9e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02940</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>47.7</td>
+      <td>2.3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10725</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>60.6</td>
+      <td>4.7e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10826</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>73.3</td>
+      <td>4.7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11587</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>55.3</td>
+      <td>1.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13222</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>327.2</td>
+      <td>1.1e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13223</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>198.8</td>
+      <td>2.1e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13225</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>59.4</td>
+      <td>8.8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13226</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>116.1</td>
+      <td>4.3e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13288</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>101.3</td>
+      <td>1.2e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01428</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>52.8</td>
+      <td>1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01449</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>330.4</td>
+      <td>9.1e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01454</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>81.9</td>
+      <td>1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01509</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>92.1</td>
+      <td>1.4e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01549</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>84.1</td>
+      <td>4e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01662</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>51.8</td>
+      <td>2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01990</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>50.4</td>
+      <td>5.6e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02009</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>80.9</td>
+      <td>2.8e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02252</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>52.7</td>
+      <td>1e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02253</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>81.5</td>
+      <td>1.6e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03351</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>60.7</td>
+      <td>4.3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd01427</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>139.5</td>
+      <td>2.4e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02588</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>73.0</td>
+      <td>7e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02598</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>56.8</td>
+      <td>7.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02603</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>56.9</td>
+      <td>7e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd02616</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>155.0</td>
+      <td>5.4e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04302</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>106.1</td>
+      <td>4.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04303</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>78.2</td>
+      <td>1.2e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd04305</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>70.5</td>
+      <td>4.8e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07505</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>117.1</td>
+      <td>2.2e-34</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07512</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>169.4</td>
+      <td>1.8e-50</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07523</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>48.4</td>
+      <td>2.6e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07526</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>65.7</td>
+      <td>1.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07527</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>68.5</td>
+      <td>1.4e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07528</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>64.0</td>
+      <td>3.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07533</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>103.3</td>
+      <td>3.9e-30</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16415</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>65.2</td>
+      <td>1.9e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16417</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>286.0</td>
+      <td>3.7e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16421</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>105.6</td>
+      <td>6.9e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16423</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>92.5</td>
+      <td>6.8e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00702</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>137.6</td>
+      <td>1.6e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam12710</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>55.5</td>
+      <td>2.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13242</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>43.6</td>
+      <td>4.8e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam13419</td>
+      <td>Phosphoglycolate phosphatase</td>
+      <td>131.8</td>
+      <td>6.6e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.65908414</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

@@ -1,0 +1,4653 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_01496</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_01496</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase [EC:1.2.1.22 1.2.1.21]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K07248</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K07248</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:1.2.1.21;EC:1.2.1.22</td></tr><tr><th>mf_proposal_ids</th><td>GO:0004777</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07248</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.2.1.21</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:1.2.1.22</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K07248</td>
+      <td>EC:1.2.1.21</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+    <tr>
+      <td>KEGG:K07248</td>
+      <td>EC:1.2.1.22</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0004029</td>
+      <td>GO:0004029</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0004777</td>
+      <td>GO:0004777</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0008911</td>
+      <td>GO:0008911</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0016620</td>
+      <td>GO:0016620</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0016903</td>
+      <td>GO:0016903</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0050569</td>
+      <td>GO:0050569</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0051287</td>
+      <td>GO:0051287</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:1901265</td>
+      <td>GO:1901265</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.21</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0000166</td>
+      <td>GO:0000166</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0003674</td>
+      <td>GO:0003674</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0003824</td>
+      <td>GO:0003824</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0004029</td>
+      <td>GO:0004029</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0004777</td>
+      <td>GO:0004777</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0005488</td>
+      <td>GO:0005488</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0005515</td>
+      <td>GO:0005515</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0008911</td>
+      <td>GO:0008911</td>
+      <td>active</td>
+      <td>documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0016491</td>
+      <td>GO:0016491</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0016620</td>
+      <td>GO:0016620</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0016903</td>
+      <td>GO:0016903</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0036094</td>
+      <td>GO:0036094</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0042802</td>
+      <td>GO:0042802</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0048037</td>
+      <td>GO:0048037</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0050569</td>
+      <td>GO:0050569</td>
+      <td>active</td>
+      <td>not_documented</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0050662</td>
+      <td>GO:0050662</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0051287</td>
+      <td>GO:0051287</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:0097159</td>
+      <td>GO:0097159</td>
+      <td>obsolete_unresolved</td>
+      <td>obsolete_unresolved</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:1901265</td>
+      <td>GO:1901265</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:1.2.1.22</td>
+      <td>GO:1901363</td>
+      <td>GO:1901363</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|1488232|1489671|+</td></tr><tr><th>protein_id</th><td>KOIAIB_01496</td></tr><tr><th>product</th><td>Lactaldehyde dehydrogenase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>1488232</td></tr><tr><th>stop</th><td>1489671</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_1788</td></tr><tr><th>locus_tag</th><td>KOIAIB_01496</td></tr><tr><th>aa_md5</th><td>231cde29fd90ffdeb0d36f6deea14d2e</td></tr><tr><th>frame</th><td>1</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>AGGAG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>C</td></tr><tr><th>GO</th><td><details class="value-details"><summary>92 values</summary><ul class="value-list"><li>GO:0000166</li><li>GO:0001505</li><li>GO:0003674</li><li>GO:0003824</li><li>GO:0004029</li><li>GO:0004777</li><li>GO:0005488</li><li>GO:0005515</li><li>GO:0005575</li><li>GO:0005622</li><li>GO:0005623</li><li>GO:0005737</li><li>GO:0005829</li><li>GO:0005975</li><li>GO:0005996</li><li>GO:0006004</li><li>GO:0006082</li><li>GO:0006105</li><li>GO:0006520</li><li>GO:0006536</li><li>GO:0006538</li><li>GO:0006540</li><li>GO:0006807</li><li>GO:0008150</li><li>GO:0008152</li><li>GO:0008911</li><li>GO:0009056</li><li>GO:0009063</li><li>GO:0009064</li><li>GO:0009065</li><li>GO:0009448</li><li>GO:0009450</li><li>GO:0009987</li><li>GO:0016043</li><li>GO:0016052</li><li>GO:0016054</li><li>GO:0016491</li><li>GO:0016620</li><li>GO:0016903</li><li>GO:0017144</li><li>GO:0019299</li><li>GO:0019301</li><li>GO:0019317</li><li>GO:0019318</li><li>GO:0019320</li><li>GO:0019752</li><li>GO:0022607</li><li>GO:0032787</li><li>GO:0036094</li><li>GO:0042133</li><li>GO:0042135</li><li>GO:0042354</li><li>GO:0042355</li><li>GO:0042802</li><li>GO:0043436</li><li>GO:0043648</li><li>GO:0043649</li><li>GO:0043933</li><li>GO:0044085</li><li>GO:0044237</li><li>GO:0044238</li><li>GO:0044248</li><li>GO:0044281</li><li>GO:0044282</li><li>GO:0044424</li><li>GO:0044444</li><li>GO:0044464</li><li>GO:0046365</li><li>GO:0046395</li><li>GO:0048037</li><li>GO:0050569</li><li>GO:0050662</li><li>GO:0051259</li><li>GO:0051260</li><li>GO:0051262</li><li>GO:0051287</li><li>GO:0051289</li><li>GO:0055114</li><li>GO:0065003</li><li>GO:0065007</li><li>GO:0065008</li><li>GO:0071704</li><li>GO:0071840</li><li>GO:0072329</li><li>GO:0097159</li><li>GO:1901265</li><li>GO:1901363</li><li>GO:1901564</li><li>GO:1901565</li><li>GO:1901575</li><li>GO:1901605</li><li>GO:1901606</li></ul></details></td></tr><tr><th>EC</th><td>EC:1.2.1.21; EC:1.2.1.22</td></tr><tr><th>KEGG_KO</th><td>KEGG:K07248</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko00620; KEGG:ko00630; KEGG:ko01120; KEGG:map00620; KEGG:map00630; KEGG:map01120</td></tr><tr><th>KEGG_REACTION</th><td>KEGG:R00203; KEGG:R01333; KEGG:R01446</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>7 values</summary><ul class="value-list"><li>INTERPRO:IPR015590</li><li>INTERPRO:IPR016160</li><li>INTERPRO:IPR016161</li><li>INTERPRO:IPR016162</li><li>INTERPRO:IPR016163</li><li>INTERPRO:IPR029510</li><li>INTERPRO:IPR050740</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00171</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>ambiguous</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>3</td></tr><tr><th>concordance_partial</th><td>3</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd07088</td>
+      <td>CDD:cd06534;CDD:cd07077;CDD:cd07078;CDD:cd07081;CDD:cd07082;CDD:cd07083;CDD:cd07084;CDD:cd07085;CDD:cd07086;CDD:cd07087;CDD:cd07088;CDD:cd07089;CDD:cd07090;CDD:cd07091;CDD:cd07092;CDD:cd07093;CDD:cd07094;CDD:cd07095;CDD:cd07097;CDD:cd07098;CDD:cd07099;CDD:cd07100;CDD:cd07101;CDD:cd07102;CDD:cd07103;CDD:cd07104;CDD:cd07105;CDD:cd07106;CDD:cd07107;CDD:cd07108;CDD:cd07109;CDD:cd07110;CDD:cd07111;CDD:cd07112;CDD:cd07113;CDD:cd07114;CDD:cd07115;CDD:cd07116;CDD:cd07117;CDD:cd07118;CDD:cd07119;CDD:cd07120;CDD:cd07121;CDD:cd07122;CDD:cd07123;CDD:cd07124;CDD:cd07125;CDD:cd07126;CDD:cd07127;CDD:cd07128;CDD:cd07129;CDD:cd07130;CDD:cd07131;CDD:cd07132;CDD:cd07133;CDD:cd07134;CDD:cd07135;CDD:cd07136;CDD:cd07137;CDD:cd07138;CDD:cd07139;CDD:cd07140;CDD:cd07141;CDD:cd07142;CDD:cd07143;CDD:cd07144;CDD:cd07145;CDD:cd07146;CDD:cd07147;CDD:cd07148;CDD:cd07149;CDD:cd07150;CDD:cd07151;CDD:cd07152;CDD:cd07559</td>
+      <td>CDD:cd07088</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG1012</td>
+      <td>COG:COG0506;COG:COG1012;COG:COG4230</td>
+      <td>COG:COG1012</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:1.2.1.21;EC:1.2.1.22</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:1.2.1.21;EC:1.2.1.22</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:1.2.1.21;EC:1.2.1.22</td>
+      <td>EC:1.2.1.21;EC:1.2.1.22</td>
+      <td>EC:1.2.1.21;EC:1.2.1.22</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0000166;GO:0001505;GO:0003674;GO:0003824;GO:0004029;GO:0004777;GO:0005488;GO:0005515;GO:0005575;GO:0005622;GO:0005623;GO:0005737;GO:0005829;GO:0005975;GO:0005996;GO:0006004;GO:0006082;GO:0006105;GO:0006520;GO:0006536;GO:0006538;GO:0006540;GO:0006807;GO:0008150;GO:0008152;GO:0008911;GO:0009056;GO:0009063;GO:0009064;GO:0009065;GO:0009448;GO:0009450;GO:0009987;GO:0016043;GO:0016052;GO:0016054;GO:0016491;GO:0016620;GO:0016903;GO:0017144;GO:0019299;GO:0019301;GO:0019317;GO:0019318;GO:0019320;GO:0019752;GO:0022607;GO:0032787;GO:0036094;GO:0042133;GO:0042135;GO:0042354;GO:0042355;GO:0042802;GO:0043436;GO:0043648;GO:0043649;GO:0043933;GO:0044085;GO:0044237;GO:0044238;GO:0044248;GO:0044281;GO:0044282;GO:0044424;GO:0044444;GO:0044464;GO:0046365;GO:0046395;GO:0048037;GO:0050569;GO:0050662;GO:0051259;GO:0051260;GO:0051262;GO:0051287;GO:0051289;GO:0055114;GO:0065003;GO:0065007;GO:0065008;GO:0071704;GO:0071840;GO:0072329;GO:0097159;GO:1901265;GO:1901363;GO:1901564;GO:1901565;GO:1901575;GO:1901605;GO:1901606</td>
+      <td>GO:0004777;GO:0005829;GO:0006807;GO:0009450;GO:0016491</td>
+      <td>GO:0004777;GO:0005829;GO:0006807;GO:0009450;GO:0016491</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K07248</td>
+      <td>KEGG:K07248</td>
+      <td>KEGG:K07248</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF007497</td>
+      <td>NCBIFAM:NF040648;NCBIFAM:NF040792;NCBIFAM:NF040869;NCBIFAM:TIGR01236;NCBIFAM:TIGR01237;NCBIFAM:TIGR01238;NCBIFAM:TIGR01722;NCBIFAM:TIGR01780;NCBIFAM:TIGR01804;NCBIFAM:TIGR02278;NCBIFAM:TIGR02288;NCBIFAM:TIGR02299;NCBIFAM:TIGR03216;NCBIFAM:TIGR03240;NCBIFAM:TIGR03250;NCBIFAM:TIGR03374;NCBIFAM:TIGR04284</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF007497</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF040648;NCBIFAM:NF040792;NCBIFAM:NF040869;NCBIFAM:TIGR01236;NCBIFAM:TIGR01237;NCBIFAM:TIGR01238;NCBIFAM:TIGR01722;NCBIFAM:TIGR01780;NCBIFAM:TIGR01804;NCBIFAM:TIGR02278;NCBIFAM:TIGR02288;NCBIFAM:TIGR02299;NCBIFAM:TIGR03216;NCBIFAM:TIGR03240;NCBIFAM:TIGR03250;NCBIFAM:TIGR03374;NCBIFAM:TIGR04284</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00171</td>
+      <td>PFAM:PF00171</td>
+      <td>PFAM:PF00171</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 126 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iAF1260.b1415</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iBWG_1329.BWG_1242</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECDH10B_1368.ECDH10B_1541</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iECDH1ME8569_1439.ECDH1ME8569_1358</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iEcDH1_1363.EcDH1_2230</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJO1366.b1415</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iJR904.b1415</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>BIGG_REACTION</td>
+      <td>iY75_1357.Y75_RS07435</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG1012</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.2.1.21</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:1.2.1.22</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1MU1V@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1RMBQ@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XMD7@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1012@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG1012@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0000166</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0001505</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003674</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0003824</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004029</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0004777</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005488</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005515</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005622</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005737</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005975</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005996</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006004</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006082</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006105</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006520</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006536</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006538</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006540</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008150</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008152</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0008911</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009056</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009063</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009064</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009065</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009448</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009450</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0009987</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016043</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016052</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016054</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016903</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0017144</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019299</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019301</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019317</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019318</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019320</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0019752</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0022607</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0032787</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0036094</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042133</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042135</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042354</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042355</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0042802</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043436</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043648</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043649</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0043933</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044085</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044237</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044238</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044281</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044282</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044424</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044444</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046365</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0046395</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0048037</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050569</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0050662</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051259</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051260</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051262</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051287</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0051289</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0055114</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0065003</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0065007</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0065008</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071704</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071840</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0072329</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0097159</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901265</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901363</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901564</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901565</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901605</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:1901606</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07248</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko00630</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00620</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map00630</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map01120</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00080</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00104</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_RCLASS</td>
+      <td>KEGG:RC00242</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R00203</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01333</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_REACTION</td>
+      <td>KEGG:R01446</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>Aldedh</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.1742307</td>
+      <td>aldA</td>
+      <td>dehydrogenase</td>
+      <td>934.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>479</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 3 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.2.1.21</td>
+      <td>KEGG:K07248</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:1.2.1.22</td>
+      <td>KEGG:K07248</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07248</td>
+      <td></td>
+      <td>lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase [EC:1.2.1.22 1.2.1.21]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K07248</td>
+      <td>lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase [EC:1.2.1.22 1.2.1.21]</td>
+      <td>above_threshold</td>
+      <td>785.0</td>
+      <td>581.70</td>
+      <td>5.1e-237</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 23 annotation rows, 11 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd07088</td>
+      <td></td>
+      <td>ALDH_LactADH-AldA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.309.10:FF:000009</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase A</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.40.605.10:FF:000022</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase A</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.309.10</td>
+      <td></td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 2</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.40.605.10</td>
+      <td></td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 1</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0004777</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43353","interpro_accession":"IPR050740","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005829</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43353","interpro_accession":"IPR050740","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0006807</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43353","interpro_accession":"IPR050740","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0009450</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR43353","interpro_accession":"IPR050740","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016491</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF00171","interpro_accession":"IPR015590","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00070","interpro_accession":"IPR016160","mapping_source":"InterPro"},{"analysis":"ProSitePatterns","signature_accession":"PS00687","interpro_accession":"IPR029510","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR015590</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016160</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, cysteine active site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016161</td>
+      <td></td>
+      <td>Aldehyde/histidinol dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016162</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR016163</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR029510</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase, glutamic acid active site</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR050740</td>
+      <td></td>
+      <td>Aldehyde Dehydrogenase Superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF007497</td>
+      <td></td>
+      <td>aldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR43353</td>
+      <td></td>
+      <td>SUCCINATE-SEMIALDEHYDE DEHYDROGENASE, MITOCHONDRIAL</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>Aldehyde dehydrogenase family</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00070</td>
+      <td></td>
+      <td>Aldehyde dehydrogenases cysteine active site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS00687</td>
+      <td></td>
+      <td>Aldehyde dehydrogenases glutamic acid active site.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF53720</td>
+      <td></td>
+      <td>ALDH-like</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd07088</td>
+      <td>ALDH_LactADH-AldA</td>
+      <td>0.0</td>
+      <td>10</td>
+      <td>477</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.309.10:FF:000009</td>
+      <td>Aldehyde dehydrogenase A</td>
+      <td>7.1E-77</td>
+      <td>254</td>
+      <td>446</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.605.10:FF:000022</td>
+      <td>Aldehyde dehydrogenase A</td>
+      <td>3.6E-123</td>
+      <td>24</td>
+      <td>260</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.309.10</td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 2</td>
+      <td>0.0</td>
+      <td>254</td>
+      <td>444</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.40.605.10</td>
+      <td>Aldehyde Dehydrogenase; Chain A, domain 1</td>
+      <td>0.0</td>
+      <td>24</td>
+      <td>469</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF007497</td>
+      <td>aldehyde dehydrogenase</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>479</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR43353</td>
+      <td>SUCCINATE-SEMIALDEHYDE DEHYDROGENASE, MITOCHONDRIAL</td>
+      <td>0.0</td>
+      <td>5</td>
+      <td>477</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00171</td>
+      <td>Aldehyde dehydrogenase family</td>
+      <td>0.0</td>
+      <td>22</td>
+      <td>475</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00070</td>
+      <td>Aldehyde dehydrogenases cysteine active site.</td>
+      <td></td>
+      <td>278</td>
+      <td>289</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSitePatterns</td>
+      <td>signature_match</td>
+      <td>PS00687</td>
+      <td>Aldehyde dehydrogenases glutamic acid active site.</td>
+      <td></td>
+      <td>250</td>
+      <td>257</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF53720</td>
+      <td>ALDH-like</td>
+      <td>0.0</td>
+      <td>4</td>
+      <td>477</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 131 annotation rows, 258 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd06534</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07077</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07078</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07081</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07082</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07083</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07084</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07085</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07086</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07087</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07088</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07089</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07090</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07091</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07092</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07093</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07094</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07095</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07097</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07098</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07099</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07100</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07101</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07102</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07103</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07104</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07105</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07106</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07107</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07108</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07109</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07110</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07111</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07112</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07113</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07114</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07115</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07116</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07117</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07118</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07119</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07120</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07121</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07122</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07123</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07124</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07125</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07126</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07127</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07128</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07129</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07130</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07131</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07132</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07133</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07134</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07135</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07136</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07137</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07138</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07139</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07140</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07141</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07142</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07143</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07144</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07145</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07146</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07147</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07148</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07149</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07150</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07151</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07152</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd07559</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN00412</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02174</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02203</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02278</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02315</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02419</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02466</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02467</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PLN02766</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK03137</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09406</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09407</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09457</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09847</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10090</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11241</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11809</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11903</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11904</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11905</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13252</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13473</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13805</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13968</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15398</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PTZ00381</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0506</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG1012</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4230</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2450</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2451</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2452</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2453</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2454</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2455</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>KOG</td>
+      <td>KOG:KOG2456</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040648</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040792</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040869</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01236</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01237</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01238</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01722</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01780</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01804</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02278</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02288</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02299</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03216</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03240</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03250</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03374</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR04284</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00171</td>
+      <td></td>
+      <td>Lactaldehyde dehydrogenase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0506</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>66.0</td>
+      <td>7.5e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1012</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>572.7</td>
+      <td>1.1e-172</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4230</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>250.6</td>
+      <td>9.4e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2450</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>444.9</td>
+      <td>7.4e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2451</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>449.5</td>
+      <td>2.7e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2452</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>286.4</td>
+      <td>8.9e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2453</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>248.9</td>
+      <td>2.4e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2454</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>242.2</td>
+      <td>2e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2455</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>178.9</td>
+      <td>3e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2456</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>205.6</td>
+      <td>2.9e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040648</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>371.8</td>
+      <td>1.3e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040792</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>422.2</td>
+      <td>6.7e-127</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040869</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>261.1</td>
+      <td>4.3e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00412</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>248.8</td>
+      <td>2e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02174</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>127.6</td>
+      <td>1.3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02203</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>135.1</td>
+      <td>6.4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02278</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>468.8</td>
+      <td>4.5e-141</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02315</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>239.1</td>
+      <td>2.2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02419</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>194.0</td>
+      <td>9.6e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02466</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>337.7</td>
+      <td>2.5e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02467</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>333.2</td>
+      <td>6.9e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02766</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>341.6</td>
+      <td>1.6e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03137</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>357.2</td>
+      <td>3.4e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09406</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>298.3</td>
+      <td>2.2e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09407</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>361.2</td>
+      <td>1.9e-108</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09457</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>245.4</td>
+      <td>2.2e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09847</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>261.5</td>
+      <td>2.8e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10090</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>859.1</td>
+      <td>1.1e-259</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11241</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>396.9</td>
+      <td>2.7e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11809</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>197.0</td>
+      <td>8.7e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11903</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>122.3</td>
+      <td>4.9e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11904</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>253.8</td>
+      <td>7.1e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11905</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>237.2</td>
+      <td>6.7e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13252</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>407.5</td>
+      <td>1.4e-122</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13473</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>446.1</td>
+      <td>3.1e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13805</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>55.9</td>
+      <td>4.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13968</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>300.3</td>
+      <td>6.3e-90</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15398</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>60.4</td>
+      <td>2.8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00381</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>214.8</td>
+      <td>4.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01236</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>195.7</td>
+      <td>2.8e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01237</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>333.0</td>
+      <td>7e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01238</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>213.5</td>
+      <td>1e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01722</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>269.1</td>
+      <td>1.5e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01780</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>434.7</td>
+      <td>8.7e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01804</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>429.1</td>
+      <td>3.6e-129</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02278</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>134.8</td>
+      <td>6.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02288</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>52.7</td>
+      <td>4.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02299</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>367.1</td>
+      <td>2.7e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03216</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>345.3</td>
+      <td>1.1e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03240</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>221.9</td>
+      <td>3.1e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03250</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>296.9</td>
+      <td>5.3e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03374</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>354.2</td>
+      <td>2.5e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04284</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>318.7</td>
+      <td>1.6e-95</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06534</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>509.0</td>
+      <td>2.2e-153</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07077</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>45.8</td>
+      <td>6.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07078</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>527.7</td>
+      <td>4.5e-159</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07081</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>48.4</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07082</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>365.0</td>
+      <td>1.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07083</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>278.4</td>
+      <td>2.3e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07084</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>131.3</td>
+      <td>9.7e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07085</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>339.5</td>
+      <td>5.8e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07086</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>388.3</td>
+      <td>1.1e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07087</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>236.0</td>
+      <td>1.6e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07088</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>757.0</td>
+      <td>1.6e-228</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07089</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>431.4</td>
+      <td>8.8e-130</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07090</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>412.5</td>
+      <td>4.3e-124</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07091</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>434.0</td>
+      <td>1.4e-130</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07092</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>447.4</td>
+      <td>1e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07093</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>415.5</td>
+      <td>6.2e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07094</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>389.1</td>
+      <td>6.1e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07095</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>271.2</td>
+      <td>3.8e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07097</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>427.5</td>
+      <td>1.3e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07098</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>299.0</td>
+      <td>1.4e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07099</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>409.1</td>
+      <td>4.5e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07100</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>387.8</td>
+      <td>1.6e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07101</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>340.1</td>
+      <td>4.3e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07102</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>379.5</td>
+      <td>4.1e-114</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07103</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>502.4</td>
+      <td>2.1e-151</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07104</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>418.1</td>
+      <td>9.6e-126</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07105</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>369.2</td>
+      <td>6.7e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07106</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>440.4</td>
+      <td>1.3e-132</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07107</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>378.5</td>
+      <td>1e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07108</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>357.9</td>
+      <td>1.5e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07109</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>416.0</td>
+      <td>3.7e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07110</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>398.5</td>
+      <td>7.6e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07111</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>370.0</td>
+      <td>3.4e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07112</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>374.9</td>
+      <td>1.1e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07113</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>384.0</td>
+      <td>1.9e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07114</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>442.6</td>
+      <td>3.2e-133</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07115</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>400.8</td>
+      <td>1.6e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07116</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>314.2</td>
+      <td>3.2e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07117</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>367.7</td>
+      <td>1.9e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07118</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>409.4</td>
+      <td>4e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07119</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>450.2</td>
+      <td>1.8e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07120</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>385.2</td>
+      <td>7.8e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07121</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>66.9</td>
+      <td>3.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07122</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>69.7</td>
+      <td>5.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07123</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>204.2</td>
+      <td>6.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07124</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>400.1</td>
+      <td>3.4e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07125</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>287.6</td>
+      <td>5e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07126</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>44.5</td>
+      <td>1.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07127</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>58.4</td>
+      <td>8.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07128</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>140.8</td>
+      <td>1.3e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07129</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>113.7</td>
+      <td>2.3e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07130</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>304.8</td>
+      <td>2.5e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07131</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>402.1</td>
+      <td>7.7e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07132</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>190.0</td>
+      <td>1.8e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07133</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>216.2</td>
+      <td>1.5e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07134</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>248.6</td>
+      <td>2.3e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07135</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>213.9</td>
+      <td>8.4e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07136</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>216.8</td>
+      <td>1.1e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07137</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>154.6</td>
+      <td>9.2e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07138</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>464.3</td>
+      <td>1e-139</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07139</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>426.4</td>
+      <td>2.6e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07140</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>342.0</td>
+      <td>9.1e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07141</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>366.5</td>
+      <td>4.2e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07142</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>377.0</td>
+      <td>2.7e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07143</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>389.0</td>
+      <td>6.6e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07144</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>388.4</td>
+      <td>9.4e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07145</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>413.0</td>
+      <td>3.5e-124</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07146</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>345.2</td>
+      <td>1.1e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07147</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>327.3</td>
+      <td>3.7e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07148</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>252.3</td>
+      <td>2.2e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07149</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>386.2</td>
+      <td>5.2e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07150</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>446.3</td>
+      <td>3.1e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07151</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>377.5</td>
+      <td>2.2e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07152</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>360.2</td>
+      <td>3.1e-108</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07559</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>375.4</td>
+      <td>9e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00171</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>557.6</td>
+      <td>4.1e-168</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0506</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>66.0</td>
+      <td>7.5e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG1012</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>572.7</td>
+      <td>1.1e-172</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4230</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>250.6</td>
+      <td>9.4e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2450</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>444.9</td>
+      <td>7.4e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2451</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>449.5</td>
+      <td>2.7e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2452</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>286.4</td>
+      <td>8.9e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2453</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>248.9</td>
+      <td>2.4e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2454</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>242.2</td>
+      <td>2e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2455</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>178.9</td>
+      <td>3e-53</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>KOG2456</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>205.6</td>
+      <td>2.9e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040648</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>371.8</td>
+      <td>1.3e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040792</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>422.2</td>
+      <td>6.7e-127</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040869</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>261.1</td>
+      <td>4.3e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN00412</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>248.8</td>
+      <td>2e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02174</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>127.6</td>
+      <td>1.3e-37</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02203</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>135.1</td>
+      <td>6.4e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02278</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>468.8</td>
+      <td>4.5e-141</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02315</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>239.1</td>
+      <td>2.2e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02419</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>194.0</td>
+      <td>9.6e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02466</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>337.7</td>
+      <td>2.5e-101</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02467</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>333.2</td>
+      <td>6.9e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PLN02766</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>341.6</td>
+      <td>1.6e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK03137</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>357.2</td>
+      <td>3.4e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09406</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>298.3</td>
+      <td>2.2e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09407</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>361.2</td>
+      <td>1.9e-108</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09457</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>245.4</td>
+      <td>2.2e-73</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09847</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>261.5</td>
+      <td>2.8e-78</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10090</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>859.1</td>
+      <td>1.1e-259</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11241</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>396.9</td>
+      <td>2.7e-119</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11809</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>197.0</td>
+      <td>8.7e-59</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11903</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>122.3</td>
+      <td>4.9e-36</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11904</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>253.8</td>
+      <td>7.1e-76</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11905</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>237.2</td>
+      <td>6.7e-71</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13252</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>407.5</td>
+      <td>1.4e-122</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13473</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>446.1</td>
+      <td>3.1e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13805</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>55.9</td>
+      <td>4.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13968</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>300.3</td>
+      <td>6.3e-90</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15398</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>60.4</td>
+      <td>2.8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PTZ00381</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>214.8</td>
+      <td>4.8e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01236</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>195.7</td>
+      <td>2.8e-58</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01237</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>333.0</td>
+      <td>7e-100</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01238</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>213.5</td>
+      <td>1e-63</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01722</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>269.1</td>
+      <td>1.5e-80</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01780</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>434.7</td>
+      <td>8.7e-131</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01804</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>429.1</td>
+      <td>3.6e-129</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02278</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>134.8</td>
+      <td>6.8e-40</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02288</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>52.7</td>
+      <td>4.7e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02299</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>367.1</td>
+      <td>2.7e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03216</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>345.3</td>
+      <td>1.1e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03240</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>221.9</td>
+      <td>3.1e-66</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03250</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>296.9</td>
+      <td>5.3e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03374</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>354.2</td>
+      <td>2.5e-106</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR04284</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>318.7</td>
+      <td>1.6e-95</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd06534</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>509.0</td>
+      <td>2.2e-153</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07077</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>45.8</td>
+      <td>6.8e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07078</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>527.7</td>
+      <td>4.5e-159</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07081</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>48.4</td>
+      <td>1.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07082</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>365.0</td>
+      <td>1.2e-109</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07083</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>278.4</td>
+      <td>2.3e-83</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07084</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>131.3</td>
+      <td>9.7e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07085</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>339.5</td>
+      <td>5.8e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07086</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>388.3</td>
+      <td>1.1e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07087</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>236.0</td>
+      <td>1.6e-70</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07088</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>757.0</td>
+      <td>1.6e-228</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07089</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>431.4</td>
+      <td>8.8e-130</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07090</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>412.5</td>
+      <td>4.3e-124</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07091</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>434.0</td>
+      <td>1.4e-130</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07092</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>447.4</td>
+      <td>1e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07093</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>415.5</td>
+      <td>6.2e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07094</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>389.1</td>
+      <td>6.1e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07095</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>271.2</td>
+      <td>3.8e-81</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07097</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>427.5</td>
+      <td>1.3e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07098</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>299.0</td>
+      <td>1.4e-89</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07099</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>409.1</td>
+      <td>4.5e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07100</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>387.8</td>
+      <td>1.6e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07101</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>340.1</td>
+      <td>4.3e-102</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07102</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>379.5</td>
+      <td>4.1e-114</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07103</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>502.4</td>
+      <td>2.1e-151</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07104</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>418.1</td>
+      <td>9.6e-126</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07105</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>369.2</td>
+      <td>6.7e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07106</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>440.4</td>
+      <td>1.3e-132</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07107</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>378.5</td>
+      <td>1e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07108</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>357.9</td>
+      <td>1.5e-107</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07109</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>416.0</td>
+      <td>3.7e-125</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07110</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>398.5</td>
+      <td>7.6e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07111</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>370.0</td>
+      <td>3.4e-111</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07112</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>374.9</td>
+      <td>1.1e-112</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07113</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>384.0</td>
+      <td>1.9e-115</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07114</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>442.6</td>
+      <td>3.2e-133</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07115</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>400.8</td>
+      <td>1.6e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07116</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>314.2</td>
+      <td>3.2e-94</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07117</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>367.7</td>
+      <td>1.9e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07118</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>409.4</td>
+      <td>4e-123</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07119</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>450.2</td>
+      <td>1.8e-135</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07120</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>385.2</td>
+      <td>7.8e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07121</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>66.9</td>
+      <td>3.1e-19</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07122</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>69.7</td>
+      <td>5.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07123</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>204.2</td>
+      <td>6.7e-61</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07124</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>400.1</td>
+      <td>3.4e-120</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07125</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>287.6</td>
+      <td>5e-86</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07126</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>44.5</td>
+      <td>1.9e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07127</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>58.4</td>
+      <td>8.9e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07128</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>140.8</td>
+      <td>1.3e-41</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07129</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>113.7</td>
+      <td>2.3e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07130</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>304.8</td>
+      <td>2.5e-91</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07131</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>402.1</td>
+      <td>7.7e-121</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07132</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>190.0</td>
+      <td>1.8e-56</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07133</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>216.2</td>
+      <td>1.5e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07134</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>248.6</td>
+      <td>2.3e-74</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07135</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>213.9</td>
+      <td>8.4e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07136</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>216.8</td>
+      <td>1.1e-64</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07137</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>154.6</td>
+      <td>9.2e-46</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07138</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>464.3</td>
+      <td>1e-139</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07139</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>426.4</td>
+      <td>2.6e-128</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07140</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>342.0</td>
+      <td>9.1e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07141</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>366.5</td>
+      <td>4.2e-110</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07142</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>377.0</td>
+      <td>2.7e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07143</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>389.0</td>
+      <td>6.6e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07144</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>388.4</td>
+      <td>9.4e-117</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07145</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>413.0</td>
+      <td>3.5e-124</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07146</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>345.2</td>
+      <td>1.1e-103</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07147</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>327.3</td>
+      <td>3.7e-98</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07148</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>252.3</td>
+      <td>2.2e-75</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07149</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>386.2</td>
+      <td>5.2e-116</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07150</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>446.3</td>
+      <td>3.1e-134</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07151</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>377.5</td>
+      <td>2.2e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07152</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>360.2</td>
+      <td>3.1e-108</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd07559</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>375.4</td>
+      <td>9e-113</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00171</td>
+      <td>Lactaldehyde dehydrogenase</td>
+      <td>557.6</td>
+      <td>4.1e-168</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

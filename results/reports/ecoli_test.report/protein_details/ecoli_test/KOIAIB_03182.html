@@ -1,0 +1,2567 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BactAnnot — KOIAIB_03182</title>
+<link rel="stylesheet" href="detail.css">
+</head>
+<body>
+<h1>KOIAIB_03182</h1>
+<p class="subtitle">Functional interpretation and source records for one protein.</p>
+<div class="note">
+Proposals are copied from the consensus output. Tool annotations and evidence below provide context; they are not all supporting evidence for the primary proposal.
+</div>
+<h2>Functional interpretation</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>Primary proposal</th><td>two-component system, OmpR family, sensor histidine kinase QseC [EC:2.7.13.3]</td></tr><tr><th>Scope</th><td>Protein function</td></tr><tr><th>Interpretation</th><td>KO function proposed</td></tr></tbody></table></div>
+<details>
+<summary>Decision details and additional proposals</summary>
+<div class="detail-content">
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>primary_claim_type</th><td>KEGG_KO</td></tr><tr><th>primary_claim_id</th><td>KEGG:K07645</td></tr><tr><th>primary_selection_rule</th><td>single_ko_direct_and_transferred</td></tr><tr><th>primary_description_source</th><td>KofamScan</td></tr><tr><th>ko_proposal_ids</th><td>KEGG:K07645</td></tr><tr><th>ec_activity_proposal_ids</th><td>EC:2.7.13.3</td></tr></tbody></table></div>
+</div>
+</details>
+<details>
+<summary>Claim support and functional relationships</summary>
+<div class="detail-content">
+<h3>KO, EC and proposed domain/family claims</h3>
+<p>Claims group observations about the same identifier. Observing sources and supporting evidence are distinct. Other observed claims have not been promoted to proposals by this report. Domain/family rows are limited to the proposal identifiers recorded in the interpretation.</p>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>claim_type</th>
+      <th>claim_id</th>
+      <th>Interpretation role</th>
+      <th>observing_sources</th>
+      <th>evidence_sources</th>
+      <th>evidence_lines</th>
+      <th>evidence_relations</th>
+      <th>independent_evidence_count</th>
+      <th>evidence_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07645</td>
+      <td>Primary proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td></td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>EC:2.7.13.3</td>
+      <td>Additional proposal</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>eggNOG-mapper;KofamScan</td>
+      <td>orthology_transfer@eggNOG;profile_hmm@KOfam</td>
+      <td>derived_from_ko;transferred_annotation</td>
+      <td>2</td>
+      <td>multiple_independent</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>Evidence lines and their counts are copied from the consensus tables. They describe provenance under its evidence policy, not a probability of correctness or a count of independent experiments.</p>
+<h3>Relationships between observed identifiers</h3>
+<p>These relationships can include identifiers outside the primary proposal. A documented link records a mapping in the cited reference; hierarchical compatibility allows different levels of specificity. <code>not_documented</code> does not demonstrate biological incompatibility. <code>unmapped_ko</code> and <code>unmapped_go</code> indicate missing mappings; <code>obsolete_unresolved</code> indicates that the GO term could not be resolved for comparison. None is converted into a conflict by the report.</p>
+<h4>KO–EC</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ko_id</th>
+      <th>ec_id</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KEGG:K07645</td>
+      <td>EC:2.7.13.3</td>
+      <td>documented</td>
+      <td>KOfam:ko_list:sha256:534c4ec75ff4ab24a07003f4270a9870d5ff20515baf15b914b76398ebfb1ba8</td>
+    </tr>
+  </tbody>
+</table></div>
+<h4>EC–GO</h4>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ec_id</th>
+      <th>go_id</th>
+      <th>resolved_go_id</th>
+      <th>go_resolution_status</th>
+      <th>relation</th>
+      <th>reference_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0000155</td>
+      <td>GO:0000155</td>
+      <td>active</td>
+      <td>unmapped_go</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+    <tr>
+      <td>EC:2.7.13.3</td>
+      <td>GO:0016772</td>
+      <td>GO:0016772</td>
+      <td>active</td>
+      <td>hierarchical_compatible</td>
+      <td>GO:obo:sha256:893b32f8705da492df48eb8637e900145a2582e325745012eec1e4c483dd6c72</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<h2>Structural identity</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>sample_id</th><td>ecoli_test</td></tr><tr><th>feature_uid</th><td>ecoli_test|contig_1|cds|3170484|3171833|+</td></tr><tr><th>protein_id</th><td>KOIAIB_03182</td></tr><tr><th>product</th><td>histidine kinase</td></tr><tr><th>contig_id</th><td>contig_1</td></tr><tr><th>feature_type</th><td>cds</td></tr><tr><th>start</th><td>3170484</td></tr><tr><th>stop</th><td>3171833</td></tr><tr><th>strand</th><td>+</td></tr><tr><th>hypothetical</th><td>False</td></tr><tr><th>pseudogene</th><td>False</td></tr><tr><th>bakta_id</th><td>KOIAIBGKKO_3357</td></tr><tr><th>locus_tag</th><td>KOIAIB_03182</td></tr><tr><th>aa_md5</th><td>7e239e0da9f826630c337cc62cbd52bd</td></tr><tr><th>frame</th><td>3</td></tr><tr><th>start_type</th><td>ATG</td></tr><tr><th>rbs_motif</th><td>GGA/GAG/AGG</td></tr></tbody></table></div>
+<h2>Integrated functional summary</h2>
+<div class="table-wrap vertical-summary-wrap"><table class="vertical-summary"><tbody><tr><th>annotation_sources</th><td>InterProScan;KofamScan;PathoFact2;eggNOG-mapper</td></tr><tr><th>COG_CATEGORY</th><td>T</td></tr><tr><th>GO</th><td><details class="value-details"><summary>11 values</summary><ul class="value-list"><li>GO:0000155</li><li>GO:0000160</li><li>GO:0005575</li><li>GO:0005623</li><li>GO:0005886</li><li>GO:0007165</li><li>GO:0016020</li><li>GO:0016310</li><li>GO:0016772</li><li>GO:0044464</li><li>GO:0071944</li></ul></details></td></tr><tr><th>EC</th><td>EC:2.7.13.3</td></tr><tr><th>KEGG_KO</th><td>KEGG:K07645</td></tr><tr><th>KEGG_PATHWAY</th><td>KEGG:ko02020; KEGG:ko02024; KEGG:map02020; KEGG:map02024</td></tr><tr><th>KEGG_MODULE</th><td>KEGG:M00453</td></tr><tr><th>INTERPRO</th><td><details class="value-details"><summary>10 values</summary><ul class="value-list"><li>INTERPRO:IPR003594</li><li>INTERPRO:IPR003660</li><li>INTERPRO:IPR003661</li><li>INTERPRO:IPR004358</li><li>INTERPRO:IPR005467</li><li>INTERPRO:IPR013727</li><li>INTERPRO:IPR036097</li><li>INTERPRO:IPR036890</li><li>INTERPRO:IPR050428</li><li>INTERPRO:IPR059132</li></ul></details></td></tr><tr><th>PFAM</th><td>PFAM:PF00512; PFAM:PF02518; PFAM:PF08521; PFAM:PF26769</td></tr><tr><th>SMART</th><td>SMART:SM00387; SMART:SM00388</td></tr><tr><th>amr</th><td>False</td></tr><tr><th>virulence</th><td>high_confidence</td></tr><tr><th>toxin</th><td>ambiguous</td></tr><tr><th>concordance_exact</th><td>3</td></tr><tr><th>concordance_partial</th><td>4</td></tr><tr><th>concordance_disjoint</th><td>1</td></tr></tbody></table></div>
+<details>
+<summary>Pairwise concordance</summary>
+<div class="detail-content">
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>annotation_type</th>
+      <th>source_1</th>
+      <th>source_2</th>
+      <th>source_1_ids</th>
+      <th>source_2_ids</th>
+      <th>shared_ids</th>
+      <th>relation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CDD</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>CDD:cd00082;CDD:cd16940</td>
+      <td>CDD:cd00075;CDD:cd00082;CDD:cd16921;CDD:cd16922;CDD:cd16923;CDD:cd16925;CDD:cd16939;CDD:cd16940;CDD:cd16945;CDD:cd16946;CDD:cd16949;CDD:cd16950;CDD:cd16952;CDD:cd16953;CDD:cd16954;CDD:cd16975</td>
+      <td>CDD:cd00082;CDD:cd16940</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>COG</td>
+      <td>eggNOG-mapper</td>
+      <td>PathoFact2</td>
+      <td>COG:COG0642</td>
+      <td>COG:COG0642;COG:COG2205;COG:COG3290;COG:COG3852;COG:COG4191;COG:COG4251;COG:COG4585;COG:COG5000;COG:COG5002;COG:COG5805;COG:COG5806;COG:COG5807;COG:COG5808;COG:COG5809</td>
+      <td>COG:COG0642</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>KofamScan</td>
+      <td></td>
+      <td>EC:2.7.13.3</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>bakta</td>
+      <td>eggNOG-mapper</td>
+      <td></td>
+      <td>EC:2.7.13.3</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>EC</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>EC:2.7.13.3</td>
+      <td>EC:2.7.13.3</td>
+      <td>EC:2.7.13.3</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>GO</td>
+      <td>eggNOG-mapper</td>
+      <td>InterProScan</td>
+      <td>GO:0005575;GO:0005623;GO:0005886;GO:0016020;GO:0044464;GO:0071944</td>
+      <td>GO:0000155;GO:0000160;GO:0005886;GO:0007165;GO:0016020;GO:0016310;GO:0016772</td>
+      <td>GO:0005886;GO:0016020</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>KEGG_KO</td>
+      <td>eggNOG-mapper</td>
+      <td>KofamScan</td>
+      <td>KEGG:K07645</td>
+      <td>KEGG:K07645</td>
+      <td>KEGG:K07645</td>
+      <td>exact</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>NCBIFAM:NF007664</td>
+      <td>NCBIFAM:NF012163;NCBIFAM:NF012226;NCBIFAM:NF033092;NCBIFAM:NF033093;NCBIFAM:NF033792;NCBIFAM:NF038297;NCBIFAM:NF038389;NCBIFAM:NF040691;NCBIFAM:NF040750;NCBIFAM:NF041210;NCBIFAM:TIGR01386;NCBIFAM:TIGR02956;NCBIFAM:TIGR02966;NCBIFAM:TIGR03785</td>
+      <td></td>
+      <td>disjoint</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>NCBIFAM:NF007664</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>NCBIFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>NCBIFAM:NF012163;NCBIFAM:NF012226;NCBIFAM:NF033092;NCBIFAM:NF033093;NCBIFAM:NF033792;NCBIFAM:NF038297;NCBIFAM:NF038389;NCBIFAM:NF040691;NCBIFAM:NF040750;NCBIFAM:NF041210;NCBIFAM:TIGR01386;NCBIFAM:TIGR02956;NCBIFAM:TIGR02966;NCBIFAM:TIGR03785</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>PFAM:PF00512;PFAM:PF02518;PFAM:PF08521;PFAM:PF26769</td>
+      <td>PFAM:PF00512;PFAM:PF02518</td>
+      <td>PFAM:PF00512;PFAM:PF02518</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>InterProScan</td>
+      <td></td>
+      <td>PFAM:PF00512;PFAM:PF02518;PFAM:PF08521;PFAM:PF26769</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>PFAM</td>
+      <td>bakta</td>
+      <td>PathoFact2</td>
+      <td></td>
+      <td>PFAM:PF00512;PFAM:PF02518</td>
+      <td></td>
+      <td>only_source_2</td>
+    </tr>
+    <tr>
+      <td>SMART</td>
+      <td>InterProScan</td>
+      <td>PathoFact2</td>
+      <td>SMART:SM00387;SMART:SM00388</td>
+      <td>SMART:SM00387;SMART:SM00388</td>
+      <td>SMART:SM00387;SMART:SM00388</td>
+      <td>exact</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>Bakta — 0 annotation rows, 0 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<p class="empty-note">No records for this protein.</p>
+<h3>Evidence</h3>
+<p class="empty-note">No records for this protein.</p>
+</div>
+</details>
+<details>
+<summary>eggNOG-mapper — 29 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG</td>
+      <td>COG:COG0642</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>COG_CATEGORY</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EC</td>
+      <td>EC:2.7.13.3</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1QTSX@1224|Proteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>1T1G3@1236|Gammaproteobacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>3XN9X@561|Escherichia</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0642@1|root</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>EGGNOG_OG</td>
+      <td>COG0642@2|Bacteria</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005575</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005623</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0044464</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>GO</td>
+      <td>GO:0071944</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko00002</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01000</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko01001</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_BRITE</td>
+      <td>KEGG:ko02022</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07645</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_MODULE</td>
+      <td>KEGG:M00453</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:ko02024</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02020</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>KEGG_PATHWAY</td>
+      <td>KEGG:map02024</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>2CSK_N</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>HATPase_c</td>
+    </tr>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>PFAM_NAME</td>
+      <td>HisKA</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>gene</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+      <th>identity</th>
+      <th>query_coverage</th>
+      <th>subject_coverage</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>eggNOG-mapper</td>
+      <td>seed_ortholog</td>
+      <td>316407.85675829</td>
+      <td>qseC</td>
+      <td>Member of a two-component regulatory system QseB QseC. Activates the flagella regulon by activating transcription of FlhDC. May activate QseB by phosphorylation</td>
+      <td>865.0</td>
+      <td>0.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>1</td>
+      <td>449</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>KofamScan — 2 annotation rows, 1 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>EC</td>
+      <td>EC:2.7.13.3</td>
+      <td>KEGG:K07645</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>KofamScan</td>
+      <td>KEGG_KO</td>
+      <td>KEGG:K07645</td>
+      <td></td>
+      <td>two-component system, OmpR family, sensor histidine kinase QseC [EC:2.7.13.3]</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>rank</th>
+      <th>score</th>
+      <th>native_threshold</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KofamScan</td>
+      <td>hmm_match</td>
+      <td>KEGG:K07645</td>
+      <td>two-component system, OmpR family, sensor histidine kinase QseC [EC:2.7.13.3]</td>
+      <td>above_threshold</td>
+      <td>505.6</td>
+      <td>441.93</td>
+      <td>4.3e-152</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>InterProScan — 37 annotation rows, 22 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd00082</td>
+      <td></td>
+      <td>HisKA</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>CDD</td>
+      <td>CDD:cd16940</td>
+      <td></td>
+      <td>HATPase_BasS-like</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.10.287.130:FF:000035</td>
+      <td></td>
+      <td>Two-component sensor histidine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.20.5.1040:FF:000001</td>
+      <td></td>
+      <td>Sensor histidine kinase QseC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:1.20.5.1040:FF:000002</td>
+      <td></td>
+      <td>Sensor histidine kinase QseC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>FUNFAM</td>
+      <td>FUNFAM:G3DSA:3.30.565.10:FF:000055</td>
+      <td></td>
+      <td>Two-component sensor histidine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:1.20.5.1040</td>
+      <td></td>
+      <td>Sensor protein qsec.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GENE3D</td>
+      <td>GENE3D:G3DSA:3.30.565.10</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0000155</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00082","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00512","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00388","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF47384","interpro_accession":"IPR036097","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0000160</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR45436","interpro_accession":"IPR050428","mapping_source":"InterPro"},{"analysis":"PANTHER","signature_accession":"PTHR45436","interpro_accession":"IPR050428","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0005886</td>
+      <td>[{"analysis":"PANTHER","signature_accession":"PTHR45436","interpro_accession":"IPR050428","mapping_source":"PANTHER"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0007165</td>
+      <td>[{"analysis":"CDD","signature_accession":"cd00082","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF00512","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"Pfam","signature_accession":"PF26769","interpro_accession":"IPR003660","mapping_source":"InterPro"},{"analysis":"SMART","signature_accession":"SM00388","interpro_accession":"IPR003661","mapping_source":"InterPro"},{"analysis":"SUPERFAMILY","signature_accession":"SSF47384","interpro_accession":"IPR036097","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016020</td>
+      <td>[{"analysis":"Pfam","signature_accession":"PF26769","interpro_accession":"IPR003660","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016310</td>
+      <td>[{"analysis":"PRINTS","signature_accession":"PR00344","interpro_accession":"IPR004358","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>GO</td>
+      <td>GO:0016772</td>
+      <td>[{"analysis":"PRINTS","signature_accession":"PR00344","interpro_accession":"IPR004358","mapping_source":"InterPro"}]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003594</td>
+      <td></td>
+      <td>Histidine kinase/HSP90-like ATPase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003660</td>
+      <td></td>
+      <td>HAMP domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR003661</td>
+      <td></td>
+      <td>Signal transduction histidine kinase, dimerisation/phosphoacceptor domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR004358</td>
+      <td></td>
+      <td>Signal transduction histidine kinase-related protein, C-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR005467</td>
+      <td></td>
+      <td>Histidine kinase domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR013727</td>
+      <td></td>
+      <td>Two-component sensor kinase, N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036097</td>
+      <td></td>
+      <td>Signal transduction histidine kinase, dimerisation/phosphoacceptor domain superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR036890</td>
+      <td></td>
+      <td>Histidine kinase/HSP90-like ATPase superfamily</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR050428</td>
+      <td></td>
+      <td>Two-component system sensor histidine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>INTERPRO</td>
+      <td>INTERPRO:IPR059132</td>
+      <td></td>
+      <td>Quorum sensing histidine kinase QseC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF007664</td>
+      <td></td>
+      <td>quorum sensing histidine kinase QseC</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PANTHER</td>
+      <td>PANTHER:PTHR45436</td>
+      <td></td>
+      <td>SENSOR HISTIDINE KINASE YKOH</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00512</td>
+      <td></td>
+      <td>His Kinase A (phospho-acceptor) domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02518</td>
+      <td></td>
+      <td>Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF08521</td>
+      <td></td>
+      <td>Two-component sensor kinase N-terminal</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PFAM</td>
+      <td>PFAM:PF26769</td>
+      <td></td>
+      <td>Sensor protein PhoQ-like, HAMP domain</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PRINTS</td>
+      <td>PRINTS:PR00344</td>
+      <td></td>
+      <td>Bacterial sensor protein C-terminal signature</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>PROSITE</td>
+      <td>PROSITE:PS50109</td>
+      <td></td>
+      <td>Histidine kinase domain profile.</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00387</td>
+      <td></td>
+      <td>HKATPase_4</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SMART</td>
+      <td>SMART:SM00388</td>
+      <td></td>
+      <td>HisKA_10</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF47384</td>
+      <td></td>
+      <td>Homodimeric domain of signal transducing histidine kinase</td>
+    </tr>
+    <tr>
+      <td>InterProScan</td>
+      <td>SUPERFAMILY</td>
+      <td>SUPERFAMILY:SSF55874</td>
+      <td></td>
+      <td>ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>start</th>
+      <th>stop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd00082</td>
+      <td>HisKA</td>
+      <td>1.09773E-12</td>
+      <td>234</td>
+      <td>298</td>
+    </tr>
+    <tr>
+      <td>InterProScan:CDD</td>
+      <td>signature_match</td>
+      <td>cd16940</td>
+      <td>HATPase_BasS-like</td>
+      <td>9.43237E-49</td>
+      <td>340</td>
+      <td>449</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.10.287.130:FF:000035</td>
+      <td>Two-component sensor histidine kinase</td>
+      <td>2.3E-46</td>
+      <td>187</td>
+      <td>301</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.5.1040:FF:000001</td>
+      <td>Sensor histidine kinase QseC</td>
+      <td>4.7E-37</td>
+      <td>1</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.5.1040:FF:000002</td>
+      <td>Sensor histidine kinase QseC</td>
+      <td>1.3E-38</td>
+      <td>127</td>
+      <td>185</td>
+    </tr>
+    <tr>
+      <td>InterProScan:FunFam</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.565.10:FF:000055</td>
+      <td>Two-component sensor histidine kinase</td>
+      <td>3.7E-89</td>
+      <td>276</td>
+      <td>449</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.5.1040</td>
+      <td>Sensor protein qsec.</td>
+      <td>1.7E-19</td>
+      <td>1</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:1.20.5.1040</td>
+      <td>Sensor protein qsec.</td>
+      <td>5.2E-23</td>
+      <td>128</td>
+      <td>185</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Gene3D</td>
+      <td>signature_match</td>
+      <td>G3DSA:3.30.565.10</td>
+      <td></td>
+      <td>8.6E-45</td>
+      <td>276</td>
+      <td>449</td>
+    </tr>
+    <tr>
+      <td>InterProScan:NCBIfam</td>
+      <td>signature_match</td>
+      <td>NF007664</td>
+      <td>quorum sensing histidine kinase QseC</td>
+      <td>0.0</td>
+      <td>8</td>
+      <td>449</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PANTHER</td>
+      <td>signature_match</td>
+      <td>PTHR45436</td>
+      <td>SENSOR HISTIDINE KINASE YKOH</td>
+      <td>6.5E-100</td>
+      <td>4</td>
+      <td>447</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00344</td>
+      <td>Bacterial sensor protein C-terminal signature</td>
+      <td>3.5E-5</td>
+      <td>381</td>
+      <td>395</td>
+    </tr>
+    <tr>
+      <td>InterProScan:PRINTS</td>
+      <td>signature_match</td>
+      <td>PR00344</td>
+      <td>Bacterial sensor protein C-terminal signature</td>
+      <td>3.5E-5</td>
+      <td>413</td>
+      <td>431</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF00512</td>
+      <td>His Kinase A (phospho-acceptor) domain</td>
+      <td>5.7E-9</td>
+      <td>237</td>
+      <td>301</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF02518</td>
+      <td>Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase</td>
+      <td>1.2E-17</td>
+      <td>349</td>
+      <td>445</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF08521</td>
+      <td>Two-component sensor kinase N-terminal</td>
+      <td>8.3E-5</td>
+      <td>23</td>
+      <td>157</td>
+    </tr>
+    <tr>
+      <td>InterProScan:Pfam</td>
+      <td>signature_match</td>
+      <td>PF26769</td>
+      <td>Sensor protein PhoQ-like, HAMP domain</td>
+      <td>5.6E-6</td>
+      <td>186</td>
+      <td>231</td>
+    </tr>
+    <tr>
+      <td>InterProScan:ProSiteProfiles</td>
+      <td>signature_match</td>
+      <td>PS50109</td>
+      <td>Histidine kinase domain profile.</td>
+      <td>40.828106</td>
+      <td>243</td>
+      <td>449</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00387</td>
+      <td>HKATPase_4</td>
+      <td>9.2E-21</td>
+      <td>348</td>
+      <td>449</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SMART</td>
+      <td>signature_match</td>
+      <td>SM00388</td>
+      <td>HisKA_10</td>
+      <td>8.1E-15</td>
+      <td>236</td>
+      <td>302</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF47384</td>
+      <td>Homodimeric domain of signal transducing histidine kinase</td>
+      <td>1.96E-15</td>
+      <td>219</td>
+      <td>301</td>
+    </tr>
+    <tr>
+      <td>InterProScan:SUPERFAMILY</td>
+      <td>signature_match</td>
+      <td>SSF55874</td>
+      <td>ATPase domain of HSP90 chaperone/DNA topoisomerase II/histidine kinase</td>
+      <td>1.18E-29</td>
+      <td>291</td>
+      <td>447</td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+<details>
+<summary>PathoFact2 — 66 annotation rows, 130 evidence rows</summary>
+<div class="detail-content">
+<h3>Annotations</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>annotation_type</th>
+      <th>annotation_id</th>
+      <th>annotation_value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00075</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd00082</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16921</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16922</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16923</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16925</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16939</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16940</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16945</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16946</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16949</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16950</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16952</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16953</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16954</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD</td>
+      <td>CDD:cd16975</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09303</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09467</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09470</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK09835</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10337</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10364</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10490</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10549</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10604</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10755</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK10815</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11006</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11100</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK11360</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK13837</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>CDD_PROFILE</td>
+      <td>CDD_PROFILE:PRK15347</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG0642</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG2205</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3290</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG3852</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4191</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4251</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG4585</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5000</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5002</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5805</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5806</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5807</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5808</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>COG</td>
+      <td>COG:COG5809</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF012163</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF012226</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF033092</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF033093</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF033792</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038297</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF038389</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040691</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF040750</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:NF041210</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR01386</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02956</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR02966</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>NCBIFAM</td>
+      <td>NCBIFAM:TIGR03785</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF00512</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>PFAM</td>
+      <td>PFAM:PF02518</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00387</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>SMART</td>
+      <td>SMART:SM00388</td>
+      <td></td>
+      <td>histidine kinase</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>TOXIN_ASSOCIATED</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>ambiguous</td>
+      <td>PathoFact2 toxin prediction</td>
+    </tr>
+    <tr>
+      <td>PathoFact2</td>
+      <td>VIRULENCE_ASSOCIATED</td>
+      <td>PATHOFACT2:VF</td>
+      <td>high_confidence</td>
+      <td>PathoFact2 virulence factor prediction</td>
+    </tr>
+  </tbody>
+</table></div>
+<h3>Evidence</h3>
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>source</th>
+      <th>evidence_type</th>
+      <th>accession</th>
+      <th>product</th>
+      <th>score</th>
+      <th>evalue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0642</td>
+      <td>histidine kinase</td>
+      <td>241.4</td>
+      <td>6.9e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2205</td>
+      <td>histidine kinase</td>
+      <td>165.3</td>
+      <td>3.8e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3290</td>
+      <td>histidine kinase</td>
+      <td>58.9</td>
+      <td>8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3852</td>
+      <td>histidine kinase</td>
+      <td>87.6</td>
+      <td>1.9e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4191</td>
+      <td>histidine kinase</td>
+      <td>99.7</td>
+      <td>4.9e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4251</td>
+      <td>histidine kinase</td>
+      <td>98.0</td>
+      <td>2.2e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4585</td>
+      <td>histidine kinase</td>
+      <td>44.6</td>
+      <td>2.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5000</td>
+      <td>histidine kinase</td>
+      <td>109.6</td>
+      <td>4.3e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5002</td>
+      <td>histidine kinase</td>
+      <td>208.4</td>
+      <td>6.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5805</td>
+      <td>histidine kinase</td>
+      <td>62.7</td>
+      <td>7.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5806</td>
+      <td>histidine kinase</td>
+      <td>61.1</td>
+      <td>2.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5807</td>
+      <td>histidine kinase</td>
+      <td>84.6</td>
+      <td>1.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5808</td>
+      <td>histidine kinase</td>
+      <td>81.5</td>
+      <td>1.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5809</td>
+      <td>histidine kinase</td>
+      <td>73.6</td>
+      <td>3e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF012163</td>
+      <td>histidine kinase</td>
+      <td>100.3</td>
+      <td>2.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF012226</td>
+      <td>histidine kinase</td>
+      <td>71.7</td>
+      <td>1.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033092</td>
+      <td>histidine kinase</td>
+      <td>93.7</td>
+      <td>2.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033093</td>
+      <td>histidine kinase</td>
+      <td>55.2</td>
+      <td>1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033792</td>
+      <td>histidine kinase</td>
+      <td>65.3</td>
+      <td>1.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038297</td>
+      <td>histidine kinase</td>
+      <td>45.4</td>
+      <td>9.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038389</td>
+      <td>histidine kinase</td>
+      <td>76.7</td>
+      <td>5.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040691</td>
+      <td>histidine kinase</td>
+      <td>107.7</td>
+      <td>1.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040750</td>
+      <td>histidine kinase</td>
+      <td>40.1</td>
+      <td>3.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041210</td>
+      <td>histidine kinase</td>
+      <td>42.2</td>
+      <td>1.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09303</td>
+      <td>histidine kinase</td>
+      <td>58.3</td>
+      <td>1.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09467</td>
+      <td>histidine kinase</td>
+      <td>89.1</td>
+      <td>6.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09470</td>
+      <td>histidine kinase</td>
+      <td>100.1</td>
+      <td>3e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09835</td>
+      <td>histidine kinase</td>
+      <td>111.6</td>
+      <td>7.9e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10337</td>
+      <td>histidine kinase</td>
+      <td>892.8</td>
+      <td>7.6e-270</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10364</td>
+      <td>histidine kinase</td>
+      <td>56.6</td>
+      <td>4.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10490</td>
+      <td>histidine kinase</td>
+      <td>70.1</td>
+      <td>2.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10549</td>
+      <td>histidine kinase</td>
+      <td>91.5</td>
+      <td>1.1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10604</td>
+      <td>histidine kinase</td>
+      <td>106.2</td>
+      <td>4.8e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10755</td>
+      <td>histidine kinase</td>
+      <td>176.8</td>
+      <td>1.1e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10815</td>
+      <td>histidine kinase</td>
+      <td>49.7</td>
+      <td>5.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11006</td>
+      <td>histidine kinase</td>
+      <td>93.3</td>
+      <td>3.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11100</td>
+      <td>histidine kinase</td>
+      <td>143.2</td>
+      <td>2.4e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11360</td>
+      <td>histidine kinase</td>
+      <td>72.9</td>
+      <td>4.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13837</td>
+      <td>histidine kinase</td>
+      <td>53.1</td>
+      <td>3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15347</td>
+      <td>histidine kinase</td>
+      <td>55.6</td>
+      <td>5.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01386</td>
+      <td>histidine kinase</td>
+      <td>174.3</td>
+      <td>9.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02956</td>
+      <td>histidine kinase</td>
+      <td>44.8</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02966</td>
+      <td>histidine kinase</td>
+      <td>131.1</td>
+      <td>9.7e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03785</td>
+      <td>histidine kinase</td>
+      <td>53.8</td>
+      <td>2.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00075</td>
+      <td>histidine kinase</td>
+      <td>88.0</td>
+      <td>7.5e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00082</td>
+      <td>histidine kinase</td>
+      <td>54.0</td>
+      <td>3.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16921</td>
+      <td>histidine kinase</td>
+      <td>45.6</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16922</td>
+      <td>histidine kinase</td>
+      <td>42.7</td>
+      <td>9.5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16923</td>
+      <td>histidine kinase</td>
+      <td>42.9</td>
+      <td>1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16925</td>
+      <td>histidine kinase</td>
+      <td>47.8</td>
+      <td>3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16939</td>
+      <td>histidine kinase</td>
+      <td>60.8</td>
+      <td>3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16940</td>
+      <td>histidine kinase</td>
+      <td>146.4</td>
+      <td>6.5e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16945</td>
+      <td>histidine kinase</td>
+      <td>61.1</td>
+      <td>1.8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16946</td>
+      <td>histidine kinase</td>
+      <td>56.0</td>
+      <td>1.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16949</td>
+      <td>histidine kinase</td>
+      <td>50.0</td>
+      <td>6.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16950</td>
+      <td>histidine kinase</td>
+      <td>59.0</td>
+      <td>1.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16952</td>
+      <td>histidine kinase</td>
+      <td>47.1</td>
+      <td>6.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16953</td>
+      <td>histidine kinase</td>
+      <td>49.8</td>
+      <td>7.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16954</td>
+      <td>histidine kinase</td>
+      <td>51.8</td>
+      <td>1.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16975</td>
+      <td>histidine kinase</td>
+      <td>49.0</td>
+      <td>1.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00512</td>
+      <td>histidine kinase</td>
+      <td>50.1</td>
+      <td>5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02518</td>
+      <td>histidine kinase</td>
+      <td>76.2</td>
+      <td>5.7e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00387</td>
+      <td>histidine kinase</td>
+      <td>83.3</td>
+      <td>2.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00388</td>
+      <td>histidine kinase</td>
+      <td>53.8</td>
+      <td>3.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG0642</td>
+      <td>histidine kinase</td>
+      <td>241.4</td>
+      <td>6.9e-72</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG2205</td>
+      <td>histidine kinase</td>
+      <td>165.3</td>
+      <td>3.8e-49</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3290</td>
+      <td>histidine kinase</td>
+      <td>58.9</td>
+      <td>8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG3852</td>
+      <td>histidine kinase</td>
+      <td>87.6</td>
+      <td>1.9e-25</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4191</td>
+      <td>histidine kinase</td>
+      <td>99.7</td>
+      <td>4.9e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4251</td>
+      <td>histidine kinase</td>
+      <td>98.0</td>
+      <td>2.2e-28</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG4585</td>
+      <td>histidine kinase</td>
+      <td>44.6</td>
+      <td>2.2e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5000</td>
+      <td>histidine kinase</td>
+      <td>109.6</td>
+      <td>4.3e-32</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5002</td>
+      <td>histidine kinase</td>
+      <td>208.4</td>
+      <td>6.5e-62</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5805</td>
+      <td>histidine kinase</td>
+      <td>62.7</td>
+      <td>7.2e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5806</td>
+      <td>histidine kinase</td>
+      <td>61.1</td>
+      <td>2.2e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5807</td>
+      <td>histidine kinase</td>
+      <td>84.6</td>
+      <td>1.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5808</td>
+      <td>histidine kinase</td>
+      <td>81.5</td>
+      <td>1.1e-23</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>COG5809</td>
+      <td>histidine kinase</td>
+      <td>73.6</td>
+      <td>3e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF012163</td>
+      <td>histidine kinase</td>
+      <td>100.3</td>
+      <td>2.7e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF012226</td>
+      <td>histidine kinase</td>
+      <td>71.7</td>
+      <td>1.3e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033092</td>
+      <td>histidine kinase</td>
+      <td>93.7</td>
+      <td>2.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033093</td>
+      <td>histidine kinase</td>
+      <td>55.2</td>
+      <td>1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF033792</td>
+      <td>histidine kinase</td>
+      <td>65.3</td>
+      <td>1.1e-18</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038297</td>
+      <td>histidine kinase</td>
+      <td>45.4</td>
+      <td>9.7e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF038389</td>
+      <td>histidine kinase</td>
+      <td>76.7</td>
+      <td>5.5e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040691</td>
+      <td>histidine kinase</td>
+      <td>107.7</td>
+      <td>1.7e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF040750</td>
+      <td>histidine kinase</td>
+      <td>40.1</td>
+      <td>3.7e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>NF041210</td>
+      <td>histidine kinase</td>
+      <td>42.2</td>
+      <td>1.2e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09303</td>
+      <td>histidine kinase</td>
+      <td>58.3</td>
+      <td>1.4e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09467</td>
+      <td>histidine kinase</td>
+      <td>89.1</td>
+      <td>6.2e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09470</td>
+      <td>histidine kinase</td>
+      <td>100.1</td>
+      <td>3e-29</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK09835</td>
+      <td>histidine kinase</td>
+      <td>111.6</td>
+      <td>7.9e-33</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10337</td>
+      <td>histidine kinase</td>
+      <td>892.8</td>
+      <td>7.6e-270</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10364</td>
+      <td>histidine kinase</td>
+      <td>56.6</td>
+      <td>4.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10490</td>
+      <td>histidine kinase</td>
+      <td>70.1</td>
+      <td>2.4e-20</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10549</td>
+      <td>histidine kinase</td>
+      <td>91.5</td>
+      <td>1.1e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10604</td>
+      <td>histidine kinase</td>
+      <td>106.2</td>
+      <td>4.8e-31</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10755</td>
+      <td>histidine kinase</td>
+      <td>176.8</td>
+      <td>1.1e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK10815</td>
+      <td>histidine kinase</td>
+      <td>49.7</td>
+      <td>5.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11006</td>
+      <td>histidine kinase</td>
+      <td>93.3</td>
+      <td>3.3e-27</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11100</td>
+      <td>histidine kinase</td>
+      <td>143.2</td>
+      <td>2.4e-42</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK11360</td>
+      <td>histidine kinase</td>
+      <td>72.9</td>
+      <td>4.2e-21</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK13837</td>
+      <td>histidine kinase</td>
+      <td>53.1</td>
+      <td>3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>PRK15347</td>
+      <td>histidine kinase</td>
+      <td>55.6</td>
+      <td>5.6e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR01386</td>
+      <td>histidine kinase</td>
+      <td>174.3</td>
+      <td>9.6e-52</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02956</td>
+      <td>histidine kinase</td>
+      <td>44.8</td>
+      <td>1.1e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR02966</td>
+      <td>histidine kinase</td>
+      <td>131.1</td>
+      <td>9.7e-39</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>TIGR03785</td>
+      <td>histidine kinase</td>
+      <td>53.8</td>
+      <td>2.3e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00075</td>
+      <td>histidine kinase</td>
+      <td>88.0</td>
+      <td>7.5e-26</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd00082</td>
+      <td>histidine kinase</td>
+      <td>54.0</td>
+      <td>3.2e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16921</td>
+      <td>histidine kinase</td>
+      <td>45.6</td>
+      <td>1.4e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16922</td>
+      <td>histidine kinase</td>
+      <td>42.7</td>
+      <td>9.5e-12</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16923</td>
+      <td>histidine kinase</td>
+      <td>42.9</td>
+      <td>1e-11</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16925</td>
+      <td>histidine kinase</td>
+      <td>47.8</td>
+      <td>3e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16939</td>
+      <td>histidine kinase</td>
+      <td>60.8</td>
+      <td>3e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16940</td>
+      <td>histidine kinase</td>
+      <td>146.4</td>
+      <td>6.5e-44</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16945</td>
+      <td>histidine kinase</td>
+      <td>61.1</td>
+      <td>1.8e-17</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16946</td>
+      <td>histidine kinase</td>
+      <td>56.0</td>
+      <td>1.1e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16949</td>
+      <td>histidine kinase</td>
+      <td>50.0</td>
+      <td>6.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16950</td>
+      <td>histidine kinase</td>
+      <td>59.0</td>
+      <td>1.2e-16</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16952</td>
+      <td>histidine kinase</td>
+      <td>47.1</td>
+      <td>6.2e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16953</td>
+      <td>histidine kinase</td>
+      <td>49.8</td>
+      <td>7.2e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16954</td>
+      <td>histidine kinase</td>
+      <td>51.8</td>
+      <td>1.4e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>cd16975</td>
+      <td>histidine kinase</td>
+      <td>49.0</td>
+      <td>1.5e-13</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam00512</td>
+      <td>histidine kinase</td>
+      <td>50.1</td>
+      <td>5e-14</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>pfam02518</td>
+      <td>histidine kinase</td>
+      <td>76.2</td>
+      <td>5.7e-22</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00387</td>
+      <td>histidine kinase</td>
+      <td>83.3</td>
+      <td>2.7e-24</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-HMM</td>
+      <td>hmm_match</td>
+      <td>smart00388</td>
+      <td>histidine kinase</td>
+      <td>53.8</td>
+      <td>3.6e-15</td>
+    </tr>
+    <tr>
+      <td>PathoFact2:TOX-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:TOX</td>
+      <td>toxin-associated protein</td>
+      <td>0.61</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PathoFact2:VF-ML</td>
+      <td>ml_prediction</td>
+      <td>PATHOFACT2:VF</td>
+      <td>virulence-associated protein</td>
+      <td>0.9999554</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></div>
+</div>
+</details>
+</body>
+</html>

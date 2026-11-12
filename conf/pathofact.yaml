@@ -1,0 +1,96 @@
+# PathoFact2 configuration used by BactAnnot.
+#
+# Runtime-specific paths marked with __...__ are replaced
+# inside each Nextflow task. The external PathoFact2
+# Config.yaml is never modified.
+
+# Input and output
+work_dir: "__WORK_DIR__"
+samples_info: "__SAMPLES_INFO__"
+output_dir: "results"
+
+output_gene_fastas: True
+
+# Workflows
+workflows:
+  Virulence_Factor: True
+  AMR_genes: True
+  Toxins: True
+  BGC: False
+
+# Protein clustering
+mmseqs_params: "--remove-tmp-files 1 -c 1 --min-seq-id 1 --cov-mode 0 --cluster-mode 0"
+
+# Gene prediction configuration
+# Currently unused for protein input but retained because
+# it is part of the PathoFact2 configuration schema
+pyrodigal:
+  extra_params: "-m --no-stop-codon"
+
+# Biosynthetic gene clusters
+# Disabled in the current BactAnnot PathoFact workflow
+antismash:
+  by_chunks: True
+  chunks: 1000
+  params: "--cb-general --minlength 1000 --skip-zip-file -t bacteria --genefinding-tool none"
+  database: "__PATHOFACT_DB__/antismash"
+
+# Mobile genetic elements
+# Disabled for protein-only BactAnnot input
+genomad:
+  status: False
+  params: "--cleanup --conservative"
+  db: "__PATHOFACT_DB__/genomad_db"
+
+# Antimicrobial resistance
+DeepARG:
+  params: "--min-prob 0.7 --hf-device cpu"
+  database: "__PATHOFACT_DB__/deeparg-modern/07d2eaa78502f41725c4222de1288b8b2f0d6259"
+
+amrfinder:
+  params: >-
+    --database
+    __PATHOFACT_DB__/amrfinderplus/2024-07-22.1
+
+rgi:
+  params: "--clean -a DIAMOND"
+  card_json: "__PATHOFACT_DB__/card/3.2.7/card.json"
+
+# Toxin and virulence-factor HMM profiles
+hmmer:
+  tox_params: 40
+  tox_hmm: "__PATHOFACT_PATH__/DATABASES/HMM/TOX_CDD.hmm"
+  VF_params: 40
+  VF_hmm: "__PATHOFACT_PATH__/DATABASES/HMM/virulence_factors_CDD.hmm"
+
+# Protein-domain information
+CDD_file: "__PATHOFACT_PATH__/DATABASES/cddid_all.tbl"
+
+# Machine-learning models
+Machine_learning:
+  model_vf: "__PATHOFACT_PATH__/DATABASES/Models/VF"
+  threshold_vf: 0.9
+  model_tox: "__PATHOFACT_PATH__/DATABASES/Models/TOX"
+  threshold_tox: 0.8
+
+# SignalP
+SignalP:
+  status: False
+  by_chunks: False
+  chunks: 100000
+  params: "--organism other --format none --mode fast"
+  model_dir: "__PATHOFACT_DB__/signalp-6-package/models"
+
+# Local Snakemake resource classes
+performance:
+  partition: "local"
+
+  Small_jobs:
+    memory_per_cpu: 2000
+    threads: 2
+
+  Big_jobs:
+    memory_per_cpu: 4000
+    threads: 2
+    big_memory_per_cpu: 4000
+    big_memory_threads: 2
